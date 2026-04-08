@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ada4bece-ab4a-46a3-adcc-5693c0c25295">
+  <name>гкс_ИзменениеРССоответствиеОбъектовКлассификатораИТОИР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение регистра сведений Соответствия должностей и квалификаций (ГКС)</value>
+  </synonym>
+  <comment>TOIR20-181</comment>
+</mdclass:Role>

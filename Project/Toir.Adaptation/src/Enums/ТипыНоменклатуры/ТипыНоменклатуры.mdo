@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="46c08ca4-7bf1-44e5-aaeb-3ef98e55f660">
+  <producedTypes>
+    <refType typeId="cf4c839b-6ba0-4a17-b12c-b0977916b395" valueTypeId="8f5881d0-84b1-46f5-882c-77fa34ce2dc6"/>
+    <listType typeId="e725b7e5-93bf-4a0f-a9e2-af82b5e73746" valueTypeId="96310517-95e3-42db-b979-9234accab4fb"/>
+    <managerType typeId="3618d167-a243-486e-a59f-0eec4e200746" valueTypeId="bf00381a-5e63-444e-93ef-a93d1d6cb02b"/>
+  </producedTypes>
+  <name>ТипыНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="702bddf8-e763-474b-b2ad-5ffc4d8daf9a">
+    <name>Товар</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="7a1e7ab6-1bd4-4394-9b36-b9eba8acd745">
+    <name>МногооборотнаяТара</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="b4fa8441-c35e-4e8e-b6f5-9581c3359369" extendedConfigurationObject="d257be95-baab-4cf8-b5ae-541216c91b07">
+    <name>Услуга</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

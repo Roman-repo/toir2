@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>ДанныеОтчета</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗаявкаНаРемонт</dataPath>
+			<field>ЗаявкаНаРемонт</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидРемонтныхРабот</dataPath>
+			<field>ВидРемонтныхРабот</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИДРемонта</dataPath>
+			<field>ИДРемонта</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОбъектРемонта</dataPath>
+			<field>ОбъектРемонта</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Статус</dataPath>
+			<field>Статус</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаНачала</dataPath>
+			<field>ДатаНачала</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ID</dataPath>
+			<field>ID</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Ссылка</dataPath>
+			<field>Ссылка</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаОкончания</dataPath>
+			<field>ДатаОкончания</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КомментарийКСтатусу</dataPath>
+			<field>КомментарийКСтатусу</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗавершенОтменен</dataPath>
+			<field>ЗавершенОтменен</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Завершен отменен</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>es</v8:lang>
+					<v8:content>Es acabado es anulado</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Completed canceled</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+    торо_ЗаявкаНаРемонтРемонтыОборудования.ОбъектРемонта КАК ОбъектРемонта,
+    торо_ЗаявкаНаРемонтРемонтыОборудования.Ссылка КАК Ссылка,
+    торо_ЗаявкаНаРемонтРемонтыОборудования.ДатаНачала КАК ДатаНачала,
+    торо_ЗаявкаНаРемонтРемонтыОборудования.ДатаОкончания КАК ДатаОкончания,
+    торо_ЗаявкаНаРемонтРемонтыОборудования.ВидРемонтныхРабот КАК ВидРемонтныхРабот,
+    торо_СтатусыРемонтовВЗаявкахСрезПоследних.Статус КАК Статус,
+    торо_СтатусыРемонтовВЗаявкахСрезПоследних.КомментарийКСтатусу КАК КомментарийКСтатусу,
+    торо_ЗаявкаНаРемонтРемонтыОборудования.ID КАК ID
+ПОМЕСТИТЬ ВТ_Ремонты
+ИЗ
+    Документ.торо_ЗаявкаНаРемонт.РемонтыОборудования КАК торо_ЗаявкаНаРемонтРемонтыОборудования
+        ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.торо_СтатусыРемонтовВЗаявках.СрезПоследних КАК торо_СтатусыРемонтовВЗаявкахСрезПоследних
+        ПО торо_ЗаявкаНаРемонтРемонтыОборудования.Ссылка = торо_СтатусыРемонтовВЗаявкахСрезПоследних.ЗаявкаНаРемонт
+            И торо_ЗаявкаНаРемонтРемонтыОборудования.ID = торо_СтатусыРемонтовВЗаявкахСрезПоследних.ИДРемонта
+ГДЕ
+    (торо_СтатусыРемонтовВЗаявкахСрезПоследних.Статус = ЗНАЧЕНИЕ(Перечисление.торо_СтатусыДокументов.ОтказИсполнителя)
+            ИЛИ торо_СтатусыРемонтовВЗаявкахСрезПоследних.Статус = ЗНАЧЕНИЕ(Перечисление.торо_СтатусыДокументов.ВозобновленоПослеОтказа))
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+    ВТ_Ремонты.Ссылка КАК Ссылка,
+    ВТ_Ремонты.ID КАК ID
+ПОМЕСТИТЬ ВТ_ЗавершенныеОтмененныеРемонты
+ИЗ
+    РегистрСведений.торо_ОтмененныеРемонты КАК торо_ОтмененныеРемонты
+        ВНУТРЕННЕЕ СОЕДИНЕНИЕ ВТ_Ремонты КАК ВТ_Ремонты
+        ПО торо_ОтмененныеРемонты.ID = ВТ_Ремонты.ID
+            И торо_ОтмененныеРемонты.ОбъектРемонта = ВТ_Ремонты.ОбъектРемонта
+            И торо_ОтмененныеРемонты.ВидРемонта = ВТ_Ремонты.ВидРемонтныхРабот
+ГДЕ
+    торо_ОтмененныеРемонты.Отменен = ИСТИНА
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+    ВТ_Ремонты.Ссылка,
+    ВТ_Ремонты.ID
+ИЗ
+    ВТ_Ремонты КАК ВТ_Ремонты
+        ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.торо_ЗавершенныеРемонтныеРаботы.СрезПоследних КАК торо_ЗавершенныеРемонтныеРаботыСрезПоследних
+        ПО ВТ_Ремонты.ID = торо_ЗавершенныеРемонтныеРаботыСрезПоследних.ID
+            И ВТ_Ремонты.ОбъектРемонта = торо_ЗавершенныеРемонтныеРаботыСрезПоследних.ОбъектРемонта
+            И ВТ_Ремонты.ВидРемонтныхРабот = торо_ЗавершенныеРемонтныеРаботыСрезПоследних.ВидРемонтныхРабот
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+    ВТ_Ремонты.ОбъектРемонта КАК ОбъектРемонта,
+    ВТ_Ремонты.Ссылка КАК Ссылка,
+    ВТ_Ремонты.ДатаНачала КАК ДатаНачала,
+    ВТ_Ремонты.ДатаОкончания КАК ДатаОкончания,
+    ВТ_Ремонты.ВидРемонтныхРабот КАК ВидРемонтныхРабот,
+    ВТ_Ремонты.Статус КАК Статус,
+    ВТ_Ремонты.КомментарийКСтатусу КАК КомментарийКСтатусу,
+    ВЫБОР
+        КОГДА ВТ_ЗавершенныеОтмененныеРемонты.Ссылка ЕСТЬ NULL
+            ТОГДА ЛОЖЬ
+        ИНАЧЕ ИСТИНА
+    КОНЕЦ КАК ЗавершенОтменен
+ПОМЕСТИТЬ ВТ_Результат
+ИЗ
+    ВТ_Ремонты КАК ВТ_Ремонты
+        ЛЕВОЕ СОЕДИНЕНИЕ ВТ_ЗавершенныеОтмененныеРемонты КАК ВТ_ЗавершенныеОтмененныеРемонты
+        ПО ВТ_Ремонты.ID = ВТ_ЗавершенныеОтмененныеРемонты.ID
+            И ВТ_Ремонты.Ссылка = ВТ_ЗавершенныеОтмененныеРемонты.Ссылка
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+    ВТ_Результат.ОбъектРемонта КАК ОбъектРемонта,
+    ВТ_Результат.Ссылка КАК Ссылка,
+    ВТ_Результат.ДатаНачала КАК ДатаНачала,
+    ВТ_Результат.ДатаОкончания КАК ДатаОкончания,
+    ВТ_Результат.ВидРемонтныхРабот КАК ВидРемонтныхРабот,
+    ВТ_Результат.Статус КАК Статус,
+    ВТ_Результат.КомментарийКСтатусу КАК КомментарийКСтатусу,
+    ВТ_Результат.ЗавершенОтменен КАК ЗавершенОтменен
+ИЗ
+    ВТ_Результат КАК ВТ_Результат
+ГДЕ
+    (ВТ_Результат.ЗавершенОтменен = ИСТИНА
+                И &amp;ОтмененЗавершен = ИСТИНА
+            ИЛИ &amp;ОтмененЗавершен = ЛОЖЬ)</query>
+	</dataSet>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>es</v8:lang>
+				<v8:content>El período</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Period</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ОтмененЗавершен</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Отменен или завершен</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>es</v8:lang>
+				<v8:content>Es anulado o acabado</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Canceled or completed</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:boolean</v8:Type>
+		</valueType>
+		<value xsi:type="xs:boolean">false</value>
+		<useRestriction>false</useRestriction>
+		<use>Always</use>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОбъектРемонта</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВидРемонтныхРабот</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаНачала</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаОкончания</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КомментарийКСтатусу</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЗавершенОтменен</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ОтмененЗавершен</dcscor:parameter>
+					<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+					<dcsset:viewMode>Normal</dcsset:viewMode>
+					<dcsset:userSettingID>0e47ed4a-dd99-4025-b7e2-9cc5e323e779</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Ссылка</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>Статус</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+					</dcsset:item>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

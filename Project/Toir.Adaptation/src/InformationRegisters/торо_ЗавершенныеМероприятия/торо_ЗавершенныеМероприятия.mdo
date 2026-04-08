@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7f9a8dce-f5a9-4cb3-a2c6-88242c47b7ea">
+  <producedTypes>
+    <selectionType typeId="64bebb1f-e54d-4401-8d05-e9c86f01c86c" valueTypeId="1a89662f-0527-49dc-964d-ebee6df37000"/>
+    <listType typeId="83d4e341-dffe-4c94-b6e9-ab4c4df09eed" valueTypeId="1a134f2a-1a7f-48a7-9bad-00d8b3149d09"/>
+    <managerType typeId="22b10f8d-f587-44c9-8e44-aa919597f95d" valueTypeId="9a04f4c2-dc66-4e1b-a3a2-8a8336ed2cd2"/>
+    <recordSetType typeId="8a7c71d9-a3e6-42af-abf6-337f21329c3f" valueTypeId="7e50e588-eea7-4db6-a540-f84ce7a69437"/>
+    <recordKeyType typeId="7f69245d-ed08-472b-8e5b-2f14d1c52e64" valueTypeId="4e1fc45f-d440-47ed-b1dc-4c29f75ec412"/>
+    <recordType typeId="5262c566-160a-41f2-8cef-d71411e5647f" valueTypeId="ef1b53c1-18b8-44a5-8461-6e17d528f222"/>
+    <recordManagerType typeId="8fe806b0-6bda-4fbb-9369-4e3088e583c1" valueTypeId="18a8d262-f02a-4127-b37d-f017fc413cbd"/>
+  </producedTypes>
+  <name>торо_ЗавершенныеМероприятия</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dimensions uuid="5f173b36-185c-441f-96b8-9f937ac50922">
+    <name>ID</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </dimensions>
+  <dimensions uuid="c61fb3a5-e19d-414d-9aac-8e77ecf2603f">
+    <name>СписокОбъектов</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.торо_СписокОбъектовРегламентногоМероприятия</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:InformationRegister>

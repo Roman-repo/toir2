@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="39bee714-cacd-4d48-97a5-c838660e049a">
+  <name>СинхронизироватьСДополнительнымиПараметрами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синхронизировать с дополнительными параметрами...</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Sincronizar con los parámetros adicionales...</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Synchronize with advanced options ...</value>
+  </synonym>
+  <group>CommandGroup.СинхронизацияДанных</group>
+  <commandParameterType>
+    <types>ExchangePlanRef.ОбменТОиР20УПП</types>
+    <types>ExchangePlanRef.ОбменТОИР20RCM</types>
+    <types>ExchangePlanRef.ОбменТОиР20ПБ</types>
+    <types>ExchangePlanRef.ОбменТОиР20ЕРП20</types>
+    <types>ExchangePlanRef.ИнтеграцияС1СДокументооборотом</types>
+  </commandParameterType>
+  <representation>PictureAndText</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Синхронизировать данные, задав дополнительные параметры</value>
+  </toolTip>
+  <toolTip>
+    <key>es</key>
+    <value>Sincronizar los datos, habiendo dado los parámetros adicionales</value>
+  </toolTip>
+  <toolTip>
+    <key>en</key>
+    <value>Synchronize data by setting additional parameters</value>
+  </toolTip>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.СинхронизацияДанныхИнтерактивноеВыполнение</picture>
+  </picture>
+</mdclass:CommonCommand>

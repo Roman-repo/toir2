@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7847434b-ead6-4086-b54e-e64cdb7835cd">
+  <name>гкс_ИспользованиеАРМУчетаСвязейФМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование АРМ учета связей ФМ</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Using an AWP for accounting connection FP</value>
+  </synonym>
+</mdclass:Role>

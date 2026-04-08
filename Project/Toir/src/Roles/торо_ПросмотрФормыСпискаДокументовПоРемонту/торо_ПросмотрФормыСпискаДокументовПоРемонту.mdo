@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f2a2f70-700a-4e9d-881a-33f4915a236f">
+  <name>торо_ПросмотрФормыСпискаДокументовПоРемонту</name>
+  <synonym>
+    <key>ru</key>
+    <value>Просмотр формы списка документов по ремонту</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>La presentación de la forma de la lista de los documentos por la reparación</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>View the form of a list of repair documents</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa0e4214-32f4-4e8d-9c10-df85e61756ee">
+  <name>торо_ОтчетПлановыеОстановыОборудования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет плановые остановы оборудования</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>El informe planificado остановы de la maquinaria</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Report scheduled equipment shutdowns</value>
+  </synonym>
+</mdclass:Role>

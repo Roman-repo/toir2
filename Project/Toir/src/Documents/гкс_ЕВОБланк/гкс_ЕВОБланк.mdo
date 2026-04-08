@@ -1,0 +1,1407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ebad432a-538b-49b8-a0ae-868b0222253d">
+  <producedTypes>
+    <objectType typeId="2aea73c0-700c-4457-95fb-cf0222f30403" valueTypeId="4a6306ca-b2a9-407c-8aac-23c62d76a5aa"/>
+    <refType typeId="d4d7b4a8-65d4-479f-89fe-b98c61edc15c" valueTypeId="d5511c2e-6bc1-4b99-b3ff-6f5415fc6fda"/>
+    <selectionType typeId="c96e2765-490d-4f70-87f1-b51ef96d9766" valueTypeId="345da542-a1f6-4b82-a946-54e879118be1"/>
+    <listType typeId="c6682f56-710f-4b36-8dad-4d2f90506d3a" valueTypeId="be9d7d49-fb8c-4256-bd63-d0f619b31116"/>
+    <managerType typeId="c76dcae6-f49c-4d99-9d48-08d8a9b8f1e9" valueTypeId="6d802b17-8700-4c7b-b1b9-63a64593e5a8"/>
+  </producedTypes>
+  <name>гкс_ЕВОБланк</name>
+  <synonym>
+    <key>ru</key>
+    <value>EWO-бланк</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>EWO-form</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.гкс_ЕВОБланк.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <basedOn>Document.торо_ВыявленныеДефекты</basedOn>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.гкс_ЕВОБланк.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.гкс_ЕВОБланк.Form.ФормаСписка</defaultListForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecords>InformationRegister.гкс_ОжидаемыеМероприятияЕвобланк</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="2401922e-2960-4be3-a7bb-5e0baaa8e43b">
+    <name>СпособСогласования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ согласования</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El modo de la coordinación</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Approval method</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.торо_СпособыСогласованияДокументов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Способ согласования заявки</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El modo de la coordinación de la demanda</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Application approval method</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6f3a9f0a-430a-4097-97e4-c68e6ad0f48a">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La organización</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Organization</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Организация предприятия, принадлежащие которой объекты могут быть добавлены в документ.</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>La organización las empresas que pertenecen que objetos pueden ser añadidas en el documento.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Organization of the enterprise, the objects of which can be added to the document.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d49cc591-ca64-4ef7-bec1-af9f8b86b020">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La subdivisión</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Subdivision</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтруктураПредприятия</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Подразделение, принадлежащие которому объекты могут быть добавлены в документ.</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>La subdivisión, que pertenecen a que objetos pueden ser añadidos en el documento.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>The unit that the objects belonging to can be added to the document.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6f3dcc96-d8bc-49a6-97bb-84ebf7b4b8cb">
+    <name>КорневаяПричина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корневая причина</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Root cause </value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гкс_КорневыеПричины</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9e680484-c419-46ed-a7cc-fce92cb4e7c5">
+    <name>ТипКорневойПричины</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип корневой причины</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Root cause type</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гкс_ТипыКорневыхПричин</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f41b3121-a7a0-4824-b116-85eefc399a6d">
+    <name>ДокументОснование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ основание</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>A document base</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.торо_ВыявленныеДефекты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6aec603d-0eb5-4b2a-a0f7-64b2550bb4e6">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Responsible</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="34de9d07-bf02-4671-aaa8-e5adac527a04">
+    <name>ВремяНачалаОстановки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время начала остановки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Stop start time</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b123eedd-8857-479f-9b39-c60a78483310">
+    <name>ВремяВызоваТС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время вызова ТС</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Servicios técnicos de tiempo de llamada</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Call Time Technical Services</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="067f701e-5003-43a9-9cc6-d42a3d144795">
+    <name>ВремяЗапуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время запуска</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Launch time</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f6437638-d12a-4aad-8d94-0cb6910a1e76">
+    <name>СтатусДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>(устарело) Статус документа</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>(Ha caducado) el Estatus del documento</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>(deprecated) Document status</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.торо_СтатусыСогласованияДокументовРемонтныхРабот</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Статус заявки</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El estatus de la demanda</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Application status</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7dfe1c85-d13d-4306-8750-5deff3bda17d">
+    <name>ВидДефекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид дефекта</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El tipo del defecto</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Type of defect</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.торо_ВидыДефектов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид дефекта объекта ремонта</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El tipo del defecto del objeto de la reparación</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Type of defect of the repair object</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="263aa83e-6db5-4456-9453-9d96b4c21bfb">
+    <name>ДатаОбнаружения</name>
+    <synonym>
+      <key>en</key>
+      <value>Detection date</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата выявления дефекта</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La fecha del descubrimiento</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Defect detection date</value>
+    </toolTip>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата обнаружения дефекта</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>La fecha del descubrimiento del defecto</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a0788613-00f5-4af9-b3d8-e9d68a2c6390">
+    <name>ВидНеисправности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид неисправности</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ee230fd4-e25c-49a4-8fea-fc011173c276">
+    <name>ДефектОписание</name>
+    <synonym>
+      <key>en</key>
+      <value>Defect description</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Описание дефекта, обстоятельства возникновения</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El defecto la descripción</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>Defect description</value>
+    </toolTip>
+    <toolTip>
+      <key>ru</key>
+      <value>Описание дефекта</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>La descripción del defecto</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3e97a054-0e75-4cb8-aa16-842e21a5cfc1">
+    <name>МерыПринятые</name>
+    <synonym>
+      <key>ru</key>
+      <value>Меры, принятые для ликвидации дефекта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="13300e91-8c60-423b-94e8-fec77d7d3000">
+    <name>КорневаяПричинаТекст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корневая причина</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0bbdbb98-194b-4e5d-98e0-8438c2edf66e">
+    <name>РазборТребуется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разбор требуется</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e15aa26f-e3c6-4596-9050-54533206697c">
+    <name>ЕвоБланкПринят</name>
+    <synonym>
+      <key>ru</key>
+      <value>EWO-бланк принят</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f8166324-231a-47e8-a1c4-e55c7ce1029a">
+    <name>УровеньОстанова</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уровень останова</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="42f51ad8-546a-4302-a2c4-4012a9cb9e0d">
+    <name>НачальникСмены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начальник смены (ФИО)</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4b14fa1a-6306-4a92-a581-a10a1d8475b4">
+    <name>ДиаграммаСобытий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диаграмма событий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9edc6fc9-5cc6-4de2-8b25-c89795a1ed50">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a4bb732c-6477-4aa0-936f-b2fe81450727">
+    <name>ВремяНачалаТС</name>
+    <synonym>
+      <key>en</key>
+      <value>Call Time Technical Services</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Время начала ТС</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Servicios técnicos de tiempo de llamada</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e2e21eb3-36a2-4524-b4cb-f78899f83655">
+    <name>ВремяОкончанияТС</name>
+    <synonym>
+      <key>en</key>
+      <value>Call Time Technical Services</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Время окончания ТС</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Servicios técnicos de tiempo de llamada</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3e8bc5ac-a5f7-4b74-8ecb-58574d342d3b">
+    <name>ТипПроблемы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип проблемы</value>
+    </synonym>
+    <type>
+      <types>EnumRef.гкс_ТипыПроблем</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ba44cd89-cbc0-41b9-8889-3a4fd8450a34">
+    <name>ЗонаОтветственности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зона ответственности</value>
+    </synonym>
+    <type>
+      <types>EnumRef.гкс_ЗоныОтветственности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2c7a803e-f277-4709-9fb0-55450f1ab9ac">
+    <name>гкс_ПовторныйОтказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Повторный отказ</value>
+    </synonym>
+    <comment>TOIR20-534</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="1b51b43f-f621-42fa-b52f-8b2a10001ec3">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Document form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="97287e3e-dcbc-4da1-b841-b3ae969ab9cc">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="76053ac3-325f-4429-a1c1-e3076f157f2a">
+    <name>ПоискКорневойПричины</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поиск корневой причины</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="e43a1ed7-04ae-40a9-8fe9-b57a3e0fb762">
+    <producedTypes>
+      <objectType typeId="06af1e77-9e49-4359-99be-c0a8a9164325" valueTypeId="ec7a2649-42e4-4b9e-a64e-753fbff59eeb"/>
+      <rowType typeId="89cdf039-2253-4395-9c45-8d2d21c26949" valueTypeId="faa951ee-6cb3-4c2e-ad51-3a47656d78aa"/>
+    </producedTypes>
+    <name>ИсторияСтатусов</name>
+    <synonym>
+      <key>ru</key>
+      <value>(устарело) История статусов</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>(Ha caducado) la Historia de los estatus</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>(deprecated) Status history</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="f0195ad6-7196-47aa-94ec-9b9123c485e4">
+      <name>Дата</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La fecha</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Date </value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Дата согласования</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>La fecha de la coordinación</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Approval date</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e90e2a7b-9403-4416-adeb-f5b97c1aecc1">
+      <name>Пользователь</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пользователь</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>El usuario</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>User</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Согласовавший пользователь</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El usuario que ha arreglado</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Approved user</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c8853e40-0459-4836-822b-11196f1d4848">
+      <name>ЗаКого</name>
+      <synonym>
+        <key>ru</key>
+        <value>За кого</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>Por quien</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>For whom</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>За кого согласовано</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>Por quien es arreglado</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>For whom agreed</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f6d4ee6e-b2b6-4c25-9e32-1c88cde5726b">
+      <name>СтатусДокумента</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статус документа</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>El estatus del documento</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Document status</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.торо_СтатусыСогласованияДокументовРемонтныхРабот</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Содержит статус документа</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>Contiene el estatus del documento</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Contains document status</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="0a076340-d1eb-4081-a018-047d1bffb4c7">
+    <producedTypes>
+      <objectType typeId="7f110f4a-ae9b-4f6c-914b-99579bbe0609" valueTypeId="e9d27fba-db66-48a1-a995-5053bf391dd5"/>
+      <rowType typeId="96ae6337-c02c-4222-8267-0f1541cc6196" valueTypeId="324531ea-e0bc-4029-b5a4-f66707be2815"/>
+    </producedTypes>
+    <name>Согласующие</name>
+    <synonym>
+      <key>ru</key>
+      <value>(устарело) Согласующие</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>(Ha caducado) Soglasuyuschie</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>(deprecated) Matching</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="0098c556-8f65-4806-b6bb-1c2e9e6fec23">
+      <name>Согласующий</name>
+      <synonym>
+        <key>ru</key>
+        <value>Согласующий</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>Согласующий</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Matching</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Согласующий пользователь</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El usuario soglasuyuschy</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Matching user</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6792eca2-deb7-4a96-b7c1-1702ae38079a">
+      <name>Согласовано</name>
+      <synonym>
+        <key>ru</key>
+        <value>Согласовано</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>Es arreglado</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Agreed</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Признак согласованности</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El indicio de la coordinación</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Sign of consistency</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2ed500fc-1c3b-4411-82f0-43281ea1a426">
+      <name>ПроведениеДокумента</name>
+      <synonym>
+        <key>ru</key>
+        <value>Проведение документа</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La realización del documento</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Post a document</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Признак проведения документа</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El indicio de la realización del documento</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Sign of the document</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c8830e59-0513-4d0e-a8bf-2cb7b93432df">
+      <name>Порядок</name>
+      <synonym>
+        <key>ru</key>
+        <value>Порядок</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>El orden</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Order</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Содержит порядок</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>Contiene el orden</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Contains order</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7b854584-b747-4274-8ea8-4ca3485be141">
+      <name>СтатусДокумента</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статус документа</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>El estatus del documento</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Document status</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.торо_СтатусыСогласованияДокументовРемонтныхРабот</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Указание статуса документа</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>La instrucción del estatus del documento</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Document status indication</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="737b6eac-8a4a-42a8-9327-2f8a25c49f0c">
+      <name>Замещающий</name>
+      <synonym>
+        <key>ru</key>
+        <value>Замещающий</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>Que sustituye</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Substitutional</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Замещающий пользователь</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El usuario que sustituye</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Substitute user</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="ef5974da-132d-4324-8076-71081780ae71">
+    <producedTypes>
+      <objectType typeId="b025a4e4-c1cf-480a-8999-fc2f617ba499" valueTypeId="1f1fa9f5-348c-48dc-bb7e-fe6c23593a83"/>
+      <rowType typeId="942c75b9-1494-4600-989d-40adcd077a8f" valueTypeId="bc29d428-4614-413c-a67a-e149891b6370"/>
+    </producedTypes>
+    <name>МероприятияПоПредупреждению</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мероприятия по предупреждению</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Prevention measures</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="f5bf3f17-740e-4646-9057-9be905bb8d63">
+      <name>Мероприятие</name>
+      <synonym>
+        <key>ru</key>
+        <value>Мероприятие</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Measure</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>500</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="538d77b6-f260-4ad3-9072-cb4a6bca51cd">
+      <name>Ответственный</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ответственный</value>
+      </synonym>
+      <comment>TOIR20-462</comment>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="cfefded9-079d-4199-8fb6-0fb27b3df402">
+      <name>Срок</name>
+      <synonym>
+        <key>ru</key>
+        <value>Срок</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Term</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="58d5db14-5e3f-45a5-b296-ec4e94a5ee81">
+      <name>Выполнено</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выполнено</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="48d17a78-a874-4cea-a913-5a1b10aa8678">
+      <name>Комментарий</name>
+      <synonym>
+        <key>ru</key>
+        <value>Комментарий</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="4e001d8f-caee-463d-afaa-eba0d5e8a9da">
+    <producedTypes>
+      <objectType typeId="6b6bcefb-4c77-4849-9e02-ecc626386522" valueTypeId="d71b599b-fc1c-4e7b-a0a6-116d859fd128"/>
+      <rowType typeId="fbf24431-ba65-4cc6-a0ba-754c8a63829b" valueTypeId="23cb2fa8-dea5-4b83-a7da-426065948f98"/>
+    </producedTypes>
+    <name>АнализПричины</name>
+    <synonym>
+      <key>ru</key>
+      <value>Анализ корневой причины (5 почему)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Root cause analysis (five whys)</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="f38ebebd-f3ae-44e2-8ebc-743a61f4ccc5">
+      <name>Причина</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вопрос</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Reason</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>300</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0a41b7d8-fe6b-491a-a349-5bbb1bdc2cfb">
+      <name>ИД</name>
+      <synonym>
+        <key>ru</key>
+        <value>ИД</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>4</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="788072bd-3915-423e-9e7f-73a936fed610">
+      <name>РодительИД</name>
+      <synonym>
+        <key>ru</key>
+        <value>Родитель ИД</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>4</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="09a669c3-e37a-4f04-ae65-22874eadb713">
+      <name>КорневаяПричина</name>
+      <synonym>
+        <key>ru</key>
+        <value>Корневая причина</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <templates uuid="1a128824-9228-4668-8236-2c9584d847b7">
+    <name>ПФ_MXL_ЕВОБланк</name>
+    <synonym>
+      <key>ru</key>
+      <value>EWO-Бланк</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>EWO-Blank</value>
+    </synonym>
+    <synonym>
+      <key>tr</key>
+      <value>EWO-Blank</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>EWO-Blank</value>
+    </synonym>
+  </templates>
+  <templates uuid="96971037-5821-4146-9b6c-e8099070e975">
+    <name>ПФ_MXL_5Почему</name>
+    <synonym>
+      <key>ru</key>
+      <value>П ф MXL 5 почему</value>
+    </synonym>
+  </templates>
+  <templates uuid="27ec86ae-0d59-41a3-aceb-d68ac9915420">
+    <name>ПФ_MXL_ЕВОБланк2023</name>
+    <synonym>
+      <key>en</key>
+      <value>EWO-Blank</value>
+    </synonym>
+    <synonym>
+      <key>tr</key>
+      <value>EWO-Blank</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>EWO-Бланк</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>EWO-Blank</value>
+    </synonym>
+  </templates>
+</mdclass:Document>

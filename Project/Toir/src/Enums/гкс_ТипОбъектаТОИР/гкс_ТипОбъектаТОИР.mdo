@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="45704762-44e9-4fab-bc75-1ec6fa972901">
+  <producedTypes>
+    <refType typeId="8bd1c407-e1e4-4504-84e4-a8f835aa593d" valueTypeId="95566ea4-5fca-43a3-8dec-715aa02eb745"/>
+    <listType typeId="d2781766-0c66-4a3d-997f-15628332f75c" valueTypeId="a30cd34a-d1a1-4b90-b8a6-cab3afb410c9"/>
+    <managerType typeId="cb596ac8-fec4-4c3f-9bdd-b0710cac1978" valueTypeId="914d68bb-a75d-4f4e-8fe6-7daac59caa6d"/>
+  </producedTypes>
+  <name>гкс_ТипОбъектаТОИР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Гкс тип объекта ТОИР</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9ed79ed6-119b-499d-8cfc-b817914d601d">
+    <name>ТехКрата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тех. крата</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="17a76420-191b-4e0b-a891-b9b360a2338f">
+    <name>ТиповойОР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Типовой ОР</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5508c851-9757-4792-83bb-8d9e8e4079c7">
+    <name>ТехнологическаяОперация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Технологическая операция</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bcd63bd3-c144-4987-ad06-92a08c432b52">
+    <name>ГруппаТехКарт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа тех карт</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

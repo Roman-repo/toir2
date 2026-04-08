@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <title>
+    <key>ru</key>
+    <value>Настройки и справочники</value>
+  </title>
+  <title>
+    <key>es</key>
+    <value>Los ajustes y las guías</value>
+  </title>
+  <title>
+    <key>en</key>
+    <value>Settings and references</value>
+  </title>
+  <items xsi:type="form:Decoration">
+    <name>ДекорацияОтступ</name>
+    <id>17</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <extendedTooltip>
+      <name>ДекорацияОтступExtendedTooltip</name>
+      <id>205</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ДекорацияОтступКонтекстноеМеню</name>
+      <id>18</id>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>Label</type>
+    <autoMaxWidth>true</autoMaxWidth>
+    <autoMaxHeight>true</autoMaxHeight>
+    <extInfo xsi:type="form:LabelDecorationExtInfo">
+      <horizontalAlign>Left</horizontalAlign>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormGroup">
+    <name>ГруппаНоменклатура</name>
+    <id>71</id>
+    <items xsi:type="form:FormGroup">
+      <name>ГруппаНоменклатураГоризонтальная1</name>
+      <id>145</id>
+      <items xsi:type="form:Button">
+        <name>СправочникВидыНоменклатурыОткрытьСписок</name>
+        <id>324</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>СправочникВидыНоменклатурыОткрытьСписокРасширеннаяПодсказка</name>
+          <id>325</id>
+          <title>
+            <key>ru</key>
+            <value>Классификация номенклатуры по ассортиментным группам. Номенклатура, относящаяся к одному виду имеет общие параметры учета и набор свойств, которыми она описывается.</value>
+          </title>
+          <title>
+            <key>es</key>
+            <value>La clasificación de la nomenclatura por ассортиментным a los grupos. La nomenclatura que se refiere a un tipo tiene los parámetros generales del recuento y el juego de las propiedades, por que es descrita.</value>
+          </title>
+          <title>
+            <key>en</key>
+            <value>Classification of nomenclature for assortment groups. A nomenclature related to one type has common accounting parameters and a set of properties by which it is described.</value>
+          </title>
+          <type>Label</type>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>Hyperlink</type>
+        <commandName>Catalog.ВидыНоменклатуры.StandardCommand.OpenList</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
+      <items xsi:type="form:Button">
+        <name>СправочникСерииНоменклатурыОткрытьСписок</name>
+        <id>326</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>СправочникСерииНоменклатурыОткрытьСписокРасширеннаяПодсказка</name>
+          <id>327</id>
+          <title>
+            <key>ru</key>
+            <value>В справочнике хранятся сведения о сериях товаров. Серии товаров представляют собой разрез складского учета товаров.</value>
+          </title>
+          <title>
+            <key>es</key>
+            <value>En la guía están las noticias sobre unas series de las mercancías. Unas series de las mercancías representan el corte del recuento de almacén de las mercancías.</value>
+          </title>
+          <title>
+            <key>en</key>
+            <value>The directory stores information about series of products. Series of goods are a section of the inventory of goods.</value>
+          </title>
+          <type>Label</type>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>Hyperlink</type>
+        <commandName>Catalog.СерииНоменклатуры.StandardCommand.OpenList</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <titleFont xsi:type="core:FontRef">
+        <font>System.DefaultGUIFont</font>
+        <height>10.0</height>
+        <bold>true</bold>
+        <italic>false</italic>
+        <underline>false</underline>
+        <strikeout>false</strikeout>
+      </titleFont>
+      <horizontalStretch>true</horizontalStretch>
+      <extendedTooltip>
+        <name>ГруппаНоменклатураГоризонтальная1ExtendedTooltip</name>
+        <id>246</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualGroup</type>
+      <extInfo xsi:type="form:UsualGroupExtInfo">
+        <group>AlwaysHorizontal</group>
+        <behavior>Auto</behavior>
+        <showLeftMargin>true</showLeftMargin>
+        <slaveItemsWidth>Equal</slaveItemsWidth>
+        <throughAlign>Auto</throughAlign>
+        <currentRowUse>Auto</currentRowUse>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormGroup">
+      <name>ГруппаНоменклатураГоризонтальная2</name>
+      <id>146</id>
+      <items xsi:type="form:Button">
+        <name>СправочникЕдиницыИзмеренияОткрытьСписок</name>
+        <id>328</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>СправочникЕдиницыИзмеренияОткрытьСписокРасширеннаяПодсказка</name>
+          <id>329</id>
+          <title>
+            <key>ru</key>
+            <value>Классификатор единиц измерения, основывающийся на Общероссийском классификаторе единиц измерения.</value>
+          </title>
+          <title>
+            <key>es</key>
+            <value>El clasificador de las unidades de medida que se funda en el clasificador De toda Rusia de las unidades de medida.</value>
+          </title>
+          <title>
+            <key>en</key>
+            <value>Classifier of units of measurement based on the All-Russian classifier of units of measurement.</value>
+          </title>
+          <type>Label</type>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>Hyperlink</type>
+        <commandName>Catalog.ЕдиницыИзмерения.StandardCommand.OpenList</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
+      <items xsi:type="form:Button">
+        <name>СправочникУпаковкиНоменклатурыОткрытьСписок</name>
+        <id>330</id>
+        <title>
+          <key>ru</key>
+          <value>Упаковки номенклатуры</value>
+        </title>
+        <title>
+          <key>es</key>
+          <value>Los embalajes de la nomenclatura</value>
+        </title>
+        <title>
+          <key>en</key>
+          <value>Nomenclature packaging</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>СправочникУпаковкиНоменклатурыОткрытьСписокРасширеннаяПодсказка</name>
+          <id>331</id>
+          <type>Label</type>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>Hyperlink</type>
+        <commandName>Catalog.УпаковкиНоменклатуры.StandardCommand.OpenList</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <titleFont xsi:type="core:FontRef">
+        <font>System.DefaultGUIFont</font>
+        <height>10.0</height>
+        <bold>true</bold>
+        <italic>false</italic>
+        <underline>false</underline>
+        <strikeout>false</strikeout>
+      </titleFont>
+      <horizontalStretch>true</horizontalStretch>
+      <extendedTooltip>
+        <name>ГруппаНоменклатураГоризонтальная2ExtendedTooltip</name>
+        <id>253</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualGroup</type>
+      <extInfo xsi:type="form:UsualGroupExtInfo">
+        <group>AlwaysHorizontal</group>
+        <behavior>Auto</behavior>
+        <showLeftMargin>true</showLeftMargin>
+        <slaveItemsWidth>Equal</slaveItemsWidth>
+        <throughAlign>Auto</throughAlign>
+        <currentRowUse>Auto</currentRowUse>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormGroup">
+      <name>ГруппаНоменклатураГоризонтальная3</name>
+      <id>264</id>
+      <items xsi:type="form:Button">
+        <name>СправочникПроизводителиОткрытьСписок</name>
+        <id>332</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>СправочникПроизводителиОткрытьСписокРасширеннаяПодсказка</name>
+          <id>333</id>
+          <title>
+            <key>ru</key>
+            <value>В справочнике хранятся производители номенклатуры.</value>
+          </title>
+          <title>
+            <key>es</key>
+            <value>En la guía están los productores de la nomenclatura.</value>
+          </title>
+          <title>
+            <key>en</key>
+            <value>The directory stores the manufacturers of the item.</value>
+          </title>
+          <type>Label</type>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>Hyperlink</type>
+        <commandName>Catalog.Производители.StandardCommand.OpenList</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
+      <items xsi:type="form:Button">
+        <name>СправочникХарактеристикиНоменклатурыОткрытьСписок</name>
+        <id>334</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>СправочникХарактеристикиНоменклатурыОткрытьСписокРасширеннаяПодсказка</name>
+          <id>335</id>
+          <title>
+            <key>ru</key>
+            <value>В справочнике хранится список характеристик номенклатуры, имеющейся в системе.</value>
+          </title>
+          <title>
+            <key>es</key>
+            <value>En la guía está la lista de las características de la nomenclatura que hay en el sistema.</value>
+          </title>
+          <title>
+            <key>en</key>
+            <value>The directory contains a list of the characteristics of the nomenclature available in the system.</value>
+          </title>
+          <type>Label</type>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>Hyperlink</type>
+        <commandName>Catalog.ХарактеристикиНоменклатуры.StandardCommand.OpenList</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <horizontalStretch>true</horizontalStretch>
+      <extendedTooltip>
+        <name>ГруппаНоменклатураГоризонтальная3РасширеннаяПодсказка</name>
+        <id>265</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualGroup</type>
+      <extInfo xsi:type="form:UsualGroupExtInfo">
+        <group>AlwaysHorizontal</group>
+        <behavior>Auto</behavior>
+        <representation>WeakSeparation</representation>
+        <showLeftMargin>true</showLeftMargin>
+        <currentRowUse>Auto</currentRowUse>
+      </extInfo>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </title>
+    <title>
+      <key>es</key>
+      <value>La nomenclatura</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Nomenclature</value>
+    </title>
+    <titleFont xsi:type="core:FontRef">
+      <font>System.DefaultGUIFont</font>
+      <height>10.0</height>
+      <bold>true</bold>
+      <italic>false</italic>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+    </titleFont>
+    <toolTip>
+      <key>ru</key>
+      <value>Ценообразование</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>La formación de precios</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Pricing</value>
+    </toolTip>
+    <horizontalStretch>true</horizontalStretch>
+    <extendedTooltip>
+      <name>ГруппаНоменклатураExtendedTooltip</name>
+      <id>245</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>Vertical</group>
+      <behavior>Auto</behavior>
+      <representation>NormalSeparation</representation>
+      <showLeftMargin>true</showLeftMargin>
+      <showTitle>true</showTitle>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormGroup">
+    <name>Предприятие</name>
+    <id>336</id>
+    <items xsi:type="form:Button">
+      <name>СправочникВидыЦенОткрытьСписок</name>
+      <id>338</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>СправочникВидыЦенОткрытьСписокРасширеннаяПодсказка</name>
+        <id>339</id>
+        <title>
+          <key>ru</key>
+          <value>В справочнике хранятся назначения видов цен с определённой валютой и учётом НДС.</value>
+        </title>
+        <title>
+          <key>es</key>
+          <value>En la guía están los destinos de los tipos de los precios con una cierta divisa y el recuento del T.V.A.</value>
+        </title>
+        <title>
+          <key>en</key>
+          <value>The directory stores the assignment of price types with a certain currency and VAT.</value>
+        </title>
+        <type>Label</type>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>Hyperlink</type>
+      <commandName>Catalog.ВидыЦен.StandardCommand.OpenList</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
+    <items xsi:type="form:Button">
+      <name>СправочникГрафикиРаботыОткрытьСписок</name>
+      <id>340</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>СправочникГрафикиРаботыОткрытьСписокРасширеннаяПодсказка</name>
+        <id>341</id>
+        <title>
+          <key>ru</key>
+          <value>В справочнике хранятся графики работы, используемые на предприятии.</value>
+        </title>
+        <title>
+          <key>es</key>
+          <value>En la guía están los gráficos del trabajo usado en la empresa.</value>
+        </title>
+        <title>
+          <key>en</key>
+          <value>The reference book contains work schedules used at the enterprise.</value>
+        </title>
+        <type>Label</type>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>Hyperlink</type>
+      <commandName>Catalog.Календари.StandardCommand.OpenList</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Предприятие</value>
+    </title>
+    <title>
+      <key>es</key>
+      <value>La empresa</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Company</value>
+    </title>
+    <titleFont xsi:type="core:FontRef">
+      <font>System.DefaultGUIFont</font>
+      <height>10.0</height>
+      <bold>true</bold>
+      <italic>false</italic>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+    </titleFont>
+    <toolTip>
+      <key>ru</key>
+      <value>Предприятие</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>La empresa</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Company</value>
+    </toolTip>
+    <extendedTooltip>
+      <name>ПредприятиеРасширеннаяПодсказка</name>
+      <id>337</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>Vertical</group>
+      <behavior>Auto</behavior>
+      <representation>NormalSeparation</representation>
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <showTitle>true</showTitle>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
+  </items>
+  <autoCommandBar>
+    <name>ФормаКоманднаяПанель</name>
+    <id>-1</id>
+    <horizontalAlign>Left</horizontalAlign>
+  </autoCommandBar>
+  <saveWindowSettings>true</saveWindowSettings>
+  <autoUrl>true</autoUrl>
+  <group>Vertical</group>
+  <autoFillCheck>true</autoFillCheck>
+  <enabled>true</enabled>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
+  <commandInterface>
+    <navigationPanel/>
+    <commandBar/>
+  </commandInterface>
+</form:Form>

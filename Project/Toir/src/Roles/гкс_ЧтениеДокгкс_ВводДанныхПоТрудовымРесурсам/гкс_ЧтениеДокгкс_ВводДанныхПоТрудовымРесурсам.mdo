@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fbc34ad2-93cb-4828-99ec-43743df91eec">
+  <name>гкс_ЧтениеДокгкс_ВводДанныхПоТрудовымРесурсам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Просмотр документа Ввод данных по трудовым затратам (ГКС)</value>
+  </synonym>
+  <comment>TOIR20-172</comment>
+</mdclass:Role>

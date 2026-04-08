@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="41f87891-ddd5-4e0f-a4f2-8039fb71981b">
+  <name>СтруктураПодчиненности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Связанные документы</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Los documentos vinculados</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Related documents</value>
+  </synonym>
+  <group>CommandGroup.торо_Перейти</group>
+  <commandParameterType>
+    <types>DocumentRef.ВнутреннееПотреблениеТоваров</types>
+    <types>DocumentRef.торо_УстановкаЛимитаНаПлановыеРемонтныеРаботы</types>
+    <types>DocumentRef.торо_ВнешнееОснованиеДляРабот</types>
+    <types>DocumentRef.торо_ИзменениеСоставаРемонтнойБригады</types>
+    <types>DocumentRef.торо_УчетКонтролируемыхПоказателей</types>
+    <types>DocumentRef.торо_УстановкаКоэффициентовРемонтныхОсобенностей</types>
+    <types>DocumentRef.торо_ЗакрытиеЗаявокИРемонтов</types>
+    <types>DocumentRef.торо_НарядНаРегламентноеМероприятие</types>
+    <types>DocumentRef.торо_УстановкаАналоговНоменклатурыДляРемонтов</types>
+    <types>DocumentRef.торо_НастройкаРегистрацииНаработкиЗависимыхОР</types>
+    <types>DocumentRef.ПеремещениеТоваров</types>
+    <types>DocumentRef.торо_ПланГрафикРемонта</types>
+    <types>DocumentRef.торо_ИзменениеПоложенияВСтруктуреИерархии</types>
+    <types>DocumentRef.торо_НарядНаВыполнениеРемонтныхРабот</types>
+    <types>DocumentRef.торо_ГрафикРегламентныхМероприятийТОиР</types>
+    <types>DocumentRef.торо_ПринятиеОРКУчету</types>
+    <types>DocumentRef.ПоступлениеТоваровУслуг</types>
+    <types>DocumentRef.торо_УстановкаЦелевыхЗначенийПоказателейKPI</types>
+    <types>DocumentRef.торо_КомиссионноеРассмотрение</types>
+    <types>DocumentRef.КадровыйПеревод</types>
+    <types>DocumentRef.торо_РегистрацияЗначенийВнешнихПоказателейKPI</types>
+    <types>DocumentRef.СписаниеНедостачТоваров</types>
+    <types>DocumentRef.торо_АктОВыполненииРегламентногоМероприятия</types>
+    <types>DocumentRef.торо_ОстановочныеРемонты</types>
+    <types>DocumentRef.торо_ВыявленныеДефекты</types>
+    <types>DocumentRef.торо_ВыбытиеОбъектаРемонта</types>
+    <types>DocumentRef.торо_АктОВыполненииЭтапаРабот</types>
+    <types>DocumentRef.торо_ПлановыеЗатраты</types>
+    <types>DocumentRef.торо_ОценкаРаботыПодрядчика</types>
+    <types>DocumentRef.торо_УстановкаСтоимостейКвалификаций</types>
+    <types>DocumentRef.торо_УчетНаработкиОборудования</types>
+    <types>DocumentRef.Увольнение</types>
+    <types>DocumentRef.ОприходованиеИзлишковТоваров</types>
+    <types>DocumentRef.торо_ВводНачальныхДанных</types>
+    <types>DocumentRef.торо_ПланРаботПодразделения</types>
+    <types>DocumentRef.торо_ПрисвоениеКвалификацийСотрудникам</types>
+    <types>DocumentRef.торо_СостоянияОбъектовРемонта</types>
+    <types>DocumentRef.торо_УстановкаПроизвольногоЗначенияНаработки</types>
+    <types>DocumentRef.торо_УстановкаМинимальногоОстаткаНоменклатуры</types>
+    <types>DocumentRef.гкс_ЕВОБланк</types>
+    <types>DocumentRef.ПриемНаРаботу</types>
+    <types>DocumentRef.ЗаказНаВнутреннееПотребление</types>
+    <types>DocumentRef.торо_УстановкаКоэффициентовПереводаСтоимостейРемонтов</types>
+    <types>DocumentRef.УстановкаЦенНоменклатуры</types>
+    <types>DocumentRef.торо_ЗаявкаНаРемонт</types>
+    <types>DocumentRef.торо_АктПриемкиОборудования</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Перейти к иерархическому списку связанных документов</value>
+  </toolTip>
+  <toolTip>
+    <key>es</key>
+    <value>Pasar a la lista jerárquica de los documentos vinculados</value>
+  </toolTip>
+  <toolTip>
+    <key>en</key>
+    <value>Go to hierarchical list of related documents</value>
+  </toolTip>
+</mdclass:CommonCommand>

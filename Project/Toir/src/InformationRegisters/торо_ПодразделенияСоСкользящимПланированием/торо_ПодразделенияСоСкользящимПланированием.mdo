@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3dfa3675-029b-475d-bdc8-1d7839a1c3c0">
+  <producedTypes>
+    <selectionType typeId="ff04c0f0-4e1a-438a-90da-35cdd7136004" valueTypeId="93e10418-f01e-4975-a926-3b0a3ec764d1"/>
+    <listType typeId="08c6ae75-3b96-40d3-a7e6-7b7470772d5e" valueTypeId="e7216c82-2736-4742-a7ff-005a2556d47d"/>
+    <managerType typeId="ab03c2b2-5b74-46ba-b5cb-c4d91d51e345" valueTypeId="f5e7007d-d330-4d8b-b5c0-c6bc1652b957"/>
+    <recordSetType typeId="474f5aa2-d2ab-49a5-a6bb-15492edccdc3" valueTypeId="3a9f44c9-2161-41d9-9ef4-368a3f377620"/>
+    <recordKeyType typeId="5f5276c3-7401-460c-921d-a1c2adcdf9ad" valueTypeId="acfc2903-6101-49dd-a2f3-3d387aee9dcb"/>
+    <recordType typeId="bebc173c-4d8a-428f-b228-769ad7756bc4" valueTypeId="b7a46f7a-294c-4209-8c50-7e9d596d22b2"/>
+    <recordManagerType typeId="e15111b0-7e1c-4dbe-ad68-48c24b32d826" valueTypeId="e74c4d8d-8048-43ce-9fff-eb5e22b1c080"/>
+  </producedTypes>
+  <name>торо_ПодразделенияСоСкользящимПланированием</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подразделения со скользящим планированием</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Las subdivisiones con la planificación que se desliza</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Departments with rolling planning</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="343b5a60-bf38-456f-835d-df2ac3fc7e70">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La subdivisión</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Subdivision</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтруктураПредприятия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

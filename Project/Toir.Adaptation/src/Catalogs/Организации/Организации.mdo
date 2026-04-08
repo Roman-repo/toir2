@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9d3ee45c-5bed-4193-a812-75b9d60f8ec0">
+  <producedTypes>
+    <objectType typeId="90e07a5d-56a5-459a-9a94-900ed22d029c" valueTypeId="15740c73-f747-48ac-a2e9-a82aa6305be9"/>
+    <refType typeId="486352b1-36f7-4984-8a51-5330faab4f17" valueTypeId="21309423-ab09-44f0-b71a-289cedc455a9"/>
+    <selectionType typeId="d9ac9183-3e95-4016-bbd3-86c0b8a69a87" valueTypeId="eecafefb-0046-4962-b600-52dae81e3686"/>
+    <listType typeId="3b25461e-2474-41c2-975f-92df3c014270" valueTypeId="c43100fb-e794-44e0-8a3c-e5693caa2141"/>
+    <managerType typeId="28330959-fb2a-43df-90db-e04f3d032db4" valueTypeId="b6cc46b1-097e-49df-aeec-58bc1bbe2895"/>
+  </producedTypes>
+  <name>Организации</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="2f6d204e-15d6-4ebc-bf3b-f37ce7dc7a00" extendedConfigurationObject="fddd5d67-cb4c-46e8-a5d4-18b0e759d22a">
+    <name>гкс_ВидЦены</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ВидыЦен</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <forms uuid="92669768-0940-4352-b850-0f9ab74aaf55" extendedConfigurationObject="f1cb02ff-a2f0-4a34-93fa-e47c6e210ee1">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

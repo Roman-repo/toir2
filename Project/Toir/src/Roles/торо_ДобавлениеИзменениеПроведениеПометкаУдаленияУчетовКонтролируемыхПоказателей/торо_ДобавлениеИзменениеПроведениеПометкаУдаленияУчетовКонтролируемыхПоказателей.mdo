@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ee4322f1-7833-4003-9cf6-177441d06b64">
+  <name>торо_ДобавлениеИзменениеПроведениеПометкаУдаленияУчетовКонтролируемыхПоказателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление, изменение, проведение и пометка удаления учетов контролируемых показателей</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>La adición, el cambio, la realización y la marca de la desaparición de los recuentos de los índices controlados</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Adding, modifying, posting, and flagging deletion of controlled key figure records</value>
+  </synonym>
+</mdclass:Role>

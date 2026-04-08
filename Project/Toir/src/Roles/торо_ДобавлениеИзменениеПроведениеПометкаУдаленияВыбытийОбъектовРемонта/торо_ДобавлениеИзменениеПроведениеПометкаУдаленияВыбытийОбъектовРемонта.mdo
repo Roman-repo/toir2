@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="79fbe61a-d832-4cda-a7dd-2fb3e075f8be">
+  <name>торо_ДобавлениеИзменениеПроведениеПометкаУдаленияВыбытийОбъектовРемонта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление, изменение, проведение и пометка удаления выбытий объектов ремонта</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>La adición, el cambio, la realización y la marca de la desaparición de las salidas de los objetos de la reparación</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Adding, modifying, posting and marking the removal of disposals of repair objects</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8f693da3-0be5-486b-bf1f-cbbed75e93c6" extendedConfigurationObject="a4a6078b-baf0-4417-ad1d-8512841a8381">
+  <producedTypes>
+    <managerType typeId="05757d3b-2f30-4c97-97c2-9a9407e66128" valueTypeId="6e7dc715-7222-4363-916b-8ee044edd473"/>
+    <valueManagerType typeId="d77cc196-4364-4b78-aa0e-ba7be82e26c1" valueTypeId="589afcf1-f130-43e2-b543-fa41a562c662"/>
+    <valueKeyType typeId="d59f94f0-d0e9-4563-b2e8-f3bdab9f0a3c" valueTypeId="f0480065-c7d7-4d33-8e59-7dc9eda5c06c"/>
+  </producedTypes>
+  <name>торо_УдалятьОбработанныеЗаписиАСУТП</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+</mdclass:Constant>

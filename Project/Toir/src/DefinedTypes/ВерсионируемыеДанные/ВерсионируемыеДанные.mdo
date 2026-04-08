@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="933006e6-db4a-401b-a7cc-b66cf67fb5de">
+  <producedTypes>
+    <containerType typeId="f432c46f-a6ad-4142-953b-f23aa18c9e28" valueTypeId="fca0f4ab-70bd-4b63-a9ad-f9b75d7e7b28"/>
+  </producedTypes>
+  <name>ВерсионируемыеДанные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версионируемые данные</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Los datos versioniruemye</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Versioned data</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ДоговорыКонтрагентов</types>
+    <types>DocumentRef.гкс_ЕВОБланк</types>
+  </type>
+</mdclass:DefinedType>

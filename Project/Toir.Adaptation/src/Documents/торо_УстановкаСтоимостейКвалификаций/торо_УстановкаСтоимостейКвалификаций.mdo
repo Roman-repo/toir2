@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="415847a7-bb29-4f1b-9f52-4d1996aa1807" extendedConfigurationObject="f12dd42f-d684-40fc-8330-d78eaf2fe15e">
+  <producedTypes>
+    <objectType typeId="4269a0c9-fb12-4c96-8ca7-f979d86bef1d" valueTypeId="cdb5f75d-0448-4fb9-ae5d-6236ba0bc253"/>
+    <refType typeId="657942cd-1472-4255-9ac8-3b74d4c2372d" valueTypeId="ababfc4f-d334-4f83-8756-c9efa8c9e54b"/>
+    <selectionType typeId="0b12b517-8928-4817-a23f-beaf6f7fe92d" valueTypeId="f5d432f3-f776-4dee-861b-03590ddc0618"/>
+    <listType typeId="510612a1-f231-4b8f-9b36-d9a858b38470" valueTypeId="2d03539a-e13b-414d-8367-74551faf0c8a"/>
+    <managerType typeId="b79e1bb3-9a0e-4cba-aab0-acf6606df878" valueTypeId="41c8effc-60c5-4079-a315-13ccc7075ae2"/>
+  </producedTypes>
+  <name>торо_УстановкаСтоимостейКвалификаций</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <objectModule>Extended</objectModule>
+  </extension>
+  <attributes uuid="ad810302-62f7-4aa8-868d-fa866469b407" extendedConfigurationObject="526fb7ee-6424-42cc-b6ea-623415753ccd">
+    <name>Организация</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Организации</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <forms uuid="276671ab-d21e-499a-908f-b171b51828e7" extendedConfigurationObject="24c1d3d3-f25a-49a6-8b7e-b2d6a5e43752">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Document>

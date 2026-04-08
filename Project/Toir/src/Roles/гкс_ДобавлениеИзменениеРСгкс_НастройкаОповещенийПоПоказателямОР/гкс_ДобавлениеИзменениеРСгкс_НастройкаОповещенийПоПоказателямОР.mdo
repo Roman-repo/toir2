@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b26e2fa7-44ce-4e60-aa2a-ef4f7de9db75">
+  <name>гкс_ДобавлениеИзменениеРСгкс_НастройкаОповещенийПоПоказателямОР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление и изменение настроек оповещений по показателям ОР (гкс)</value>
+  </synonym>
+</mdclass:Role>

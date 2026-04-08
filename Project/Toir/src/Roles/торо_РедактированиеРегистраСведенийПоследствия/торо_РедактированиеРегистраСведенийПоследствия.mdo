@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cc90fb8c-36ef-4f82-8728-1454bb291106">
+  <name>торо_РедактированиеРегистраСведенийПоследствия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редактирование регистра сведений последствия</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>La redacción del registro de las noticias de la consecuencia</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Editing the effects register</value>
+  </synonym>
+</mdclass:Role>

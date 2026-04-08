@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8b88d9a4-2ed3-42b5-8921-63b54a79e5b7">
+  <name>гкс_ДобавлениеТиповыхОР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление типовых ОР (гкс)</value>
+  </synonym>
+</mdclass:Role>

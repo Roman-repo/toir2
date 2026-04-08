@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="65398761-8834-4454-8b4a-41d548d40dd9">
+  <name>торо_ДобавлениеИзменениеПроведениеИзмененийСоставаРемонтнойБригады</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление, изменение, проведение и пометка удаления изменений состава ремонтной бригады</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>La adición, el cambio, la realización y la marca de la desaparición de los cambios de la composición de la brigada de reparación</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Adding, changing, conducting and marking the removal of changes in the composition of the repair team</value>
+  </synonym>
+</mdclass:Role>

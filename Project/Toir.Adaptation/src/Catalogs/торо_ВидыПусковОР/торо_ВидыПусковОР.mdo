@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4c1e4c3d-df79-484a-be5e-be32d336f0df">
+  <producedTypes>
+    <objectType typeId="b18d1051-bb04-4964-af21-cd7952885d31" valueTypeId="9fdd8a9b-3ecf-40d8-a004-7970e7fb7e0b"/>
+    <refType typeId="b45fcef7-ca42-451b-b226-3d2ccce2844c" valueTypeId="1a1239dc-2cc1-4221-a5f7-5c51fb3e7518"/>
+    <selectionType typeId="5525b0ae-4f5f-4e7c-8d33-01abcfb47431" valueTypeId="9acedcf4-bbd3-4382-8460-e5308fd4654a"/>
+    <listType typeId="c0280d67-ce0e-47a2-bb4c-04767f6f444d" valueTypeId="41ec4f66-5bfd-4011-9a04-932a710a3c51"/>
+    <managerType typeId="635a8d8f-1e3d-4597-8e82-53c62cf6736f" valueTypeId="b3f56ba6-17c7-46c6-a97a-f5e2120a35f3"/>
+  </producedTypes>
+  <name>торо_ВидыПусковОР</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

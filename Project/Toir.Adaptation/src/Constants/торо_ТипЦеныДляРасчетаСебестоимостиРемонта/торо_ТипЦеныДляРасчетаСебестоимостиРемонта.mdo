@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a815dcba-a3e4-465b-8db7-38593db8d9bd">
+  <producedTypes>
+    <managerType typeId="d716ad73-3a8f-4882-ab98-8247deaa7e59" valueTypeId="51d0b661-1117-48a4-b9a8-72f0b52f9d59"/>
+    <valueManagerType typeId="2ed3bd67-a3b1-4bb7-a1ab-e9ccd5482d91" valueTypeId="d5b0970e-e12b-46ab-99f2-a67d5bf33292"/>
+    <valueKeyType typeId="803a1b1b-5440-4514-a286-446291b1c988" valueTypeId="fd3ff4b4-62a3-45f6-ba8a-9b0ee7bad061"/>
+  </producedTypes>
+  <name>торо_ТипЦеныДляРасчетаСебестоимостиРемонта</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>CatalogRef.ВидыЦен</type>
+      </types>
+    </typeExtension>
+  </extension>
+</mdclass:Constant>

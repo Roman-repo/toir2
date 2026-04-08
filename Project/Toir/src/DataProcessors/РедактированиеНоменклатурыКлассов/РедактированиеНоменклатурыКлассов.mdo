@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c400f476-7629-4934-8aef-f511dcea2c2c">
+  <producedTypes>
+    <objectType typeId="55f6884b-0469-4d4e-92ee-9af940a2df1d" valueTypeId="1e2db6eb-14d9-4f75-b98a-a397eb22f7bc"/>
+    <managerType typeId="4b37e127-0701-428b-be62-156c2548a9e0" valueTypeId="04589d26-54f8-4714-a049-951e33a18ce6"/>
+  </producedTypes>
+  <name>РедактированиеНоменклатурыКлассов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редактирование номенклатуры классов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РедактированиеНоменклатурыКлассов.Form.Форма</defaultForm>
+  <attributes uuid="f2355e77-6f6d-4c35-98eb-2e361482c138">
+    <name>НоменклатураКласса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура класса</value>
+    </synonym>
+    <type>
+      <types>CatalogObject.НоменклатураКласса</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0459fd9e-874a-4c74-a5a1-eb7ae3ad48c2">
+    <name>Наименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d49353f7-cadf-4a8a-a65f-e8c5c359eecf">
+    <name>НаименованиеПолное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b2fc8520-3226-4259-8f8a-8d02179f90f7">
+    <name>Код</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d97cfe4b-160f-48f4-b851-b56694f827c3">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыОбъектовНСИ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3bc077e4-4f12-4b50-81e7-6412c7d70a68">
+    <name>Класс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Класс</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Классы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e2a3dd52-3f40-48b1-a6ca-ed0b21cdc10d">
+    <name>Родитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Родитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НоменклатураКласса</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceFoldersAndItems>Folders</choiceFoldersAndItems>
+  </attributes>
+  <attributes uuid="0a76d14c-1ca6-4cfd-8f61-cf306d3a0598">
+    <name>ОбъектыНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объекты номенклатуры</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>На основании номенклатуры данного класса возможно создание объектов номенклатуры.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="00f3fc2f-38a0-404f-badc-67b802b8f9fb">
+    <name>НомерПоСчетчику</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер по счетчику</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>11</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b87a6d88-2031-4769-a3bb-ec9827774622">
+    <name>ПрисвоенНомерПоШаблону</name>
+    <synonym>
+      <key>ru</key>
+      <value>Присвоен номер по шаблону</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="fa2beb06-d619-42b0-9431-d01a4f1e0e5e">
+    <name>ШагСчетчика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаг</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>11</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e1541311-7e2e-47c0-abd2-254f9bb3e5c2">
+    <name>ШаблонКодаРодителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон кода</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ШаблоныЗаполнения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="40b8c450-db34-442c-9c79-26d454f7f7c9">
+    <name>ШаблонНаименования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон наименования</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ШаблоныЗаполнения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="36c9adb1-8348-434a-8e2c-c99a9cf0599b">
+    <name>МаксКолВоАтрибутов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макс. кол-во атрибутов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7112c765-358a-4766-a966-438668ec7335">
+    <name>КолВоЗакладок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кол-во закладок</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="018aaa24-efbd-4495-aecb-132741674117">
+    <name>ОбъектТОиР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект ТОиР</value>
+    </synonym>
+    <type>
+      <types>CatalogRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="89e7ef45-0ab4-4a2b-a278-aedf6d818c8d">
+    <producedTypes>
+      <objectType typeId="1c1e902a-7fdf-40d8-a665-bb8928e8cda6" valueTypeId="2ef593ca-f960-417b-a30f-eb04429076a5"/>
+      <rowType typeId="e83c9593-d0e1-44a2-a0a2-5c7d3fa263a3" valueTypeId="8dfe8bd9-531a-4d7a-bf83-a1c9a7321ec3"/>
+    </producedTypes>
+    <name>ЗначенияСписочныхАтрибутов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значения списочных атрибутов</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="4a35ff7c-3f4b-4143-b79e-ed6063e05b01">
+      <name>АтрибутКласса</name>
+      <synonym>
+        <key>ru</key>
+        <value>Атрибут класса</value>
+      </synonym>
+      <type>
+        <types>ChartOfCharacteristicTypesRef.АтрибутыКласса</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="2c9e2f76-894d-440f-b0a8-bcfef40e783b">
+      <name>ЗначениеАтрибутаКласса</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение атрибута класса</value>
+      </synonym>
+      <type>
+        <types>Characteristic.АтрибутыКласса</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceFoldersAndItems>FoldersAndItems</choiceFoldersAndItems>
+      <linkByType>
+        <field>DataProcessor.РедактированиеНоменклатурыКлассов.TabularSection.ЗначенияСписочныхАтрибутов.Attribute.АтрибутКласса</field>
+      </linkByType>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="efdab912-a07b-4b9e-b6f6-fc9258514bf0">
+      <name>СтатусНаследования</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статус наследования</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>2</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="4c1e754c-2ed7-4234-bb1a-9e6ad937854d">
+    <producedTypes>
+      <objectType typeId="b86e5ebd-f79d-4298-84ae-a90af5c78f63" valueTypeId="eafb92d2-4561-4a5e-9fa8-7719dc408cd0"/>
+      <rowType typeId="2b90d715-1fc5-4281-8dfe-78f05f55d319" valueTypeId="768eefa6-407d-4330-b967-bb43144ed4b4"/>
+    </producedTypes>
+    <name>СтрокиТабличныхАтрибутов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строки табличных атрибутов</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="481e38b2-7691-46c6-8ea5-3147a74b54a7">
+      <name>АтрибутКласса</name>
+      <synonym>
+        <key>ru</key>
+        <value>Атрибут класса</value>
+      </synonym>
+      <type>
+        <types>ChartOfCharacteristicTypesRef.АтрибутыКласса</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="f4bb6243-8f9c-4808-809b-14bffb03869a">
+      <name>ИДСтрокиРодителя</name>
+      <synonym>
+        <key>ru</key>
+        <value>ИДСтроки родителя</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="a0316ff4-aaa8-4bb3-a139-346e80e0644f">
+      <name>ИДСтроки</name>
+      <synonym>
+        <key>ru</key>
+        <value>ИДСтроки</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="5259fbf6-949d-4170-a71b-fab5b1ef924e">
+      <name>Порядок</name>
+      <synonym>
+        <key>ru</key>
+        <value>Порядок</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="9242d141-21df-49c7-b1dd-b8e81aa3a5e9">
+      <name>СтатусНаследования</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статус наследования</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="628b04cf-55f0-4686-ae74-0f2adc9a397b">
+      <name>ИсточникЗначений</name>
+      <synonym>
+        <key>ru</key>
+        <value>Источник значений</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Классы</types>
+        <types>CatalogRef.НоменклатураКласса</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="a1130217-9399-4bbf-88e8-0c81c7716fad">
+      <name>НоменклатураКласса</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура класса</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>На основании данного класса возможно создание номенклатуры класса</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="75fc092a-f3d7-46b1-9a79-31b3d3a681b7">
+      <name>ОбъектыНоменклатуры</name>
+      <synonym>
+        <key>ru</key>
+        <value>Объекты номенклатуры</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>На основании номенклатуры данного класса возможно создание объектов номенклатуры.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="ea30cdf5-d810-465f-be7b-4830c3adfd1d">
+      <name>ЗначениеАтрибутаКласса</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение атрибута класса</value>
+      </synonym>
+      <type>
+        <types>Characteristic.АтрибутыКласса</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceFoldersAndItems>FoldersAndItems</choiceFoldersAndItems>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="2b0034b8-115c-453e-9718-445cd50ee437">
+      <name>Наименование</name>
+      <synonym>
+        <key>ru</key>
+        <value>Наименование</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="d55134e1-e6b3-4700-899a-82a29665cb6c">
+    <producedTypes>
+      <objectType typeId="03c3682a-e9bc-430b-a4a8-e7195bbb2e00" valueTypeId="ad1507e3-cf4d-4704-b78e-19d5de1bf75e"/>
+      <rowType typeId="c43f7eee-4444-4b00-945b-d2ebc4824f1c" valueTypeId="0091c412-39e7-4ee4-b23d-00c311518cee"/>
+    </producedTypes>
+    <name>ЗначенияТабличныхАтрибутов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значения табличных атрибутов</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="231c3f0a-6f93-40e5-8079-030a49f5d49f">
+      <name>АтрибутКласса</name>
+      <synonym>
+        <key>ru</key>
+        <value>Атрибут класса</value>
+      </synonym>
+      <type>
+        <types>ChartOfCharacteristicTypesRef.АтрибутыКласса</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="c6fa0838-3b1f-425c-af7a-fa41c22da883">
+      <name>АтрибутТаблицы</name>
+      <synonym>
+        <key>ru</key>
+        <value>Атрибут таблицы</value>
+      </synonym>
+      <type>
+        <types>ChartOfCharacteristicTypesRef.АтрибутыКласса</types>
+        <types>CatalogRef.ВложенныеАтрибутыКласса</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="168cbdba-d7cb-42e1-864d-3ebad69690ba">
+      <name>ЗначениеАтрибутаТаблицы</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение атрибута таблицы</value>
+      </synonym>
+      <type>
+        <types>Characteristic.АтрибутыКласса</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <linkByType>
+        <field>DataProcessor.РедактированиеНоменклатурыКлассов.TabularSection.ЗначенияТабличныхАтрибутов.Attribute.АтрибутТаблицы</field>
+      </linkByType>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="ec2ab624-778f-44dc-bffa-59ce29a12cf0">
+      <name>ИДСтроки</name>
+      <synonym>
+        <key>ru</key>
+        <value>ИДСтроки</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="746426ef-f61b-49de-bc4b-0dcf96386198">
+      <name>ИДСтрокиРодителя</name>
+      <synonym>
+        <key>ru</key>
+        <value>ИДСтроки родителя</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="38f9aaa8-9a6e-401a-83d3-13f1d2e5c3bb">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e54e6cae-27d2-4cde-bfbe-14f31099d05e">
+    <name>ФормаНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

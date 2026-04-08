@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f5421d8b-72b5-4ba8-ab91-a45b0a8dc321" extendedConfigurationObject="8d3cc374-5817-40f3-9df6-6149fcc54477">
+  <producedTypes>
+    <managerType typeId="1276a947-8e7e-44a8-b21e-accc3e943a28" valueTypeId="87114f5f-bb46-401d-819a-d229a2493ad6"/>
+    <valueManagerType typeId="ca4cb2ea-eb99-4591-8ce8-584e82aa4793" valueTypeId="5675f444-9c7c-4194-ad3a-0def090f1fc4"/>
+    <valueKeyType typeId="0f8897a0-1c25-46df-9aed-e4237c2e6b84" valueTypeId="1ac0a869-4630-4b2a-b84c-830ab012a009"/>
+  </producedTypes>
+  <name>гкс_МинимальнаяДатаОбменаАСУТП</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Date</type>
+      </types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </typeExtension>
+  </extension>
+</mdclass:Constant>

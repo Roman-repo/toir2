@@ -1,0 +1,2006 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <title>
+    <key>ru</key>
+    <value>Настройки и справочники</value>
+  </title>
+  <title>
+    <key>es</key>
+    <value>Los ajustes y las guías</value>
+  </title>
+  <title>
+    <key>en</key>
+    <value>Settings and references</value>
+  </title>
+  <items xsi:type="form:Decoration">
+    <name>ДекорацияОтступ</name>
+    <id>17</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <extendedTooltip>
+      <name>ДекорацияОтступExtendedTooltip</name>
+      <id>205</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ДекорацияОтступКонтекстноеМеню</name>
+      <id>18</id>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>Label</type>
+    <autoMaxWidth>true</autoMaxWidth>
+    <autoMaxHeight>true</autoMaxHeight>
+    <extInfo xsi:type="form:LabelDecorationExtInfo">
+      <horizontalAlign>Left</horizontalAlign>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormGroup">
+    <name>ГруппаОбъектыРемонта</name>
+    <id>260</id>
+    <items xsi:type="form:FormGroup">
+      <name>ГруппаОбъектыРемонтаГоризонтальная1</name>
+      <id>262</id>
+      <items xsi:type="form:FormGroup">
+        <name>ГруппаСтруктурыОбъектовРемонта</name>
+        <id>264</id>
+        <items xsi:type="form:Button">
+          <name>ОткрытьСтруктурыОбъектовРемонта</name>
+          <id>266</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ОткрытьСтруктурыОбъектовРемонтаРасширеннаяПодсказка</name>
+            <id>267</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>Hyperlink</type>
+          <commandName>Form.Command.ОткрытьСтруктурыОбъектовРемонта</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
+        <items xsi:type="form:Decoration">
+          <name>ДекорацияСтруктурыОбъектовРемонта</name>
+          <id>268</id>
+          <title>
+            <key>ru</key>
+            <value>Справочник предназначен для хранения перечня структур объектов ремонта.</value>
+          </title>
+          <title>
+            <key>es</key>
+            <value>La guía es destinada al almacenaje de la lista de las estructuras de los objetos de la reparación.</value>
+          </title>
+          <title>
+            <key>en</key>
+            <value>The directory is intended to store a list of structures of repair objects.</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ДекорацияСтруктурыОбъектовРемонтаРасширеннаяПодсказка</name>
+            <id>270</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ДекорацияСтруктурыОбъектовРемонтаКонтекстноеМеню</name>
+            <id>269</id>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>Label</type>
+          <autoMaxHeight>true</autoMaxHeight>
+          <textColor xsi:type="core:ColorRef">
+            <color>Style.ПоясняющийТекст</color>
+          </textColor>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+            <verticalAlign>Top</verticalAlign>
+          </extInfo>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Группа структуры объектов ремонта</value>
+        </title>
+        <title>
+          <key>es</key>
+          <value>El grupo de la estructura de los objetos de la reparación</value>
+        </title>
+        <title>
+          <key>en</key>
+          <value>Repair objects structure group</value>
+        </title>
+        <toolTip>
+          <key>ru</key>
+          <value>Группа структуры объектов ремонта</value>
+        </toolTip>
+        <toolTip>
+          <key>es</key>
+          <value>El grupo de la estructura de los objetos de la reparación</value>
+        </toolTip>
+        <toolTip>
+          <key>en</key>
+          <value>Repair objects structure group</value>
+        </toolTip>
+        <horizontalStretch>true</horizontalStretch>
+        <extendedTooltip>
+          <name>ГруппаСтруктурыОбъектовРемонтаРасширеннаяПодсказка</name>
+          <id>265</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>Vertical</group>
+          <behavior>Auto</behavior>
+          <representation>WeakSeparation</representation>
+          <showLeftMargin>true</showLeftMargin>
+          <united>true</united>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>Auto</currentRowUse>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormGroup">
+        <name>ГруппаПриоритетыОбъектовРемонта</name>
+        <id>271</id>
+        <items xsi:type="form:Button">
+          <name>ОткрытьПриоритетыОбъектовРемонта</name>
+          <id>273</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ОткрытьПриоритетыОбъектовРемонтаРасширеннаяПодсказка</name>
+            <id>274</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>Hyperlink</type>
+          <commandName>Form.Command.ОткрытьПриоритетыОбъектовРемонта</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
+        <items xsi:type="form:Decoration">
+          <name>ДекорацияПриоритетыОбъектовРемонта</name>
+          <id>275</id>
+          <title>
+            <key>ru</key>
+            <value>Справочник содержит приоритеты объектов ремонта, которые используются в системе для организации строгой последовательности выполнения работ по ремонту и обслуживанию оборудования, а в частности при расчете графика ППР.</value>
+          </title>
+          <title>
+            <key>es</key>
+            <value>La guía contiene las prioridades de los objetos de la reparación, que se usan en el sistema para la organización de la consecuencia rigurosa de la ejecución de los trabajos de la reparación y el servicio de la maquinaria, y en particular al cálculo del gráfico ППР.</value>
+          </title>
+          <title>
+            <key>en</key>
+            <value>The directory contains the priorities of the repair objects that are used in the system to organize a strict sequence of repair and maintenance of equipment, and in particular when calculating the maintenance schedule.</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ДекорацияПриоритетыОбъектовРемонтаРасширеннаяПодсказка</name>
+            <id>277</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ДекорацияПриоритетыОбъектовРемонтаКонтекстноеМеню</name>
+            <id>276</id>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>Label</type>
+          <autoMaxHeight>true</autoMaxHeight>
+          <textColor xsi:type="core:ColorRef">
+            <color>Style.ПоясняющийТекст</color>
+          </textColor>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+            <verticalAlign>Top</verticalAlign>
+          </extInfo>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Группа приоритеты объектов ремонта</value>
+        </title>
+        <title>
+          <key>es</key>
+          <value>El grupo las prioridades de los objetos de la reparación</value>
+        </title>
+        <title>
+          <key>en</key>
+          <value>Priority group of repair facilities</value>
+        </title>
+        <toolTip>
+          <key>ru</key>
+          <value>Группа приоритеты объектов ремонта</value>
+        </toolTip>
+        <toolTip>
+          <key>es</key>
+          <value>El grupo las prioridades de los objetos de la reparación</value>
+        </toolTip>
+        <toolTip>
+          <key>en</key>
+          <value>Priority group of repair facilities</value>
+        </toolTip>
+        <horizontalStretch>true</horizontalStretch>
+        <extendedTooltip>
+          <name>ГруппаПриоритетыОбъектовРемонтаРасширеннаяПодсказка</name>
+          <id>272</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>Vertical</group>
+          <behavior>Auto</behavior>
+          <representation>WeakSeparation</representation>
+          <showLeftMargin>true</showLeftMargin>
+          <united>true</united>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>Auto</currentRowUse>
+        </extInfo>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Группа объекты ремонта горизонтальная1</value>
+      </title>
+      <title>
+        <key>es</key>
+        <value>El grupo los objetos de la reparación горизонтальная1</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Group repair objects horizontal1</value>
+      </title>
+      <extendedTooltip>
+        <name>ГруппаОбъектыРемонтаГоризонтальная1РасширеннаяПодсказка</name>
+        <id>263</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualGroup</type>
+      <extInfo xsi:type="form:UsualGroupExtInfo">
+        <group>AlwaysHorizontal</group>
+        <behavior>Auto</behavior>
+        <representation>WeakSeparation</representation>
+        <showLeftMargin>true</showLeftMargin>
+        <throughAlign>Auto</throughAlign>
+        <currentRowUse>Auto</currentRowUse>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormGroup">
+      <name>ГруппаОбъектыРемонтаГоризонтальная2</name>
+      <id>278</id>
+      <items xsi:type="form:FormGroup">
+        <name>ГруппаНаправленияОбъектовРемонтныхРабот</name>
+        <id>280</id>
+        <items xsi:type="form:Button">
+          <name>ОткрытьНаправленияОбъектовРемонтныхРабот</name>
+          <id>282</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ОткрытьНаправленияОбъектовРемонтныхРаботРасширеннаяПодсказка</name>
+            <id>283</id>
+            <type>Label</type>
+            <autoMaxHeight>true</autoMaxHeight>
+            <textColor xsi:type="core:ColorRef">
+              <color>Style.ПоясняющийТекст</color>
+            </textColor>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>Hyperlink</type>
+          <commandName>Form.Command.ОткрытьНаправленияОбъектовРемонтныхРабот</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Группа направления объектов ремонта</value>
+        </title>
+        <title>
+          <key>es</key>
+          <value>El grupo de la dirección de los objetos de la reparación</value>
+        </title>
+        <title>
+          <key>en</key>
+          <value>Group of direction of repair objects</value>
+        </title>
+        <toolTip>
+          <key>ru</key>
+          <value>Группа направления объектов ремонта</value>
+        </toolTip>
+        <toolTip>
+          <key>es</key>
+          <value>El grupo de la dirección de los objetos de la reparación</value>
+        </toolTip>
+        <toolTip>
+          <key>en</key>
+          <value>Group of direction of repair objects</value>
+        </toolTip>
+        <extendedTooltip>
+          <name>ГруппаНаправленияОбъектовРемонтныхРаботРасширеннаяПодсказка</name>
+          <id>281</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>Vertical</group>
+          <behavior>Auto</behavior>
+          <representation>WeakSeparation</representation>
+          <showLeftMargin>true</showLeftMargin>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>Auto</currentRowUse>
+        </extInfo>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Группа объекты ремонта горизонтальная2</value>
+      </title>
+      <title>
+        <key>es</key>
+        <value>El grupo los objetos de la reparación горизонтальная2</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Group repair objects horizontal2</value>
+      </title>
+      <toolTip>
+        <key>ru</key>
+        <value>Группа объекты ремонта горизонтальная2</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El grupo los objetos de la reparación горизонтальная2</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Group repair objects horizontal2</value>
+      </toolTip>
+      <extendedTooltip>
+        <name>ГруппаОбъектыРемонтаГоризонтальная2РасширеннаяПодсказка</name>
+        <id>279</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualGroup</type>
+      <extInfo xsi:type="form:UsualGroupExtInfo">
+        <group>AlwaysHorizontal</group>
+        <behavior>Auto</behavior>
+        <representation>WeakSeparation</representation>
+        <showLeftMargin>true</showLeftMargin>
+        <throughAlign>Auto</throughAlign>
+        <currentRowUse>Auto</currentRowUse>
+      </extInfo>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Объекты ремонта</value>
+    </title>
+    <title>
+      <key>es</key>
+      <value>Los objetos de la reparación</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Repair objects</value>
+    </title>
+    <titleFont xsi:type="core:FontRef">
+      <font>System.DefaultGUIFont</font>
+      <height>10.0</height>
+      <bold>true</bold>
+      <italic>false</italic>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+    </titleFont>
+    <toolTip>
+      <key>ru</key>
+      <value>Группа объекты ремонта</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El grupo los objetos de la reparación</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Group objects repair</value>
+    </toolTip>
+    <horizontalStretch>true</horizontalStretch>
+    <extendedTooltip>
+      <name>ГруппаОбъектыРемонтаРасширеннаяПодсказка</name>
+      <id>261</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>Vertical</group>
+      <behavior>Auto</behavior>
+      <representation>WeakSeparation</representation>
+      <showLeftMargin>true</showLeftMargin>
+      <showTitle>true</showTitle>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormGroup">
+    <name>ГруппаКоэффициентыРемонтныхОсобенностей</name>
+    <id>71</id>
+    <items xsi:type="form:FormGroup">
+      <name>ГруппаКоэффициентыРемонтныхОсобенностейГоризонтальная1</name>
+      <id>145</id>
+      <items xsi:type="form:FormGroup">
+        <name>ГруппаВидыКоэффициентовРемонтныхОсобенностей</name>
+        <id>76</id>
+        <items xsi:type="form:Button">
+          <name>ОткрытьВидыКоэффициентовРемонтныхОсобенностей</name>
+          <id>248</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ОткрытьВидыКоэффициентовРемонтныхОсобенностейРасширеннаяПодсказка</name>
+            <id>249</id>
+            <type>Label</type>
+            <autoMaxHeight>true</autoMaxHeight>
+            <textColor xsi:type="core:ColorRef">
+              <color>Style.ПоясняющийТекст</color>
+            </textColor>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>Hyperlink</type>
+          <commandName>Form.Command.ОткрытьВидыКоэффициентовРемонтныхОсобенностей</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Виды коэффициентов ремонтных особенностей</value>
+        </title>
+        <title>
+          <key>es</key>
+          <value>Los tipos de los coeficientes de los rasgos de reparación</value>
+        </title>
+        <title>
+          <key>en</key>
+          <value>Types of repair features</value>
+        </title>
+        <toolTip>
+          <key>ru</key>
+          <value>Группа виды коэффициентов ремонтных особенностей</value>
+        </toolTip>
+        <toolTip>
+          <key>es</key>
+          <value>El grupo los tipos de los coeficientes de los rasgos de reparación</value>
+        </toolTip>
+        <toolTip>
+          <key>en</key>
+          <value>Group types of repair factors</value>
+        </toolTip>
+        <extendedTooltip>
+          <name>ГруппаВидыКоэффициентовРемонтныхОсобенностейРасширеннаяПодсказка</name>
+          <id>247</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>Vertical</group>
+          <behavior>Auto</behavior>
+          <showLeftMargin>true</showLeftMargin>
+          <united>true</united>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>Auto</currentRowUse>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormGroup">
+        <name>ГруппаЗначенияКоэффициентовРемонтныхОсобенностей</name>
+        <id>253</id>
+        <items xsi:type="form:Button">
+          <name>ОткрытьЗначенияКоэффициентовРемонтныхОсобенностей</name>
+          <id>255</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ОткрытьЗначенияКоэффициентовРемонтныхОсобенностейРасширеннаяПодсказка</name>
+            <id>256</id>
+            <type>Label</type>
+            <autoMaxHeight>true</autoMaxHeight>
+            <textColor xsi:type="core:ColorRef">
+              <color>Style.ПоясняющийТекст</color>
+            </textColor>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>Hyperlink</type>
+          <commandName>Form.Command.ОткрытьЗначенияКоэффициентовРемонтныхОсобенностей</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Группа значения коэффициентов ремонтных особенностей</value>
+        </title>
+        <title>
+          <key>es</key>
+          <value>El grupo del significado de los coeficientes de los rasgos de reparación</value>
+        </title>
+        <title>
+          <key>en</key>
+          <value>The group of values ​​of the coefficients of repair features</value>
+        </title>
+        <extendedTooltip>
+          <name>ГруппаЗначенияКоэффициентовРемонтныхОсобенностейРасширеннаяПодсказка</name>
+          <id>254</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>Vertical</group>
+          <behavior>Auto</behavior>
+          <representation>WeakSeparation</representation>
+          <showLeftMargin>true</showLeftMargin>
+          <united>true</united>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>Auto</currentRowUse>
+        </extInfo>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Группа коэффициенты ремонтных особенностей горизонтальная1</value>
+      </title>
+      <title>
+        <key>es</key>
+        <value>El grupo los coeficientes de los rasgos de reparación горизонтальная1</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Group of repair features horizontal factors1</value>
+      </title>
+      <titleFont xsi:type="core:FontRef">
+        <font>System.DefaultGUIFont</font>
+        <height>10.0</height>
+        <bold>true</bold>
+        <italic>false</italic>
+        <underline>false</underline>
+        <strikeout>false</strikeout>
+      </titleFont>
+      <width>86</width>
+      <horizontalStretch>false</horizontalStretch>
+      <extendedTooltip>
+        <name>ГруппаКоэффициентыРемонтныхОсобенностейГоризонтальная1РасширеннаяПодсказка</name>
+        <id>246</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualGroup</type>
+      <extInfo xsi:type="form:UsualGroupExtInfo">
+        <group>AlwaysHorizontal</group>
+        <behavior>Auto</behavior>
+        <showLeftMargin>true</showLeftMargin>
+        <slaveItemsWidth>Equal</slaveItemsWidth>
+        <throughAlign>Auto</throughAlign>
+        <currentRowUse>Auto</currentRowUse>
+      </extInfo>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Коэффициенты ремонтных особенностей</value>
+    </title>
+    <title>
+      <key>es</key>
+      <value>Los coeficientes de los rasgos de reparación</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Repair features coefficient</value>
+    </title>
+    <titleFont xsi:type="core:FontRef">
+      <font>System.DefaultGUIFont</font>
+      <height>10.0</height>
+      <bold>true</bold>
+      <italic>false</italic>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+    </titleFont>
+    <toolTip>
+      <key>ru</key>
+      <value>Ценообразование</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>La formación de precios</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Pricing</value>
+    </toolTip>
+    <horizontalStretch>true</horizontalStretch>
+    <extendedTooltip>
+      <name>ГруппаКоэффициентыРемонтныхОсобенностейРасширеннаяПодсказка</name>
+      <id>245</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>Vertical</group>
+      <behavior>Auto</behavior>
+      <representation>NormalSeparation</representation>
+      <showLeftMargin>true</showLeftMargin>
+      <showTitle>true</showTitle>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormGroup">
+    <name>ГруппаКонтролируемыеПоказатели</name>
+    <id>301</id>
+    <items xsi:type="form:FormGroup">
+      <name>ГруппаКонтролируемыеПоказателиГоризонтальная</name>
+      <id>303</id>
+      <items xsi:type="form:FormGroup">
+        <name>ГруппаКонтролируемыеПоказателиОбъектовРемонта</name>
+        <id>305</id>
+        <items xsi:type="form:Button">
+          <name>ОткрытьКонтролируемыеПоказателиОбъектовРемонта</name>
+          <id>315</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ОткрытьКонтролируемыеПоказателиОбъектовРемонтаРасширеннаяПодсказка</name>
+            <id>316</id>
+            <type>Label</type>
+            <autoMaxHeight>true</autoMaxHeight>
+            <textColor xsi:type="core:ColorRef">
+              <color>Style.ПоясняющийТекст</color>
+            </textColor>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>Hyperlink</type>
+          <commandName>Form.Command.ОткрытьКонтролируемыеПоказателиОбъектовРемонта</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Группа контролируемые показатели объектов ремонта</value>
+        </title>
+        <title>
+          <key>es</key>
+          <value>El grupo los índices controlados de los objetos de la reparación</value>
+        </title>
+        <title>
+          <key>en</key>
+          <value>Group of controlled indicators of repair facilities</value>
+        </title>
+        <toolTip>
+          <key>ru</key>
+          <value>Группа контролируемые показатели объектов ремонта</value>
+        </toolTip>
+        <toolTip>
+          <key>es</key>
+          <value>El grupo los índices controlados de los objetos de la reparación</value>
+        </toolTip>
+        <toolTip>
+          <key>en</key>
+          <value>Group of controlled indicators of repair facilities</value>
+        </toolTip>
+        <extendedTooltip>
+          <name>ГруппаКонтролируемыеПоказателиОбъектовРемонтаРасширеннаяПодсказка</name>
+          <id>306</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>Vertical</group>
+          <behavior>Auto</behavior>
+          <representation>WeakSeparation</representation>
+          <showLeftMargin>true</showLeftMargin>
+          <united>true</united>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>Auto</currentRowUse>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormGroup">
+        <name>ГруппаЗначенияИзмеряемыхПоказателейОбъектовРемонта</name>
+        <id>310</id>
+        <items xsi:type="form:Button">
+          <name>ОткрытьЗначенияИзмеряемыхПоказателейОбъектовРемонта</name>
+          <id>317</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ОткрытьЗначенияИзмеряемыхПоказателейОбъектовРемонтаРасширеннаяПодсказка</name>
+            <id>318</id>
+            <type>Label</type>
+            <autoMaxHeight>true</autoMaxHeight>
+            <textColor xsi:type="core:ColorRef">
+              <color>Style.ПоясняющийТекст</color>
+            </textColor>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>Hyperlink</type>
+          <commandName>Form.Command.ОткрытьЗначенияИзмеряемыхПоказателейОбъектовРемонта</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Значения измеряемых показателей объектов ремонта</value>
+        </title>
+        <title>
+          <key>es</key>
+          <value>Los significados de los índices medidos de los objetos de la reparación</value>
+        </title>
+        <title>
+          <key>en</key>
+          <value>Values ​​of measured indicators of repair objects</value>
+        </title>
+        <toolTip>
+          <key>ru</key>
+          <value>Группа значения измеряемых показателей объектов ремонта</value>
+        </toolTip>
+        <toolTip>
+          <key>es</key>
+          <value>El grupo del significado de los índices medidos de los objetos de la reparación</value>
+        </toolTip>
+        <toolTip>
+          <key>en</key>
+          <value>The group of values ​​of measured indicators of repair objects</value>
+        </toolTip>
+        <extendedTooltip>
+          <name>ГруппаЗначенияИзмеряемыхПоказателейОбъектовРемонтаРасширеннаяПодсказка</name>
+          <id>311</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>Vertical</group>
+          <behavior>Auto</behavior>
+          <representation>WeakSeparation</representation>
+          <showLeftMargin>true</showLeftMargin>
+          <united>true</united>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>Auto</currentRowUse>
+        </extInfo>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Группа контролируемые показатели горизонтальная</value>
+      </title>
+      <title>
+        <key>es</key>
+        <value>El grupo los índices controlados horizontal</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Group controlled indicators horizontal</value>
+      </title>
+      <toolTip>
+        <key>ru</key>
+        <value>Группа контролируемые показатели горизонтальная</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El grupo los índices controlados horizontal</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Group controlled indicators horizontal</value>
+      </toolTip>
+      <extendedTooltip>
+        <name>ГруппаКонтролируемыеПоказателиГоризонтальнаяРасширеннаяПодсказка</name>
+        <id>304</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualGroup</type>
+      <extInfo xsi:type="form:UsualGroupExtInfo">
+        <group>AlwaysHorizontal</group>
+        <behavior>Auto</behavior>
+        <representation>WeakSeparation</representation>
+        <showLeftMargin>true</showLeftMargin>
+        <throughAlign>Auto</throughAlign>
+        <currentRowUse>Auto</currentRowUse>
+      </extInfo>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Контролируемые показатели</value>
+    </title>
+    <title>
+      <key>es</key>
+      <value>Los índices controlados</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Controlled indicators</value>
+    </title>
+    <titleFont xsi:type="core:FontRef">
+      <font>System.DefaultGUIFont</font>
+      <height>10.0</height>
+      <bold>true</bold>
+      <italic>false</italic>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+    </titleFont>
+    <toolTip>
+      <key>ru</key>
+      <value>Группа контролируемые показатели</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El grupo los índices controlados</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Group controlled indicators</value>
+    </toolTip>
+    <horizontalStretch>true</horizontalStretch>
+    <extendedTooltip>
+      <name>ГруппаКонтролируемыеПоказателиРасширеннаяПодсказка</name>
+      <id>302</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>Vertical</group>
+      <behavior>Auto</behavior>
+      <representation>WeakSeparation</representation>
+      <showLeftMargin>true</showLeftMargin>
+      <showTitle>true</showTitle>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormGroup">
+    <name>ГруппаУчетНаработкиОборудования</name>
+    <id>319</id>
+    <items xsi:type="form:FormGroup">
+      <name>ГруппаУчетНаработкиОборудованияГоризонтальная</name>
+      <id>321</id>
+      <items xsi:type="form:FormGroup">
+        <name>ГруппаПараметрыВыработкиОС</name>
+        <id>323</id>
+        <items xsi:type="form:Button">
+          <name>ОткрытьПараметрыВыработкиОС</name>
+          <id>327</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ОткрытьПараметрыВыработкиОСРасширеннаяПодсказка</name>
+            <id>328</id>
+            <type>Label</type>
+            <autoMaxHeight>true</autoMaxHeight>
+            <textColor xsi:type="core:ColorRef">
+              <color>Style.ПоясняющийТекст</color>
+            </textColor>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>Hyperlink</type>
+          <commandName>Form.Command.ОткрытьПараметрыВыработкиОС</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Группа параметры выработки ОС</value>
+        </title>
+        <title>
+          <key>es</key>
+          <value>El grupo los parámetros de la fabricación de la SO</value>
+        </title>
+        <title>
+          <key>en</key>
+          <value>OS generation parameters group</value>
+        </title>
+        <toolTip>
+          <key>ru</key>
+          <value>Группа параметры выработки ОС</value>
+        </toolTip>
+        <toolTip>
+          <key>es</key>
+          <value>El grupo los parámetros de la fabricación de la SO</value>
+        </toolTip>
+        <toolTip>
+          <key>en</key>
+          <value>OS generation parameters group</value>
+        </toolTip>
+        <extendedTooltip>
+          <name>ГруппаПараметрыВыработкиОСРасширеннаяПодсказка</name>
+          <id>324</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>Vertical</group>
+          <behavior>Auto</behavior>
+          <representation>WeakSeparation</representation>
+          <showLeftMargin>true</showLeftMargin>
+          <united>true</united>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>Auto</currentRowUse>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormGroup">
+        <name>ГруппаПричиныИзмененияНаработки</name>
+        <id>325</id>
+        <items xsi:type="form:Button">
+          <name>ОткрытьПричиныИзмененияНаработки</name>
+          <id>329</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ОткрытьПричиныИзмененияНаработкиРасширеннаяПодсказка</name>
+            <id>330</id>
+            <type>Label</type>
+            <autoMaxHeight>true</autoMaxHeight>
+            <textColor xsi:type="core:ColorRef">
+              <color>Style.ПоясняющийТекст</color>
+            </textColor>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>Hyperlink</type>
+          <commandName>Form.Command.ОткрытьПричиныИзмененияНаработки</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Группа причины изменения наработки</value>
+        </title>
+        <title>
+          <key>es</key>
+          <value>El grupo de la causa del cambio de la elaboración</value>
+        </title>
+        <title>
+          <key>en</key>
+          <value>Operating time change reasons group</value>
+        </title>
+        <toolTip>
+          <key>ru</key>
+          <value>Группа причины изменения наработки</value>
+        </toolTip>
+        <toolTip>
+          <key>es</key>
+          <value>El grupo de la causa del cambio de la elaboración</value>
+        </toolTip>
+        <toolTip>
+          <key>en</key>
+          <value>Operating time change reasons group</value>
+        </toolTip>
+        <extendedTooltip>
+          <name>ГруппаПричиныИзмененияНаработкиРасширеннаяПодсказка</name>
+          <id>326</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>Vertical</group>
+          <behavior>Auto</behavior>
+          <representation>WeakSeparation</representation>
+          <showLeftMargin>true</showLeftMargin>
+          <united>true</united>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>Auto</currentRowUse>
+        </extInfo>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Группа учет наработки оборудования горизонтальная</value>
+      </title>
+      <title>
+        <key>es</key>
+        <value>El grupo el recuento de la elaboración de la maquinaria horizontal</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Group operating hours equipment horizontal</value>
+      </title>
+      <toolTip>
+        <key>ru</key>
+        <value>Группа учет наработки оборудования горизонтальная</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El grupo el recuento de la elaboración de la maquinaria horizontal</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Group operating hours equipment horizontal</value>
+      </toolTip>
+      <extendedTooltip>
+        <name>ГруппаУчетНаработкиОборудованияГоризонтальнаяРасширеннаяПодсказка</name>
+        <id>322</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualGroup</type>
+      <extInfo xsi:type="form:UsualGroupExtInfo">
+        <group>AlwaysHorizontal</group>
+        <behavior>Auto</behavior>
+        <representation>WeakSeparation</representation>
+        <showLeftMargin>true</showLeftMargin>
+        <throughAlign>Auto</throughAlign>
+        <currentRowUse>Auto</currentRowUse>
+      </extInfo>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Учет наработки оборудования</value>
+    </title>
+    <title>
+      <key>es</key>
+      <value>El recuento de la elaboración de la maquinaria</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Accounting for equipment operating time</value>
+    </title>
+    <titleFont xsi:type="core:FontRef">
+      <font>System.DefaultGUIFont</font>
+      <height>10.0</height>
+      <bold>true</bold>
+      <italic>false</italic>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+    </titleFont>
+    <toolTip>
+      <key>ru</key>
+      <value>Группа учет наработки оборудования</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El grupo el recuento de la elaboración de la maquinaria</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Group operating hours equipment</value>
+    </toolTip>
+    <horizontalStretch>true</horizontalStretch>
+    <extendedTooltip>
+      <name>ГруппаУчетНаработкиОборудованияРасширеннаяПодсказка</name>
+      <id>320</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>Vertical</group>
+      <behavior>Auto</behavior>
+      <representation>WeakSeparation</representation>
+      <showLeftMargin>true</showLeftMargin>
+      <showTitle>true</showTitle>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormGroup">
+    <name>ГруппаЦепочкиРемонтов</name>
+    <id>287</id>
+    <items xsi:type="form:Button">
+      <name>ОткрытьЦепочкиРемонта</name>
+      <id>293</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ОткрытьЦепочкиРемонтаРасширеннаяПодсказка</name>
+        <id>294</id>
+        <type>Label</type>
+        <autoMaxHeight>true</autoMaxHeight>
+        <textColor xsi:type="core:ColorRef">
+          <color>Style.ПоясняющийТекст</color>
+        </textColor>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>Hyperlink</type>
+      <commandName>Form.Command.ОткрытьЦепочкиРемонтов</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Цепочки ремонтов</value>
+    </title>
+    <title>
+      <key>es</key>
+      <value>Las cadenitas de las reparaciones</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Repair chains</value>
+    </title>
+    <titleFont xsi:type="core:FontRef">
+      <font>System.DefaultGUIFont</font>
+      <height>10.0</height>
+      <bold>true</bold>
+      <italic>false</italic>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+    </titleFont>
+    <toolTip>
+      <key>ru</key>
+      <value>Группа цепочки ремонтов</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El grupo de la cadenita de las reparaciones</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Repair chain group</value>
+    </toolTip>
+    <horizontalStretch>true</horizontalStretch>
+    <extendedTooltip>
+      <name>ГруппаЦепочкиРемонтовРасширеннаяПодсказка</name>
+      <id>288</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>Vertical</group>
+      <behavior>Auto</behavior>
+      <representation>WeakSeparation</representation>
+      <showLeftMargin>true</showLeftMargin>
+      <showTitle>true</showTitle>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormGroup">
+    <name>ГруппаМерыБезопасности</name>
+    <id>289</id>
+    <items xsi:type="form:Button">
+      <name>ОткрытьМерыБезопасности</name>
+      <id>291</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ОткрытьМерыБезопасностиРасширеннаяПодсказка</name>
+        <id>292</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>Hyperlink</type>
+      <commandName>Form.Command.ОткрытьМерыБезопасности</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
+    <items xsi:type="form:Decoration">
+      <name>ДекорацияМерыБезопасности</name>
+      <id>298</id>
+      <title>
+        <key>ru</key>
+        <value>Справочник содержит описание мер безопасности при проведении ремонтных работ.</value>
+      </title>
+      <title>
+        <key>es</key>
+        <value>La guía contiene la descripción de las medidas de la seguridad durante la realización de los trabajos de reparación.</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>The directory contains a description of security measures during the repair work.</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ДекорацияМерыБезопасностиРасширеннаяПодсказка</name>
+        <id>300</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ДекорацияМерыБезопасностиКонтекстноеМеню</name>
+        <id>299</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>Label</type>
+      <autoMaxHeight>true</autoMaxHeight>
+      <textColor xsi:type="core:ColorRef">
+        <color>Style.ПоясняющийТекст</color>
+      </textColor>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Меры безопасности</value>
+    </title>
+    <title>
+      <key>es</key>
+      <value>Las medidas de la seguridad</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Security measures</value>
+    </title>
+    <titleFont xsi:type="core:FontRef">
+      <font>System.DefaultGUIFont</font>
+      <height>10.0</height>
+      <bold>true</bold>
+      <italic>false</italic>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+    </titleFont>
+    <toolTip>
+      <key>ru</key>
+      <value>Группа меры безопасности</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El grupo de la medida de la seguridad</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Security group</value>
+    </toolTip>
+    <horizontalStretch>true</horizontalStretch>
+    <extendedTooltip>
+      <name>ГруппаМерыБезопасностиРасширеннаяПодсказка</name>
+      <id>290</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>Vertical</group>
+      <behavior>Auto</behavior>
+      <representation>WeakSeparation</representation>
+      <showLeftMargin>true</showLeftMargin>
+      <showTitle>true</showTitle>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
+  </items>
+  <autoCommandBar>
+    <name>ФормаКоманднаяПанель</name>
+    <id>-1</id>
+    <horizontalAlign>Left</horizontalAlign>
+  </autoCommandBar>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
+  <autoUrl>true</autoUrl>
+  <group>Vertical</group>
+  <autoFillCheck>true</autoFillCheck>
+  <enabled>true</enabled>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
+  <formCommands>
+    <name>ОткрытьВидыКоэффициентовРемонтныхОсобенностей</name>
+    <title>
+      <key>ru</key>
+      <value>Виды коэффициентов ремонтных особенностей</value>
+    </title>
+    <title>
+      <key>es</key>
+      <value>Los tipos de los coeficientes de los rasgos de reparación</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Types of repair features</value>
+    </title>
+    <id>1</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Справочник предназначен для ведения списка коэффициентов ремонтных особенностей, оказывающих влияние на планирование ремонтов объектов ремонтов.</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>La guía es destinada a la gestión de la lista de los coeficientes de los rasgos de reparación, que ejercen la influencia en la planificación de las reparaciones de los objetos de las reparaciones.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>The directory is intended for maintaining a list of coefficients of repair features that affect the planning of repairs of repair objects.</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОткрытьВидыКоэффициентовРемонтныхОсобенностей</name>
+      </handler>
+    </action>
+    <functionalOptions>FunctionalOption.торо_ИспользоватьКоэффициентыРемОсобенностей</functionalOptions>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОткрытьЗначенияКоэффициентовРемонтныхОсобенностей</name>
+    <title>
+      <key>ru</key>
+      <value>Значения коэффициентов ремонтных особенностей</value>
+    </title>
+    <title>
+      <key>es</key>
+      <value>Los significados de los coeficientes de los rasgos de reparación</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>The values of the coefficients of repair features</value>
+    </title>
+    <id>2</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Справочник предназначен для ведения списка значений коэффициентов ремонтных особенностей. Справочник подчинен справочнику &quot;Виды коэффициентов ремонтных особенностей&quot;.</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>La guía es destinada a la gestión de la lista de los significados de los coeficientes de los rasgos de reparación. La guía es subordinada a la guía &quot;los Tipos de los coeficientes de los rasgos de reparación&quot;.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>The directory is intended for maintaining a list of values of the coefficients of repair features. The reference book is subordinate to the reference book “Types of coefficients of repair features”.</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОткрытьЗначенияКоэффициентовРемонтныхОсобенностей</name>
+      </handler>
+    </action>
+    <functionalOptions>FunctionalOption.торо_ИспользоватьКоэффициентыРемОсобенностей</functionalOptions>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОткрытьСтруктурыОбъектовРемонта</name>
+    <title>
+      <key>ru</key>
+      <value>Структуры иерархии объектов ремонта</value>
+    </title>
+    <title>
+      <key>es</key>
+      <value>Las estructuras de la jerarquía de los objetos de la reparación</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Structures of the hierarchy of repair objects</value>
+    </title>
+    <id>3</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Открыть структуры объектов ремонта</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>Abrir las estructuras de los objetos de la reparación</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Open structures of repair objects</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОткрытьСтруктурыОбъектовРемонта</name>
+      </handler>
+    </action>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОткрытьПриоритетыОбъектовРемонта</name>
+    <title>
+      <key>ru</key>
+      <value>Приоритеты объектов ремонта</value>
+    </title>
+    <title>
+      <key>es</key>
+      <value>Las prioridades de los objetos de la reparación</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Priorities of repair facilities</value>
+    </title>
+    <id>4</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Открыть приоритеты объектов ремонта</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>Abrir las prioridades de los objetos de la reparación</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Open priorities of repair facilities</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОткрытьПриоритетыОбъектовРемонта</name>
+      </handler>
+    </action>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОткрытьНаправленияОбъектовРемонтныхРабот</name>
+    <title>
+      <key>ru</key>
+      <value>Направления объектов ремонта</value>
+    </title>
+    <title>
+      <key>es</key>
+      <value>Las direcciones de los objetos de la reparación</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Directions of objects of repair</value>
+    </title>
+    <id>5</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Справочник предназначен для хранения перечня направлений объектов ремонта.</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>La guía es destinada al almacenaje de la lista de las direcciones de los objetos de la reparación.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>The directory is intended to store a list of directions of repair objects.</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОткрытьНаправленияОбъектовРемонтныхРабот</name>
+      </handler>
+    </action>
+    <functionalOptions>FunctionalOption.торо_ИспользоватьНаправленияОР</functionalOptions>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОткрытьЦепочкиРемонтов</name>
+    <title>
+      <key>ru</key>
+      <value>Цепочки ремонтов</value>
+    </title>
+    <title>
+      <key>es</key>
+      <value>Las cadenitas de las reparaciones</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Repair chains</value>
+    </title>
+    <id>6</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Справочник предназначен для создания фиксированных ремонтных циклов.</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>La guía es destinada a la creación de los ciclos fijados de reparación.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>The directory is intended to create fixed repair cycles.</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОткрытьЦепочкиРемонта</name>
+      </handler>
+    </action>
+    <functionalOptions>FunctionalOption.торо_ИспользоватьПланированиеПоЖесткимРемЦиклам</functionalOptions>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОткрытьМерыБезопасности</name>
+    <title>
+      <key>ru</key>
+      <value>Меры безопасности</value>
+    </title>
+    <title>
+      <key>es</key>
+      <value>Las medidas de la seguridad</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Security measures</value>
+    </title>
+    <id>7</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Открыть меры безопасности</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>Abrir las medidas de la seguridad</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Open security measures</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОткрытьМерыБезопасности</name>
+      </handler>
+    </action>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОткрытьКонтролируемыеПоказателиОбъектовРемонта</name>
+    <title>
+      <key>ru</key>
+      <value>Контролируемые показатели объектов ремонта</value>
+    </title>
+    <title>
+      <key>es</key>
+      <value>Los índices controlados de los objetos de la reparación</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Controlled indicators of repair facilities</value>
+    </title>
+    <id>8</id>
+    <toolTip>
+      <key>ru</key>
+      <value>План видов характеристик предназначен для хранения видов измеряемых показателей объектов ремонта.</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El plan de los tipos de las características es destinado al almacenaje de los tipos de los índices medidos de los objetos de la reparación.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>The plan of types of characteristics is intended for storing types of measured indicators of repair objects.</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОткрытьКонтролируемыеПоказателиОбъектовРемонта</name>
+      </handler>
+    </action>
+    <functionalOptions>FunctionalOption.торо_УчетКонтролируемыхПоказателей</functionalOptions>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОткрытьЗначенияИзмеряемыхПоказателейОбъектовРемонта</name>
+    <title>
+      <key>ru</key>
+      <value>Значения измеряемых показателей объектов ремонта</value>
+    </title>
+    <title>
+      <key>es</key>
+      <value>Los significados de los índices medidos de los objetos de la reparación</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Values ​​of measured indicators of repair objects</value>
+    </title>
+    <id>9</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Справочник содержит значения для различных характеристик определенных в объекте «Измеряемые показатели объектов ремонта» для объектов ремонта.</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>La guía contiene los significados para las características distintas determinado en el objeto «los índices Medidos de los objetos de la reparación» para los objetos de la reparación.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>The directory contains values for various characteristics defined in the object “Measured indicators of repair objects” for repair objects.</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОткрытьЗначенияИзмеряемыхПоказателейОбъектовРемонта</name>
+      </handler>
+    </action>
+    <functionalOptions>FunctionalOption.торо_УчетКонтролируемыхПоказателей</functionalOptions>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОткрытьПараметрыВыработкиОС</name>
+    <title>
+      <key>ru</key>
+      <value>Параметры наработки ОР</value>
+    </title>
+    <title>
+      <key>es</key>
+      <value>Los parámetros de la elaboración ОР</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>EI operating hours parameters</value>
+    </title>
+    <id>10</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Справочник предназначен для хранения списка параметров, по которым в системе учитывается выработка оборудования. Заполнение элементов справочника выполняется непосредственно в табличной части списка.</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>La guía es destinada al almacenaje de la lista de los parámetros, por que en el sistema es tomada en consideración la fabricación de la maquinaria. El relleno de los elementos de la guía se cumple directamente en la parte tabular de la lista.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>The directory is intended to store a list of parameters by which the production of equipment is taken into account in the system. Filling in the elements of the directory is carried out directly in the tabular part of the list.</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОткрытьПараметрыВыработкиОС</name>
+      </handler>
+    </action>
+    <functionalOptions>FunctionalOption.торо_УчетНаработкиОборудования</functionalOptions>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОткрытьПричиныИзмененияНаработки</name>
+    <title>
+      <key>ru</key>
+      <value>Причины изменения наработки</value>
+    </title>
+    <title>
+      <key>es</key>
+      <value>Las causas del cambio de la elaboración</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Reasons for the change in operating time</value>
+    </title>
+    <id>11</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Справочник предназначен для хранения информации о причинах изменения наработки.</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>La guía es destinada al almacenaje de la información sobre las causas del cambio de la elaboración.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>The directory is intended to store information about the reasons for the change in operating time.</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОткрытьПричиныИзмененияНаработки</name>
+      </handler>
+    </action>
+    <functionalOptions>FunctionalOption.торо_УчетНаработкиОборудования</functionalOptions>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <commandInterface>
+    <navigationPanel/>
+    <commandBar/>
+  </commandInterface>
+</form:Form>

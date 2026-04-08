@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7e85d100-1fff-4ef0-a13a-b26d037b26c7" extendedConfigurationObject="cdf61d80-a64e-443b-9ecf-963653eb4461">
+  <producedTypes>
+    <objectType typeId="9a3ae0cf-5f2a-47b3-9a0b-c5f19c4eea3b" valueTypeId="43d0b44f-2137-4ee4-8021-08687bfdc8f9"/>
+    <managerType typeId="91ff5f69-2f70-43a0-a8fe-5c5db11ed4b3" valueTypeId="b1869463-c9d0-4ab8-afbf-c7751cbef99b"/>
+  </producedTypes>
+  <name>торо_СводнаяДиаграммаГрафиковППР</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ReportExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <forms uuid="e289addf-1b1a-450a-a8ab-6e3bbb1305f0" extendedConfigurationObject="fe034600-0097-410d-b203-9fe1dcaa4505">
+    <name>ФормаОтчета</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Report>

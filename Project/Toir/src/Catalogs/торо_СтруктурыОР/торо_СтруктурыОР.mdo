@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e7e4be5-3087-4482-8e4b-423f0931ccea">
+  <producedTypes>
+    <objectType typeId="4148e11b-f777-4b40-a563-8a650005698c" valueTypeId="ef59d4a4-0b70-4aa7-be23-2e9fbeb0850e"/>
+    <refType typeId="adcd562f-18bd-49ff-8cff-f86069d5edcc" valueTypeId="db45295c-2bca-4bfb-af48-98b10c97e097"/>
+    <selectionType typeId="aa1a4d3e-cef2-4bd0-8398-bb46cabed833" valueTypeId="d74aca8c-b81e-4414-961c-d3fae55d6421"/>
+    <listType typeId="7ea6a247-60ff-4d9f-9a59-a62634810b3a" valueTypeId="5b8cb3f8-84f0-4b4c-a80e-65df4639a7c5"/>
+    <managerType typeId="e8dfe726-3fe6-4020-b5f4-ad24ae781b39" valueTypeId="0b6da3b0-c48e-489f-b482-8e7b84612a6e"/>
+  </producedTypes>
+  <name>торо_СтруктурыОР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Структуры иерархии объектов ремонта</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Las estructuras de la jerarquía de los objetos de la reparación</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Structures of the hierarchy of repair objects</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.торо_СтруктурыОР.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.торо_СтруктурыОР.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Наименование структуры иерархии</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El nombre de la estructura de la jerarquía</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>The name of the hierarchy structure</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Код структуры иерархии</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El código de la estructura de la jerarquía</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Hierarchy structure code</value>
+    </toolTip>
+    <fillValue xsi:type="core:StringValue">
+      <value>         </value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="44e7ef1f-4864-4508-851c-4c5a192bae84">
+      <name>ОсновнаяИерархия</name>
+      <description>Основная иерархия</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="235ddcfd-5419-4756-bea2-4a9034fa386b">
+      <name>СтруктураПоМестонахождению</name>
+      <description>Структура по местонахождению</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="4226a50a-f49f-4c25-bef4-20fca226d2bb">
+      <name>СтруктураПоТехнологическойПозиции</name>
+      <description>Структура по технологической позиции</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>BothWays</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.торо_СтруктурыОР.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="cb4279fd-d19b-45b9-bdac-6978432ce87c">
+    <name>ИзменяетсяДокументами</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменяется документами</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Es cambiado por los documentos</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Changeed by documents</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Будут создаваться документы при перемещении ОР по иерархии</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>Se crearán los documentos durante el traslado ОР por la jerarquía</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Documents will be created when the EI moves through the hierarchy</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fc2d3365-9ba2-4615-b29c-cf618f4d22bc">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El comentario</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Comment</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Произвольный комментарий</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El comentario cualquiera</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Arbitrary comment</value>
+    </toolTip>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="08031d6c-b4fe-4337-824d-e744f88c1991">
+    <name>РазрешенВводНовыхОР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разрешен ввод новых ОР</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Es permitida la introducción nuevo ОР</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>New EI entry enabled</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>В иерархии можно создавать новые объекты ремонта</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>En la jerarquía es posible crear los nuevos objetos de la reparación</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>New repair objects can be created in the hierarchy</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a9a252a0-ac76-4b19-8b35-197b058c602d">
+    <name>СтроитсяАвтоматически</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строится автоматически</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Se basa automáticamente</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Builds automatically</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Иерархия строится автоматически</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>La jerarquía se basa automáticamente</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Hierarchy is built automatically</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c545f6ba-e613-41c2-bd53-0cb8a7768c22">
+    <name>РеквизитОР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит ОР</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El requisito ОР</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Props EI</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Реквизит, по которому строится автоматическая иерархия</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El requisito, por que se basa la jerarquía automática</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Props on which the automatic hierarchy is built</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="daf6b734-b909-43ea-ac72-e12949a2edb1">
+    <name>ТипРеквизитаОР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип реквизита ОР</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El tipo del requisito ОР</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Type of prop EI</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Тип реквизита</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El tipo del requisito</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Type of props</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="52bb54f9-d1d7-4f0c-b464-077b1b6d5381">
+    <name>КонечныеЭлементыВДереве</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отображать несоставные объекты в дереве</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Representar los objetos no componentes en el árbol</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Display noncomposite objects in a tree</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Если флаг снят, то в дерево иерархии не будут выводиться элементы с пиктограммой &quot;шестеренка&quot;. В ряде случаев это позволяет ускорить открытие формы и раскрытие узлов в дереве.</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>Si la bandera es quitada, en el árbol de la jerarquía no desaparecerán los elementos con el pictograma &quot;el engranaje&quot;. En algunos casos esto permite acelerar la apertura de la forma y el descubrimiento de los nudos en el árbol.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>If the flag is cleared, then elements with the gear icon will not be displayed in the hierarchy tree. In some cases, this allows you to speed up the opening of the form and the opening of nodes in the tree.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="796d3151-6a10-468a-b305-329fef099727">
+    <name>ФормаВыбораРеквизитаОР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора реквизита объекта ремонта</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La forma de la elección del requisito del objeto de la reparación</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form for choosing the requisite of the repair object</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7e0f9cfa-512e-4975-b5e3-49cba98805a6">
+    <name>ПредпросмотрСтруктурыИерархии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предпросмотр структуры иерархии</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La prepresentación de la estructura de la jerarquía</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Preview hierarchy structure</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1c91d3f5-7360-4361-9eda-ed3bfb078d7f">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La forma del elemento</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Item shape</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

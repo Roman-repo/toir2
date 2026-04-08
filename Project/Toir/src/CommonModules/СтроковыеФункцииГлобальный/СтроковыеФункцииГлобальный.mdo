@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a929781f-d49f-41ae-a7a4-00ce65573140">
+  <name>СтроковыеФункцииГлобальный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Строковые функции глобальный</value>
+  </synonym>
+  <comment>Удалить модуль при режиме совместимости >= 8.3.6</comment>
+  <global>true</global>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

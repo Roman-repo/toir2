@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="cd6f97b3-0d85-4cbc-9395-1ecf8f949513" extendedConfigurationObject="609abfa8-f381-444f-a18a-25df03c45fe4">
+  <producedTypes>
+    <objectType typeId="28264be0-6c58-4dde-b106-47f837e084e5" valueTypeId="41cdbe58-e940-4641-b1ce-1f6a1275c087"/>
+    <refType typeId="c136bea8-d6d9-40b8-88f2-76305a16a723" valueTypeId="2ca10236-9b0d-4c18-864d-fb430d915a64"/>
+    <selectionType typeId="04e11c7a-3eb7-4967-9fec-9d7627ea0b12" valueTypeId="115c2b20-baa9-40ac-a019-576c34d678f6"/>
+    <listType typeId="9f1c6cd3-eb64-4969-99f1-a0e860fb0543" valueTypeId="91dd0354-33fd-49af-b5db-69ee42796c51"/>
+    <managerType typeId="f24f2f8c-4018-4c2b-a5bf-b3513911108f" valueTypeId="c75bf496-2642-48e4-9506-106d248f283a"/>
+  </producedTypes>
+  <name>гкс_ПКоэффициентыРабот</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="9e1ee4f2-aff9-4823-8f98-c88ff0e1a565" extendedConfigurationObject="e32e7709-5e6e-44ac-a718-d47b27859e84">
+    <name>Коэффициент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>3</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Catalog>

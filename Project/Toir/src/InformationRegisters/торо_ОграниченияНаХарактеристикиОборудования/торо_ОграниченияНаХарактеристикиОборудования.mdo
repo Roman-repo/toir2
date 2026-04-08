@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="361e8580-8086-487a-a782-df3e1e4272ce">
+  <producedTypes>
+    <selectionType typeId="4f1ed362-112b-48f5-bac0-710246a79971" valueTypeId="a3fff0c2-b634-4fb4-82ad-f83a3125d15e"/>
+    <listType typeId="456f539e-bfc8-42e0-985b-ed72e592b28c" valueTypeId="8c28bc92-d7d9-4e83-b110-08da9e577bc8"/>
+    <managerType typeId="670343e9-8828-470e-a054-2c6598a22259" valueTypeId="b6af7b98-108c-4ef6-8c80-7fdfb328c75a"/>
+    <recordSetType typeId="0a0bb2b5-b281-44f8-8233-e148f1d9ecd6" valueTypeId="3a25573f-416a-4bdf-8df7-f9ef20231f52"/>
+    <recordKeyType typeId="8849e23a-40bf-4ebe-b3d0-32173b692820" valueTypeId="016d12e9-a87e-4dc7-93d1-5eb0e174138d"/>
+    <recordType typeId="fb85dffe-cf20-48e0-88d6-bb3e9786ea5a" valueTypeId="cd173238-12d9-499f-bf4e-9922e4e2c2af"/>
+    <recordManagerType typeId="2775cf4f-3292-4a09-ad87-65b942d8a1dc" valueTypeId="42f1eb5a-f38e-4b57-a245-49d88b254212"/>
+  </producedTypes>
+  <name>торо_ОграниченияНаХарактеристикиОборудования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ограничения на характеристики оборудования</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Restrictions on the characteristics of the equipment</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Las limitaciones en el funcionamiento de su equipo</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.торо_ОграниченияНаХарактеристикиОборудования.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="fbd4b373-b3b3-4534-b045-8f5d31a988f6">
+    <name>гкс_Удален</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удален</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Deleted</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Eliminado</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="fa48f9ab-f88e-400b-bec0-8a8aa83007c7">
+    <name>ФункциональноеМесто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Функциональное место</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Functional place</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Funcional lugar</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.торо_ОбъектыРемонта</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="3d24dde3-4d97-4450-8cee-7889c8508cc9">
+    <name>Иерархия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Иерархия</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Hierarchy</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.торо_СтруктурыОР</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6112a6af-579a-4e3c-8cf3-633cf419ac33">
+    <name>Ограничение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ограничение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Rrestriction</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La limitación de la</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.торо_ОграниченияНаХарактеристикиОбрудования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="8404be82-e7bb-4a08-8a19-5873ed9f2348">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>list form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

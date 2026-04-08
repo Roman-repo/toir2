@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cfdbdf47-e36c-4ff0-a6b6-a630c5dc7516">
+  <producedTypes>
+    <refType typeId="65e0fcc2-cd2d-497f-addb-9b43e43413c2" valueTypeId="b5704f14-0a99-4ffd-9b91-27c868355de1"/>
+    <listType typeId="e584a119-acad-4ce5-b9c5-aaecd6afc0e8" valueTypeId="f6f5b1e6-652b-47f6-9114-21922db700c0"/>
+    <managerType typeId="e779e55c-b52b-43de-bc41-f67208fb03f2" valueTypeId="da344227-3445-417c-8631-a6cf99e6af1c"/>
+  </producedTypes>
+  <name>гкс_ТипТехнологическойСвязи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип технологической связи</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Type of technological connection</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="fb00daab-37cf-4f0a-8463-fcfe5719efa3">
+    <name>Технологическая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Технологическая</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Technological</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e3d10515-dd58-48b2-b363-464c0bb629e2">
+    <name>Остановочная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остановочная</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Stop</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

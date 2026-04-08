@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="187c5d22-97f6-42a5-bcca-90c83449cea7">
+  <name>гкс_Интеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция</value>
+  </synonym>
+  <comment>//ACC17-01 Макаревич Д.И. от 15.01.2018г</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <subsystems>гкс_ИнтеграцияActiveDirectory</subsystems>
+  <parentSubsystem>Subsystem.гкс_ОбщиеМеханизмы</parentSubsystem>
+</mdclass:Subsystem>

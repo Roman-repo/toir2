@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="904713c2-721e-4dfc-87e7-4ecacb1378b8">
+  <name>торо_ЧтениеВариантовАнализаПоказателейKPI</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение справочника &quot;Варианты анализа показателей&quot;.</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>La lectura de la guía &quot;las Variantes del análisis de los índices&quot;.</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Reading the reference book &quot;Variants of analysis of indicators&quot;.</value>
+  </synonym>
+</mdclass:Role>

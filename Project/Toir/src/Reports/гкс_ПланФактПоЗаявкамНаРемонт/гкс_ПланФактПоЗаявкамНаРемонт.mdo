@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3447e05a-bbca-4484-ae09-a2dfae2d623c">
+  <producedTypes>
+    <objectType typeId="0c533a88-a0eb-4768-a667-66d9310dac35" valueTypeId="39391e65-a53a-4c91-9d00-5b3915332cea"/>
+    <managerType typeId="273c5ced-47dd-49a7-b95c-c66b0cf3d146" valueTypeId="50ba14f7-5df8-4778-9541-7fd4e7852dd0"/>
+  </producedTypes>
+  <name>гкс_ПланФактПоЗаявкамНаРемонт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планирование работ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.гкс_ПланФактПоЗаявкамНаРемонт.Template.СКД</mainDataCompositionSchema>
+  <templates uuid="0e68aa25-6b41-42b6-8564-dc28da96abf6">
+    <name>СКД</name>
+    <synonym>
+      <key>ru</key>
+      <value>СКД</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

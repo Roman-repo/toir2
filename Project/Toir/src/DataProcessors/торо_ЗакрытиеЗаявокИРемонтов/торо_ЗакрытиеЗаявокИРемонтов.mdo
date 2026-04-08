@@ -1,0 +1,1123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cb20f195-08a1-481f-8712-0b22578c6a6c">
+  <producedTypes>
+    <objectType typeId="b1d7791b-5227-4879-886e-967fb5830176" valueTypeId="f9270492-f468-41d3-ad6d-f1cf2bf90741"/>
+    <managerType typeId="e0e088e8-331c-4487-a82e-603b68ff9fc8" valueTypeId="31dea2ed-1751-48a3-ba73-843434277105"/>
+  </producedTypes>
+  <name>торо_ЗакрытиеЗаявокИРемонтов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закрытие заявок и ремонтов</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>El cierre de las demandas y las reparaciones</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Closing applications and repairs</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.торо_ЗакрытиеЗаявокИРемонтов.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="2fa9be46-fa5d-4d09-9895-858758c7c8a7">
+    <name>ДатаАктуальности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата актуальности</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La fecha de la actualidad</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Relevance date</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата, до которой будут анализироваться все ремонты по объектам</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>La fecha, hasta que serán analizadas todas las reparaciones por los objetos</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Date until which all repairs on facilities will be analyzed</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="c25671dc-5bc8-4f5b-9a38-2a7de4617858">
+    <producedTypes>
+      <objectType typeId="97b1d1f7-10c8-411f-99eb-fc6335743050" valueTypeId="de11390a-7dd5-402b-9a12-25b27970edff"/>
+      <rowType typeId="0b690f84-cfef-42aa-8662-02103f436a47" valueTypeId="3e4f1c08-fb18-47b6-92b7-c36ae1ac7f2c"/>
+    </producedTypes>
+    <name>ЗакрываемыеРемонты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрываемые ремонты</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Las reparaciones cerradas</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Lockable repairs</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="b0b5e07f-dc7b-41e7-8835-bfbee4799154">
+      <name>ID</name>
+      <synonym>
+        <key>ru</key>
+        <value>ID</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>ID</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>ID</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Идентификатор ремонта</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El identificador de la reparación</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Repair identifier</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="6455058c-5647-4f68-9cc2-69576f57b0d5">
+      <name>ОбъектРемонта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Объект ремонта</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>El objeto de la reparación</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Object of repair</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.торо_ОбъектыРемонта</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Объект ремонта, ремонт которого редактируется</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El objeto de la reparación, que reparación es redactado</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Repair object whose repair is being edited</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="576b3a09-2c8a-452d-9b26-a4e7db5f7030">
+      <name>ВидРемонта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид ремонта</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>El tipo de la reparación</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Type of repair</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.торо_ВидыРемонтов</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Вид отменяемого или перемещаемого ремонта</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El tipo de la reparación revocable o trasladada</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Type of canceled or repaired repair</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="864f63eb-3863-4b20-92c1-cbdb5dd04d27">
+      <name>ДатаНачала</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата начала</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La fecha ha comenzado</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Start date</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Дата начала ремонта</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>La fecha del comienzo de la reparación</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Repair start date</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="c4854ce4-3f52-4e8c-8ef4-1f433bc4524b">
+      <name>ДатаОкончания</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата окончания</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La fecha de la terminación</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>End date</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Дата окончания ремонта</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>La fecha de la terminación de la reparación</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Repair end date</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="377d50df-7c57-44d8-b5ac-323a9e1ab51e">
+      <name>ЕстьЗаявка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Есть заявка</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>Hay una demanda</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>There is an application</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Отражает наличие заявки на ремонт</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>Refleja la presencia de la demanda por la reparación</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Reflects a repair request</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="2be5cfc4-98d6-41d4-b7fb-ea4acd056179">
+      <name>Заявка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Заявка</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La demanda</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Application</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.торо_ЗаявкаНаРемонт</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Хранит ссылку на документ Заявка, если он есть</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>Guarda la referencia al documento la Demanda, si él es</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Stores a link to the application document, if any</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="d6e694d2-5cb4-41b1-bbe3-63b951bf6828">
+      <name>Отменен</name>
+      <synonym>
+        <key>ru</key>
+        <value>Отменен</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>Es anulado</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Canceled</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Ремонт будет отменен, если установить флаг</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>La reparación será anulada, si establecer la bandera</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Repair will be canceled if the flag is set.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="26a342f3-0dff-4c11-a159-5bb612947551">
+      <name>Перенесен</name>
+      <synonym>
+        <key>ru</key>
+        <value>Перенесен</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>Es llevado</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Moved</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Ремонт будет перенесен, если установить флаг</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>La reparación será llevada, si establecer la bandera</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Repair will be rescheduled if the flag is set.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="818ae2f2-b9ec-4ede-8b74-c9146ee4705a">
+      <name>НоваяДатаНачала</name>
+      <synonym>
+        <key>ru</key>
+        <value>Новая дата начала</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>Una nueva fecha ha comenzado</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>New start date</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Новая дата ремонта после переноса ремонта</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>Una nueva fecha de la reparación después del traslado de la reparación</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>New repair date after repair transfer</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="122e3db4-f9cb-471b-9c74-a2cb3b26e4d3">
+      <name>НоваяДатаОкончания</name>
+      <synonym>
+        <key>ru</key>
+        <value>Новая дата окончания</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>Una nueva fecha de la terminación</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>New end date</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Новая дата окончания после переноса ремонта</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>Una nueva fecha de la terminación después del traslado de la reparación</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>New end date after transferring repair</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="72fa3205-318a-474f-aa48-42bf146a4b60">
+      <name>Обрабатывать</name>
+      <synonym>
+        <key>ru</key>
+        <value>Обрабатывать</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>Tratar</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Process</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Если флаг установлен, то ремонт будет отменен или перемещен</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>Si la bandera es establecida, la reparación será anulada o trasladada</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>If the flag is set, the repair will be canceled or moved</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="7f355ebd-6e84-48c3-82ed-3353f59df3a2">
+      <name>ПричинаЗакрытия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Причина закрытия ремонта</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La causa del cierre de la reparación</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Reason for closing the repair</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.торо_ПричиныЗакрытияРемонтов</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Причина закрытия (отмены) ремонта</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>La causa del cierre (anulación) de la reparación</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Reason for closing (canceling) the repair</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="1ffe26ec-f4bd-4e30-9edd-af80b4e84acc">
+      <name>Цепочка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цепочка</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La cadenita</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Chain</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Если используются цепочки (не отображается)</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>Si se usan las cadenitas (no es representado)</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>If conversations are used (not displayed)</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="ff6be638-9956-4f3c-bed0-15f2e0450e0b">
+      <name>ДокументОснование</name>
+      <synonym>
+        <key>ru</key>
+        <value>Документ основание</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>El documento la razón</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>A document base</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.торо_ЗакрытиеЗаявокИРемонтов</types>
+        <types>DocumentRef.торо_ПланГрафикРемонта</types>
+        <types>DocumentRef.торо_ВыявленныеДефекты</types>
+        <types>DocumentRef.торо_ЗаявкаНаРемонт</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="5accfe29-58e9-4ddf-90ea-ea4e71d8e405">
+      <name>ЗакрытьЗаявку</name>
+      <synonym>
+        <key>ru</key>
+        <value>Закрыть заявку</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>Cerrar la demanda</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Close request</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="139b427d-0817-4b77-9f2c-bac245bf8993">
+      <name>ПричинаЗакрытияЗаявки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Причина закрытия заявки</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La causa del cierre de la demanda</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Reason for closing the application</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.торо_ПричиныЗакрытияЗаявок</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="122f5b72-b2e5-4ced-b56d-fd332ca1fe47">
+      <name>РемонтВключенВОбщийПлан</name>
+      <synonym>
+        <key>ru</key>
+        <value>Есть общий план</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>Hay un plan general</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>There is a general plan</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Ремонт включен в общий план</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>La reparación es incluida en el plan general</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Repair is included in the general plan.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="e7293393-673e-437a-aac1-5e51c1eefe50">
+    <producedTypes>
+      <objectType typeId="dec8c02d-bcab-4f78-9833-2d6b47ac3328" valueTypeId="048afe7a-804f-4bae-a15b-d47bab1e1f5a"/>
+      <rowType typeId="744170b5-371f-40b7-946f-6f557b2849a2" valueTypeId="d29a5b77-22a8-4119-b2ca-e5cc772d9c7f"/>
+    </producedTypes>
+    <name>АварийныеРемонты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аварийные ремонты</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Las reparaciones de emergencia</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Emergency repairs</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="22e413de-1999-4dc6-a210-ebebd4312312">
+      <name>ID</name>
+      <synonym>
+        <key>ru</key>
+        <value>ID</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>ID</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>ID</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Идентификатор аварийного ремонта (не отображается)</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El identificador de la reparación de emergencia (no es representado)</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Emergency repair identifier (not displayed)</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="a55c2c46-ddf9-4410-bdca-a792e41be7fd">
+      <name>ОбъектРемонта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Объект ремонта</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>El objeto de la reparación</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Object of repair</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.торо_ОбъектыРемонта</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Объект ремонта, по которому зарегистрирован ремонт</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El objeto de la reparación, por que es registrada la reparación</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Repair object for which repair is registered</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="de5a3999-bae9-47c4-b842-d12f0fd4b49f">
+      <name>ВидРемонта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид ремонта</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>El tipo de la reparación</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Type of repair</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.торо_ВидыРемонтов</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Вид отменяемого ремонта</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El tipo de la reparación revocable</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Type of canceled repair</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="1c301e5e-424f-44ec-8e1c-a508f64e19b6">
+      <name>ЕстьЗаявка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Есть заявка</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>Hay una demanda</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>There is an application</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Отражает наличие заявки на ремонт</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>Refleja la presencia de la demanda por la reparación</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Reflects a repair request</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="1ef46acf-5c00-4a8c-b563-521b0cf16856">
+      <name>Заявка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Заявка</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La demanda</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Application</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.торо_ЗаявкаНаРемонт</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Хранит ссылку на документ Заявка, если он есть</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>Guarda la referencia al documento la Demanda, si él es</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Stores a link to the application document, if any</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="a9796f18-7e97-40c3-a67f-e38f495f5f23">
+      <name>Отменен</name>
+      <synonym>
+        <key>ru</key>
+        <value>Отменен</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>Es anulado</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Canceled</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Ремонт будет отменен, если установить флаг</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>La reparación será anulada, si establecer la bandera</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Repair will be canceled if the flag is set.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="c6f91fb4-ab13-4964-8861-56be08bcf2d3">
+      <name>Обрабатывать</name>
+      <synonym>
+        <key>ru</key>
+        <value>Обрабатывать</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>Tratar</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Process</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Если флаг установлен, то ремонт будет отменен</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>Si la bandera es establecida, la reparación será anulada</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>If the flag is set, the repair will be canceled.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="f2471c65-f79c-4a05-abc6-549288c1d0cd">
+      <name>ПричинаЗакрытия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Причина закрытия ремонта</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La causa del cierre de la reparación</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Reason for closing the repair</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.торо_ПричиныЗакрытияРемонтов</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Причина закрытия (отмены) ремонта</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>La causa del cierre (anulación) de la reparación</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Reason for closing (canceling) the repair</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="99be0a90-ea46-47a0-a8e8-86dad406a5d9">
+      <name>ДокументОснование</name>
+      <synonym>
+        <key>ru</key>
+        <value>Документ основание</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>El documento la razón</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>A document base</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.торо_ВнешнееОснованиеДляРабот</types>
+        <types>DocumentRef.торо_ПланГрафикРемонта</types>
+        <types>DocumentRef.торо_ВыявленныеДефекты</types>
+        <types>DocumentRef.торо_ЗаявкаНаРемонт</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="d006ff1a-8eaf-4996-a29f-e0258de514cf">
+      <name>ДатаОбнаружения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата обнаружения</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La fecha del descubrimiento</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Detection date</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>(Дата обнаружения)</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>(La fecha del descubrimiento)</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>(Date of discovery)</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="e96330e1-0d31-4bf8-9eeb-5fbd9d0333d4">
+      <name>ЗакрытьЗаявку</name>
+      <synonym>
+        <key>ru</key>
+        <value>Закрыть заявку</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>Cerrar la demanda</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Close request</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="cfbb3af9-b0f8-4ce8-8f5d-4a1853a1d94a">
+      <name>ПричинаЗакрытияЗаявки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Причина закрытия заявки</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La causa del cierre de la demanda</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Reason for closing the application</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.торо_ПричиныЗакрытияЗаявок</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="efed50e1-460e-48ee-b3bf-5012ecba7178">
+      <name>РемонтВключенВОбщийПлан</name>
+      <synonym>
+        <key>ru</key>
+        <value>Есть общий план</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>Hay un plan general</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>There is a general plan</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Ремонт включен в общий план</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>La reparación es incluida en el plan general</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Repair is included in the general plan.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="e6b405ce-f911-46c2-95cc-3900eb4ddfdb">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La forma</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

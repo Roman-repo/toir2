@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9661a768-0bb1-4fbd-9ae6-5bcdfee8e25c">
+  <name>гкс_ИнтеграцияСАСУТПЧерезВебСервис</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с АСУТП (через веб сервис)</value>
+  </synonym>
+  <methodName>CommonModule.гкс_ПолучениеДанныхАСУТП.гкс_ИнтеграцияСАСУТП</methodName>
+  <description>Интеграция с АСУТП (через веб сервис)</description>
+  <key>Интеграция с АСУТП (через веб сервис)</key>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

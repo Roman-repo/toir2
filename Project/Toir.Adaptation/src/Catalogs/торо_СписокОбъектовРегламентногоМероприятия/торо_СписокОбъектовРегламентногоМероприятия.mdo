@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b7f9f74f-e204-4c82-9e68-7481cf0add68">
+  <producedTypes>
+    <objectType typeId="108e02a8-154b-4d38-b889-8df1ee187c93" valueTypeId="9892b43a-6efa-4334-ab00-b38aab1c8155"/>
+    <refType typeId="2ee0ec4c-6b14-416e-a3ac-5f8216b31370" valueTypeId="2a8b86a9-5579-46d2-b38a-8da392884d4c"/>
+    <selectionType typeId="ade9bdf8-3080-44f1-800d-b78cefde8902" valueTypeId="ea86d238-0b96-45bd-94d8-7d5c4c74206b"/>
+    <listType typeId="8a43fd3c-910a-49b4-a041-f2f0ad06fe02" valueTypeId="60275663-e304-4a26-b505-fa45b736c868"/>
+    <managerType typeId="8d76d220-b736-4df6-b821-c1755e2bd4ad" valueTypeId="27e1e94d-248a-46b6-a773-3b8e607b0e04"/>
+  </producedTypes>
+  <name>торо_СписокОбъектовРегламентногоМероприятия</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

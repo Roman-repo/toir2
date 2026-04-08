@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="65fb4f1c-29e9-4baf-854f-e93d3e15610d">
+  <producedTypes>
+    <selectionType typeId="a5a86351-f94a-4ebc-aac3-2e973c2dcb40" valueTypeId="011551ca-c860-4839-afe8-c107aab7d4fa"/>
+    <listType typeId="d1f578c7-1518-44fd-9945-48d5ee1917b4" valueTypeId="368d7f80-da18-4ea7-8158-25b8619450e3"/>
+    <managerType typeId="02a6d9a4-0e8f-4804-9d6f-3d46f2e1e705" valueTypeId="cd38952e-e511-4fa1-b4e9-dd2a3a253a41"/>
+    <recordSetType typeId="440fc8f4-8ce9-478e-bda5-1fcfbad0e4ea" valueTypeId="68465a3f-6313-401c-aa12-cec6db2dd639"/>
+    <recordKeyType typeId="7a55f0e2-e98e-4da3-a7e4-5040687e0996" valueTypeId="e5a0d7a5-6f53-46ac-9863-2cba51278685"/>
+    <recordType typeId="512933a4-efbd-4455-8101-06f71b7f19ba" valueTypeId="f21a0d1f-2a56-4528-a4f5-e8ec9a7159e0"/>
+    <recordManagerType typeId="8371f6ad-b1b5-4a2a-b9db-01697c41f4fd" valueTypeId="45a65df0-bb70-4c05-b64b-69313929c854"/>
+  </producedTypes>
+  <name>ЗначенияСчетчиков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значения счетчиков</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <resources uuid="b149ba89-8520-4eb7-b901-9a12fb994e97">
+    <name>НомерПоСчетчику</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер по счетчику</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>11</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f536473a-60e8-495e-8d4e-7c1a5986d76d">
+    <name>НомерРодителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер родителя</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>11</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="bd7955fc-1a09-4edd-aad4-4bcec446c428">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОбъектыНоменклатуры</types>
+      <types>CatalogRef.Классы</types>
+      <types>CatalogRef.НоменклатураКласса</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="df168db8-652a-480e-898f-ab0bc6bca5ae">
+    <name>Счетчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счетчик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Счетчики</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

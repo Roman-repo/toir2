@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b47bb64-6ff6-4d08-80bf-f7e632ea66d3">
+  <name>торо_ЗапретитьРемонтГарантийногоОборудованияХозспособом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запретить ремонт гарантийного оборудования хозспособом</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Prohibir la reparación de la maquinaria de garantía хозспособом</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Prohibit the repair of warranty equipment using a household device</value>
+  </synonym>
+  <location>Constant.торо_ЗапретитьРемонтГарантийногоОборудованияХозспособом</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

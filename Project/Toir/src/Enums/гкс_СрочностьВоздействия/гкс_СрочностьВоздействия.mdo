@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d2e146a2-c80c-428a-bd99-4e9643aa26ef">
+  <producedTypes>
+    <refType typeId="e3dbcf27-d759-4fa6-ab88-31e04b80e31c" valueTypeId="97f12165-f022-4049-9a13-45cd03499e68"/>
+    <listType typeId="0fc7de61-65d4-4cde-9ef0-cb29a421b1ff" valueTypeId="831dc97f-8724-4466-bafc-bf0836a62c3c"/>
+    <managerType typeId="ec80c05d-70dd-473d-aaf2-c9dea7a7130a" valueTypeId="3b15827b-131f-46ba-9d73-563214aea72a"/>
+  </producedTypes>
+  <name>гкс_СрочностьВоздействия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Срочность воздействия</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Urgency of impact</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Urgencia de impacto</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="86cc3397-b3f8-4fc5-a934-9003c100daf0">
+    <name>Немедленно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Немедленно</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Immediately</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Inmediatamente</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0ffe159d-b01b-4ae2-8a4b-09091fa2fab1">
+    <name>Сегодня</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сегодня</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Today</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Hoy</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d3cd96c8-797d-4759-bdc1-e1acc39999a4">
+    <name>ВТечениеНедели</name>
+    <synonym>
+      <key>ru</key>
+      <value>В течение недели</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>In a week</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>En una semana</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e6e5d968-5996-4650-8bd4-d4f3f0c3ab21">
+    <name>ВТечениеМесяца</name>
+    <synonym>
+      <key>ru</key>
+      <value>В течение месяца</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Within a month</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Dentro de un mes</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b3a3d867-c6d0-4cdf-ae98-01d265ce81f3">
+    <name>ПриСледующейОстановке</name>
+    <synonym>
+      <key>ru</key>
+      <value>При следующей остановке</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>At the next stop</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>En la próxima parada</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="511103f1-671f-4d92-98bf-86c9be5515d7">
+    <name>БуфернаяРабота</name>
+    <synonym>
+      <key>ru</key>
+      <value>Буферная работа</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Buffer work</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Trabajo tampón</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

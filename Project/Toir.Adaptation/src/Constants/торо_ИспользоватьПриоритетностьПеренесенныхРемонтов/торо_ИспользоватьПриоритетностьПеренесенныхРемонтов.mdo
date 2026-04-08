@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e5fbb2f7-3213-4a32-aad8-f92a7e9bc23e">
+  <producedTypes>
+    <managerType typeId="733e3572-cce4-4979-a70a-3d15c61d06a5" valueTypeId="d9673890-4ec5-4164-abe7-c982277edc32"/>
+    <valueManagerType typeId="59e76f2e-8ccb-4694-8503-0f89696d40aa" valueTypeId="156b2802-a75a-4370-8096-34a98ba02fc9"/>
+    <valueKeyType typeId="a48a3682-6196-459d-84e4-6dfbd78d676f" valueTypeId="69753df8-2c4b-4f76-8165-1731145da883"/>
+  </producedTypes>
+  <name>торо_ИспользоватьПриоритетностьПеренесенныхРемонтов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+</mdclass:Constant>

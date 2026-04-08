@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="14586039-2816-4911-88f9-b5e4ad4c4f6b">
+  <producedTypes>
+    <objectType typeId="eb64388d-e48b-402d-8412-bf2ae26c5698" valueTypeId="5eedd039-158b-4813-9c17-739f7a8418fd"/>
+    <refType typeId="b26dbd1f-fc67-4200-9b01-1d51f7e0884d" valueTypeId="4d92e382-0f62-4e09-804a-1a61752fc60c"/>
+    <selectionType typeId="731dbd64-7626-4ec3-a7e4-cec42b124432" valueTypeId="136511b2-2358-45ae-a8a3-0809a11a334f"/>
+    <listType typeId="a6c19893-6322-438b-8389-9730b56fd49c" valueTypeId="3658fcab-8e29-40b4-a450-befdfcac01c8"/>
+    <managerType typeId="d5c144b7-e59d-421e-9454-105ee3ba9197" valueTypeId="6dd3caf2-a780-433d-ab09-f82cef5939e8"/>
+    <containerType typeId="ce292f7d-1b59-4dd9-a7b5-fde51cac2e7c" valueTypeId="4dfb154b-4912-4696-88d2-9f71cdefacef"/>
+  </producedTypes>
+  <name>ТипыЗначенийОбъектовТОИР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы значений объектов ТОИР</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.ТипыЗначенийОбъектовТОИР.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.ТипыЗначенийОбъектовТОИР.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ValueType</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>CatalogRef.ВидыНоменклатуры</types>
+    <types>CatalogRef.торо_ТехнологическиеОперации</types>
+    <types>CatalogRef.Номенклатура</types>
+    <types>CatalogRef.торо_ТиповыеОР</types>
+    <types>CatalogRef.Сотрудники</types>
+    <types>CatalogRef.торо_ОбъектыРемонта</types>
+    <types>CatalogRef.торо_ОбщиеВидыРемонтов</types>
+    <types>CatalogRef.Валюты</types>
+    <types>CatalogRef.торо_ТехКарты</types>
+    <types>CatalogRef.СтруктураПредприятия</types>
+    <types>CatalogRef.ВидыЦен</types>
+    <types>CatalogRef.Контрагенты</types>
+    <types>CatalogRef.Склады</types>
+    <types>CatalogRef.СтраныМира</types>
+    <types>CatalogRef.торо_СтруктурыОР</types>
+    <types>CatalogRef.Организации</types>
+    <types>CatalogRef.ФизическиеЛица</types>
+    <types>CatalogRef.ВидыКонтактнойИнформации</types>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>

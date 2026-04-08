@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a87ec25e-181c-4a8f-91f6-47607bdf09c6">
+  <producedTypes>
+    <refType typeId="7a18e764-5e04-48ee-ac15-da606dccc770" valueTypeId="60329f5b-5207-4144-ac20-3aac8c8df6cd"/>
+    <listType typeId="64c4b792-e082-48a3-acbb-2e42e251d0d5" valueTypeId="99c18302-caae-4bf6-bcad-c0d2b77c6c99"/>
+    <managerType typeId="7993b034-28f6-4248-b1bc-b835b9af25a2" valueTypeId="7b012d08-af13-46bf-8ec1-cdc43fa5e4e4"/>
+  </producedTypes>
+  <name>торо_ВидыДокументовСогласованияРемонтов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="3deeeebb-ddc1-4f52-a949-440692d6de1d" extendedConfigurationObject="64eb183a-1b76-4429-aa1b-57e4cc199142">
+    <name>торо_ВнешнееОснованиеДляРабот</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="e1376cb5-cd1a-4673-b21d-1d6439e2ab89" extendedConfigurationObject="2b394adb-1ebf-4922-857b-9874b3d4c03e">
+    <name>торо_ВыявленныеДефекты</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="36e3b4ee-d5fb-495f-b950-ca7c74b2c1f0" extendedConfigurationObject="35f75578-8d2f-4f0e-9148-b77abc4269db">
+    <name>торо_ЗаявкаНаРемонт</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="81973055-32b0-4e38-b95a-845cac1aeeaf" extendedConfigurationObject="d0fa16de-b6ee-4c56-8fb4-513c07684830">
+    <name>торо_АктОВыполненииЭтапаРабот</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

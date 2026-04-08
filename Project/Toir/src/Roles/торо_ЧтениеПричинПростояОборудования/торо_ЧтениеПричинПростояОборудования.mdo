@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="51f5e177-31e8-40be-b314-b473d2d08dc2">
+  <name>торо_ЧтениеПричинПростояОборудования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение причин простоя оборудования</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>La lectura de las causas de las horas muertas de la maquinaria</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Read the reasons for equipment downtime</value>
+  </synonym>
+</mdclass:Role>

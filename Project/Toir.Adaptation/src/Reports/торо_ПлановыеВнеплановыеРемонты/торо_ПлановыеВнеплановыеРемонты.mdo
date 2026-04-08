@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5e276689-890a-406c-bc9c-09f330d57df5" extendedConfigurationObject="3c61c94d-6f97-43b7-83fe-e250d64c6842">
+  <producedTypes>
+    <objectType typeId="dc4e7f41-a27d-4959-9906-5a28e1117d78" valueTypeId="223b84b3-10d0-4ad3-86cc-66ecf2620081"/>
+    <managerType typeId="22c6afbd-6ecf-44bc-8d28-6bae59ef761d" valueTypeId="bdbcd57f-1140-4caa-9f05-29dcdb1b7de8"/>
+  </producedTypes>
+  <name>торо_ПлановыеВнеплановыеРемонты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ReportExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <mainDataCompositionSchema>Extended</mainDataCompositionSchema>
+    <objectModule>Extended</objectModule>
+  </extension>
+  <mainDataCompositionSchema>Report.торо_ПлановыеВнеплановыеРемонты.Template.гкс_ОСКД</mainDataCompositionSchema>
+  <templates uuid="f26dc6e5-b9ef-4410-9a99-5b732d51c4ed">
+    <name>гкс_ОСКД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гкс ОСКД</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El esquema básico de la composición de los datos</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Main data composition diagram</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="64685ba8-e109-4205-a11e-16c86cc38dba">
+  <name>торо_ЛокализацияСобытияФорм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Локализация события форм</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Form event localization</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

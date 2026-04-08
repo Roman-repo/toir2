@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="09ad4223-2f51-41f8-9fd6-ba1eb7370f50">
+  <producedTypes>
+    <objectType typeId="306ede08-b308-49f6-a1bb-cedcc285732e" valueTypeId="969f2d61-2491-4f7e-a174-c3224b9967e7"/>
+    <managerType typeId="0a54e67e-c3c1-4feb-b9a9-19381dd4c8de" valueTypeId="0b39a870-9890-4a2a-9447-e995e7d79780"/>
+  </producedTypes>
+  <name>гкс_Бюджет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бюджет</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.гкс_Бюджет.Template.ОСКД</mainDataCompositionSchema>
+  <templates uuid="53a9b378-5eb1-416e-87eb-a121d664779d">
+    <name>ОСКД</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОСКД</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

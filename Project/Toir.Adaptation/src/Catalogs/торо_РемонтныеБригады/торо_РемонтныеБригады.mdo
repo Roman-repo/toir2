@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e15982cb-fbdc-40e2-adb2-eb823946161a">
+  <producedTypes>
+    <objectType typeId="bb968d6b-27a5-4689-907a-73b3b8115716" valueTypeId="6d5d5f4a-7ec2-4e3e-9f60-6f2aec6f70cd"/>
+    <refType typeId="fd35f685-2a43-4702-81a2-82bbe60d8dcf" valueTypeId="b0c4724c-e455-485d-be36-72991cf56fac"/>
+    <selectionType typeId="366d30d0-fc07-4948-97d3-67bedd2b4062" valueTypeId="bf9369db-cbef-409e-a9ef-4b30263bc015"/>
+    <listType typeId="3b722fcc-498a-484f-915e-3b78d56a805f" valueTypeId="730aa804-b37b-41d1-ac52-6f25f79cfa47"/>
+    <managerType typeId="7f5e53ee-389d-462c-bbd6-5d7e026c84e8" valueTypeId="dd1b30b0-269a-48ac-a5c6-4fd10210f28a"/>
+  </producedTypes>
+  <name>торо_РемонтныеБригады</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

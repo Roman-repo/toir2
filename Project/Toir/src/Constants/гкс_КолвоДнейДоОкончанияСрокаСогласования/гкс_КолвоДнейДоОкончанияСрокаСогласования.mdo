@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4cd1d7c4-6a19-4cd8-807d-f7a97193cbfb">
+  <producedTypes>
+    <managerType typeId="d8f91ee9-cec1-41e3-bce5-bebc2d4f6f31" valueTypeId="a77bd583-cd53-4868-a269-7f7ef3410f0a"/>
+    <valueManagerType typeId="41ac7909-2de0-40d4-b98f-dcc8e19900da" valueTypeId="47fcc864-12f8-4a2e-ba49-789e6ae1f920"/>
+    <valueKeyType typeId="338d9b21-878a-42d0-a02a-210b6f928f93" valueTypeId="e4310b6c-caa6-489a-a0fe-ac4dacfc759a"/>
+  </producedTypes>
+  <name>гкс_КолвоДнейДоОкончанияСрокаСогласования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Количествово дней до окончания срока согласования</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>3</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

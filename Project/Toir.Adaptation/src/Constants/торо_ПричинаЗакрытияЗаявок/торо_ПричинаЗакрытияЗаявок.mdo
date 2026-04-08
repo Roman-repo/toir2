@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8c2afe70-7bf2-4df2-a960-9fbf79859aa2">
+  <producedTypes>
+    <managerType typeId="7abab53e-3e63-426b-973d-4cb281cd7cc4" valueTypeId="c6b0a729-8fdf-4012-85b8-0a9994d2a8af"/>
+    <valueManagerType typeId="929eb294-f999-46fb-8133-331e58790c9c" valueTypeId="d924c485-5fac-4f0a-80ef-ca0a43b2b056"/>
+    <valueKeyType typeId="3b7b05e6-03e7-4bf9-b032-f57598aab6c5" valueTypeId="b36df378-1fa6-4d14-81d8-b66594ba2360"/>
+  </producedTypes>
+  <name>торо_ПричинаЗакрытияЗаявок</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>CatalogRef.торо_ПричиныЗакрытияЗаявок</type>
+      </types>
+    </typeExtension>
+  </extension>
+</mdclass:Constant>

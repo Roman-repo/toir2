@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c1577c43-3e11-4543-8564-8c54049901fa">
+  <name>торо_ЧтениеКритичностейДефектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение критичностей дефектов</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>La lectura критичностей de los defectos</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Read criticality of defects</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,1482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="09db6542-5894-46d9-a78e-2b04bfa57b81">
+  <producedTypes>
+    <objectType typeId="6be3aebb-fc59-416a-8b99-1a6c6f7dfd76" valueTypeId="055800d1-9fca-4958-bf11-d0fb290f9d72"/>
+    <refType typeId="61d8babf-3ce3-43a6-b60b-daa4976748a1" valueTypeId="802b1e11-2cbd-458f-9039-7c8919b8e169"/>
+    <selectionType typeId="46f8d948-0fe1-4c47-92ab-f9ac59415a51" valueTypeId="923d6273-fd3b-48cd-b598-80bbceadc59d"/>
+    <listType typeId="97aa8c7d-557c-4f5a-a862-c5695abaf6e6" valueTypeId="a81b50d5-0187-4cb5-af30-718a1e9ec0ad"/>
+    <managerType typeId="96cb32a5-4e55-400f-b054-70d6d8878761" valueTypeId="9c9c02d6-d8fe-4e51-bbc1-42fa56db9126"/>
+  </producedTypes>
+  <name>торо_ВыбытиеОбъектаРемонтаПрисоединенныеФайлы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Присоединенные файлы (Выбытие объекта ремонта)</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Los ficheros juntados (la Salida del objeto de la reparación)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Attached files (Retirement of the repair object)</value>
+  </synonym>
+  <inputByString>Catalog.торо_ВыбытиеОбъектаРемонтаПрисоединенныеФайлы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <toolTip>
+      <key>en</key>
+      <value>File name</value>
+    </toolTip>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя файла</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El nombre del fichero</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <toolTip>
+      <key>en</key>
+      <value>(Code)</value>
+    </toolTip>
+    <toolTip>
+      <key>ru</key>
+      <value>(Код)</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>(El código)</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="b5d9f1c1-fcd0-4ef5-a63f-d2adda6da29f">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El autor</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Author</value>
+    </synonym>
+    <comment>Автор - пользователь, добавивший файл</comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь, добавивший файл</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El usuario que ha añadido el fichero</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>User who uploaded the file</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <quickChoice>DontUse</quickChoice>
+    <createOnInput>Use</createOnInput>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.Пользователи.EmptyRef</value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="df80c70e-fdf0-4afd-a433-a35255a84cde">
+    <name>ВладелецФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Владелец файла</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El propietario del fichero</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>File owner</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.торо_ВыбытиеОбъектаРемонта</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Объект-владелец файла</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El objeto-propietario del fichero</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>File object-owner</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5fd1ee12-b300-4a64-9da8-05f387ee1eef">
+    <name>ДатаМодификацииУниверсальная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата модификации универсальная</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La fecha de la modificación universal</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Modification date universal</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Универсальная дата модификации файла</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>La fecha universal de la modificación del fichero</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Universal file modification date</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="075eec6d-a26e-4eda-b3b7-f59c008ccffa">
+    <name>ДатаСоздания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата создания</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La fecha de la creación</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Date of creation</value>
+    </synonym>
+    <comment>Дата добавления файла в базу</comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата создания файла</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>La fecha de la creación del fichero</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>File creation date</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:DateValue">
+      <value>0001-01-01T00:00:00</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4713c3a7-6226-4506-bd7b-0d3d12abc887">
+    <name>Зашифрован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зашифрован</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Es cifrado</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Encrypted</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что файл зашифрован</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El indicio de lo que el fichero es cifrado</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Sign that the file is encrypted</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="39433b80-bebc-4061-bf3a-07f6a6397aca">
+    <name>Изменил</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменил</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Ha cambiado</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Changed</value>
+    </synonym>
+    <comment>Автор - пользователь, добавивший файл</comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь, отредактировавший файл последним</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El usuario que ha redactado el fichero último</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Last user to edit the file</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <quickChoice>DontUse</quickChoice>
+    <createOnInput>Use</createOnInput>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.Пользователи.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="59d345d2-abd9-43db-93eb-db79426dfee2">
+    <name>ИндексКартинки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Индекс картинки</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El índice de la estampa</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Index pictures</value>
+    </synonym>
+    <comment>Индекс иконки, соответствующей расширению файла, для показа в списке</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Индекс картинки файла (служебное поле)</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El índice de la estampa del fichero (el campo de servicio)</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>File picture index (service field)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f457ef9e-cbf9-472a-b5f6-76ae5cfc599a">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La descripción</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Description</value>
+    </synonym>
+    <comment>Описание файла</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Краткое описание файла</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>La descripción breve del fichero</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Brief file description</value>
+    </toolTip>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7410e5bd-5360-44a3-a9c4-0d34d3ada986">
+    <name>ПодписанЭП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подписан электронной подписью</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Es firmado por la firma electrónica</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Signed by electronic signature</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что файл подписан с помощью электронной подписи</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El indicio de lo que el fichero es firmado por medio de la firma electrónica</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Sign that the file is signed by electronic signature</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8ccb72a6-510f-49e3-8f6e-e5ce093a02db">
+    <name>ПутьКФайлу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к файлу</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La vía al fichero</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Path to the file</value>
+    </synonym>
+    <comment>Дополнительный путь к файлу на диске (в случае если Тип хранения файла - на диске)</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Путь к файлу в томе (служебное поле)</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>La vía al fichero en el tomo (el campo de servicio)</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Path to the file in the volume (service field)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8b28e982-fb9b-48cb-881d-51ab0a0aabe7">
+    <name>Размер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размер</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La dimensión</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Size</value>
+    </synonym>
+    <comment>Размер файла</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Размер файла в байтах</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>La dimensión del fichero en байтах</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>File size in bytes</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="36d3269c-bed9-4acf-aafc-fc4323547a15">
+    <name>Расширение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расширение</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La ampliación</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Extension</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Расширение файла</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>La ampliación del fichero</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>File extension</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="948c6866-90fd-4640-b6a8-891e07f3d215">
+    <name>Редактирует</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактирует</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Redacta</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Edits</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь, редактирующий файл в данный момент</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El usuario que redacta el fichero en el momento actual</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>The user who is currently editing the file</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <quickChoice>DontUse</quickChoice>
+    <createOnInput>Use</createOnInput>
+    <fillValue xsi:type="core:ReferenceValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="92f455e4-9ce1-43b9-bbb2-e6ba51bd9e0c">
+    <name>СтатусИзвлеченияТекста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус извлечения текста</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El estatus de la extracción del texto</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Text retrieval status</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыИзвлеченияТекстаФайлов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Статус извлечения текста из файла (служебное поле)</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El estatus de la extracción del texto del fichero (el campo de servicio)</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Status of extracting text from a file (service field)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.СтатусыИзвлеченияТекстаФайлов.EmptyRef</value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d2d5c145-885b-4e18-ad01-83e77c34f233">
+    <name>ТекстХранилище</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El texto</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Text</value>
+    </synonym>
+    <comment>Текст, извлеченный из файла - для полнотекстового поиска</comment>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Текст, извлеченный из файла (служебное поле)</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El texto sacado del fichero (el campo de servicio)</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Text extracted from a file (service field)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4ed5088d-707d-4cd6-ba65-26ecbaa756e6">
+    <name>ТипХраненияФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип хранения файла</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El tipo del almacenaje del fichero</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>File storage type</value>
+    </synonym>
+    <comment>Где хранятся файлы - в базе как Хранилище значения или в каталоге на диске</comment>
+    <type>
+      <types>EnumRef.ТипыХраненияФайлов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Тип хранения файла (в томе или непосредственно в системе)</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El tipo del almacenaje del fichero (en el tomo o directamente en el sistema)</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Type of file storage (on the volume or directly on the system)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0d5f9042-f4e9-45f6-aa9c-03ae16713fb3">
+    <name>Том</name>
+    <synonym>
+      <key>ru</key>
+      <value>Том</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El tomo</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Volume</value>
+    </synonym>
+    <comment>Ссылка на том (в случае если Тип хранения файла - на диске)</comment>
+    <type>
+      <types>CatalogRef.ТомаХраненияФайлов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Том для хранения файла</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El tomo para el almacenaje del fichero</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>File storage volume</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bce74582-191d-464c-aec3-5b5387cb0d6f">
+    <name>ФайлХранилище</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл хранилище</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El fichero el depósito</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>File vault</value>
+    </synonym>
+    <comment>Служебное поле для обмена файлами в распределенной информационной базе</comment>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Временное хранилище файла (служебное поле)</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El depósito temporal del fichero (el campo de servicio)</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Temporary file storage (service field)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="22ca2ca5-81a0-4f4e-8bd8-84a76e703eae">
+    <name>ДатаЗаема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата заема</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La fecha del empréstito</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Date of loan</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ДЛФ=ДВ</value>
+    </format>
+    <format>
+      <key>es</key>
+      <value>dkö=dÉ</value>
+    </format>
+    <format>
+      <key>en</key>
+      <value>ДЛФ=ДВ</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДЛФ=ДВ</value>
+    </editFormat>
+    <editFormat>
+      <key>es</key>
+      <value>dkö=dÉ</value>
+    </editFormat>
+    <editFormat>
+      <key>en</key>
+      <value>ДЛФ=ДВ</value>
+    </editFormat>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата, когда файл был занят для редактирования</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>La fecha, cuando el fichero era ocupado para la redacción</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Date when the file was busy for editing</value>
+    </toolTip>
+    <mask>false</mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d07920a1-59b5-4cd6-a903-336d82147bae">
+    <name>ХранитьВерсии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранить версии</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Guardar las versiones</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Keep versions</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Добавлять версии файла при окончании редактирования. Если отключить, тогда будет хранится только последняя версия.</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>Añadir las versiones del fichero a la terminación de la redacción. Si desconectar, entonces será está solamente la última versión.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Add file versions at the end of editing. If disabled, then only the latest version will be stored.</value>
+    </toolTip>
+    <mask>false</mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0dca5cd4-a180-46da-8e42-9270bd00694d">
+    <name>гкс_ИДГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИДГруппы</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Group ID</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolder</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="102d2b5e-f646-4400-b487-521d530767ec">
+    <producedTypes>
+      <objectType typeId="6e07c4df-b24f-4605-9041-b60f34e6ec07" valueTypeId="dfce4d0a-49aa-4dea-af2d-2eb9404c444c"/>
+      <rowType typeId="0cc3ed0a-d6fb-4b00-8c79-d39935cee8b0" valueTypeId="a3d5ffcf-7bc5-4aaa-99c6-439a831c500b"/>
+    </producedTypes>
+    <name>УдалитьЭлектронныеПодписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>(не используется) Электронные подписи</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>(No se usa) las firmas Electrónicas</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>(not used) Electronic signatures</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Хранение электронных цифровых подписей файла</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El almacenaje de las firmas electrónicas digitales del fichero</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Storing electronic digital file signatures</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="4cceaf54-dd9c-4d8c-84de-8cc321da66e2">
+      <name>ДатаПодписи</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата подписи</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La fecha de la firma</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Date of signature</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Дата установки подписи</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>La fecha de la instalación de la firma</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Signature setting date</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="427f0614-57f1-494c-887e-7c47e710a7c9">
+      <name>ИмяФайлаПодписи</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя файла подписи</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>El nombre del fichero de la firma</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Signature file name</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>260</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Имя файла подписи (служебное поле)</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El nombre del fichero de la firma (el campo de servicio)</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Signature file name (service field)</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="a5d14930-e16a-4eb0-921d-24378578665a">
+      <name>Комментарий</name>
+      <synonym>
+        <key>ru</key>
+        <value>Комментарий</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>El comentario</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Comment</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Комментарий к подписи</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El comentario de la firma</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Signature comment</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5bcea3ec-d6b2-4908-b025-a42b61c79837">
+      <name>КомуВыданСертификат</name>
+      <synonym>
+        <key>ru</key>
+        <value>Кому выдан сертификат</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>Quien es dado el certificado</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>To whom the certificate is issued</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Кому выдан сертификат (имя, отдел и др. информация)</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>Quien es dado el certificado (el nombre, el departamento etc. la información)</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>To whom the certificate is issued (name, department and other information)</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="43f99ce4-16fb-45cb-9ba7-03078e149f60">
+      <name>Отпечаток</name>
+      <synonym>
+        <key>ru</key>
+        <value>Отпечаток</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La huella</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Imprint</value>
+      </synonym>
+      <comment>Отпечаток сертификата</comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>255</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Отпечаток сертификата (служебное поле)</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>La huella del certificado (el campo de servicio)</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Certificate imprint (service field)</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="98fbb5ea-9b34-4dcc-9335-29b28c01bbb1">
+      <name>Подпись</name>
+      <synonym>
+        <key>ru</key>
+        <value>Подпись</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La firma</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Signature</value>
+      </synonym>
+      <type>
+        <types>ValueStorage</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Двоичные данные подписи (служебное поле)</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>Las firmas binarias dadas (el campo de servicio)</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Binary signature data (service field)</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="db1175ef-d577-41a0-81be-b95987cd2270">
+      <name>УстановившийПодпись</name>
+      <synonym>
+        <key>ru</key>
+        <value>Установивший подпись</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>Que ha establecido a la firma</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Signed</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Пользователь, установивший подпись</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El usuario que ha establecido a la firma</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Signed user</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+    </attributes>
+    <attributes uuid="999f396f-c0b6-429a-8a9d-d3cd5b545008">
+      <name>Сертификат</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сертификат</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>El certificado</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Certificate</value>
+      </synonym>
+      <comment>Двоичные данные сертификата</comment>
+      <type>
+        <types>ValueStorage</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Двоичные данные сертификата (служебное поле)</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>Los datos binarios del certificado (el campo de servicio)</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Certificate binary data (service field)</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fef0a66b-4cff-4970-ac68-94929691dac3">
+      <name>ДатаПроверкиПодписи</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата проверки подписи</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La fecha de la comprobación de la firma</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Signature verification date</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Дата последней проверки подписи.</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>La fecha de la última comprobación de la firma.</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Date of last signature verification.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ca84c2d8-0f48-4230-9212-72bb810ff887">
+      <name>ПодписьВерна</name>
+      <synonym>
+        <key>ru</key>
+        <value>Подпись верна</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La firma es justa</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Signature is correct</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Результат последней проверки подписи.</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El resultado de la última comprobación de la firma.</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>The result of the last signature verification.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="2bcd7937-fcff-481c-88c4-a176f163f2de">
+    <producedTypes>
+      <objectType typeId="ed6f49df-100a-4a1d-a20c-85232c18f7d1" valueTypeId="7be9733b-81b6-43e5-9e3b-0c89fa984227"/>
+      <rowType typeId="d3f3e954-ed20-4141-ba53-814b2a2c1af3" valueTypeId="c8a4959b-a943-4d98-9f05-ef2b5f7910b0"/>
+    </producedTypes>
+    <name>УдалитьСертификатыШифрования</name>
+    <synonym>
+      <key>ru</key>
+      <value>(не используется) Сертификаты шифрования</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>(No se usa) los Certificados de la cifración</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>(not used) Encryption certificates</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Хранение сертификатов шифрования</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El almacenaje de los certificados de la cifración</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Storing encryption certificates</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="3a7b699b-6510-402c-94a1-cb46d3a83f3a">
+      <name>Отпечаток</name>
+      <synonym>
+        <key>ru</key>
+        <value>Отпечаток</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La huella</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Imprint</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>255</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Отпечаток сертификата (служебное поле)</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>La huella del certificado (el campo de servicio)</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Certificate imprint (service field)</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="86fc3ff1-18c0-4eda-84af-c61be75233a2">
+      <name>Представление</name>
+      <synonym>
+        <key>ru</key>
+        <value>Представление</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La representación</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Performance</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Кому выдан сертификат (имя, отдел и др. информация)</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>Quien es dado el certificado (el nombre, el departamento etc. la información)</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>To whom the certificate is issued (name, department and other information)</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5835b86f-6524-4918-ad19-59914b6debf9">
+      <name>Сертификат</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сертификат</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>El certificado</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Certificate</value>
+      </synonym>
+      <comment>Двоичные данные сертификата</comment>
+      <type>
+        <types>ValueStorage</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Двоичные данные сертификата (служебное поле)</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>Los datos binarios del certificado (el campo de servicio)</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Certificate binary data (service field)</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

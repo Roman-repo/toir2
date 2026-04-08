@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="920c948e-edf3-4bf0-92ca-16f04240a383">
+  <producedTypes>
+    <objectType typeId="b801a533-a753-4e8b-856a-d19feccf820d" valueTypeId="db2a44d0-1159-4414-814c-687c8b1b73a8"/>
+    <refType typeId="c18230ed-2a5b-4ba8-a95f-111b9d10b910" valueTypeId="9a4509eb-21f0-4c75-9d1e-c24cf426e8eb"/>
+    <selectionType typeId="e8563384-df17-4132-90ee-ce8eb3fdcd0d" valueTypeId="720eed60-b982-4ee0-a67c-292419f9956b"/>
+    <listType typeId="939286c0-5939-484d-b780-a275475dbeeb" valueTypeId="e01ea93c-94de-4bb9-bb63-8ff2732d4ace"/>
+    <managerType typeId="e58bf69b-1bb6-4091-a57a-ba9563b76beb" valueTypeId="2a6c2b49-13e2-44af-abd8-6d785dcfae93"/>
+  </producedTypes>
+  <name>УчетныеЗаписиСинхронизацииФайлов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c8ff6ea2-d5f1-488c-917c-fc5a31801217">
+  <producedTypes>
+    <selectionType typeId="08e9e0c8-17b8-4b8b-aefa-0c77c6e80cb4" valueTypeId="3bc4d6d5-5349-42aa-9f9b-a03be22471d0"/>
+    <listType typeId="e8620cb2-7d4b-46c8-bb77-819fc37b6e97" valueTypeId="8a5d3003-8abf-49fa-951a-3da79624eeae"/>
+    <managerType typeId="3a0f59f1-1946-46cc-bd2c-ec1de2410ec8" valueTypeId="8e509eb0-c7b9-4bb4-9815-8c3e8b80bfe6"/>
+    <recordSetType typeId="70b2d03c-815d-4839-b3d4-0bc8d6547ec3" valueTypeId="82f03bba-7c18-4294-96bb-65f952197f82"/>
+    <recordKeyType typeId="8d72cc6d-29b4-4207-87b5-02af0f21c947" valueTypeId="16a2be54-0996-456a-84f3-fcffd1ddd3b5"/>
+    <recordType typeId="7953e89c-2f35-4f62-aea0-19ed30f936cc" valueTypeId="0981752c-2fe5-49a6-8974-8787fdaec69f"/>
+    <recordManagerType typeId="853738a2-bbb1-48c8-9955-b923ddfac872" valueTypeId="b86b2aaf-c37d-44b6-b174-3e55893da366"/>
+  </producedTypes>
+  <name>гкс_СвязиМеждуФМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Связи между ФМ</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Connection between FP</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="0b451135-cddb-47d5-b3a1-dac40ae35809">
+    <name>ТипСвязи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип связи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Type of connection</value>
+    </synonym>
+    <type>
+      <types>EnumRef.гкс_ТипТехнологическойСвязи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="9d341ae6-37f6-410e-aec6-2ae047015e51">
+    <name>Главный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Главный</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Main</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.торо_ОбъектыРемонта</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2f8e3f84-7a7d-40ff-b1ec-bb4fc8e90f6f">
+    <name>Подчиненный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подчиненный</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Slave</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.торо_ОбъектыРемонта</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4941d48d-f71d-4079-b2b4-86a8479d4ffe">
+  <producedTypes>
+    <managerType typeId="f49e2406-24c1-4c87-943a-9858a6575d80" valueTypeId="b44ba30a-bdbc-4e73-a718-e72a0d73b944"/>
+    <valueManagerType typeId="b07d8d98-d1ae-437a-8474-cc390e72c81b" valueTypeId="f395575a-051e-47cc-9f04-001285774d1b"/>
+    <valueKeyType typeId="16808d04-4717-4c6b-95d7-2075e11809d5" valueTypeId="30cd257d-e7c7-462d-ba28-acbcf0b55ef3"/>
+  </producedTypes>
+  <name>гкс_СобытиеПереносРемонтаЗаявки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Событие перенос ремонта заявки</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.торо_СобытияУведомленийВДокументах</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

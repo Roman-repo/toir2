@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="730f46cf-f174-4b4d-967b-615017a45f4e" extendedConfigurationObject="0d076134-3b79-4a75-ada9-c9601a65017d">
+  <producedTypes>
+    <managerType typeId="8759a430-d3cd-4d79-be0d-717ce1255a10" valueTypeId="7f916523-dc10-4431-989c-bb87aeed3f98"/>
+    <valueManagerType typeId="2b9268b3-b2e8-4295-bdab-3d69a4a99127" valueTypeId="fb0c2ed6-2665-40a6-826f-3c1f88db3a75"/>
+    <valueKeyType typeId="65f9b1ac-d5c6-4bf2-9865-dcb1086a8427" valueTypeId="b28dca60-a12a-4db9-b173-f17e6162428e"/>
+  </producedTypes>
+  <name>торо_ОтладкаАСУТП_ЗагрузкаДанныхИзМакета</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+</mdclass:Constant>

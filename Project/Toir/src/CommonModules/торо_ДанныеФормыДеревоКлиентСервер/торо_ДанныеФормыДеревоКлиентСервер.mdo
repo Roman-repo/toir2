@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="73672ba6-081e-4ae5-a3c4-9ba8406271cd">
+  <name>торо_ДанныеФормыДеревоКлиентСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные формы дерево</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Las formas dadas el árbol</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Tree shape data</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+</mdclass:CommonModule>

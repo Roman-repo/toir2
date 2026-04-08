@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c6210b94-fb9f-4665-9062-ac2194049749">
+  <name>торо_ДобавлениеНарядовНаРегламентноеМероприятие</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление нарядов на регламентное мероприятие</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>La adición de los vestidos a la medida de reglamento</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Adding duties to a regular event</value>
+  </synonym>
+</mdclass:Role>

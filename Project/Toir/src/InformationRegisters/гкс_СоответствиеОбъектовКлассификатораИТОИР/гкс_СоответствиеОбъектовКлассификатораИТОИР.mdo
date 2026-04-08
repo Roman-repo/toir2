@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c693726-3cd9-4a54-b266-0cdb0562cb94">
+  <producedTypes>
+    <selectionType typeId="c2ef85c1-5967-4c3b-ab5d-88abd2109716" valueTypeId="0146a6f1-ecd7-467b-bff0-5a0a5294227e"/>
+    <listType typeId="df54687d-f497-46e6-8f18-0ef66faa2269" valueTypeId="f315feb3-25b9-48b4-ba96-54b1b8f8e975"/>
+    <managerType typeId="644c9bf2-fa72-46ab-b717-a1a2e446f76c" valueTypeId="78425ed9-3260-44f0-a76d-eae837989afe"/>
+    <recordSetType typeId="d7ac7ad8-d38a-460b-9967-a0437f8270dd" valueTypeId="052bc056-8c90-4caa-ac94-34d99d9d24b4"/>
+    <recordKeyType typeId="9a80b40b-ec6d-4ca4-816d-2285c1918f50" valueTypeId="2cd11a86-44a9-4eff-acd0-fb2483b6a01d"/>
+    <recordType typeId="b083fb98-c382-4944-8251-7b5e13c44235" valueTypeId="3b06ad38-5802-4c63-9354-4bb0656c80c9"/>
+    <recordManagerType typeId="0f942944-a16e-4dfc-8b16-71a715076678" valueTypeId="6188a6a5-6251-4f68-83b1-d8d0af81fa60"/>
+  </producedTypes>
+  <name>гкс_СоответствиеОбъектовКлассификатораИТОИР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соответствие объектов классификатора и ТОИР</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="6aee04cf-58a3-4464-809a-64d4f1634fd4">
+    <name>ОбъектКлассификатора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект классификатора</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Классы</types>
+      <types>CatalogRef.НоменклатураКласса</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2ffa418c-0ee4-47d1-871e-dc3562a8a343">
+    <name>ОбъектТОИР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект ТОИР</value>
+    </synonym>
+    <type>
+      <types>CatalogRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="267c5e6e-93c0-431e-98d6-8d61feb3691c">
+    <name>ТипОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип объекта</value>
+    </synonym>
+    <type>
+      <types>EnumRef.гкс_ТипОбъектаТОИР</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

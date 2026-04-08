@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8eafcca1-12d2-4172-a802-ea769fac15b9" extendedConfigurationObject="6ca9236f-a7cf-49a5-8e0b-1034fbae926d">
+  <producedTypes>
+    <selectionType typeId="5bf2e0a5-232f-4531-8c76-2e9ad1a0a608" valueTypeId="6d752170-e591-44f9-b55d-46af5369b65f"/>
+    <listType typeId="d8bec1e0-8190-4251-8fd2-5e7d41538ed6" valueTypeId="d98bbf86-67da-4508-89df-b5acf7f7e72e"/>
+    <managerType typeId="d4b15f50-bb0d-421f-ae52-a97262ae1d0b" valueTypeId="8f19497a-ee44-43b8-a241-3d7b2a4e5a41"/>
+    <recordSetType typeId="4bc85fe5-6575-4500-acbf-fcb1f3754d7b" valueTypeId="8cfdcbaa-62ec-402d-bb70-85456c58bef1"/>
+    <recordKeyType typeId="ba6f9667-20b8-419f-9544-259205daef24" valueTypeId="6084f33b-d8e5-4a80-811e-1102b600824d"/>
+    <recordType typeId="08eed6b1-6c05-40b2-9bd6-4d2f216eff80" valueTypeId="b29f3282-f15d-41f7-a6ea-61065d2ed97c"/>
+    <recordManagerType typeId="a970684d-a0b2-42af-8273-f36a936fa04c" valueTypeId="50037052-fdc5-4dd0-b145-0ae8c1736660"/>
+  </producedTypes>
+  <name>гкс_НомераНарядДопусков</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <resources uuid="cd902a81-647f-4014-8a94-f993598930df" extendedConfigurationObject="7ff0936e-6bc1-4e13-9e44-af9f89a0899d">
+    <name>Номер</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>11</precision>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+  </resources>
+  <resources uuid="cd75ed39-4963-4d64-bf6b-3decbf158a0e" extendedConfigurationObject="a6c59d4f-57e8-4846-ae58-2731caec3ab2">
+    <name>НомерТекст</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>15</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </resources>
+  <dimensions uuid="06cba3f9-a297-464c-9bf1-a8bcc222ccd0" extendedConfigurationObject="0c308af0-2ff5-4e40-9f19-94e8db40752d">
+    <name>Документ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.торо_НарядНаВыполнениеРемонтныхРабот</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:InformationRegister>

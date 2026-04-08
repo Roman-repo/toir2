@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0339a5f8-660a-4c32-9a20-2ee11536b19a">
+  <producedTypes>
+    <objectType typeId="00f53477-e411-46e4-9edc-4270340365b8" valueTypeId="187c0e9d-c11c-4043-b9f8-9d07f3ca7f4a"/>
+    <managerType typeId="5c9ffaa3-c704-44e8-81ee-590632d92652" valueTypeId="60b69fe8-ba1d-4318-aa63-68b36eca90ca"/>
+  </producedTypes>
+  <name>ВосстановлениеНаследованияСтрокТЧ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Восстановление наследования строк ТЧ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ВосстановлениеНаследованияСтрокТЧ.Form.Форма</defaultForm>
+  <forms uuid="0b2368bc-cbb1-4ee3-99d6-ee929af5911e">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e468bf02-d258-471f-8ed7-ec7891de96fa">
+  <producedTypes>
+    <managerType typeId="eecd988a-815d-446a-b954-156ce0197df6" valueTypeId="cded35b9-86bb-415a-b8a2-6fd2767717ea"/>
+    <valueManagerType typeId="0b162d5f-0b96-44d9-a0af-4da7388aa5e2" valueTypeId="bee30bfd-6120-457d-be43-765fc6a117f7"/>
+    <valueKeyType typeId="755e614b-0f62-588b-90a8-ff15c5c7c636" valueTypeId="e84efe4e-decb-5f23-949b-acac4a1640fe"/>
+  </producedTypes>
+  <name>торо_ИспользоватьФункциональныеМеста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать функциональные места</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Use functional location</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Utilizar las zona</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

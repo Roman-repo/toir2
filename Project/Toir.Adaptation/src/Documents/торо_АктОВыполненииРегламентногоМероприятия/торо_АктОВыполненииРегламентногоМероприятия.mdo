@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="faf3ae28-5141-4142-a260-100c089dcf42">
+  <producedTypes>
+    <objectType typeId="6927638b-8338-44cd-817e-7789b4ed8686" valueTypeId="463410f1-bc64-464f-a138-7f28edc14a83"/>
+    <refType typeId="28c639a1-fcd2-4844-ae08-b020abb60f8d" valueTypeId="36abb09e-9943-4097-8bed-4eaf70fa4e79"/>
+    <selectionType typeId="eb56cb1a-c5fc-4f8e-9a96-0f619d35571d" valueTypeId="714ca9ab-1e03-4774-a860-8d6d04cd8531"/>
+    <listType typeId="88e56667-c6e3-422f-b964-a9d5b87dd30a" valueTypeId="86aff7e9-9949-43a1-8f1c-ad18d30ac86a"/>
+    <managerType typeId="fb13b9f6-2ab8-4d7c-a9cc-3fa3692be55f" valueTypeId="71cb2cda-eb83-425f-a581-41c5d7cb49aa"/>
+  </producedTypes>
+  <name>торо_АктОВыполненииРегламентногоМероприятия</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <attributes uuid="d4736fd2-b215-4217-aacb-68a9d6c926bd">
+    <name>ЗавершитьРемонтныеРаботы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <tabularSections uuid="b5550ece-3322-4eac-a6eb-9b1fcd89c581">
+    <producedTypes>
+      <objectType typeId="f14e75f8-9bdb-4362-bd6a-41d0669a633b" valueTypeId="c631f646-fb20-4268-8ab0-dfc38b448a5f"/>
+      <rowType typeId="dbf2c8fc-9bb8-4efe-9d14-65c955f849e7" valueTypeId="4e2ede1d-4cfb-44dc-ad1d-5a465dac21d9"/>
+    </producedTypes>
+    <name>Мероприятия</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <attributes uuid="2b752b7f-ae7e-4a0c-998f-56f5584d04ba">
+      <name>ДатаНачала</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>Date</type>
+          </types>
+          <dateQualifiers/>
+        </typeExtension>
+      </extension>
+    </attributes>
+    <attributes uuid="4af1a956-7bcc-4cff-b916-2e001412582c">
+      <name>ОбъектРемонта</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.торо_СписокОбъектовРегламентногоМероприятия</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+    <attributes uuid="49f5c893-699c-4581-b257-332e26b85f8a">
+      <name>ВидРемонтныхРабот</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.торо_ВидыРемонтов</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+    <attributes uuid="f049daa5-7bdf-4958-b2e0-3a78c18de8e0">
+      <name>ID</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>String</type>
+          </types>
+          <stringQualifiers>
+            <length>36</length>
+          </stringQualifiers>
+        </typeExtension>
+      </extension>
+    </attributes>
+    <attributes uuid="5085ad7b-d0d0-463d-afcf-b4e8ccfa5ed5">
+      <name>ДатаОкончания</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>Date</type>
+          </types>
+          <dateQualifiers/>
+        </typeExtension>
+      </extension>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

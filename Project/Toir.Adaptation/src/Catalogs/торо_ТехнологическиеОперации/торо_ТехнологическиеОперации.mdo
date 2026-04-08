@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="74ef982e-218f-4e53-a784-2d70c39df5ea">
+  <producedTypes>
+    <objectType typeId="2db3a6af-9d52-4b20-bc64-175bda2ad6a2" valueTypeId="22acb0d0-2355-4934-859f-e28f915b9a14"/>
+    <refType typeId="d923fc12-9054-4cee-bc5b-2392f21dceb0" valueTypeId="691d4e81-5eee-470f-9c60-9f575db5e9a8"/>
+    <selectionType typeId="692280a8-0397-4521-9380-2104dd53b8fc" valueTypeId="10863801-d075-457b-b6bc-3e859f21522f"/>
+    <listType typeId="26769912-9047-419d-86a0-503a96610609" valueTypeId="7ba1f6e4-8210-4e62-8293-7fc5aa255a3c"/>
+    <managerType typeId="15a8fc1e-0720-4e41-ac12-17b0e8d0ace9" valueTypeId="0da8f318-6d9a-4700-8518-cc15a57a06be"/>
+  </producedTypes>
+  <name>торо_ТехнологическиеОперации</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="1f78cee2-cddb-4c38-8e87-95f1243e1d67">
+    <name>БазоваяЕдиницаИзмерения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ЕдиницыИзмерения</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="3ee8199c-742f-497c-bb8d-6e92e32333d5" extendedConfigurationObject="5b1abb81-1291-4c5c-8a72-ed45448638ca">
+    <name>НормаВремени</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Catalog>

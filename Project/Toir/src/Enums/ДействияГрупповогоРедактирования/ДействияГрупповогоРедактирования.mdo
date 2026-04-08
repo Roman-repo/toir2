@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92b4aa4e-4df6-4ff4-9104-5bc8eb82c448">
+  <producedTypes>
+    <refType typeId="6066ede9-9da6-4d18-83a8-5476b5b8d087" valueTypeId="ea912813-4cc9-405d-934e-68b5fcaef69b"/>
+    <listType typeId="0c8dd049-2bbc-414c-8a4e-24eb37694985" valueTypeId="da223820-6c16-4090-92cf-bfbef1dc62cf"/>
+    <managerType typeId="b950aa82-f25d-4f25-b086-d3efffcd532a" valueTypeId="61e220c6-a9d5-4f71-ae20-077282f1a481"/>
+  </producedTypes>
+  <name>ДействияГрупповогоРедактирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Действия группового редактирования</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="48cf7483-e9cf-48eb-acd8-81d47ac6e896">
+    <name>УстановитьРеквизит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установить реквизит</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e3ccc15d-9e4c-457b-8f5d-f786c32c0d37">
+    <name>УстановитьАтрибут</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установить атрибут</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

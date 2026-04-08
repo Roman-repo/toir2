@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8d3cc374-5817-40f3-9df6-6149fcc54477">
+  <producedTypes>
+    <managerType typeId="a9cf40f1-2295-4264-be9d-2e8577792e87" valueTypeId="ac391377-0a88-435e-983d-13e312054459"/>
+    <valueManagerType typeId="d4f1e73f-4b08-4cb4-829e-bda2ff614229" valueTypeId="98e0c1f3-3080-47a3-bbd1-f89e0ef8af03"/>
+    <valueKeyType typeId="0ff8c5ee-8880-4aeb-a0ac-78d8e29b597b" valueTypeId="305c5349-533f-426d-a1bc-4cd3ebda0681"/>
+  </producedTypes>
+  <name>гкс_МинимальнаяДатаОбменаАСУТП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Минимальная дата обмена АСУТП</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Minimum exchange date APСS</value>
+  </synonym>
+  <type>
+    <types>Date</types>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

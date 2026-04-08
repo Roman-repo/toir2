@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6530acc4-17c5-4cf8-a117-cd79d5720b5d" extendedConfigurationObject="c9a6d446-4047-4290-90dd-95e317f09831">
+  <producedTypes>
+    <objectType typeId="cb21d8a9-4ced-40fa-84ff-cc68f0b2ef4b" valueTypeId="b91ec9b4-35de-45a3-873a-d40b515c60e5"/>
+    <refType typeId="da62baed-5aa3-4c69-90e8-d9f7119c3ec2" valueTypeId="11a6dc03-56bb-4f05-abde-bcbbcc8050fc"/>
+    <selectionType typeId="b9ede25f-a033-4be7-b482-163936ec73dd" valueTypeId="b26ab3af-b80c-4b8e-9798-7bb23edc68f5"/>
+    <listType typeId="d137ec5c-a602-4454-b8fc-26a1f3fde0ef" valueTypeId="e49fec5e-dc0f-4470-a769-8a54e668a1d3"/>
+    <managerType typeId="5b9004b1-e1cb-4336-9233-3a930adddaf1" valueTypeId="95a14235-c09d-40af-a056-4ad1db36be8e"/>
+  </producedTypes>
+  <name>торо_КатегорииРиска</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <forms uuid="331004c5-b2df-4b09-ad02-26e687abfa8d" extendedConfigurationObject="94cd5251-8525-4b1e-92c7-967564a87ecc">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

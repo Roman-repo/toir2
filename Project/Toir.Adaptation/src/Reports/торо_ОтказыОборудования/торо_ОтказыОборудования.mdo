@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3280cc27-a2a5-40e5-b491-4a744ef97734" extendedConfigurationObject="fb406d9f-dcc8-44b7-b492-b594fef7b8c7">
+  <producedTypes>
+    <objectType typeId="fc2d47ed-da86-4fe3-9e10-a94c1f502e96" valueTypeId="4c20397b-e556-40ca-9eb9-46a020b555af"/>
+    <managerType typeId="331981c9-d495-4496-b9d3-29e1bc26b604" valueTypeId="40b7ef19-4f5d-4c69-b644-f6e960278668"/>
+  </producedTypes>
+  <name>торо_ОтказыОборудования</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ReportExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <mainDataCompositionSchema>Extended</mainDataCompositionSchema>
+    <objectModule>Extended</objectModule>
+  </extension>
+  <mainDataCompositionSchema>Report.торо_ОтказыОборудования.Template.гкс_ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="f7264a01-1362-45ea-967e-da6bcf8b304f" extendedConfigurationObject="5565b777-4b8f-47ce-be45-1ccd55e293da">
+    <name>гкс_ОсновнаяСхемаКомпоновкиДанных</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicTemplateExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

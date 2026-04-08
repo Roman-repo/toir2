@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7760b64c-181b-43ff-8c4c-6257fe403690">
+  <producedTypes>
+    <managerType typeId="01fd7046-6a6b-4ac8-af14-447d23defab6" valueTypeId="0ac4ff0d-588c-4535-af1c-80e13be6e5f9"/>
+    <valueManagerType typeId="fda39e16-175c-4c1d-b6cb-d60375b776a2" valueTypeId="5f4666dc-8726-473b-98a4-8577ba146be2"/>
+    <valueKeyType typeId="d0ee2637-7c3c-4574-86ec-0db38e563c02" valueTypeId="02187481-27f4-48f3-9c6e-0fa0a2026ae8"/>
+  </producedTypes>
+  <name>торо_КонтролироватьВремяРаботыСотрудниковВАктах</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+</mdclass:Constant>

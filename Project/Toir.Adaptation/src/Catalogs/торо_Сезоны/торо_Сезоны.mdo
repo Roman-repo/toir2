@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="aae9ac99-f3f3-4a84-af3f-c0e5001a3882">
+  <producedTypes>
+    <objectType typeId="4b274008-0193-4bfc-abde-e6f2add80d9c" valueTypeId="8e24de73-abe8-4142-82ee-4e3ae89a77f2"/>
+    <refType typeId="45cbb512-8a1e-45e4-bca2-d6c79e03f632" valueTypeId="5bfe7baf-f8b8-48b8-959f-78609d5eb090"/>
+    <selectionType typeId="3d5276a9-0671-4e1e-9188-a43843b50d37" valueTypeId="ef8ce1cf-ffba-4fc7-839d-35b114d24d80"/>
+    <listType typeId="020374a0-d288-4a97-905b-e1b54ed2e8cf" valueTypeId="daea79e4-8261-4931-a694-ceeed8815771"/>
+    <managerType typeId="efabc6a4-fa48-46e8-9703-ccfa5f02822b" valueTypeId="5b477366-73ec-4c60-8d20-ddc47835c44e"/>
+  </producedTypes>
+  <name>торо_Сезоны</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f791a18-2327-4b5f-8db3-2f086a45be1f">
+  <name>торо_ДобавлениеИзменениеТиповКоэффициентовПереводаСтоимостейРемонтов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление, изменение и пометка удаления на типы коэффициентов перевода стоимостей ремонтов</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>La adición, el cambio y la marca de la desaparición a los tipos de los coeficientes de la traducción стоимостей de las reparaciones</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Adding, changing, and marking deletion to types of conversion factors for repair costs</value>
+  </synonym>
+</mdclass:Role>

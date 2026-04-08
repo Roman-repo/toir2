@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="283c86c5-a694-4735-8f3e-e95d7acc8c0a">
+  <producedTypes>
+    <selectionType typeId="eee1a009-874d-4c06-ac05-595e3f170a9f" valueTypeId="c3c5059c-7498-4eff-82e5-d71cff42b30c"/>
+    <listType typeId="63435ffb-2ed5-43f6-92ff-74fe581f0e78" valueTypeId="fa30041b-9704-410b-ae18-e2279ed848bd"/>
+    <managerType typeId="0ecb9ffc-1ff4-4d3e-9eac-3f318d866203" valueTypeId="94877115-a771-4a01-bc61-ad820a4cde37"/>
+    <recordSetType typeId="a591f21a-3c8b-47ba-a62f-c14a7142af8e" valueTypeId="68cff66b-f135-46ff-98f1-f96a229dacca"/>
+    <recordKeyType typeId="5f5cbdf6-4d0b-4019-852c-da4999446c53" valueTypeId="703ef1d9-61d9-4f3d-bea8-6b53e0312be6"/>
+    <recordType typeId="aee8dfb9-aa48-44d2-9a85-fe4b701d1aff" valueTypeId="f3e88d44-95c0-4eac-82d8-36d6b193b2f8"/>
+    <recordManagerType typeId="4c41e4d8-7d37-4468-b750-ad3be0209d0f" valueTypeId="53b214a4-3267-4fe1-b0a6-ee859fc4b3ac"/>
+  </producedTypes>
+  <name>торо_ЗавершенныеРемонтныеРаботы</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dimensions uuid="40051d8f-cef9-4c1a-baee-4141bf90ff43">
+    <name>ID</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </dimensions>
+  <dimensions uuid="e4d91879-09f0-4720-81f8-07b100fc47cc">
+    <name>ОбъектРемонта</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.торо_ОбъектыРемонта</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:InformationRegister>

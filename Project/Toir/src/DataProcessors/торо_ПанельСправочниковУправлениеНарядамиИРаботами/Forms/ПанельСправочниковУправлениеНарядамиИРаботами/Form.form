@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <title>
+    <key>ru</key>
+    <value>Настройки и справочники</value>
+  </title>
+  <title>
+    <key>es</key>
+    <value>Los ajustes y las guías</value>
+  </title>
+  <title>
+    <key>en</key>
+    <value>Settings and references</value>
+  </title>
+  <items xsi:type="form:Decoration">
+    <name>ДекорацияОтступ</name>
+    <id>17</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <extendedTooltip>
+      <name>ДекорацияОтступExtendedTooltip</name>
+      <id>205</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ДекорацияОтступКонтекстноеМеню</name>
+      <id>18</id>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>Label</type>
+    <autoMaxWidth>true</autoMaxWidth>
+    <autoMaxHeight>true</autoMaxHeight>
+    <extInfo xsi:type="form:LabelDecorationExtInfo">
+      <horizontalAlign>Left</horizontalAlign>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormGroup">
+    <name>ГруппаОценкаРаботыПодрядчика</name>
+    <id>71</id>
+    <items xsi:type="form:FormGroup">
+      <name>ГруппаОценкаРаботыПодрядчикаГоризонтальная1</name>
+      <id>145</id>
+      <items xsi:type="form:FormGroup">
+        <name>ГруппаВидыОценок</name>
+        <id>250</id>
+        <items xsi:type="form:Button">
+          <name>ОткрытьВидыОценок</name>
+          <id>252</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ОткрытьВидыОценокРасширеннаяПодсказка</name>
+            <id>253</id>
+            <type>Label</type>
+            <autoMaxHeight>true</autoMaxHeight>
+            <textColor xsi:type="core:ColorRef">
+              <color>Style.ПоясняющийТекст</color>
+            </textColor>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>Hyperlink</type>
+          <commandName>Form.Command.ОткрытьВидыОценок</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Группа виды оценок</value>
+        </title>
+        <title>
+          <key>es</key>
+          <value>El grupo los tipos de las apreciaciones</value>
+        </title>
+        <title>
+          <key>en</key>
+          <value>Group types of ratings</value>
+        </title>
+        <toolTip>
+          <key>ru</key>
+          <value>Группа виды оценок</value>
+        </toolTip>
+        <toolTip>
+          <key>es</key>
+          <value>El grupo los tipos de las apreciaciones</value>
+        </toolTip>
+        <toolTip>
+          <key>en</key>
+          <value>Group types of ratings</value>
+        </toolTip>
+        <extendedTooltip>
+          <name>ГруппаВидыОценокРасширеннаяПодсказка</name>
+          <id>251</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>Vertical</group>
+          <behavior>Auto</behavior>
+          <representation>WeakSeparation</representation>
+          <showLeftMargin>true</showLeftMargin>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>Auto</currentRowUse>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormGroup">
+        <name>ГруппаКритерииОценки</name>
+        <id>254</id>
+        <items xsi:type="form:Button">
+          <name>ОткрытьКритерииОценки</name>
+          <id>259</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ОткрытьКритерииОценкиРасширеннаяПодсказка</name>
+            <id>260</id>
+            <type>Label</type>
+            <autoMaxHeight>true</autoMaxHeight>
+            <textColor xsi:type="core:ColorRef">
+              <color>Style.ПоясняющийТекст</color>
+            </textColor>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>Hyperlink</type>
+          <commandName>Form.Command.ОткрытьКритерииОценки</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Группа критерии оценки</value>
+        </title>
+        <title>
+          <key>es</key>
+          <value>El grupo los criterios de la apreciación</value>
+        </title>
+        <title>
+          <key>en</key>
+          <value>Group evaluation criteria</value>
+        </title>
+        <toolTip>
+          <key>ru</key>
+          <value>Группа критерии оценки</value>
+        </toolTip>
+        <toolTip>
+          <key>es</key>
+          <value>El grupo los criterios de la apreciación</value>
+        </toolTip>
+        <toolTip>
+          <key>en</key>
+          <value>Group evaluation criteria</value>
+        </toolTip>
+        <extendedTooltip>
+          <name>ГруппаКритерииОценкиРасширеннаяПодсказка</name>
+          <id>255</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>Vertical</group>
+          <behavior>Auto</behavior>
+          <representation>WeakSeparation</representation>
+          <showLeftMargin>true</showLeftMargin>
+          <united>true</united>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>Auto</currentRowUse>
+        </extInfo>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Группа оценка работы подрядчика горизонтальная1</value>
+      </title>
+      <title>
+        <key>es</key>
+        <value>El grupo la apreciación del trabajo del contratista горизонтальная1</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Group contractor performance appraisal horizontal1</value>
+      </title>
+      <titleFont xsi:type="core:FontRef">
+        <font>System.DefaultGUIFont</font>
+        <height>10.0</height>
+        <bold>true</bold>
+        <italic>false</italic>
+        <underline>false</underline>
+        <strikeout>false</strikeout>
+      </titleFont>
+      <toolTip>
+        <key>ru</key>
+        <value>Группа оценка работы подрядчика горизонтальная1</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El grupo la apreciación del trabajo del contratista горизонтальная1</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Group contractor performance appraisal horizontal1</value>
+      </toolTip>
+      <horizontalStretch>false</horizontalStretch>
+      <extendedTooltip>
+        <name>ГруппаОценкаРаботыПодрядчикаГоризонтальная1РасширеннаяПодсказка</name>
+        <id>246</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualGroup</type>
+      <extInfo xsi:type="form:UsualGroupExtInfo">
+        <group>AlwaysHorizontal</group>
+        <behavior>Auto</behavior>
+        <showLeftMargin>true</showLeftMargin>
+        <slaveItemsWidth>Equal</slaveItemsWidth>
+        <throughAlign>Auto</throughAlign>
+        <currentRowUse>Auto</currentRowUse>
+      </extInfo>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Оценка работы подрядчика</value>
+    </title>
+    <title>
+      <key>es</key>
+      <value>La apreciación del trabajo del contratista</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Contractor performance assessment</value>
+    </title>
+    <titleFont xsi:type="core:FontRef">
+      <font>System.DefaultGUIFont</font>
+      <height>10.0</height>
+      <bold>true</bold>
+      <italic>false</italic>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+    </titleFont>
+    <toolTip>
+      <key>ru</key>
+      <value>Ценообразование</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>La formación de precios</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Pricing</value>
+    </toolTip>
+    <horizontalStretch>false</horizontalStretch>
+    <extendedTooltip>
+      <name>ГруппаОценкаРаботыПодрядчикаРасширеннаяПодсказка</name>
+      <id>245</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>Vertical</group>
+      <behavior>Auto</behavior>
+      <representation>NormalSeparation</representation>
+      <showLeftMargin>true</showLeftMargin>
+      <showTitle>true</showTitle>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
+  </items>
+  <autoCommandBar>
+    <name>ФормаКоманднаяПанель</name>
+    <id>-1</id>
+    <horizontalAlign>Left</horizontalAlign>
+  </autoCommandBar>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
+  <autoUrl>true</autoUrl>
+  <group>Vertical</group>
+  <autoFillCheck>true</autoFillCheck>
+  <enabled>true</enabled>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
+  <formCommands>
+    <name>ОткрытьВидыОценок</name>
+    <title>
+      <key>ru</key>
+      <value>Виды оценок</value>
+    </title>
+    <title>
+      <key>es</key>
+      <value>Los tipos de las apreciaciones</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Types of ratings</value>
+    </title>
+    <id>1</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Справочник предназначен для ведения списка видов оценок стоимостей ремонтов, выполняемых подрядчиками для оценки их работы.</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>La guía es destinada a la gestión de la lista de los tipos de las apreciaciones стоимостей de las reparaciones cumplidas por los contratistas para la apreciación de su trabajo.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>The directory is intended for maintaining a list of types of estimates of the cost of repairs performed by contractors to evaluate their work.</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОткрытьВидыОценок</name>
+      </handler>
+    </action>
+    <functionalOptions>FunctionalOption.торо_ИспользоватьЛоты</functionalOptions>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОткрытьКритерииОценки</name>
+    <title>
+      <key>ru</key>
+      <value>Критерии оценки</value>
+    </title>
+    <title>
+      <key>es</key>
+      <value>Los criterios de la apreciación</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Criteria for evaluation</value>
+    </title>
+    <id>2</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Справочник предназначен для ведения списка критериев оценок, по которым оцениваются стоимости ремонтов.</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>La guía es destinada a la gestión de la lista de los criterios de las apreciaciones, por que son estimados el coste de las reparaciones.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>The directory is intended for maintaining a list of evaluation criteria by which the cost of repairs is estimated.</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОткрытьКритерииОценки</name>
+      </handler>
+    </action>
+    <functionalOptions>FunctionalOption.торо_ИспользоватьЛоты</functionalOptions>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <commandInterface>
+    <navigationPanel/>
+    <commandBar/>
+  </commandInterface>
+</form:Form>

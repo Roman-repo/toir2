@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="154801ee-96fa-48bc-97f7-795860251d23">
+  <name>УправлениеНСИФункцииВызовСервераПереопределяемый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление НСИФункции вызов сервера переопределяемый</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

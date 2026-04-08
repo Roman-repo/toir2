@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c8ff98f-b092-42f5-b1fd-e2b701c9806b">
+  <producedTypes>
+    <objectType typeId="2c803868-78d4-4eac-8f13-70a7e3580da9" valueTypeId="0edb562a-0336-4ad4-b1fa-4847eda346bb"/>
+    <managerType typeId="b798cd85-e0c7-4922-80b8-6b37fe99e44d" valueTypeId="b19cbb9b-c21e-439b-b01e-031cd18431e5"/>
+  </producedTypes>
+  <name>гкс_ИсторияПеремещенияОР</name>
+  <synonym>
+    <key>ru</key>
+    <value>История перемещения ОР</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>History of movement EI</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.гкс_ИсторияПеремещенияОР.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="55c78ad2-b2a5-49af-bcac-742aed32f78b">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Main data composition diagram</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5687d2a1-93e8-4fc0-b6c3-f9eb6541c2a4">
+  <name>торо_ИспользоватьСтатусыДокументовТОиР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать статусы документов ТОиР</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Usar los estatus de los documentos ТОиР</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Use statuses of MRO documents</value>
+  </synonym>
+  <location>Constant.торо_ИспользоватьСтатусыДокументовТОиР</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>InformationRegister.торо_СтатусыДокументовНарядовНаРемонтныеРаботы</content>
+  <content>InformationRegister.торо_СтатусыДокументовНарядовНаМероприятия</content>
+  <content>InformationRegister.торо_СтатусыДокументовЗаявок</content>
+  <content>InformationRegister.торо_СтатусыДокументовВнешнихОснований</content>
+  <content>InformationRegister.торо_СтатусыДокументовВыявленныхДефектов</content>
+</mdclass:FunctionalOption>

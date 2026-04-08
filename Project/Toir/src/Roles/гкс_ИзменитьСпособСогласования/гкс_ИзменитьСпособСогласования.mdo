@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52319e43-d28e-424c-9e57-b0685c212be7">
+  <name>гкс_ИзменитьСпособСогласования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменить способ согласования</value>
+  </synonym>
+</mdclass:Role>

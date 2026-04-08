@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3a4733a5-b8f7-49d9-b4a7-6a2902cd396a">
+  <producedTypes>
+    <managerType typeId="7b3026a2-f437-417a-a6c3-252f90c67a5b" valueTypeId="3ea5d854-7be8-4ce5-9ebc-f86a8286a299"/>
+    <valueManagerType typeId="5af0e4e8-6b26-483b-b191-f793f0bb3875" valueTypeId="bba17d16-55f9-453d-b13a-26d8a4d58e81"/>
+    <valueKeyType typeId="c54a6fab-2b7a-4db5-ad00-343db26122cf" valueTypeId="ef1a03b8-dd96-4b7e-a4b5-068b4a46d6b5"/>
+  </producedTypes>
+  <name>торо_ИспользоватьНарядДопускНаРаботыПовышеннойОпасностиОбязательно</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+</mdclass:Constant>

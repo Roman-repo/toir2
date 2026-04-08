@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5a558fef-4b51-405e-b432-57e85518d1e7">
+  <producedTypes>
+    <objectType typeId="25462d74-ac0e-48f9-84c5-297a3a4bde7a" valueTypeId="1a2e35db-4690-49f0-8637-08327ae78b12"/>
+    <refType typeId="908f8250-2774-4519-b78a-b2dcc29c0ef2" valueTypeId="4166b3ef-8be4-4a0f-bcea-e475bee9e9fe"/>
+    <selectionType typeId="2dc9454f-64ba-470d-aaa3-fb6cc111e280" valueTypeId="c5e2c202-71ab-47fb-8973-fc65001efc03"/>
+    <listType typeId="a144f4d5-e8ef-4144-85a9-90478f8e3f66" valueTypeId="5274d331-f765-49eb-b212-3c3d3e6d7f39"/>
+    <managerType typeId="7f82ef0c-dc6e-40e3-832a-fe988f22a457" valueTypeId="b37a786a-441b-42b2-aef5-c981adf7411d"/>
+  </producedTypes>
+  <name>торо_КвалификацииРемонтногоПерсонала</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

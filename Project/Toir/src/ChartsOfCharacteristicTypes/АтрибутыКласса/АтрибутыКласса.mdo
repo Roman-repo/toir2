@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="22dbc914-f2a4-4042-a30c-18b0a05f8f50">
+  <producedTypes>
+    <objectType typeId="98b3b413-58e0-434a-b5b1-fd8c1a74f4de" valueTypeId="3db3c15d-c87f-4e8f-84f7-c7e7c027e1f0"/>
+    <refType typeId="5be16b0c-dcfd-459f-aaa1-06bf42dfd7f3" valueTypeId="ccf74e43-2e24-4c5d-befd-1e55fa6d77d2"/>
+    <selectionType typeId="cee3ba7e-5c24-4bd2-b425-415b292ee213" valueTypeId="fbbd131f-b84d-40e4-a03e-f7c917178a81"/>
+    <listType typeId="57e46218-e802-411a-9014-d1720ebc5379" valueTypeId="19842ad8-9897-4055-b139-e5a07b20fd89"/>
+    <managerType typeId="d1da77f3-6e8d-43b6-9eba-8a90edd5037f" valueTypeId="426c0321-8f2d-4e98-bb49-faedf0821a7f"/>
+    <containerType typeId="c24c84fe-34d5-4e03-a1df-4b634c2d5c92" valueTypeId="ee9158b5-c5ea-4a14-81c3-8035677160c8"/>
+  </producedTypes>
+  <name>АтрибутыКласса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Атрибуты класса</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.АтрибутыКласса.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.АтрибутыКласса.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ValueType</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>ChartOfCharacteristicTypes.АтрибутыКласса.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <characteristicExtValues>Catalog.ВариантыЗначенийАтрибутовКласса</characteristicExtValues>
+  <type>
+    <types>EnumRef.торо_ТипЭксплуатации</types>
+    <types>CatalogRef.торо_СпособыСогласованияДокументов</types>
+    <types>CatalogRef.торо_МерыБезопасности</types>
+    <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+    <types>EnumRef.торо_ВидыДокументаВводНачДанных</types>
+    <types>CatalogRef.ВидыНоменклатуры</types>
+    <types>CatalogRef.торо_ПричиныИзмененияНаработки</types>
+    <types>CatalogRef.торо_КвалификацииРемонтногоПерсонала</types>
+    <types>CatalogRef.ОбъектыНоменклатуры</types>
+    <types>CatalogRef.торо_СпособыПланированияРемонтныхРабот</types>
+    <types>CatalogRef.Номенклатура</types>
+    <types>EnumRef.ВидыДнейПроизводственногоКалендаря</types>
+    <types>CatalogRef.торо_ВидыОценок</types>
+    <types>EnumRef.торо_СпособыЗамещенияРемонтов</types>
+    <types>EnumRef.Периодичность</types>
+    <types>CatalogRef.торо_ВидыПусковОР</types>
+    <types>CatalogRef.торо_ТипыКоэффициентовПереводаСтоимостейРемонтов</types>
+    <types>CatalogRef.ВариантыЗначенийАтрибутовКласса</types>
+    <types>EnumRef.СтавкиНДС</types>
+    <types>CatalogRef.торо_ПричиныДефектов</types>
+    <types>CatalogRef.торо_РесурсыРемонтнойБригады</types>
+    <types>EnumRef.торо_ОтветственныеЛица</types>
+    <types>CatalogRef.торо_ВидыКоэффициентовРемонтныхОсобенностей</types>
+    <types>CatalogRef.торо_ОбъектыРемонта</types>
+    <types>EnumRef.ТипыНоменклатуры</types>
+    <types>EnumRef.торо_СтатусыДокументов</types>
+    <types>CatalogRef.Валюты</types>
+    <types>EnumRef.СтатусыОбъектовНСИ</types>
+    <types>CatalogRef.ОбщероссийскийКлассификаторОсновныхФондов</types>
+    <types>CatalogRef.ДоговорыКонтрагентов</types>
+    <types>CatalogRef.торо_СтатусыСогласованияДокументовРемонтныхРабот</types>
+    <types>CatalogRef.торо_ВидыЭксплуатации</types>
+    <types>EnumRef.ТипыКонтактнойИнформации</types>
+    <types>CatalogRef.торо_НаправленияОбъектовРемонтныхРабот</types>
+    <types>ChartOfCharacteristicTypesRef.АтрибутыКласса</types>
+    <types>Boolean</types>
+    <types>EnumRef.торо_ВидыОперацийОтклоненияВРаботеОборудования</types>
+    <types>CatalogRef.Классы</types>
+    <types>CatalogRef.торо_УсловияВыявленияДефекта</types>
+    <types>EnumRef.торо_ВидыВыходныхДокументов</types>
+    <types>CatalogRef.ЗначенияСвойствОбъектов</types>
+    <types>CatalogRef.Контрагенты</types>
+    <types>EnumRef.АмортизационныеГруппы</types>
+    <types>CatalogRef.торо_СписокОбъектовРегламентногоМероприятия</types>
+    <types>CatalogRef.торо_КритерииОценки</types>
+    <types>CatalogRef.СерииНоменклатуры</types>
+    <types>CatalogRef.Склады</types>
+    <types>CatalogRef.торо_ПричиныЗакрытияРемонтов</types>
+    <types>String</types>
+    <types>CatalogRef.торо_КритичностьДефекта</types>
+    <types>CatalogRef.торо_ПричиныПростояОборудования</types>
+    <types>EnumRef.торо_ВидыОперацийПланаГрафикаППР</types>
+    <types>EnumRef.торо_СпособыУчетаДатыОтсчетаПриПланированииРемонтныхРабот</types>
+    <types>Date</types>
+    <types>CatalogRef.НоменклатураКласса</types>
+    <types>CatalogRef.торо_ТиповыеДефектыОборудования</types>
+    <types>CatalogRef.торо_СтруктурыОР</types>
+    <types>Number</types>
+    <types>EnumRef.торо_ПредставлениеОРДляПечати</types>
+    <types>CatalogRef.торо_ПриоритетыОбъектовРемонта</types>
+    <types>CatalogRef.торо_РемонтныеБригады</types>
+    <types>CatalogRef.торо_ЗначенияИзмеряемыхПоказателейОбъектовРемонта</types>
+    <types>CatalogRef.торо_ЗначенияКоэффициентовРемонтныхОсобенностей</types>
+    <types>CatalogRef.Пользователи</types>
+    <types>CatalogRef.Организации</types>
+    <types>CatalogRef.ФизическиеЛица</types>
+    <types>CatalogRef.УчетныеЗаписиЭлектроннойПочты</types>
+    <types>EnumRef.торо_ВидыПредставленийВРДляПечати</types>
+    <types>EnumRef.СпособыСтроительства</types>
+    <types>EnumRef.торо_ВидыДвиженияСерийныхЗЧ</types>
+    <types>CatalogRef.ЕдиницыИзмерения</types>
+    <types>EnumRef.торо_ВидыПростояОборудования</types>
+    <types>CatalogRef.ПараметрыВыработкиОС</types>
+    <types>EnumRef.ДниНедели</types>
+    <types>CatalogRef.торо_Сезоны</types>
+    <types>CatalogRef.торо_ВидыРемонтов</types>
+    <types>CatalogRef.ВидыКонтактнойИнформации</types>
+    <types>CatalogRef.торо_ВидыДефектов</types>
+    <numberQualifiers>
+      <precision>15</precision>
+      <scale>3</scale>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>1000</length>
+    </stringQualifiers>
+    <dateQualifiers/>
+  </type>
+  <hierarchical>true</hierarchical>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>11</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>50</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="58a1a1f9-c5e0-4754-8ca9-c5e0f3c2e4b2">
+      <name>ВидОперации</name>
+      <description>Вид операции</description>
+      <code>00000000003</code>
+      <type>
+        <types>CatalogRef.НоменклатураКласса</types>
+      </type>
+    </items>
+    <items id="6820dc5d-533a-40e8-b3c3-8df9b4824346">
+      <name>ВыгружатьВТиповыеОР</name>
+      <description>Выгружать в типовые ОР</description>
+      <code>00000000008</code>
+      <type>
+        <types>Boolean</types>
+      </type>
+    </items>
+    <items id="82fc963f-16c5-438c-8ab5-95c8d4d9c587">
+      <name>ДоступныеВидыОпераций</name>
+      <description>Доступные виды операций</description>
+      <code>00000000007</code>
+      <type>
+        <types>CatalogRef.НоменклатураКласса</types>
+      </type>
+    </items>
+    <items id="29eb3536-cee6-46e9-bc97-505ee0ca2602">
+      <name>КодГруппы</name>
+      <description>Код группы</description>
+      <code>00000000009</code>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>6</length>
+        </stringQualifiers>
+      </type>
+    </items>
+    <items id="56e8324a-3373-47e6-b62a-ca3aeba72229">
+      <name>ОбъектОперации</name>
+      <description>Объект операции</description>
+      <code>00000000005</code>
+      <type>
+        <types>CatalogRef.НоменклатураКласса</types>
+      </type>
+    </items>
+    <items id="3a0c1261-b075-471f-ae92-4bdd06f36d8e">
+      <name>Производитель</name>
+      <description>Производитель</description>
+      <code>00000000010</code>
+      <type>
+        <types>CatalogRef.ВариантыЗначенийАтрибутовКласса</types>
+      </type>
+    </items>
+    <items id="51fdedf5-92ac-4b58-a340-68034c79b915">
+      <name>ТехОперации</name>
+      <description>Тех. операции</description>
+      <code>00000000002</code>
+      <type>
+        <types>CatalogRef.НоменклатураКласса</types>
+      </type>
+    </items>
+    <items id="bc12afad-2b71-4a73-b05b-d5fab64d359d">
+      <name>ТехКарты</name>
+      <description>Технологические карты</description>
+      <code>00000000004</code>
+      <type>
+        <types>CatalogRef.НоменклатураКласса</types>
+      </type>
+    </items>
+    <items id="aab6f396-087d-4d84-b77a-6310f0c4de0f">
+      <name>ТипТехКарты</name>
+      <description>Тип тех. карты</description>
+      <code>00000000001</code>
+      <type>
+        <types>CatalogRef.НоменклатураКласса</types>
+      </type>
+    </items>
+    <items id="2c6d9af1-35c7-49ac-b687-791674f1a14a">
+      <name>УзловаяСтруктура</name>
+      <description>Узловая структура</description>
+      <code>00000000006</code>
+      <type>
+        <types>CatalogRef.Классы</types>
+      </type>
+    </items>
+  </predefined>
+  <predefinedDataUpdate>DontAutoUpdate</predefinedDataUpdate>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ChartOfCharacteristicTypes.АтрибутыКласса.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>ChartOfCharacteristicTypes.АтрибутыКласса.Form.ФормаГруппы</defaultFolderForm>
+  <defaultListForm>ChartOfCharacteristicTypes.АтрибутыКласса.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>ChartOfCharacteristicTypes.АтрибутыКласса.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="64feb7f6-09e6-4158-a3e7-9c90f248d37a">
+    <name>Класс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Класс</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Классы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceFoldersAndItems>FoldersAndItems</choiceFoldersAndItems>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6b8270c8-802f-4e6c-bb35-5d2af39eada4">
+    <name>НаименованиеМножественное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование (множ.)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Наименование (для множественных значений)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="291b4f3c-6bcc-4270-9c72-e9f40e8f3163">
+    <name>МножественноеЗначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Множественное значение</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="01434bcb-c0fe-4cd6-b31c-896f15db96a9">
+    <name>ИсточникЗначений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник значений</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Классы</types>
+      <types>CatalogRef.НоменклатураКласса</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4c0a1482-08dd-4014-aee3-76a6997ecb14">
+    <name>ИмяДляОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя для обмена</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="0a155fb8-c2c4-4254-a0a0-c0f63722e03f">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c6f99095-d87f-418b-9807-7fe0342762db">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1a885ffc-c073-463f-8067-0931fb7c0f6c">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e9c52222-7d78-4d40-851c-5c9d58edc532">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ChartOfCharacteristicTypes>

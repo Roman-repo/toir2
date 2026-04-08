@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="49045744-5d73-4204-bc55-f8fe05dc6207">
+  <producedTypes>
+    <refType typeId="97e0f241-10f2-4cf0-82ab-bc04849c8388" valueTypeId="40f5588d-eec5-488a-8890-0514e05d932f"/>
+    <listType typeId="099e9791-e09e-4eb1-9be9-6f71e5ef7bd8" valueTypeId="529a0056-4512-4315-b066-0d97a3da1d7a"/>
+    <managerType typeId="90bba42b-1151-42a4-b34d-f7795c23db73" valueTypeId="88d6e2ff-747d-4399-a943-ecca3f24c6f9"/>
+  </producedTypes>
+  <name>гкс_ВидыОперацииВводДанныхПоТрудовымРесурсам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операции ввод данных о трудовых затратах</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="15b29ea7-d642-4232-a49b-96e32915062a">
+    <name>ВводДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввод данных</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6b091a01-ead0-4526-abb4-a29971101ffa">
+    <name>Корректировка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корректировка</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

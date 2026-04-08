@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b8bfb71-d430-4bdf-8391-a534b3a15fc3">
+  <name>ПолучитьНастройкиСинхронизацииДляДругойПрограммы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получить настройки синхронизации для другой программы...</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Recibir los ajustes de la sincronización para otro programa...</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Get sync settings for another program ...</value>
+  </synonym>
+  <group>CommandGroup.ПараметрыСинхронизацииДанных</group>
+  <commandParameterType>
+    <types>ExchangePlanRef.ОбменТОиР20УПП</types>
+    <types>ExchangePlanRef.ОбменТОИР20RCM</types>
+    <types>ExchangePlanRef.ОбменТОиР20ПБ</types>
+    <types>ExchangePlanRef.ОбменТОиР20ЕРП20</types>
+    <types>ExchangePlanRef.ИнтеграцияС1СДокументооборотом</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

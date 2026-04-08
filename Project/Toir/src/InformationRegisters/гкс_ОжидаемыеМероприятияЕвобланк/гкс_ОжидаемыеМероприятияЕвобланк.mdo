@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4204f87c-943a-45a3-aaa0-3d8c323c8202">
+  <producedTypes>
+    <selectionType typeId="eb92e9fe-6cc9-4b9c-9c65-35c91d260b8c" valueTypeId="cd9e4ab4-eea9-4e79-bd0c-daa9ff796261"/>
+    <listType typeId="c4f2834e-c309-44db-95e7-26fa6717415e" valueTypeId="69223ed3-dd11-4914-9a4c-fd0163b044f6"/>
+    <managerType typeId="f73c182b-3bf9-4e18-8e42-27e68952e003" valueTypeId="33e74461-4e2e-4342-b10f-8e5bf595d4d8"/>
+    <recordSetType typeId="da150dc6-3ad0-4c72-b7da-6c810365bd89" valueTypeId="b82dd53d-d084-4a22-95f8-d4823ead9732"/>
+    <recordKeyType typeId="d74f742f-4659-4c4a-9821-969fe04811c8" valueTypeId="400c9db4-6cd0-414c-984c-6dba36d61035"/>
+    <recordType typeId="d8fc08b5-916f-4d1a-8d83-80ece19e3b50" valueTypeId="09a9b660-0356-4787-b485-55788c58c3ba"/>
+    <recordManagerType typeId="cb725b85-f2b7-42cc-ba86-442719dda363" valueTypeId="14d4a149-1e9e-4dc0-ac3d-a067c5a89e68"/>
+  </producedTypes>
+  <name>гкс_ОжидаемыеМероприятияЕвобланк</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ожидаемые мероприятия по Ево-бланкам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c7b33787-9013-45e0-ac6e-3fa0e89a8a45">
+    <name>Мероприятие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мероприятие</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="c03eaa63-e50e-4036-9ed3-003e1c5984b5">
+    <name>Срок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7e47d1f0-3d56-4fe8-95f4-3947a9729180">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <comment>TOIR20-462</comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f3a29547-d8ff-4572-b5b1-785466c14451">
+    <name>Источник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.гкс_ЕВОБланк</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

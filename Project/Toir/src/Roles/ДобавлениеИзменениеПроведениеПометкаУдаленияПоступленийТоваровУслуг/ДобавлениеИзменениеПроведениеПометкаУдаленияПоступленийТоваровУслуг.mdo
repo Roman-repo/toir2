@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6b5544f1-314d-4d5b-ad60-a13a7c9e4b8c">
+  <name>ДобавлениеИзменениеПроведениеПометкаУдаленияПоступленийТоваровУслуг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление, изменение, проведение и пометка удаления поступлений товаров и услуг</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>La adición, el cambio, la realización y la marca de la desaparición de los ingresos de las mercancías y los servicios</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Adding, modifying, posting and marking the deletion of receipts of goods and services</value>
+  </synonym>
+</mdclass:Role>

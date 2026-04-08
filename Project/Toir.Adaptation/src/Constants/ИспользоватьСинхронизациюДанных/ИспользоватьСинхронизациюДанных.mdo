@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="07766477-b084-4815-9077-c2cfe5c34f6d">
+  <producedTypes>
+    <managerType typeId="d33931d8-8874-49db-9310-1c01b9575e4d" valueTypeId="e4312c78-b624-4da7-9841-62c115b040fb"/>
+    <valueManagerType typeId="871e058f-9c66-4ac3-a73b-7eda231c85e2" valueTypeId="32fd5561-536a-42a9-bddd-c8ae50ddb60d"/>
+    <valueKeyType typeId="3a098878-4408-4ad3-8e54-0aa860bb5b9d" valueTypeId="61984293-5848-45e2-8b24-8dc87cb66a67"/>
+  </producedTypes>
+  <name>ИспользоватьСинхронизациюДанных</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+</mdclass:Constant>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8704f5cf-ebe1-41e9-8e89-106bc118bf83">
+  <producedTypes>
+    <objectType typeId="25ce0339-051d-4cd9-a02b-e1f3aeb6aab2" valueTypeId="549f836d-77f4-4337-acab-ac3e21ba2e5f"/>
+    <managerType typeId="e45569ae-2072-427f-ae47-51a67f238641" valueTypeId="41b194f9-ca6c-49c0-95b9-7ba61ded72a2"/>
+  </producedTypes>
+  <name>гкс_СреднемесячноеЗначениеКПЭ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Среднемесячное значение КПЭ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.гкс_СреднемесячноеЗначениеКПЭ.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="a42ceffd-f949-46ae-98b8-e2bdd983fb2c">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

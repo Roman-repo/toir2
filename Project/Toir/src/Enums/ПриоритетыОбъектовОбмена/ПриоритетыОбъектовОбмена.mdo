@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c322371b-0ea6-49d0-b0ba-86ee596fa2d9">
+  <producedTypes>
+    <refType typeId="1784c257-5aeb-4c06-9c5d-7979d4b84f5a" valueTypeId="15c1e54f-1885-4e2e-aeb5-7cb6fd101ad3"/>
+    <listType typeId="885d8294-61b3-411f-b9b5-63f2bcb375f7" valueTypeId="acee85b3-89d7-4346-97aa-6e9003ee1810"/>
+    <managerType typeId="c3b8b3c5-e888-4d10-af32-c1ddb07f8713" valueTypeId="682c744e-ee9b-4814-aa45-12dd52c507d8"/>
+  </producedTypes>
+  <name>ПриоритетыОбъектовОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приоритеты объектов обмена</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Las prioridades de los objetos del cambio</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Priorities of objects of exchange</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d651548b-27a7-4818-9e68-c13af6ec1c95">
+    <name>ПриоритетОбъектаОбменаНиже</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритет объекта обмена ниже</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La prioridad del objeto del cambio más abajo</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Priority of the object of exchange below</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9c3f9d37-51ef-49fa-82b3-4cbc00768a2c">
+    <name>ПриоритетОбъектаОбменаСовпадает</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритет объекта обмена совпадает</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La prioridad del objeto del cambio coincide</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Priority of the object of exchange is the same</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bad849a4-d086-43b9-af6e-c8c418a31f6c">
+    <name>ПриоритетОбъектаОбменаВыше</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритет объекта обмена выше</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La prioridad del objeto del cambio es más alta</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Priority of the object of exchange is higher</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

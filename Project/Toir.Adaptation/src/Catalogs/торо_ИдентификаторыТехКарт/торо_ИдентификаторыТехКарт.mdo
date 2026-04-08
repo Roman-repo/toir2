@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1c7b131d-3149-445e-b0bf-fac4157a2c5b">
+  <producedTypes>
+    <objectType typeId="ef958770-f31d-486a-932a-a98834a506b3" valueTypeId="f01972e3-39ca-41c9-a956-1cbc68c16eb3"/>
+    <refType typeId="88f1d01e-0362-4303-9382-e737c2816d6c" valueTypeId="8e1c30d8-7962-42d9-9a2e-db7f195aac75"/>
+    <selectionType typeId="295b368c-1041-47f3-895f-fb6a619cc6f2" valueTypeId="37f1cb52-02b6-4344-a850-90c6e461e1c5"/>
+    <listType typeId="08ed8a17-530b-43b0-89a6-0551c2c6b068" valueTypeId="c1890748-4a2f-413f-8316-b98f3f9396de"/>
+    <managerType typeId="84a2c781-a0ad-4b5b-a921-121cdb41d50e" valueTypeId="66d8eb66-81f0-406b-999c-661584abccad"/>
+  </producedTypes>
+  <name>торо_ИдентификаторыТехКарт</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <objectModule>Extended</objectModule>
+    <managerModule>Extended</managerModule>
+    <hierarchical>Checked</hierarchical>
+    <hierarchyType>Checked</hierarchyType>
+    <codeLength>Checked</codeLength>
+    <codeAllowedLength>Checked</codeAllowedLength>
+    <codeType>Checked</codeType>
+  </extension>
+  <hierarchical>true</hierarchical>
+  <codeLength>9</codeLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <attributes uuid="e866b5cb-c488-467d-ad87-2611182436e4">
+    <name>Статус</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.торо_СтатусыНормативныхРемонтовИТехКарт</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="af4cab1e-0d3d-49f9-beb6-d68226052c53">
+    <name>гкс_Владелец</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.торо_ТиповыеОР</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="3ba9e6c3-785f-4cb4-b358-19c90a8cc3d1" extendedConfigurationObject="4380d8c9-cbf4-44cf-b7c9-1da41ff5be61">
+    <name>гкс_Обслуживание</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="4b4c1224-9148-4547-98ed-909a9df54d93" extendedConfigurationObject="67f4d7dd-7bf2-4031-a04a-7940d981637a">
+    <name>гкс_Ответственный</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Пользователи</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <forms uuid="e72aeba5-39af-46ce-8633-7dfa48ed3ac8">
+    <name>ФормаВыбора</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="2c4127b7-b1b9-48ec-8400-c7f6cab1f3fa" extendedConfigurationObject="6f99a8be-1d65-488c-93f7-a121180c1b2b">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="c331b0ca-1e0a-4382-bb28-c1b0664d2d20" extendedConfigurationObject="db1691e8-bc16-4a6c-b132-356a1bea1b3e">
+    <name>ФормаСписка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

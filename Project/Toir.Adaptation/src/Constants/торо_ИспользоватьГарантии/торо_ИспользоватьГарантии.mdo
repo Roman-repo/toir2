@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9c0d35d4-5026-42e3-a712-61f35fa76d1f">
+  <producedTypes>
+    <managerType typeId="b425e63d-c2e4-4f67-b2cd-f1034fae3f6a" valueTypeId="6368681c-7430-406a-9feb-8d310d75db5b"/>
+    <valueManagerType typeId="ff929604-0270-4533-8447-a1ffc32efe1a" valueTypeId="2183989e-9af6-483a-b587-342c4c1720d9"/>
+    <valueKeyType typeId="faca2dd4-a66c-47f2-8e1e-e9f65981a675" valueTypeId="7dc8216e-7ef9-4c65-8d9b-3a8fcd868c60"/>
+  </producedTypes>
+  <name>торо_ИспользоватьГарантии</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+</mdclass:Constant>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="206302c9-076b-43d7-b640-441b87cc8715">
+  <producedTypes>
+    <objectType typeId="a30477ea-ed41-4986-af6f-69cfeb3a8bf3" valueTypeId="d77bc43d-d932-44a4-94f3-6af0eb02c690"/>
+    <managerType typeId="da44094f-100a-47ce-9a6b-ce2cdcf0b2d3" valueTypeId="4e4f46dc-496f-4d29-9cb4-b8c0fb3a9ee0"/>
+  </producedTypes>
+  <name>гкс_АРМУчетаСвязейФМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рабочее место учета связей ФМ-ФМ</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Workplace for tracking FP-FP links</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c9d3f17e-dce6-4bba-a24a-0cf55520a827">
+  <name>гкс_ЗапускОтчета_гкс_MTTR_MTBF</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запуск отчета MTTR,MTBF (гкс)</value>
+  </synonym>
+</mdclass:Role>

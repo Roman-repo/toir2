@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e17840cf-a153-47c6-8b32-d8dfecd92aa5">
+  <producedTypes>
+    <selectionType typeId="4fe9f36d-1ad9-438d-95ec-280614fa6838" valueTypeId="033474b8-5d39-46a2-a2cd-f478d6921814"/>
+    <listType typeId="f214ec7f-ea5c-49e3-8f88-6e8bda98a098" valueTypeId="77bd6f4f-b0af-40f1-9ecb-30efe8b4ac01"/>
+    <managerType typeId="b7eaeae8-262b-40af-9772-49702d198ad5" valueTypeId="6a21a303-de6e-48e3-b390-bd31fbaf6292"/>
+    <recordSetType typeId="979dbd99-b0a1-484f-b16b-c237c7620f72" valueTypeId="c6070275-daef-4710-b922-be47614be549"/>
+    <recordKeyType typeId="652988b8-d4c9-49c7-8ab3-cac0193cb25d" valueTypeId="04ba3c4e-7365-4150-a26c-1f73305845c1"/>
+    <recordType typeId="d97dd16a-cc40-45d9-b8b2-2f5dbe915036" valueTypeId="7058280a-ab47-4f1a-8514-362b8a6cc5d9"/>
+    <recordManagerType typeId="cd913a7a-1102-41fa-adbf-c9c68308faaf" valueTypeId="b2026776-10a7-45c6-820b-055db7336067"/>
+  </producedTypes>
+  <name>УдалитьНаборыЗначенийДоступа</name>
+  <synonym>
+    <key>ru</key>
+    <value>(не используется) Наборы значений доступа</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>(No se usa) los Juegos de los significados del acceso</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>(not used) Access value sets</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="55d70aad-aea8-43ea-972a-d911656ae2e9">
+    <name>Чтение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Чтение использует номер набора</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La lectura usa el número del juego</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Reading uses dial number</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>При проверке права чтения объекта
+использовать набор с заданным номером
+(флажок устанавливается только для одной строки набора)</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>Durante la comprobación del derecho de la lectura del objeto 
+usar el juego con el número dado 
+(el banderín se establece solamente para una línea del juego)</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>When checking object read permissions
+use dialing with a given number
+(the check box is selected for only one dialing line)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:BooleanValue"/>
+  </resources>
+  <resources uuid="b58f6680-c99e-40f3-b729-8a7fdb2eb3c8">
+    <name>Изменение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменение использует номер набора</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El cambio usa el número del juego</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Change uses dial number</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>При проверке права изменения объекта
+использовать набор с заданным номером
+(флажок устанавливается только для одной строки набора)</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>Durante la comprobación del derecho del cambio del objeto 
+usar el juego con el número dado 
+(el banderín se establece solamente para una línea del juego)</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>When checking the right to modify an object
+use dialing with a given number
+(the check box is selected for only one dialing line)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:BooleanValue"/>
+  </resources>
+  <dimensions uuid="c527de5a-20c3-4d38-bb83-69d7d18273ba">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El objeto</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Object</value>
+    </synonym>
+    <type>
+      <types>AnyRef</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ссылка на объект-владелец наборов значений доступа</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>La referencia al objeto-propietario de los juegos de los significados del acceso</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Reference to the object owner of the access value sets</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f560a5fe-406c-44a3-a297-ec03acedb70b">
+    <name>НомерНабора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер набора</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El número del juego</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Dial number</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Число, объединяющие несколько строк в один набор.
+Результаты проверок строк в наборе объединяется по логическому &quot;И&quot;,
+а результаты проверок наборов объекта по логическому &quot;ИЛИ&quot;</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El número, que unen algunas líneas en un juego. 
+Los resultados de las comprobaciones de las líneas en el juego se une por lógico &quot;Y&quot;, 
+y los resultados de las comprobaciones de los juegos del objeto por lógico &quot;O&quot;</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>A number that combines multiple lines into a single set.&quot;
+The results of the string checks in the set are combined according to the logical &quot;AND&quot;,
+and the results of the object sets checks on the logical &quot;OR&quot;</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="8162b253-c274-4e5b-b6d3-d3755ccfcd39">
+    <name>ВидДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид доступа</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El tipo del acceso</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Type of access</value>
+    </synonym>
+    <comment>Незаполненные значения нужно допустить, чтобы избежать ошибок при записи проверяемых объектов</comment>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.УдалитьВидыДоступа</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид доступа по которому проверяется разрешенность значения доступа</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El tipo del acceso por que es comprobado разрешенность los significados del acceso</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>The type of access by which the permission of the access value is checked</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>ChartOfCharacteristicTypes.УдалитьВидыДоступа.EmptyRef</value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="182075e7-f1e5-4f23-808b-6c14f11c00b7">
+    <name>ЗначениеДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение доступа</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El significado del acceso</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Access value</value>
+    </synonym>
+    <comment>Незаполненные значения нужно допустить, чтобы избежать ошибок при записи проверяемых объектов</comment>
+    <type>
+      <types>AnyRef</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ссылка на значение, например, на организацию, контрагента, ...</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>La referencia al significado, por ejemplo, a la organización, el contratante...</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>A reference to a value, for example, an organization, counterparty, ...</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

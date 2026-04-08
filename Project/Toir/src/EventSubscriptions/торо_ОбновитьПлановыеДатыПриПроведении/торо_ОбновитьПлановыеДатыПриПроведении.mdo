@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="513ad8e8-dc76-4568-bbae-4f9920cae07d">
+  <name>торо_ОбновитьПлановыеДатыПриПроведении</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновить плановые даты при проведении</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Renovar las fechas planificadas durante la realización</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Update plan dates when posted</value>
+  </synonym>
+  <source>
+    <types>DefinedType.торо_ДокументыПлановыхДатРемонтаОбъекты</types>
+  </source>
+  <event>Posting</event>
+  <handler>CommonModule.торо_ПланированиеРемонтов.торо_ОбновитьПлановыеДатыПриПроведенииОбработчик</handler>
+</mdclass:EventSubscription>

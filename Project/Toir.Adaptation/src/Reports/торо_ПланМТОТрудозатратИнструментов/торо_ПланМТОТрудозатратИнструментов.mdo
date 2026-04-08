@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ecd860c0-d92c-4aa5-9a53-0433295c1cda" extendedConfigurationObject="dd7452d2-e1f3-4db3-9172-18c3f865d198">
+  <producedTypes>
+    <objectType typeId="a121b988-2add-4fff-8f89-513b0ebd305f" valueTypeId="5c95f804-315a-4950-8d0c-537bb7b156a3"/>
+    <managerType typeId="41da23aa-86ae-4b7c-b97e-79e3178504d1" valueTypeId="e6d75c3e-93c9-4a1a-8735-a02a613a9b82"/>
+  </producedTypes>
+  <name>торо_ПланМТОТрудозатратИнструментов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ReportExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <objectModule>Extended</objectModule>
+  </extension>
+</mdclass:Report>

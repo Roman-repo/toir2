@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4d2b71ff-537d-491a-9eba-9301ecc51517">
+  <producedTypes>
+    <objectType typeId="3125e62d-0415-414c-8765-772d717a9641" valueTypeId="01e30945-7bb4-4570-b586-b54107016abe"/>
+    <refType typeId="dfa0133a-e8f2-4831-9df6-4bacfcc10608" valueTypeId="4b73c790-8316-41cb-bb70-b17b81647228"/>
+    <selectionType typeId="d1a99feb-2914-405a-9da1-6929c7952e3e" valueTypeId="ea7f4b35-41c2-4f98-93be-96d802f4ac4c"/>
+    <listType typeId="95dea989-86a5-4fce-ba11-82da5df5ae40" valueTypeId="fffd7326-a612-46c1-9e1b-32ddf209c39d"/>
+    <managerType typeId="dbd84eaa-e8fd-4fd3-9d64-dfa8664213fa" valueTypeId="969585aa-0d2c-4ff5-9d3e-8649a799180e"/>
+  </producedTypes>
+  <name>торо_СобытияУведомленийВДокументах</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <forms uuid="26577e26-a78f-4f4b-a3a8-a57693185183" extendedConfigurationObject="6395b5de-93aa-4014-8084-43e0d09a4ae4">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

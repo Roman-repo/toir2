@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f5bde21d-df48-4557-b48f-95d0e733e129" extendedConfigurationObject="855de82d-7eee-4ce5-918b-4346b60b354b">
+  <producedTypes>
+    <selectionType typeId="fdedc669-d2c1-47af-bceb-6b6ed9dcf071" valueTypeId="7dcc0889-4579-4aed-9066-bc68d2ba207d"/>
+    <listType typeId="e035ec69-8608-4eba-8c70-b989bf84e67d" valueTypeId="72a206f3-9b1b-42bb-a443-39b8ba586a16"/>
+    <managerType typeId="0fcb891c-28f9-4478-b04f-fdf37e49601d" valueTypeId="b803bc31-2247-4648-8077-ede88e5f05d1"/>
+    <recordSetType typeId="774048cb-8266-4152-a6e0-51107936a2e7" valueTypeId="c3a7b0e3-0278-49d0-95be-bec1fd432f9b"/>
+    <recordKeyType typeId="b4d42a26-8301-4fe8-9c0d-ec303b95d746" valueTypeId="0161d98d-ba86-40ec-ac91-09507614cf83"/>
+    <recordType typeId="01b79b2f-37e6-4e93-a688-a35d1731426b" valueTypeId="fb6bef53-05f2-4946-ab3f-81f1ea031597"/>
+    <recordManagerType typeId="a922ab60-fec1-4225-ac6f-d66785a58f3a" valueTypeId="bfbf3119-3768-442c-91be-e464e357293d"/>
+  </producedTypes>
+  <name>торо_НастройкиСтатусовСогласованияДокументов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <resources uuid="4496b547-bc68-4a15-8e94-1793b32529dd" extendedConfigurationObject="5943df01-c248-4875-9da6-5ae08e091df5">
+    <name>гкс_ПроводитьАвтоматически</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+</mdclass:InformationRegister>

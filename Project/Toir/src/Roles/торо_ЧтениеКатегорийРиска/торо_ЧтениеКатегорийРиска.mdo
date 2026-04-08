@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a453431a-dec8-446d-9552-8bb463916f99">
+  <name>торо_ЧтениеКатегорийРиска</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение категорий риска</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>La lectura de las categorías del riesgo</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Reading risk categories</value>
+  </synonym>
+</mdclass:Role>

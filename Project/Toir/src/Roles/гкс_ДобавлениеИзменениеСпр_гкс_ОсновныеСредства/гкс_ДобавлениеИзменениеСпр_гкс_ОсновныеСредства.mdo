@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="48120976-ff74-421c-ac0d-ab48813c8197">
+  <name>гкс_ДобавлениеИзменениеСпр_гкс_ОсновныеСредства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение справочника Основные средства (гкс)</value>
+  </synonym>
+  <comment>TOIR20-218</comment>
+</mdclass:Role>

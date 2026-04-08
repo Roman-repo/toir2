@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32d5c4f8-06c0-4c91-9377-7a6da4fcd703">
+  <producedTypes>
+    <refType typeId="690686b5-79f4-4ac7-8b03-9809e91ccb0b" valueTypeId="8628eb38-bdf6-4c9a-a7b4-7caff2e6d45c"/>
+    <listType typeId="6172108a-9062-4358-bbf2-e78661735b4d" valueTypeId="e8e0f068-273e-4b8f-90e8-cb5cef48b22e"/>
+    <managerType typeId="6a50b83c-00ab-4401-bcf1-ec5998eb63f2" valueTypeId="c7415277-7bce-452d-ba5d-e28d1c249489"/>
+  </producedTypes>
+  <name>гкс_ТипыРабот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы работ</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6bc9fdf9-3622-4a43-93be-e2a3ed8cef24">
+    <name>РМ01</name>
+    <synonym>
+      <key>ru</key>
+      <value>РМ01</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3ea4f77d-0c93-43fe-9384-95ab1969bb8f">
+    <name>РМ02</name>
+    <synonym>
+      <key>ru</key>
+      <value>РМ02</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5d34cd46-96d8-4fc9-b3de-4da43016c410">
+    <name>РМ03</name>
+    <synonym>
+      <key>ru</key>
+      <value>РМ03</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9efd9b26-eb11-4b1c-aaca-bbc8a0c5a80e">
+    <name>РМ04</name>
+    <synonym>
+      <key>ru</key>
+      <value>РМ04</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0767ef83-ae22-4f6d-aa76-7934a9b3d6cf">
+    <name>РМ05</name>
+    <synonym>
+      <key>ru</key>
+      <value>РМ05</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bae748e2-5897-4b19-b2f8-8d99a63a8f6a">
+    <name>РМ06</name>
+    <synonym>
+      <key>ru</key>
+      <value>РМ06</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e6267d32-3d12-4813-bca4-fc2ac2a41537">
+    <name>РМ07</name>
+    <synonym>
+      <key>ru</key>
+      <value>РМ07</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c9c9d47d-512a-407f-8a89-cc5bbd325703">
+    <name>РМ08</name>
+    <synonym>
+      <key>ru</key>
+      <value>РМ08</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e4521855-8cdf-4fea-99f8-805147c8741f">
+    <name>РМ09</name>
+    <synonym>
+      <key>ru</key>
+      <value>РМ09</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="587fbfe2-5e20-4ca7-baf7-2d6c2a3f0ee0">
+    <name>РМ10</name>
+    <synonym>
+      <key>ru</key>
+      <value>РМ10</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="79547b7e-79e6-455c-af30-0a9ac3cccdd3" extendedConfigurationObject="774db338-91f2-4ead-8895-fd51f145458a">
+  <producedTypes>
+    <selectionType typeId="e18bf942-dedb-4179-8e91-6cab9dcc8cb0" valueTypeId="aff38616-ad81-448f-b8a8-6a9dfc12029b"/>
+    <listType typeId="169a88ba-0794-4ef4-8924-652701b2d117" valueTypeId="eb02e8c5-1217-4de0-b7f1-63648623daee"/>
+    <managerType typeId="b37f9545-b2dc-451d-a5bf-8ad9b729c8ab" valueTypeId="1ecc6842-6988-40ee-a934-21c1a2bd0d34"/>
+    <recordSetType typeId="51e1ee90-ee1d-4403-9cc4-5524954fe4d6" valueTypeId="8f41b676-7be8-4b91-ada7-3f99c743f982"/>
+    <recordKeyType typeId="3e1761cd-9dfb-4690-951b-f53b40d9ef51" valueTypeId="41196583-b212-47a7-a647-bec491c2f16a"/>
+    <recordType typeId="0022c59b-a1c9-41a2-b40d-d017c5b327dd" valueTypeId="63dbbf39-9965-40f6-a620-a2b9b3f1b5ff"/>
+    <recordManagerType typeId="4146cd21-6dd9-4fc2-8fe5-059e5fe80f95" valueTypeId="410b65bd-13e2-42a9-a624-9f5e63a56f14"/>
+  </producedTypes>
+  <name>торо_РасположениеОРВСтруктуреИерархии</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+    <recordSetModule>Extended</recordSetModule>
+  </extension>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <resources uuid="bd9747dd-6762-459f-a77f-392a06541a37" extendedConfigurationObject="d8481881-51b9-4962-8b6c-bfa78e30e457">
+    <name>РодительИерархии</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.торо_ОбъектыРемонта</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <resources uuid="b1e89ff4-18fd-4237-8d6f-1cd6d73a4b8d" extendedConfigurationObject="2c99b177-de41-496b-bfc8-0cd1b039671a">
+    <name>Удален</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <dimensions uuid="2938d649-9ddd-4d8b-bd17-bed999a51361" extendedConfigurationObject="280e0fd3-b182-49f3-abd2-2c4247cfe274">
+    <name>ОбъектИерархии</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.торо_ОбъектыРемонта</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+  <dimensions uuid="4373eb33-dd4c-496d-86aa-403adcd62f76" extendedConfigurationObject="6bc5297f-c3fd-4ba2-ad6f-c69875395c47">
+    <name>СтруктураИерархии</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.торо_СтруктурыОР</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:InformationRegister>

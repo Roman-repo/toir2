@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8f36f962-2f52-451a-a76a-7a40cdb1c10a" extendedConfigurationObject="105cd740-1f60-45e1-871c-adeecd291b0d">
+  <producedTypes>
+    <selectionType typeId="b9b8e2f0-151c-4b65-8b07-bce7b77bd4ac" valueTypeId="9b4b2d57-e964-4435-9f0c-b11b4dc9a54b"/>
+    <listType typeId="a9463497-6ed4-4d99-8511-482ee2c00e69" valueTypeId="62ef1067-7493-4251-b83b-c7b365a6559f"/>
+    <managerType typeId="87e2c0d3-75cc-4b3f-b475-6ec4cae07e6d" valueTypeId="b150d0a2-11c3-40bf-a843-406ad4e628f0"/>
+    <recordSetType typeId="70c3ec47-2149-423a-9edc-11ca991245d6" valueTypeId="3a274d88-5dee-408c-ac08-a2a51802bc6d"/>
+    <recordKeyType typeId="a252c810-0fb3-4070-9cd8-fb454239ddb5" valueTypeId="863d1c48-a7e3-43ef-89b2-423447ab67e0"/>
+    <recordType typeId="80db884c-e6a8-4a04-9384-ec09451c0a23" valueTypeId="b40eda88-a331-417e-8182-d0dc7705ad50"/>
+    <recordManagerType typeId="2dfccf4a-6c74-4552-9aef-f286c5118bdc" valueTypeId="fac96172-b5c8-4f9b-8eda-2d13bdfc0f9d"/>
+  </producedTypes>
+  <name>КурсыВалют</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <resources uuid="8b05747f-abfd-47ff-a782-6404242a7585" extendedConfigurationObject="4bd1cae4-d5b5-444e-9cf5-67a969714293">
+    <name>Кратность</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+  </resources>
+  <resources uuid="22ecd311-dcd7-4ffa-8684-9a58f194f391" extendedConfigurationObject="95aec7d2-179b-4ea3-a3df-3d737b713564">
+    <name>Курс</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>4</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+  </resources>
+  <dimensions uuid="65e20d7e-0cc6-4106-81b5-ff7be82a2362" extendedConfigurationObject="b1a330d7-9b88-44e9-aba6-41ce5e5e669c">
+    <name>Валюта</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Валюты</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:InformationRegister>

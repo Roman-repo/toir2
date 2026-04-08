@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="01c1b757-b149-4752-af39-8987c75b0447">
+  <name>торо_ИспользованиеРабочееМестоТехнолога</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование рабочее место технолога</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>The use of the technologist working place</value>
+  </synonym>
+</mdclass:Role>

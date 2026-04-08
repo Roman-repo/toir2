@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="bb92833b-2366-4cbc-a19f-7635ef05ab76">
+  <producedTypes>
+    <selectionType typeId="08e1679a-87c0-4cbe-b970-06f1718b7a75" valueTypeId="37f841a4-9a4c-470c-b3ab-9117b5294e88"/>
+    <listType typeId="15296534-f11c-4fc1-a123-45963399fceb" valueTypeId="cce81da5-5596-49d2-8f50-1aa4cafe5ea0"/>
+    <managerType typeId="42219831-1b16-4d09-a3b6-72e98b80ca7d" valueTypeId="0e0f047d-c85d-497f-9300-ea7f9f276b6d"/>
+    <recordSetType typeId="67d2b5c0-7e2f-435a-9354-365d1dbdc807" valueTypeId="008d9f42-53c0-4cf6-94ea-186571c431b6"/>
+    <recordKeyType typeId="446763ef-033d-49bf-be45-fc375affce1d" valueTypeId="54c0ea12-3d48-4db5-b0e8-0650528c0904"/>
+    <recordType typeId="fe654051-8941-440d-b2d3-6dc64332eb09" valueTypeId="cba09351-f6c7-4db6-ae97-69060a38d517"/>
+    <recordManagerType typeId="75e64443-e4dd-4a39-bdfd-994553df4d17" valueTypeId="b94a01d5-87ff-4f16-b589-55cd213be06f"/>
+  </producedTypes>
+  <name>торо_СтатусыДокументовВыявленныхДефектовУстановленные</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <resources uuid="ac6d8d3f-90ca-4b47-b562-995b64b24b25">
+    <name>СтатусДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.торо_СтатусыДокументов</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <dimensions uuid="1db5117e-a4e0-45db-839d-e96871526c9b">
+    <name>ИзменяемыйДокумент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.торо_ВыявленныеДефекты</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:InformationRegister>

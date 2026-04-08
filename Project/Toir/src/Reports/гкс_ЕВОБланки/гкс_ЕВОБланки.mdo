@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ee248819-dab6-4a9f-8fe2-6121d715e3af">
+  <producedTypes>
+    <objectType typeId="bcd5f45c-c00f-4f4a-9f6b-1d3022b7ba9e" valueTypeId="2ccd1052-70b0-484f-b81f-b7db27b41f83"/>
+    <managerType typeId="f3d78915-e1dc-448a-ac61-814800a38759" valueTypeId="69d19134-26d3-4f1b-96d9-6b920f7f2f84"/>
+  </producedTypes>
+  <name>гкс_ЕВОБланки</name>
+  <synonym>
+    <key>ru</key>
+    <value>EWO-бланки</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>EWO-Blanks</value>
+  </synonym>
+  <synonym>
+    <key>tr</key>
+    <value>EWO-Blanks</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>EWO-Blanks</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.гкс_ЕВОБланки.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="8a37423a-7635-44ab-8794-4c761e9cc01b">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Main data composition diagram</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

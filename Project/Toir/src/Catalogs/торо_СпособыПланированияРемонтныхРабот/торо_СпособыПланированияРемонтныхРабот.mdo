@@ -1,0 +1,1072 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="22c376fe-2621-4033-8c30-8c0ac722c10e">
+  <producedTypes>
+    <objectType typeId="fc403c7e-be6e-4f38-8492-1a1c6c7d7be4" valueTypeId="8ce2f563-a4a4-4940-8680-a759dd114ebd"/>
+    <refType typeId="1837f06f-4583-4073-9050-de070cb49f3d" valueTypeId="3eb8fb5f-cb9c-43f7-bac7-e55962263d41"/>
+    <selectionType typeId="454e777b-f2c5-44af-a8b0-0b8e840df88b" valueTypeId="6fa107af-0457-4fd8-b14b-236115eb9d3d"/>
+    <listType typeId="69b3d0e3-ecf6-4658-9976-8eaa2dc801dd" valueTypeId="ffc410c5-fc0c-45a5-a726-563f46c6b6ab"/>
+    <managerType typeId="11ad1ab8-7b61-41e2-9a3f-d7f30f24f4eb" valueTypeId="11554542-6052-4ef5-9a94-aeecbb365783"/>
+  </producedTypes>
+  <name>торо_СпособыПланированияРемонтныхРабот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы планирования ремонтных работ</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Los modos de la planificación de los trabajos de reparación</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Repair works planning methods</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.торо_СпособыПланированияРемонтныхРабот.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.торо_СпособыПланированияРемонтныхРабот.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Родитель</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Los padres</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Parent</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Группа</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El grupo</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Group</value>
+    </toolTip>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.торо_СпособыПланированияРемонтныхРабот.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Наименование способа планирования</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El nombre del modo de la planificación</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>The name of the planning method</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Код способа планирования</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El código del modo de la planificación</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Planning method code</value>
+    </toolTip>
+    <fillValue xsi:type="core:StringValue">
+      <value>         </value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <characteristics>
+    <characteristicTypes>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеРеквизиты</characteristicTypes>
+    <keyField>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеРеквизиты.Attribute.Свойство</keyField>
+    <typesFilterField>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеРеквизиты.StandardAttribute.Ref</typesFilterField>
+    <typesFilterValue xsi:type="core:ReferenceValue">
+      <value>Catalog.НаборыДополнительныхРеквизитовИСведений.Справочник_торо_СпособыПланированияРемонтныхРабот</value>
+    </typesFilterValue>
+    <dataPathField>-1</dataPathField>
+    <multipleValuesUseField>-1</multipleValuesUseField>
+    <characteristicValues>Catalog.торо_СпособыПланированияРемонтныхРабот.TabularSection.ДополнительныеРеквизиты</characteristicValues>
+    <objectField>Catalog.торо_СпособыПланированияРемонтныхРабот.TabularSection.ДополнительныеРеквизиты.StandardAttribute.Ref</objectField>
+    <typeField>Catalog.торо_СпособыПланированияРемонтныхРабот.TabularSection.ДополнительныеРеквизиты.Attribute.Свойство</typeField>
+    <valueField>Catalog.торо_СпособыПланированияРемонтныхРабот.TabularSection.ДополнительныеРеквизиты.Attribute.Значение</valueField>
+    <multipleValuesKeyField>-1</multipleValuesKeyField>
+    <multipleValuesOrderField>-1</multipleValuesOrderField>
+  </characteristics>
+  <characteristics>
+    <characteristicTypes>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения</characteristicTypes>
+    <keyField>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения.Attribute.Свойство</keyField>
+    <typesFilterField>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения.StandardAttribute.Ref</typesFilterField>
+    <typesFilterValue xsi:type="core:ReferenceValue">
+      <value>Catalog.НаборыДополнительныхРеквизитовИСведений.Справочник_торо_СпособыПланированияРемонтныхРабот</value>
+    </typesFilterValue>
+    <dataPathField>-1</dataPathField>
+    <multipleValuesUseField>-1</multipleValuesUseField>
+    <characteristicValues>InformationRegister.ДополнительныеСведения</characteristicValues>
+    <objectField>InformationRegister.ДополнительныеСведения.Dimension.Объект</objectField>
+    <typeField>InformationRegister.ДополнительныеСведения.Dimension.Свойство</typeField>
+    <valueField>InformationRegister.ДополнительныеСведения.Resource.Значение</valueField>
+    <multipleValuesKeyField>-1</multipleValuesKeyField>
+    <multipleValuesOrderField>-1</multipleValuesOrderField>
+  </characteristics>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="74d159c6-c791-4812-8691-9873b169da72">
+      <name>Ежегодно</name>
+      <description>Ежегодно</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.торо_СпособыПланированияРемонтныхРабот.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.торо_СпособыПланированияРемонтныхРабот.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.торо_СпособыПланированияРемонтныхРабот.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="1012674b-2106-452d-bbce-10c50d0faa0b">
+    <name>ДеньНедели</name>
+    <synonym>
+      <key>ru</key>
+      <value>День недели</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El día de la semana</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Day of the week</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ДниНедели</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>День недели для планирования</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El día de la semana para la planificación</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Day of the week for planning</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="babe9af0-9b57-4a26-9b36-7f8a6f93c559">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La cantidad</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Number</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Количество периодов</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>La cantidad de los períodos</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Number of periods</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="15c1791e-63eb-451b-ac60-90ecf6446da7">
+    <name>КоличествоПериодов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество периодов</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La cantidad de los períodos</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Number of periods</value>
+    </synonym>
+    <comment>(Упр)</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Количество периодов внутри одного цикла</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>La cantidad de los períodos dentro de un ciclo</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Number of periods within one cycle</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:NumberValue">
+      <value>1</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="73d5ff6c-203c-4754-a9eb-24314bdbd1cd">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El comentario</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Comment</value>
+    </synonym>
+    <comment>(Упр)</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Произвольный комментарий</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El comentario cualquiera</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Arbitrary comment</value>
+    </toolTip>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5e46a33c-f0d8-479b-a984-45880abcd1fe">
+    <name>ПериодичностьРемонтныхРабот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Периодичность ремонтных работ</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La periodicidad de los trabajos de reparación</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Frequency of repair work</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Периодичность</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Длительность цикла между ремонтами</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>La duración del ciclo entre las reparaciones</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Cycle time between repairs</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2c52a3c0-67cd-4705-aa76-73c2f6d25f68">
+    <name>СрокФормированияЗаявки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок формирования заявки</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El plazo de la formación de la demanda</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Application formation period</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>период, с учетом которого будет автоматически определяться дата формирования заявки на ремонт</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El período, con que recuento estará determinada automáticamente la fecha de la formación de la demanda por la reparación</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>period, taking into account which the date of formation of the repair request will be automatically determined</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bb43bc24-3fbe-4058-932f-a6b5f46e684c">
+    <name>ИспользоватьПараметрыНаработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать параметры наработки</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Usar los parámetros de la elaboración</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Use running hours</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак учета наработки при расчете ППР</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El indicio del recuento de la elaboración al cálculo ППР</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>A sign of accounting for operating time in the calculation of PPM</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="733aad26-64c7-4749-9e50-bada9fceeb5a">
+    <name>ИспользоватьПериодичность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать периодичность</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Usar la periodicidad</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Use periodicity</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак расчета ППР по периодам</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El indicio del cálculo ППР por los períodos</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Sign of the calculation of PPM for periods</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8323cbed-b6dd-44a7-8f71-bcf1d9f9158d">
+    <name>НеУчитыватьПриПланированииГрафикРаботыОборудования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не учитывать при планировании график работы оборудования</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>No tomar en consideración a la planificación el gráfico del trabajo de la maquinaria</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Do not take into account when planning the schedule of equipment</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак, при расчете ППР график работы ОР не учитывается</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El indicio, al cálculo ППР el gráfico del trabajo ОР no es tomado en consideración</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>A sign, when calculating PPM, the work schedule of the EI is not taken into account</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="95a002c1-fa28-436f-b752-0ec0ff694c43">
+    <name>ПараметрНаработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметр наработки</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El parámetro de la elaboración</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Operating time parameter</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПараметрыВыработкиОС</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>(Параметр наработки)</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>(El parámetro de la elaboración)</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>(Run time parameter)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="80fcc04b-fe06-448d-a283-c00bf240ebcd">
+    <name>ЗначениеПараметраНаработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение параметра наработки</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El significado del parámetro de la elaboración</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Timing parameter value</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>(Значение параметра наработки)</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>(El significado del parámetro de la elaboración)</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>(The value of the run time parameter)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e10f6e4c-e23f-467f-82f0-fdcf68790104">
+    <name>ВыполнятьОднократно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнять однократно</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Cumplir es una sola vez</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Perform once</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="ec7faf70-9654-4674-af2a-72fb587bc88b">
+    <producedTypes>
+      <objectType typeId="b94208af-7e49-44a4-80b1-6eb2b3cb189f" valueTypeId="8f6276a5-52d1-45ad-bf58-a64b61fb7035"/>
+      <rowType typeId="2cf0bc18-993d-432d-9caf-d70256bfa794" valueTypeId="8ad2178b-b211-4f3f-beb9-30362a492952"/>
+    </producedTypes>
+    <name>ПараметрыНаработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры наработки</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Los parámetros de la elaboración</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Operating hours parameters</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="1db86d7b-02ac-4bbd-8c0a-7d65389d735b">
+      <name>ЗначениеПараметраНаработки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение параметра наработки</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>El significado del parámetro de la elaboración</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Timing parameter value</value>
+      </synonym>
+      <comment>(Упр)</comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Значение параметра</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El significado del parámetro</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Parameter value</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ee9e91ad-882b-4bb1-b24e-ae6238fd64cd">
+      <name>ПараметрНаработки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Параметр наработки</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>El parámetro de la elaboración</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Operating time parameter</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ПараметрыВыработкиОС</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Параметр</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El parámetro</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Parameter</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="8686914c-28f6-40cd-84a3-0fd4b6574f92">
+    <producedTypes>
+      <objectType typeId="259a352a-c14c-4be3-8b57-0c2691080b8a" valueTypeId="57528646-be81-4447-bb11-145a18ee73e7"/>
+      <rowType typeId="b97e3e5b-ccae-4103-bdb4-2e730c64fdd4" valueTypeId="60b4fea8-02d5-4abe-ab71-3be7678c5cc7"/>
+    </producedTypes>
+    <name>Сезонность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сезонность</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La temporalidad</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Seasonality</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="64c4746b-4272-4b4c-8845-feb73a2fd2e1">
+      <name>СезонДатаНачала</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сезон дата начала</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La fecha ha comenzado la temporada</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Season start date</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Дата начала сезона</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>La fecha del comienzo de la temporada</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Season start date</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3a6cfdd5-490a-423d-8ab5-2fc0c78a0bc8">
+      <name>СезонДатаОкончания</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сезон дата окончания</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La temporada la fecha de la terminación</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Season end date</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Дата окончания сезона</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>La fecha de la terminación de la temporada</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Season end date</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="a62d44ad-1265-40db-8da1-da5a1c921f70">
+    <producedTypes>
+      <objectType typeId="17cec37e-a5c3-4603-9986-de63b6e40994" valueTypeId="3168080d-8614-4ccc-9679-652491ee5532"/>
+      <rowType typeId="befa250d-f2ab-40f6-84c5-a4bf6a6552ca" valueTypeId="5258f645-d8ba-40d0-b22f-506fc0837d47"/>
+    </producedTypes>
+    <name>ДополнительныеРеквизиты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные реквизиты</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Los requisitos adicionales</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Additional details</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Дополнительные реквизиты объекта</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>Los requisitos adicionales del objeto</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Additional property details</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="0b1b5496-7131-4656-9bd6-7547dfd68f6c">
+      <name>Свойство</name>
+      <synonym>
+        <key>ru</key>
+        <value>Свойство</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La propiedad</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Property</value>
+      </synonym>
+      <type>
+        <types>ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Дополнительный реквизит</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El requisito adicional</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Additional property</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <quickChoice>DontUse</quickChoice>
+      <createOnInput>Use</createOnInput>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="49f1037a-73d4-4d50-996b-60f54706c64a">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>El significado</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Value</value>
+      </synonym>
+      <type>
+        <types>Characteristic.ДополнительныеРеквизитыИСведения</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Значение дополнительного реквизита</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El significado del requisito adicional</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>The value of the additional attribute</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Catalog.торо_СпособыПланированияРемонтныхРабот.TabularSection.ДополнительныеРеквизиты.Attribute.Свойство</field>
+      </choiceParameterLinks>
+      <quickChoice>DontUse</quickChoice>
+      <createOnInput>Use</createOnInput>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="41be6dfe-0f06-45ae-b6a5-f5269ed191b7">
+      <name>ТекстоваяСтрока</name>
+      <synonym>
+        <key>ru</key>
+        <value>Текстовая строка</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La línea textual</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Text string</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Полный текст строкового дополнительного реквизита</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El texto completo del requisito de renglón adicional</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Full text of string additional property</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="206b515a-01aa-42cd-9019-41f125bab432">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La forma del elemento</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Item shape</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="79ffe146-5358-4f2d-82f0-766e742e7c44">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La forma de la lista</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>list form</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ff031c6e-2772-4058-b41a-226bb699f8dc">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La forma de la elección</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Selection form</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

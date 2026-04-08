@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f01bc0d4-430a-4de6-8710-28eb7c97740f">
+  <producedTypes>
+    <selectionType typeId="4420dd5a-1239-450e-b2f6-9a3c0a86b9f4" valueTypeId="e5be4873-f848-4643-abe9-d4b21690e418"/>
+    <listType typeId="9a857154-837e-4ff1-bf7e-01e16139289b" valueTypeId="4f70ac07-69cd-42f2-a65e-51fead4d14e1"/>
+    <managerType typeId="ca2fbfc2-c961-4e6e-8509-fb24fa04ea8b" valueTypeId="f7e04b7e-85c9-4178-9cd8-d018e0dfc4dc"/>
+    <recordSetType typeId="61170c73-7255-47da-b4ff-7b25e98d2065" valueTypeId="fbf64329-6484-4f75-8ffc-e9f902acecab"/>
+    <recordKeyType typeId="df7c9f0d-4d34-417a-b83d-51907dae85fa" valueTypeId="3b64361e-aa95-4453-ba60-49e2d89f0d6a"/>
+    <recordType typeId="e6832d4e-3da4-413f-a92b-b928cfff078b" valueTypeId="a99b28b4-4b29-4f30-9328-f12a438d9562"/>
+    <recordManagerType typeId="a84b39ce-12d3-4a25-a2e6-869b6200b2b0" valueTypeId="3bc3c8b3-4aa8-4fa2-afbf-9a58fa2e56cf"/>
+  </producedTypes>
+  <name>МножественныеЗначенияАтрибутов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Множественные значения атрибутов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.МножественныеЗначенияАтрибутов.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a7525130-8279-4bb5-97c8-827f080af026">
+    <name>ДоступноеЗначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доступное значение</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e68a6a1a-7f0c-4673-b069-748d4237a314">
+    <name>ИспользуемоеЗначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используемое значение</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f4648595-3319-4edd-94b1-08d947243427">
+    <name>Порядок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a116eb3e-84ed-4238-b9a2-e004b4cd306f">
+    <name>ТабличныйАтрибут</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табличный атрибут</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="2ab17420-f38a-407b-92e5-b639c2b87b81">
+    <name>Класс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Класс</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОбъектыНоменклатуры</types>
+      <types>CatalogRef.Классы</types>
+      <types>CatalogRef.НоменклатураКласса</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c413bb9d-cf6c-40cb-ac8d-a0c4453c18a1">
+    <name>АтрибутКласса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Атрибут класса</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.АтрибутыКласса</types>
+      <types>CatalogRef.НаборыАтрибутов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="0684ebc9-1140-4ba4-8464-7c631702a6f9">
+    <name>ЗначениеАтрибутаКласса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение атрибута класса</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОбъектыНоменклатуры</types>
+      <types>CatalogRef.ВариантыЗначенийАтрибутовКласса</types>
+      <types>CatalogRef.Классы</types>
+      <types>CatalogRef.НоменклатураКласса</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="f4b126e4-cb73-46dc-ad68-5d0b491e2f48">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

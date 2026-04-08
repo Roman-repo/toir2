@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="769e4f08-6ea4-4d9f-a5de-01d78485e5f8">
+  <name>ЧтениеВидовНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение видов номенклатуры</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>La lectura de los tipos de la nomenclatura</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Reading item types</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b8cfccfe-64ff-4784-8e00-048aa7aba2b4">
+  <name>гкс_ОбработкаПолученияПредставления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработка получения представления</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Processing of the submission</value>
+  </synonym>
+  <source>
+    <types>DocumentManager.торо_ЗаявкаНаРемонт</types>
+    <types>DocumentManager.ПеремещениеТоваров</types>
+    <types>DocumentManager.торо_НарядНаВыполнениеРемонтныхРабот</types>
+    <types>DocumentManager.торо_АктПриемкиОборудования</types>
+    <types>DocumentManager.торо_ВыявленныеДефекты</types>
+    <types>DocumentManager.торо_УчетНаработкиОборудования</types>
+    <types>DocumentManager.торо_АктОВыполненииЭтапаРабот</types>
+    <types>DocumentManager.гкс_ЕВОБланк</types>
+    <types>DocumentManager.торо_ВнешнееОснованиеДляРабот</types>
+  </source>
+  <event>PresentationGetProcessing</event>
+  <handler>CommonModule.гкс_ЧасовыеПоясаВызовСервера.гкс_ОбработкаПолученияПредставленияОбработкаПолученияПредставления</handler>
+</mdclass:EventSubscription>

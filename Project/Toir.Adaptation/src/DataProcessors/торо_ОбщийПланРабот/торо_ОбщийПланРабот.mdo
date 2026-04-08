@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b22b8266-5026-49a8-9c98-26e6c5eb5479" extendedConfigurationObject="cd6bfaeb-bff7-4935-8169-ecd40dcf13eb">
+  <producedTypes>
+    <objectType typeId="5987e082-1e3f-4cd7-b2d3-9420a6f95709" valueTypeId="26dc1ec3-5098-4b58-8c5e-7ef0b18e6f65"/>
+    <managerType typeId="019d224a-3442-4e4c-a4df-d0e67a02913f" valueTypeId="e1ecfae3-2bd7-4d7d-9c30-2a45b8b526de"/>
+  </producedTypes>
+  <name>торо_ОбщийПланРабот</name>
+  <comment>TOIR20-167</comment>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <forms uuid="96739e69-fb17-4850-9c03-47f69b953b90" extendedConfigurationObject="1f3c12e9-c329-4afa-9b6b-7f6630e61031">
+    <name>Форма</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:DataProcessor>

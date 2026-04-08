@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6e8ed0e5-045a-471c-9e65-1563017dc3c5">
+  <name>УправлениеНСИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Классификатор</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПодсистемаКлассификатор</picture>
+  </picture>
+  <content>Catalog.Классы</content>
+  <content>Catalog.ВариантыЗначенийАтрибутовКласса</content>
+  <content>Catalog.НаборыАтрибутов</content>
+  <content>ChartOfCharacteristicTypes.АтрибутыКласса</content>
+  <content>InformationRegister.ЗначенияАтрибутовКласса</content>
+  <content>InformationRegister.НазначениеАтрибутов</content>
+  <content>InformationRegister.МножественныеЗначенияАтрибутов</content>
+  <content>InformationRegister.НенаследуемыеЗначения</content>
+  <content>DataProcessor.РедактированиеКлассов</content>
+  <content>Catalog.НоменклатураКласса</content>
+  <content>Enum.СтатусыОбъектовНСИ</content>
+  <content>Enum.РежимыЗаполненияАтрибутов</content>
+  <content>Role.РедактированиеКлассов</content>
+  <content>Catalog.ОбъектыНоменклатуры</content>
+  <content>Enum.РежимыИспользованияАтрибутов</content>
+  <content>Role.РедактированиеНоменклатуры</content>
+  <content>Role.РедактированиеОбъектовНоменклатуры</content>
+  <content>InformationRegister.БлокировкаРедактированияКлассов</content>
+  <content>DataProcessor.РедактированиеНоменклатурыКлассов</content>
+  <content>Catalog.Счетчики</content>
+  <content>Catalog.ШаблоныЗаполнения</content>
+  <content>Enum.РеквизитыДляВывода</content>
+  <content>Enum.ТипыСтрокШаблона</content>
+  <content>InformationRegister.ЗначенияСчетчиков</content>
+  <content>DataProcessor.НастройкаНаследованияСтрокТабличныхЧастей</content>
+  <content>Enum.РежимыКонтроляДублей</content>
+  <content>Catalog.ВложенныеАтрибутыКласса</content>
+  <content>Enum.РеквизитыКлассаНоменклатуры</content>
+  <content>Role.ЧтениеОбъектовНоменклатуры</content>
+  <content>Role.ЧтениеНоменклатуры</content>
+  <content>Role.ЧтениеКлассов</content>
+  <content>Enum.ДействияГрупповогоРедактирования</content>
+  <content>DataProcessor.ГрупповаяОбработкаНоменклатурыКлассов</content>
+  <content>Enum.РеквизитыНоменклатурыКласса</content>
+  <content>DataProcessor.ВосстановлениеНаследованияСтрокТЧ</content>
+  <content>InformationRegister.СведенияОНоменклатуреКлассов</content>
+  <content>CommonPicture.ПодсистемаКлассификатор</content>
+  <content>Catalog.гкс_ГруппыОборудования</content>
+  <content>InformationRegister.гкс_СоответствиеОбъектовКлассификатораИТОИР</content>
+</mdclass:Subsystem>

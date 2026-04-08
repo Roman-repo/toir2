@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d970c3dd-c8bd-4eb2-b87c-663ebd697de9">
+  <name>ИспользованиеПанелиАдминистрированияБСП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование панели администрирования БСП</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>El uso del panel de la administración БСП</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Using BSP admin panel</value>
+  </synonym>
+</mdclass:Role>

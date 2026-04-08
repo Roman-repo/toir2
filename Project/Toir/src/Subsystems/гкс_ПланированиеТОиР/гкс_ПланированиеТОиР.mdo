@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6bd1cbdd-39a8-4596-9c87-c3120cb61b41">
+  <name>гкс_ПланированиеТОиР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планирование ТОиР (доработки)</value>
+  </synonym>
+  <comment>TOIR20-194</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Constant.гкс_ПериодДействияТехКартПоУмолчанию</content>
+  <content>Constant.гкс_КоличествоДнейДоОкончанияАктуальностиТК</content>
+  <content>Report.гкс_ОтчетОбАктуальностиТехКарт</content>
+  <content>Constant.гкс_КоличествоПериодовДействияТехКартПоУмолчанию</content>
+  <content>Document.гкс_УстановкаСоответствийДолжностейИКвалификаций</content>
+  <content>InformationRegister.гкс_СоответствияДолжностейИКвалификаций</content>
+  <content>AccumulationRegister.гкс_ТрудовыеРесурсы</content>
+  <content>Document.гкс_ВводДанныхПоТрудовымРесурсам</content>
+</mdclass:Subsystem>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="76f24efd-2507-4cb0-909b-31c36663dfb4">
+  <producedTypes>
+    <objectType typeId="a937614b-7530-4b80-b863-548205e01582" valueTypeId="1aecbb15-213e-4064-a4f8-38315597812a"/>
+    <managerType typeId="57fe0032-cd49-4094-b736-cf0e653b5300" valueTypeId="f3069e53-24ea-4a5c-8def-511f742dab2d"/>
+  </producedTypes>
+  <name>ГрупповаяОбработкаНоменклатурыКлассов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Групповая обработка номенклатуры классов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ГрупповаяОбработкаНоменклатурыКлассов.Form.Форма</defaultForm>
+  <tabularSections uuid="fcc01f3c-0858-4232-913e-c37c56b754e8">
+    <producedTypes>
+      <objectType typeId="4a4c9b33-8339-4540-878c-3508688eccf5" valueTypeId="579f632d-0c39-48fb-a20e-e83639ac79c8"/>
+      <rowType typeId="635b33cc-c2a3-42ea-91e5-0076cd0cccba" valueTypeId="6759af1c-95c0-4c6e-bda8-9761cfdf7d8a"/>
+    </producedTypes>
+    <name>НоменклатураДляОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура для обработки</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="8e68ec36-b2c9-4ac2-bd26-c03aadb2a824">
+      <name>НоменклатураКласса</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура класса</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.НоменклатураКласса</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="71eba145-da31-4e79-ac8b-c614e7c51c8c">
+      <name>Выбрано</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выбрано</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="39b708f4-0ca2-4a4b-8d6c-55f89e95e8e0">
+    <producedTypes>
+      <objectType typeId="d31ec7c4-bb23-478b-9510-94d9cb250573" valueTypeId="81b31b15-98e0-4ad5-841a-c87495dd0cbf"/>
+      <rowType typeId="8895fbb9-40ec-4ac7-813b-adaafcf0cfec" valueTypeId="8a6c1db5-f32d-4a67-8d57-cd74f685618b"/>
+    </producedTypes>
+    <name>ДействияГрупповойОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действия групповой обработки</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="3f8e2dd1-77a0-4f43-8014-19922660c9ab">
+      <name>Действие</name>
+      <synonym>
+        <key>ru</key>
+        <value>Действие</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ДействияГрупповогоРедактирования</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="b79b775a-18a2-44f2-8c4f-18bd1d8ce32b">
+      <name>АтрибутКласса</name>
+      <synonym>
+        <key>ru</key>
+        <value>Атрибут класса</value>
+      </synonym>
+      <type>
+        <types>EnumRef.РеквизитыНоменклатурыКласса</types>
+        <types>ChartOfCharacteristicTypesRef.АтрибутыКласса</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="2a855db3-b922-4e69-9eee-d8cac35ed205">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+        <types>String</types>
+        <types>Date</types>
+        <types>Number</types>
+        <types>EnumRef</types>
+        <types>CatalogRef</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+        <stringQualifiers>
+          <length>1000</length>
+        </stringQualifiers>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <forms uuid="ae05f74d-61bc-49ad-b5e7-639c5d82051a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

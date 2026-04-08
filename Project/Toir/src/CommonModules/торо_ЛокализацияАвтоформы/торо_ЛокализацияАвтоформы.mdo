@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd48e30f-b1ea-426f-9c5f-2d855c81ef44">
+  <name>торо_ЛокализацияАвтоформы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Торо локализация автоформы</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>localization avtoform</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

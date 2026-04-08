@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a67399ad-f585-4dd2-96c4-18e0317d9974">
+  <name>торо_ЧтениеКритериевОценки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение критериев оценки</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>La lectura de los criterios de la apreciación</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Reading evaluation criteria</value>
+  </synonym>
+</mdclass:Role>

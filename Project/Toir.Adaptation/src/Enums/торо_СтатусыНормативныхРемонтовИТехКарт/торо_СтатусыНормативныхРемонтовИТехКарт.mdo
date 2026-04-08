@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="92d899ac-ff14-4ee4-a30b-9b3a2d89e109">
+  <producedTypes>
+    <refType typeId="7f4bc943-7f71-4ad2-a747-9dfa49160785" valueTypeId="ccf354f5-989e-4c4d-a846-c82513eff291"/>
+    <listType typeId="b84ae14e-62fb-4dd7-a45d-f6c43ca75f91" valueTypeId="aa4381ee-01a1-4750-8b58-173e8f01e497"/>
+    <managerType typeId="cac92146-f4ef-4080-b37e-0e8ea83bc9b7" valueTypeId="bce7b398-e3a0-41d9-9f4a-a3d0e309f582"/>
+  </producedTypes>
+  <name>торо_СтатусыНормативныхРемонтовИТехКарт</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="e40dfae2-8593-43b6-aec9-7545f1da0977" extendedConfigurationObject="670db8b6-a1e6-4c96-bfe5-81ae11f212c2">
+    <name>ВРазработке</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="3f10e397-9268-46f7-bcdd-5e0304b5dc89" extendedConfigurationObject="14134500-fdf0-48e5-83c2-3f92aba5cf2f">
+    <name>Действует</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="b390302a-1ae0-4b28-b20c-128bac7f1745" extendedConfigurationObject="3e8d26ed-f54a-46c4-8e61-6040f607ae89">
+    <name>Закрыта</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

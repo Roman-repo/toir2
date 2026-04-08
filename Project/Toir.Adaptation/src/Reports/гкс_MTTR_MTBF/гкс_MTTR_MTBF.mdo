@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="334e8817-4c2e-4e85-88a9-15cafbf4b6c9">
+  <producedTypes>
+    <objectType typeId="c65cae64-a18b-4d63-b2fc-9ab50e1be4c4" valueTypeId="7761e0b4-754b-4f11-b22d-aeef030e0c77"/>
+    <managerType typeId="554bea89-e5bd-4768-9b37-e5221b4615f6" valueTypeId="480bb91b-2994-4e92-a469-bce957dd5f2f"/>
+  </producedTypes>
+  <name>гкс_MTTR_MTBF</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по MTTR, MTBF</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.гкс_MTTR_MTBF.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="791a051e-b1f2-4cff-a0fa-84e40cbc6632">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

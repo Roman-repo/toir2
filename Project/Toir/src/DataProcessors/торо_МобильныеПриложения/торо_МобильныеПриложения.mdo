@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e79519cd-f39f-4de7-994a-853c271d0f07">
+  <producedTypes>
+    <objectType typeId="96e21879-3162-44c4-ba4d-eca85717519b" valueTypeId="6577031b-8eb4-413d-a38b-a5c5ee49a902"/>
+    <managerType typeId="ae189d21-bb01-4e80-bf95-4435b1a83f8c" valueTypeId="4f39f422-cb80-4cba-8f65-c31640aa40fc"/>
+  </producedTypes>
+  <name>торо_МобильныеПриложения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мобильные приложения</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Las aplicaciones móviles</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Mobile applications</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.торо_МобильныеПриложения.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="75751252-7768-474f-a486-1990c541c30a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мобильные приложения</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Las aplicaciones móviles</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Mobile applications</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a98a0992-b333-44e1-9963-9375488d6b8c">
+    <name>ФормаЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма запроса</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La forma de la interpelación</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Request form</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="00164208-b873-498e-89ad-90f5d11e52fc">
+    <name>ФормаВводаКлюча</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма ввода ключа</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La forma de la introducción de la llave</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Key entry form</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2bcd6080-5d35-49c5-a2b2-07d8ab7ef8b1">
+    <name>ФормаПодразделений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма подразделений</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La forma de las subdivisiones</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Unit form</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="03f56e8f-ca59-488a-bcfa-d51a01d265be">
+    <name>ФормаТрекинга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма трекинга</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La forma трекинга</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Tracking form</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

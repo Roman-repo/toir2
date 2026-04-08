@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="cf677ff2-906f-4751-ad8e-54f635ed92db">
+  <producedTypes>
+    <managerType typeId="f2e9c3c1-edbb-49c0-ada8-b2febd2ec1f2" valueTypeId="f88c29df-98a0-48e4-bdf4-1dfd00c466b2"/>
+    <valueManagerType typeId="9901c5d4-65ca-4e29-a36d-181e52d52bf9" valueTypeId="d49789c7-f9cc-4cb6-9174-5efc1f1c1d40"/>
+    <valueKeyType typeId="4babce0e-21a8-42e0-9f49-93861e04516c" valueTypeId="6e7acd94-01e0-4ead-b6e6-62810a5d6ac3"/>
+  </producedTypes>
+  <name>торо_ИспользоватьЛоты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+</mdclass:Constant>

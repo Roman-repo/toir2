@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5b46e768-99d8-4a01-a817-631832c1a885" extendedConfigurationObject="1700dbd9-5fec-4508-82e9-7c68a672f6b8">
+  <producedTypes>
+    <selectionType typeId="c1a8332d-60f1-4619-8fff-3100f30b30dd" valueTypeId="725ae595-1d84-4811-be85-1d44db72eb78"/>
+    <listType typeId="c98341cb-6f19-4001-9813-a86ddfdd41c2" valueTypeId="3026bd93-eff6-445f-8d73-4aa2ddf0bc2d"/>
+    <managerType typeId="296dfc95-5185-4fb5-af7f-bd1aeeaaf0e4" valueTypeId="e8fd3b21-82e3-4748-9dd0-f27862801dbd"/>
+    <recordSetType typeId="b674481c-1e2a-447c-bdfa-12d52065ce08" valueTypeId="24c70315-f9fd-44a7-82a7-ba756952af7e"/>
+    <recordKeyType typeId="7c19fe59-6472-40b9-945e-890a07465b63" valueTypeId="7cc3efbe-ccde-4408-a521-25ae8bb0e192"/>
+    <recordType typeId="29826192-2feb-40f6-8a06-f314caf9b9a4" valueTypeId="4ba41522-fd33-45c0-8420-bb83be670bf2"/>
+    <recordManagerType typeId="6bafd7ec-2a48-41d9-a515-4a82c58b7497" valueTypeId="aa94dc63-1554-4ba4-a9b6-da2265eb0d10"/>
+  </producedTypes>
+  <name>торо_ЗаявкиПоРемонтам</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <resources uuid="239c90cd-f893-4692-8a2d-0bcb152445c7" extendedConfigurationObject="d7dfab1a-d04f-4eef-b624-41857ac954b6">
+    <name>ДатаНачалаРемонтныхРабот</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers/>
+      </typeExtension>
+    </extension>
+  </resources>
+  <resources uuid="f5a4d21a-2e29-476c-bb47-030f5744f1d7" extendedConfigurationObject="56b7ecd8-6f82-48c0-a5e4-6b0ed35d9be8">
+    <name>ДатаОкончанияРемонтныхРабот</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers/>
+      </typeExtension>
+    </extension>
+  </resources>
+  <dimensions uuid="2ba3a24e-65cc-40e9-b723-adf911f9dc9b" extendedConfigurationObject="c0f853e5-15d1-47ec-90ea-b70fc2292634">
+    <name>IDРемонта</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </dimensions>
+  <dimensions uuid="50bcdd81-ccd0-4e3b-bc0b-6f0283944cf7" extendedConfigurationObject="57cc77f3-0f99-4c18-8855-e9f9bb166844">
+    <name>Исполнитель</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+  <dimensions uuid="b8b59d6d-32a7-49c8-a67d-02d214012d9c" extendedConfigurationObject="63334144-1754-4ddf-bae4-01a96dcb2829">
+    <name>УточнениеИсполнителя</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:InformationRegister>

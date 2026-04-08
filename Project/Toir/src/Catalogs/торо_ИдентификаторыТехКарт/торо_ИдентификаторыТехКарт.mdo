@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1df37856-de88-48c8-9fc6-1f22658a1931">
+  <producedTypes>
+    <objectType typeId="17031550-36f2-44f2-b7b9-96a4c8555393" valueTypeId="c35583d1-6385-4b44-ab74-2f65c3164c13"/>
+    <refType typeId="4b29c995-f1bc-4d99-8320-718b86379558" valueTypeId="54c0ba04-0dc1-4184-87dc-913e35ea1972"/>
+    <selectionType typeId="7bc51692-377b-4f4a-96bd-883e82e7d3bf" valueTypeId="e7bd6261-c792-470a-8cd2-9d451f478983"/>
+    <listType typeId="2ebf51ee-398e-415c-8c04-b02ef6d9c296" valueTypeId="82952e50-26ec-4675-84f1-693a173cfad1"/>
+    <managerType typeId="aa374196-e6b2-46fe-bae0-f37b435700bd" valueTypeId="d8856adc-dc92-4a52-83d6-516d5cb5f08b"/>
+  </producedTypes>
+  <name>торо_ИдентификаторыТехКарт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Технологические карты ремонтов</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Las tarjetas tecnológicas de las reparaciones</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Technological maps of repairs</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.торо_ИдентификаторыТехКарт.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.торо_ИдентификаторыТехКарт.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Родитель</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Los padres</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Parent</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Группа</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El grupo</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Group</value>
+    </toolTip>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.торо_ИдентификаторыТехКарт.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Наименование тех карты</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El nombre de aquellos de la tarjeta</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Name of those cards</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Используется для идентификации элемента справочника</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>Se usa para la identificación del elemento de la guía</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Used to identify a directory item</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <characteristics>
+    <characteristicTypes>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеРеквизиты</characteristicTypes>
+    <keyField>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеРеквизиты.Attribute.Свойство</keyField>
+    <typesFilterField>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеРеквизиты.StandardAttribute.Ref</typesFilterField>
+    <typesFilterValue xsi:type="core:ReferenceValue">
+      <value>Catalog.НаборыДополнительныхРеквизитовИСведений.Справочник_торо_ИдентификаторыТехКарт</value>
+    </typesFilterValue>
+    <dataPathField>-1</dataPathField>
+    <multipleValuesUseField>-1</multipleValuesUseField>
+    <characteristicValues>Catalog.торо_ИдентификаторыТехКарт.TabularSection.ДополнительныеРеквизиты</characteristicValues>
+    <objectField>Catalog.торо_ИдентификаторыТехКарт.TabularSection.ДополнительныеРеквизиты.StandardAttribute.Ref</objectField>
+    <typeField>Catalog.торо_ИдентификаторыТехКарт.TabularSection.ДополнительныеРеквизиты.Attribute.Свойство</typeField>
+    <valueField>Catalog.торо_ИдентификаторыТехКарт.TabularSection.ДополнительныеРеквизиты.Attribute.Значение</valueField>
+    <multipleValuesKeyField>-1</multipleValuesKeyField>
+    <multipleValuesOrderField>-1</multipleValuesOrderField>
+  </characteristics>
+  <characteristics>
+    <characteristicTypes>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения</characteristicTypes>
+    <keyField>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения.Attribute.Свойство</keyField>
+    <typesFilterField>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения.StandardAttribute.Ref</typesFilterField>
+    <typesFilterValue xsi:type="core:ReferenceValue">
+      <value>Catalog.НаборыДополнительныхРеквизитовИСведений.Справочник_торо_ИдентификаторыТехКарт</value>
+    </typesFilterValue>
+    <dataPathField>-1</dataPathField>
+    <multipleValuesUseField>-1</multipleValuesUseField>
+    <characteristicValues>InformationRegister.ДополнительныеСведения</characteristicValues>
+    <objectField>InformationRegister.ДополнительныеСведения.Dimension.Объект</objectField>
+    <typeField>InformationRegister.ДополнительныеСведения.Dimension.Свойство</typeField>
+    <valueField>InformationRegister.ДополнительныеСведения.Resource.Значение</valueField>
+    <multipleValuesKeyField>-1</multipleValuesKeyField>
+    <multipleValuesOrderField>-1</multipleValuesOrderField>
+  </characteristics>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.торо_ИдентификаторыТехКарт.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.торо_ИдентификаторыТехКарт.Form.ФормаГруппы</defaultFolderForm>
+  <defaultListForm>Catalog.торо_ИдентификаторыТехКарт.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.торо_ИдентификаторыТехКарт.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="1291c175-f0dd-4054-a07a-c41e1dd769c0">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El estatus</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Status</value>
+    </synonym>
+    <type>
+      <types>EnumRef.торо_СтатусыНормативныхРемонтовИТехКарт</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>(Статус)</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>(El estatus)</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>(Status)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.торо_СтатусыНормативныхРемонтовИТехКарт.EnumValue.ВРазработке</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a11c46b9-ed19-47e9-883d-05bbb4afc9a3">
+    <name>гкс_Владелец</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТОР Владелец</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>TRO Owner</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.торо_ТиповыеОР</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolder</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4380d8c9-cbf4-44cf-b7c9-1da41ff5be61">
+    <name>гкс_Обслуживание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обслуживание</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Service</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="67f4d7dd-7bf2-4031-a04a-7940d981637a">
+    <name>гкс_Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Responsible</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="a26410cb-343c-49f6-902f-d78d550afc92">
+    <producedTypes>
+      <objectType typeId="fc3575f8-c674-4579-a661-6ca7bffae14a" valueTypeId="3d4dc938-391c-4646-b6e6-353b01a2de40"/>
+      <rowType typeId="ca96e6e2-939f-49ab-bc7a-bbbffdf7ae0e" valueTypeId="f21cc0bc-6fdb-4d15-8212-7aee45311677"/>
+    </producedTypes>
+    <name>ДополнительныеРеквизиты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные реквизиты</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Los requisitos adicionales</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Additional details</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="af06b4bf-832a-4352-b38a-f0a3a9eddf09">
+      <name>Свойство</name>
+      <synonym>
+        <key>ru</key>
+        <value>Свойство</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La propiedad</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Property</value>
+      </synonym>
+      <type>
+        <types>ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Дополнительный реквизит</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El requisito adicional</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Additional property</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <quickChoice>DontUse</quickChoice>
+      <createOnInput>Use</createOnInput>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="93c75645-04be-4759-847a-4919643e6faa">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>El significado</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Value</value>
+      </synonym>
+      <type>
+        <types>Characteristic.ДополнительныеРеквизитыИСведения</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Значение дополнительного реквизита</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El significado del requisito adicional</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>The value of the additional attribute</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Catalog.торо_ИдентификаторыТехКарт.TabularSection.ДополнительныеРеквизиты.Attribute.Свойство</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="eb0baad2-d67e-4063-a0d2-4e214687aa5d">
+      <name>ТекстоваяСтрока</name>
+      <synonym>
+        <key>ru</key>
+        <value>Текстовая строка</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La línea textual</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Text string</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Полный текст строкового дополнительного реквизита</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El texto completo del requisito de renglón adicional</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Full text of string additional property</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="6f99a8be-1d65-488c-93f7-a121180c1b2b">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La forma del elemento</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Item shape</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="db1691e8-bc16-4a6c-b132-356a1bea1b3e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La forma de la lista</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>list form</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4ded3c99-7ec0-4c3d-8e7b-73c699ee4244">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La forma del grupo</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Group form</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="43d88769-0004-4f24-8384-8e45ab6ad68d">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La forma de la elección</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Selection form</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="22649383-6ddf-4ba2-9103-d5906db86aad">
+    <name>ФормаИсторииТехкарты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма истории тех карты</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La forma de la historia de aquellos de la tarjeta</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form history of technical card</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="ba6bf40f-a254-43a5-ab5e-55706f294b34">
+    <name>ПФ_MXL_ТехКарта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тех карта</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>De aquel la tarjeta</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Technical card</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ca48fad9-0d5f-4c7a-bfe0-95b5ece7e0c1" extendedConfigurationObject="49f63192-baa6-4344-b674-5ca4bf27c6b0">
+  <producedTypes>
+    <objectType typeId="535031bf-5e7d-4f0a-87da-63cf3995ed4c" valueTypeId="30eb6559-5fa5-44f7-afcc-eee8acf9365e"/>
+    <managerType typeId="cde71896-43bf-440f-aa9e-e7a1f9ff9d35" valueTypeId="8495ac22-92eb-4a90-b3d4-01ed620f357f"/>
+  </producedTypes>
+  <name>торо_ПодборРемонтныхРаботОборудования</name>
+  <comment>TOIR20-167</comment>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <forms uuid="9a5e458a-3bed-4f80-8c1b-2c2c8c91eb06" extendedConfigurationObject="3822da82-d382-4012-910d-fd767d94361f">
+    <name>ФормаПодбораПоОстановочнымРемонтам</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="66ed46d2-a9cd-411d-ac01-6367caae7930" extendedConfigurationObject="f2623d31-8fe4-4803-ab40-5b55e39b9746">
+    <name>ПодборРемонтовОборудованияИРемонтныхРабот</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:DataProcessor>

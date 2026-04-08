@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f04be030-a606-4119-8b9c-454117a4e585" extendedConfigurationObject="ffdceee9-af8c-43fc-8340-41f50c00b145">
+  <producedTypes>
+    <selectionType typeId="553f8b33-befc-4020-ba68-503b61feaf73" valueTypeId="5ac08350-81c9-4d4a-86c3-e6e2047baf98"/>
+    <listType typeId="a3351a8d-464c-4081-b930-b8648358f575" valueTypeId="c6ea690a-a28c-498a-8d44-51e4dfdec8ca"/>
+    <managerType typeId="78c17881-12c6-4d68-80c9-e314964c7625" valueTypeId="5c2b1ca6-2337-46fb-9eef-aa9b8541f85c"/>
+    <recordSetType typeId="bb957f02-f38c-4d62-b561-d1d8378c69a5" valueTypeId="bf824ad5-488c-420f-a593-51cd84f3936b"/>
+    <recordKeyType typeId="4de13b8f-4396-4d69-849d-9643a1aae728" valueTypeId="c3032b51-a656-434e-929b-4be285d124e4"/>
+    <recordType typeId="c48b2be8-2f7f-4100-a98a-417504dd2042" valueTypeId="d3834ee7-32e0-4bf2-aa12-dcf8dd318e41"/>
+    <recordManagerType typeId="f6fbcd8c-d9b0-48bb-8495-4a6797b1e10d" valueTypeId="bb7286f1-0ae0-4d3a-abd6-efac4d42334f"/>
+  </producedTypes>
+  <name>торо_СобытияИнтеграцииСАСУТП</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+</mdclass:InformationRegister>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="04d2b04b-ddbc-4ffb-bb23-2ad78fa48109">
+  <name>торо_НазначениеНаРемонтСУчетомРисков</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:FunctionalOptionExtension">
+    <location>Checked</location>
+  </extension>
+  <location>Constant.торо_НазначениеНаРемонтСУчетомРисков</location>
+</mdclass:FunctionalOption>

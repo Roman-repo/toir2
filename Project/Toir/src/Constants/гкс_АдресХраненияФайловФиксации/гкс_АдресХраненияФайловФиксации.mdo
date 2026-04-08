@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="397ce2d1-71ae-4914-9454-78a5fa8ff4c0">
+  <producedTypes>
+    <managerType typeId="e13e7bf9-cfb2-43da-87ed-eeae0b961284" valueTypeId="0a7890e9-a35a-49cd-bba1-b9555fa7640e"/>
+    <valueManagerType typeId="188b0b86-0632-44d0-95e8-e8b6ad6d5078" valueTypeId="1840637f-6cf5-4ef0-8ece-9b823c967eed"/>
+    <valueKeyType typeId="ae826472-fad5-4a64-af26-2c50237ebb34" valueTypeId="9533eeae-58a5-4271-a0c2-39d6457c4cc6"/>
+  </producedTypes>
+  <name>гкс_АдресХраненияФайловФиксации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Адрес хранения файлов фиксации</value>
+  </synonym>
+  <comment>TOIR20-735</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>250</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

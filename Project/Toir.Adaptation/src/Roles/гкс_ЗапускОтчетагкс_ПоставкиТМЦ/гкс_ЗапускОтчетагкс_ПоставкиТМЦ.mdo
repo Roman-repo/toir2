@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="290b9cbf-68b3-46eb-8503-acf5b6f444d9">
+  <name>гкс_ЗапускОтчетагкс_ПоставкиТМЦ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запуск отчета &quot;Поставки ТМЦ (планирование)&quot;</value>
+  </synonym>
+</mdclass:Role>

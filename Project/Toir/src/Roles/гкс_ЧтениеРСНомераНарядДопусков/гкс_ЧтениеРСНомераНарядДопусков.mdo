@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="abb2995c-83f4-4e30-bd33-17581edf7cf6">
+  <name>гкс_ЧтениеРСНомераНарядДопусков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение РС Номера наряд допусков</value>
+  </synonym>
+</mdclass:Role>

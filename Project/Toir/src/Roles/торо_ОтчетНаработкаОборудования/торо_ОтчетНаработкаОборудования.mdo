@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f9810a5d-409d-4106-b5a3-0cf9c7f94738">
+  <name>торо_ОтчетНаработкаОборудования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет &quot;Наработка оборудования&quot;</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>El informe &quot;la Elaboración de la maquinaria&quot;</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Report &quot;Operating hours of equipment&quot;</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b4818368-f754-41cc-8c41-e70f68794f2c">
+  <producedTypes>
+    <objectType typeId="0a7d4316-74c7-486f-90a1-9b9c8611e579" valueTypeId="a31f930d-1c73-4b62-bbce-2f94fa7a5a0d"/>
+    <managerType typeId="c3e957f8-1c1a-4f46-b9d7-32ba0ec1a2d7" valueTypeId="7efb30d4-c012-4ba6-bab5-56ee9b2f2982"/>
+  </producedTypes>
+  <name>гкс_МоделиНоменклатурыКлассов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Модели номенклатуры классов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.гкс_МоделиНоменклатурыКлассов.Form.ФормаОтчетаУправляемая</defaultForm>
+  <mainDataCompositionSchema>Report.гкс_МоделиНоменклатурыКлассов.Template.Макет</mainDataCompositionSchema>
+  <forms uuid="3944b1d4-c7e2-4011-8daa-ab29b933d126">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d0bc4226-abc7-4194-8608-94445c4671a9">
+    <name>ФормаОтчетаУправляемая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета управляемая</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="24ae9a0f-0f21-475d-a67a-a08ebadf5a0d">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

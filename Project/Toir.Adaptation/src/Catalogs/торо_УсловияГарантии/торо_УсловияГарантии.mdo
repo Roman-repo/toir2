@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4ea19b28-5e13-4668-8ff5-6c7e6cd40d8e">
+  <producedTypes>
+    <objectType typeId="6d605dbd-30c1-4086-804e-d97e945e2892" valueTypeId="0204caa7-9b40-4757-9070-a34b3f66c8a2"/>
+    <refType typeId="53e13f0c-d4f0-499a-8400-9614b3291509" valueTypeId="a0fd57b0-f491-42a4-b920-697e4b18839d"/>
+    <selectionType typeId="cb9e1123-6142-4f75-84ad-83fc94c4cea4" valueTypeId="c4b1cc39-be8e-49dc-9021-ab9fe3dda426"/>
+    <listType typeId="ac01dbc3-9e67-4cd2-bc02-572825ee57d1" valueTypeId="9f41e7c1-4dfd-4d2c-babf-e9a5c7cb898b"/>
+    <managerType typeId="238ee223-0d3b-4ada-a2ea-0db2a4efb649" valueTypeId="d2b04c5f-f459-49da-9e94-31c93095a023"/>
+  </producedTypes>
+  <name>торо_УсловияГарантии</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="29f44415-d9d1-4682-a1fd-6f0b86035092">
+    <name>ДатаНачалаГарантии</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="efd28fe9-37b2-461d-a6f2-3755128fb30c">
+    <name>ПоказательНаработки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ПараметрыВыработкиОС</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="e7f26d59-72ad-4ee1-bac4-b1a1a0044cd9">
+    <name>ДатаОкончанияГарантии</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="44e3160c-90fb-4565-b4b4-017ebbb801dd">
+    <name>ЗначениеНаработки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>16</precision>
+          <scale>5</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Catalog>

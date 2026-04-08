@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f6aef9dd-e4ee-416a-9981-f57335c61fca">
+  <producedTypes>
+    <managerType typeId="5c984052-19b6-4a47-bd9d-72e37c707ee7" valueTypeId="f6dbedcc-53b9-4c1a-b875-63ff58173118"/>
+    <valueManagerType typeId="61b00d3c-b4d7-4c4d-b10e-7659d4f7b480" valueTypeId="9b16a486-44ff-44fc-b686-b2571ec63bb4"/>
+    <valueKeyType typeId="f60cadc3-25e9-4398-802a-4600e7f4feae" valueTypeId="163ffd45-aec1-4d95-830d-006a8f8d062b"/>
+  </producedTypes>
+  <name>гкс_СобытиеПросрочкиМероприятияЕвобланк</name>
+  <synonym>
+    <key>ru</key>
+    <value>Событие просрочки срока выполнения мероприятия EWO-бланка</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.торо_СобытияУведомленийВДокументах</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

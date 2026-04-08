@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d372254d-1598-4815-bfe9-afae02cebab0">
+  <producedTypes>
+    <managerType typeId="9e69d0eb-0f5d-47f8-aac1-1f5ed5a6c8ff" valueTypeId="d4b153e4-5f3d-49e4-9168-5c6e12bc769f"/>
+    <valueManagerType typeId="0e144861-18cf-4384-92d6-bdd6d56011a4" valueTypeId="0b02642c-df15-4870-9ace-6a189b120253"/>
+    <valueKeyType typeId="d8d08ffb-1673-4d0a-a681-f7f27926840c" valueTypeId="a12b12e2-f166-4aa7-ac69-7d9c0f95c0c6"/>
+  </producedTypes>
+  <name>гкс_АСУТПСоздаватьОбщийДокумент</name>
+  <synonym>
+    <key>ru</key>
+    <value>АСУТП создавать общий документ</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>APСS create a shared document</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d1535279-ff20-47c1-85c0-dfb1d105977b" extendedConfigurationObject="9661a768-0bb1-4fbd-9ae6-5bcdfee8e25c">
+  <name>гкс_ИнтеграцияСАСУТПЧерезВебСервис</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:MdObjectExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:ScheduledJob>

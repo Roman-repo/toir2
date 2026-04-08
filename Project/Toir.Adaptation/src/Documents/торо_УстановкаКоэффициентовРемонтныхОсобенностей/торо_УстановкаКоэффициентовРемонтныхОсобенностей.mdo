@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6aa60270-81e0-4d17-9e7f-749e1ca01c0a" extendedConfigurationObject="83efdf52-281f-454a-9270-1beeca5e405b">
+  <producedTypes>
+    <objectType typeId="26806553-d945-42bb-b320-5ddcf5291f73" valueTypeId="0e9f5ee2-cb21-4c4f-91b4-c495603d0adb"/>
+    <refType typeId="3ce4141e-0f65-40ca-9fc3-25aece8e72af" valueTypeId="9a1274cd-646c-49d9-bfaa-cbcd1d28a65a"/>
+    <selectionType typeId="8bc10d90-f33b-4fd6-9108-34e5c76fe7d5" valueTypeId="54a93aba-4f00-42af-8879-2491734cb42d"/>
+    <listType typeId="a8025315-e5c9-4f03-8d0c-390163907b89" valueTypeId="3b5d513d-e2ce-4755-ba1d-6b4b931201e5"/>
+    <managerType typeId="6160cebf-7c49-4f19-92e0-a903092f9e54" valueTypeId="adc30816-4e0c-4669-bc21-756f2d1a043b"/>
+  </producedTypes>
+  <name>торо_УстановкаКоэффициентовРемонтныхОсобенностей</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <objectModule>Extended</objectModule>
+  </extension>
+  <forms uuid="cd22cd04-aded-4994-9bda-87d2b84262e6" extendedConfigurationObject="95534fbd-5c48-465f-8e29-a4b760306c03">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <tabularSections uuid="1b858f45-48b2-4f57-badc-765635830dc5" extendedConfigurationObject="dd4816c2-4669-463c-a400-67a89373a309">
+    <producedTypes>
+      <objectType typeId="1227afd0-6a50-4978-983b-65823fc81fd2" valueTypeId="e8d2f6e3-080d-4f13-9f9b-d2c3ec386083"/>
+      <rowType typeId="9a4834fd-4ab4-46d9-8f9b-24b69cbc9de5" valueTypeId="a220416e-dad4-4617-be7b-d09ae2826596"/>
+    </producedTypes>
+    <name>ОбъектыРемонта</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </tabularSections>
+</mdclass:Document>

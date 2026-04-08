@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e692d667-01d9-4a59-8569-353de5bbc62d">
+  <producedTypes>
+    <refType typeId="d07ecb3f-fa37-4aac-96f5-6798bb1eaffa" valueTypeId="06b9c67b-a570-45ae-9266-bf67fe68d154"/>
+    <listType typeId="7d9df67a-eb82-44f9-977e-fdb08182073a" valueTypeId="be625913-2265-4cce-ac24-858690c52257"/>
+    <managerType typeId="a2cb4a36-13b6-48b3-af21-0442e85dee62" valueTypeId="b8d0bbbd-c736-4500-ab89-60eb3497c499"/>
+  </producedTypes>
+  <name>гкс_ВидыНормализации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды нормализации</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="80fead0b-2e9e-4a1e-b3a5-800e7ee91a30">
+    <name>Эталон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Эталон</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="df9c7bac-1bc4-4b64-bc33-80d814fca70d">
+    <name>Дубль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дубль</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="35dcea49-5fee-4dc9-8733-298c6d09eaee">
+    <name>Инвентарный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инвентарный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1cda5394-06aa-429f-95b8-62c4cd8bd171">
+    <name>БУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Б/у</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

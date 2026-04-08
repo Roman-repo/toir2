@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>IDРемонта</dataPath>
+			<field>IDРемонта</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Исполнитель</dataPath>
+			<field>Исполнитель</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Удалить_ID_Корректировок</dataPath>
+			<field>Удалить_ID_Корректировок</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ID</dataPath>
+			<field>ID</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>УточнениеИсполнителя</dataPath>
+			<field>УточнениеИсполнителя</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОбъектРемонта</dataPath>
+			<field>ОбъектРемонта</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидРемонтныхРабот</dataPath>
+			<field>ВидРемонтныхРабот</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипРабот</dataPath>
+			<field>ТипРабот</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тип работ</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИД_Ремонта</dataPath>
+			<field>ИД_Ремонта</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>И д ремонта</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЭффективностьРабот</dataPath>
+			<field>ЭффективностьРабот</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Эффективность работ</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВремяРаботыФакт</dataPath>
+			<field>ВремяРаботыФакт</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Время работы факт</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Организация</dataPath>
+			<field>Организация</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Организация</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Служба</dataPath>
+			<field>Служба</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Служба</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Подразделение</dataPath>
+			<field>Подразделение</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подразделение</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВремяРаботыПлан</dataPath>
+			<field>ВремяРаботыПлан</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Время работы план</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ РАЗЛИЧНЫЕ
+	Заявки.IDРемонта КАК ИД_Ремонта,
+	Заявки.Регистратор КАК Заявка,
+	Завершенные.ДатаНачала КАК ДатаНачала,
+	Завершенные.Регистратор КАК Акт
+ПОМЕСТИТЬ ВсеРемонты
+ИЗ
+	РегистрСведений.торо_ЗаявкиПоРемонтам.СрезПоследних(, Регистратор ССЫЛКА Документ.торо_ЗаявкаНаРемонт) КАК Заявки
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.торо_ЗавершенныеРемонтныеРаботы.СрезПоследних(, ) КАК Завершенные
+		ПО (Завершенные.ID = Заявки.IDРемонта)
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗЛИЧНЫЕ
+	ВсеРемонты.ИД_Ремонта КАК ИД_Ремонта,
+	ВсеРемонты.Акт КАК Акт,
+	ВсеРемонты.Заявка КАК Заявка
+ПОМЕСТИТЬ РемонтыПериода0
+ИЗ
+	ВсеРемонты КАК ВсеРемонты
+ГДЕ
+	ВсеРемонты.ДатаНачала &lt; &amp;ДатаОкончания
+	И ВсеРемонты.ДатаНачала &gt;= &amp;ДатаНачала
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВсеРемонты.ИД_Ремонта КАК ИД_Ремонта
+ПОМЕСТИТЬ РемонтыКонтрагентов
+ИЗ
+	РемонтыПериода0 КАК ВсеРемонты
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.торо_АктОВыполненииЭтапаРабот.ИсполнителиПоРемонтам КАК Исполнители
+		ПО ВсеРемонты.Акт = Исполнители.Ссылка
+			И ВсеРемонты.ИД_Ремонта = Исполнители.РемонтыОборудования_ID
+			И (Исполнители.НомерСтроки = 1)
+			И (Исполнители.Исполнитель ССЫЛКА Справочник.Контрагенты)
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗЛИЧНЫЕ
+	ВсеРемонты.ИД_Ремонта КАК ИД_Ремонта,
+	ВсеРемонты.Акт КАК Акт,
+	ВсеРемонты.Заявка КАК Заявка
+ПОМЕСТИТЬ РемонтыПериода
+ИЗ
+	РемонтыПериода0 КАК ВсеРемонты
+		ЛЕВОЕ СОЕДИНЕНИЕ РемонтыКонтрагентов КАК РемонтыКонтрагентов
+		ПО (РемонтыКонтрагентов.ИД_Ремонта = ВсеРемонты.ИД_Ремонта)
+ГДЕ
+	РемонтыКонтрагентов.ИД_Ремонта ЕСТЬ NULL
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	РемонтыПериода.ИД_Ремонта КАК ИД_Ремонта,
+	СУММА(ТЧ.ВремяРаботы) КАК Факт
+ПОМЕСТИТЬ ФактВремяАктов
+ИЗ
+	РемонтыПериода КАК РемонтыПериода
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.торо_АктОВыполненииЭтапаРабот.ТрудовыеЗатраты КАК ТЧ
+		ПО РемонтыПериода.ИД_Ремонта = ТЧ.РемонтыОборудования_ID
+			И РемонтыПериода.Акт = ТЧ.Ссылка
+
+СГРУППИРОВАТЬ ПО
+	РемонтыПериода.ИД_Ремонта
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	РемонтыПериода.ИД_Ремонта КАК ИД_Ремонта,
+	МАКСИМУМ(торо_Ремонты.ВидРемонта.гкс_ТипРабот) КАК ТипРабот,
+	МАКСИМУМ(торо_Ремонты.ОбъектРемонта.Направление.гкс_Служба) КАК Служба,
+	МАКСИМУМ(торо_Ремонты.ОбъектРемонта.Организация) КАК Организация,
+	торо_Ремонты.ОбъектРемонта КАК ОР
+ПОМЕСТИТЬ ТипыРаботРемонтов
+ИЗ
+	РемонтыПериода КАК РемонтыПериода
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.торо_Ремонты КАК торо_Ремонты
+		ПО РемонтыПериода.ИД_Ремонта = торо_Ремонты.ID
+
+СГРУППИРОВАТЬ ПО
+	РемонтыПериода.ИД_Ремонта,
+	торо_Ремонты.ОбъектРемонта
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	РемонтыПериода.ИД_Ремонта КАК ИД_Ремонта,
+	РемонтыПериода.Заявка КАК Заявка,
+	СУММА(ТЧ.ВремяРаботы * ТЧ.Количество) КАК ВремяРаботы
+ПОМЕСТИТЬ СуммыРемонтов
+ИЗ
+	РемонтыПериода КАК РемонтыПериода
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.торо_ЗаявкаНаРемонт.ТрудовыеЗатраты КАК ТЧ
+		ПО РемонтыПериода.Заявка = ТЧ.Ссылка
+			И РемонтыПериода.ИД_Ремонта = ТЧ.РемонтыОборудования_ID
+			И (ТЧ.ВремяРаботы &gt; 0)
+			И (ТЧ.Количество &gt; 0)
+
+СГРУППИРОВАТЬ ПО
+	РемонтыПериода.ИД_Ремонта,
+	РемонтыПериода.Заявка
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	СуммыРемонтов.ИД_Ремонта КАК ИД_Ремонта,
+	СуммыРемонтов.ВремяРаботы КАК План,
+	ЕСТЬNULL(ФактВремяАктов.Факт, 0) КАК Факт
+ПОМЕСТИТЬ ВремяРаботыРемонта
+ИЗ
+	СуммыРемонтов КАК СуммыРемонтов
+		ЛЕВОЕ СОЕДИНЕНИЕ ФактВремяАктов КАК ФактВремяАктов
+		ПО СуммыРемонтов.ИД_Ремонта = ФактВремяАктов.ИД_Ремонта
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	СУММА(ВремяРаботыРемонта.План) КАК План,
+	ТипыРаботРемонтов.Организация КАК ОРОрганизация
+ПОМЕСТИТЬ ВесьПланОрганизации
+ИЗ
+	ВремяРаботыРемонта КАК ВремяРаботыРемонта
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ ТипыРаботРемонтов КАК ТипыРаботРемонтов
+		ПО ВремяРаботыРемонта.ИД_Ремонта = ТипыРаботРемонтов.ИД_Ремонта
+
+СГРУППИРОВАТЬ ПО
+	ТипыРаботРемонтов.Организация
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	СУММА(ВремяРаботыРемонта.План) КАК ВремяРаботыПлан,
+	СУММА(ВремяРаботыРемонта.Факт) КАК ВремяРаботыФакт,
+	ТипыРаботРемонтов.ТипРабот КАК ТипРабот,
+	ТипыРаботРемонтов.ОР.Направление.гкс_Служба КАК Служба,
+	ТипыРаботРемонтов.ОР КАК ОбъектРемонта,
+	ТипыРаботРемонтов.ОР.Подразделение КАК Подразделение,
+	ВремяРаботыРемонта.ИД_Ремонта КАК ИД_Ремонта,
+	ТипыРаботРемонтов.ОР.Организация КАК Организация,
+	СУММА(ВЫБОР
+			КОГДА ВремяРаботыРемонта.Факт = 0
+				ТОГДА 0
+			ИНАЧЕ ВремяРаботыРемонта.План / ВремяРаботыРемонта.Факт * 100
+		КОНЕЦ) КАК ЭффективностьРабот
+ИЗ
+	ВремяРаботыРемонта КАК ВремяРаботыРемонта
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ ТипыРаботРемонтов КАК ТипыРаботРемонтов
+			ВНУТРЕННЕЕ СОЕДИНЕНИЕ ВесьПланОрганизации КАК ВесьПланОрганизации
+			ПО ТипыРаботРемонтов.Организация = ВесьПланОрганизации.ОРОрганизация
+		ПО ВремяРаботыРемонта.ИД_Ремонта = ТипыРаботРемонтов.ИД_Ремонта
+
+СГРУППИРОВАТЬ ПО
+	ТипыРаботРемонтов.ТипРабот,
+	ТипыРаботРемонтов.ОР,
+	ВремяРаботыРемонта.ИД_Ремонта,
+	ТипыРаботРемонтов.ОР.Направление.гкс_Служба,
+	ТипыРаботРемонтов.ОР.Подразделение,
+	ТипыРаботРемонтов.ОР.Организация</query>
+	</dataSet>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ДатаНачала</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата начала</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;ПериодОтчета.ДатаНачала</expression>
+	</parameter>
+	<parameter>
+		<name>ДатаОкончания</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата окончания</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;ПериодОтчета.ДатаОкончания</expression>
+	</parameter>
+	<parameter>
+		<name>ПериодОтчета</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период отчета</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>v8:StandardPeriod</v8:Type>
+		</valueType>
+		<value xsi:type="v8:StandardPeriod">
+			<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+			<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+			<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+		</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Эффективность работы</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Основной</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>es</v8:lang>
+				<v8:content>Основной</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>tr</v8:lang>
+				<v8:content>Основной</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Организация</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Подразделение</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОбъектРемонта</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Служба</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТипРабот</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЭффективностьРабот</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВремяРаботыПлан</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВремяРаботыФакт</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ИД_Ремонта</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ПериодОтчета</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardPeriod">
+						<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+						<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+						<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+					</dcscor:value>
+					<dcsset:userSettingID>50cdc004-8df5-4619-86c8-455447359e29</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Организация</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>Подразделение</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:groupItems>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>ОбъектРемонта</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+						</dcsset:groupItems>
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+						<dcsset:item xsi:type="dcsset:StructureItemGroup">
+							<dcsset:order>
+								<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+							</dcsset:order>
+							<dcsset:selection>
+								<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+							</dcsset:selection>
+						</dcsset:item>
+					</dcsset:item>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+	<settingsVariant>
+		<dcsset:name>Основной1</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Эффективность работы (плоский)</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Организация</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Подразделение</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОбъектРемонта</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Служба</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТипРабот</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЭффективностьРабот</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВремяРаботыПлан</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВремяРаботыФакт</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ИД_Ремонта</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>Период</dcscor:parameter>
+					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ПериодОтчета</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardPeriod">
+						<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+						<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+						<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+					</dcscor:value>
+					<dcsset:userSettingID>fe186e05-d131-4fa5-a9df-c0539f322843</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

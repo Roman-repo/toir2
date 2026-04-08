@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5daac7b7-b0aa-4a83-b55d-ba192f983d0f" extendedConfigurationObject="04d52569-217d-4b61-8d91-b3c774dcb881">
+  <producedTypes>
+    <selectionType typeId="a10f3e22-0089-4d93-ace1-45e587ee707f" valueTypeId="db6d3d16-daea-49d7-aefe-18cbb65619a4"/>
+    <listType typeId="bd5943c8-f89a-4e05-a2d7-4e710735eb0b" valueTypeId="eadd92d6-8b5e-41e0-8012-e0d9001fb95b"/>
+    <managerType typeId="3fac3c39-e85e-4234-a2dc-c4c57a776293" valueTypeId="ea0f2921-b907-4adb-8b87-aaf519ae6fd3"/>
+    <recordSetType typeId="caa4a4e2-1660-42ca-8df7-b442f4ee796a" valueTypeId="dd886198-2b9f-4881-a0a0-ed2cf8f8b2f7"/>
+    <recordKeyType typeId="70d9e8b8-5595-40e3-a6df-53ffc20835df" valueTypeId="458fd4f7-5c35-49ea-9f72-09e57060ea88"/>
+    <recordType typeId="895c30ea-9186-431f-a101-54789569bfcb" valueTypeId="1caf0d7d-3dda-4a45-a9bc-57e59e20a413"/>
+  </producedTypes>
+  <name>торо_ПлановыеТрудовыеЗатратыРемонтныхРабот</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:AccumulationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <registerType>Checked</registerType>
+  </extension>
+  <registerType>Turnovers</registerType>
+  <resources uuid="679b7dc1-b048-4ae9-8378-74c773e3b6f3" extendedConfigurationObject="29591e3d-e230-4af0-9499-9738fd5fe5fd">
+    <name>Количество</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+  </resources>
+  <resources uuid="86888781-6a20-4df8-8390-7f3a8efccc95" extendedConfigurationObject="d0971151-ba40-4ead-8ff0-40c654f9833c">
+    <name>Сумма</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+  </resources>
+  <resources uuid="90f6e8f5-726d-4e34-8be3-fd4e991a0218" extendedConfigurationObject="c63d8ae1-bebd-4f12-9f28-169fdf87e012">
+    <name>ВремяРаботы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+  </resources>
+  <dimensions uuid="19c7384d-2cde-49e2-859c-fc6cfa7a732e" extendedConfigurationObject="f57479b6-2f15-45dc-8573-9e4d636d7ea1">
+    <name>РемонтыОборудования_ID</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </dimensions>
+  <dimensions uuid="0871e2b4-e327-4180-9c36-d04d80d97da7" extendedConfigurationObject="eb1f0b54-ab0e-4732-8ebf-7a7179148143">
+    <name>Квалификация</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.торо_КвалификацииРемонтногоПерсонала</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+  <dimensions uuid="1d678bd0-4cba-451b-bcf9-03ebc63564bd" extendedConfigurationObject="d06a1eda-6ada-42eb-9e95-40be8b7d9978">
+    <name>ID</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </dimensions>
+  <dimensions uuid="30ab42a0-3923-4df4-9d32-e472a0972e30" extendedConfigurationObject="cd3f8dfe-eaeb-4fbc-a730-ed74928316aa">
+    <name>РемонтнаяРабота</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:AccumulationRegister>

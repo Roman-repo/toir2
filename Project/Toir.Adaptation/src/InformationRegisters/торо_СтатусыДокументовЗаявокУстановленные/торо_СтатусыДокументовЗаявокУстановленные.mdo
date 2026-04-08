@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="dab7c672-f4cd-494d-8bb7-a29349fa414a" extendedConfigurationObject="c68c5be4-f678-4be9-b6b2-f8797f6543c2">
+  <producedTypes>
+    <selectionType typeId="dc553999-2d97-4d44-9109-f0c4c79584f3" valueTypeId="503f2976-a2f2-4d3f-8692-3554879f0ece"/>
+    <listType typeId="456f3802-2e94-4ff9-a34e-e8fe03bc288f" valueTypeId="9e6bb3db-616d-4163-938d-6a63364053b7"/>
+    <managerType typeId="333b02fe-f997-4cb3-8d5e-91e1eac9cc79" valueTypeId="7d49c84d-6390-4f3f-828a-f2a94c8ebf0c"/>
+    <recordSetType typeId="6ea00644-5452-40a2-8be4-30057bc20664" valueTypeId="e98d0229-f374-4100-8638-211e24d5795b"/>
+    <recordKeyType typeId="54fabbd6-6006-403b-809e-1977026ac578" valueTypeId="53dc29ca-e674-4aa7-9cea-72a78dd41591"/>
+    <recordType typeId="35c107f6-2edb-4079-8745-7dbc7a0944e3" valueTypeId="1664d7c0-282a-498a-84d3-a1ef9ad72321"/>
+    <recordManagerType typeId="cba74c5e-b18e-4bba-9d84-31261b07f797" valueTypeId="fc811ca8-1e43-4ee4-ad83-80d4ae734ae6"/>
+  </producedTypes>
+  <name>торо_СтатусыДокументовЗаявокУстановленные</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <resources uuid="e3fe3d89-be8a-471d-83ef-2859ef525ca5" extendedConfigurationObject="e0b0a6b0-2b8c-4487-9308-c0cf5fda19e3">
+    <name>СтатусДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.торо_СтатусыДокументов</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <dimensions uuid="f4b83139-c79a-4fae-8fcf-327cb264fa29" extendedConfigurationObject="154a62a5-669e-4157-ad7b-ef52e53b4721">
+    <name>ИзменяемыйДокумент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.торо_ЗаявкаНаРемонт</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:InformationRegister>

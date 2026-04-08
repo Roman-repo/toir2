@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a383f77-5197-4ad9-a09e-9d46d8362a90">
+  <producedTypes>
+    <managerType typeId="054d0660-98ee-47aa-ab39-1d38b09baf7e" valueTypeId="94c5f691-a0ce-4973-b3d2-d7c30dad51a2"/>
+    <valueManagerType typeId="57db5600-a42f-4e65-ad2b-13a45535b49d" valueTypeId="078ff8a0-4582-4120-8b08-6ecf47ffd773"/>
+    <valueKeyType typeId="44783bbe-c086-4325-9ee5-c35e7b52087b" valueTypeId="6db277d4-0eca-4b60-96d0-54902e6a0c8b"/>
+  </producedTypes>
+  <name>гкс_СобытиеПроведенияСметыПожаротушения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Событие проведения сметы пожаротушения</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.торо_СобытияУведомленийВДокументах</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

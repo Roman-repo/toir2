@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b1a5dede-899a-42c1-8de0-e21a9fd91212">
+  <producedTypes>
+    <managerType typeId="dc6800c9-3ab8-4318-ab43-4871dd1a35b0" valueTypeId="afac6811-9246-4474-8794-36b69dfbbe04"/>
+    <valueManagerType typeId="e8cd1afc-48c7-48e1-9c6b-84fa3100f0a2" valueTypeId="99e53bbc-8b04-46c7-91f2-844f4120ef90"/>
+    <valueKeyType typeId="291a1c4f-4de2-4782-968c-623e955b84b8" valueTypeId="f276cb56-0857-4570-8a86-bc0d270b7fbb"/>
+  </producedTypes>
+  <name>торо_ЗапретитьВводЗаказовНаВнутреннееПотреблениеБезЗаявки</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+</mdclass:Constant>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="085cbea9-1df1-4ee9-afb7-da2bf313697e">
+  <name>НастройкаСистемнойУчетнойЗаписиЭлектроннойПочты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка системной учетной записи</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>El ajuste de la anotación de sistema de descuento</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>System account setup</value>
+  </synonym>
+  <group>ActionsPanelTools</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Открыть форму настройки системной учетной записи</value>
+  </toolTip>
+  <toolTip>
+    <key>es</key>
+    <value>Abrir la forma del ajuste de la anotación de sistema de descuento</value>
+  </toolTip>
+  <toolTip>
+    <key>en</key>
+    <value>Open the system account setup form</value>
+  </toolTip>
+</mdclass:CommonCommand>

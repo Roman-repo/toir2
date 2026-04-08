@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ede2478a-1054-4e0f-85a8-5ccb7e6b494f">
+  <name>гкс_ЧтениеСпргкс_СимптомыДефектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Гкс чтение спргкс симптомы дефектов</value>
+  </synonym>
+</mdclass:Role>

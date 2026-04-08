@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9cacae62-c50e-489d-8b6f-735a405242e3" extendedConfigurationObject="a3dbd099-82a1-4d5e-affd-1f4c1582c76c">
+  <producedTypes>
+    <objectType typeId="d886d1a7-4067-46d6-81f9-5ddf3e052266" valueTypeId="1e414cb1-9e5b-48df-98aa-a8cf045a0d2a"/>
+    <refType typeId="b27e37f9-75f7-43de-92ac-bb9574c45ad8" valueTypeId="332977af-a410-4b4a-8f66-77a8c8aec88f"/>
+    <selectionType typeId="0d0108fb-8a49-4fbd-a774-3cde2e0c2ca0" valueTypeId="82eae9fc-a7c2-4a3a-b757-c6eb2873024d"/>
+    <listType typeId="ef459c61-b192-4910-84a6-8f24b0e1d54b" valueTypeId="873f03c6-b0e0-4485-8bf0-8d5ba159f7ab"/>
+    <managerType typeId="ea13e840-ce83-40a5-915b-52720458c747" valueTypeId="19ac874f-9fc7-4a3f-b607-bb10c754fd2a"/>
+  </producedTypes>
+  <name>ОбщероссийскийКлассификаторОсновныхФондов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <codeLength>Checked</codeLength>
+    <codeAllowedLength>Checked</codeAllowedLength>
+    <codeType>Checked</codeType>
+  </extension>
+  <codeLength>16</codeLength>
+  <codeType>String</codeType>
+</mdclass:Catalog>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a66496f-e232-4627-9f17-98cf7123d12a">
+  <name>гкс_СрокСогласованияНаСервере</name>
+  <synonym>
+    <key>ru</key>
+    <value>Гкс срок согласования на сервере</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

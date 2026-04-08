@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6663d21c-9ac5-402f-94b0-f57dc9e200db">
+  <producedTypes>
+    <refType typeId="2c07e9e8-3faa-475a-af51-5204bd127edf" valueTypeId="5d475f12-2b00-4888-b657-10cbac3507d6"/>
+    <listType typeId="37cc64c0-22a5-4c5d-81a2-f96afd3a47f8" valueTypeId="79a07398-bfb7-4fa7-99ce-b831f09b9b25"/>
+    <managerType typeId="821dc1d5-335b-4bc8-821a-25d387e3786a" valueTypeId="2c2db396-b1a2-4433-9c88-3a615017ef2e"/>
+  </producedTypes>
+  <name>РежимыЗаполненияАтрибутов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режимы заполнения атрибутов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b3212c3c-c9dc-4501-870d-b64eda04fdce">
+    <name>ОбязательныйДляОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обязательный для объекта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8c3c5101-2b8e-4b21-8f6f-6cd44d1fea08">
+    <name>ОбязательныйДляНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обязательный для номенклатуры</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2301de2c-4f8a-4fd8-9190-fa16adf54ddc">
+    <name>ОбязательныйДляКласса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обязательный для класса</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b56b579a-6008-41a2-acfc-5e23bf1369e8">
+    <name>ФиксированноеЗначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фиксированное значение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="165dc0d1-0461-477f-b2ab-1a81a3b24cf7">
+    <name>Необязательный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Необязательный</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

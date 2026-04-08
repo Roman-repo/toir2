@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d2819474-6ce8-44ea-9572-72be982c39c9">
+  <producedTypes>
+    <objectType typeId="834d5fb9-dda2-43c3-b985-93db1170495c" valueTypeId="7838f7c2-3cf4-4a96-9909-6d0358000928"/>
+    <refType typeId="f9d20150-ac11-4281-be44-e06ecd52fa7a" valueTypeId="57895105-ccc9-49a4-ac57-43dddb77973b"/>
+    <selectionType typeId="3774b562-0914-4c29-96bf-93d8e5933234" valueTypeId="c47437c5-3e15-4e9f-80b0-c0ee4175aac6"/>
+    <listType typeId="97a0c651-b249-4d5f-809a-48c684d49fc1" valueTypeId="526c2a11-a93f-496c-a73b-099157a31b7e"/>
+    <managerType typeId="b716aaba-792c-48d2-b3c4-ddca338f778f" valueTypeId="4c0dc992-6911-45ff-b119-6aa94bd248ac"/>
+  </producedTypes>
+  <name>торо_ЦепочкиРемонта</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

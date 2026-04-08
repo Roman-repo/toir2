@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a8b2fd1c-43be-4e9c-9c77-baa949b1246b">
+  <producedTypes>
+    <managerType typeId="9531de18-de3a-4270-8b00-c8e68e3702e3" valueTypeId="45f571eb-6eb7-40d0-ad71-d9b374a54d16"/>
+    <valueManagerType typeId="2285fb9e-6e07-4e16-ae71-67bac02d768f" valueTypeId="64b1b4d7-3e7a-40d9-9771-bc44555d458a"/>
+    <valueKeyType typeId="f59612a4-d9e7-4a99-a404-acfca28fd818" valueTypeId="5f775c83-a93a-4646-85c5-c61c8290f43d"/>
+  </producedTypes>
+  <name>гкс_КоличествоДнейДоОкончанияАктуальностиТК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Количество дней до окончания актуальности ТК</value>
+  </synonym>
+  <comment>TOIR20-171</comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>3</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

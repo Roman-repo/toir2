@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eb24bab5-600a-422b-aaa7-a25ac4836710">
+  <name>торо_ИспользованиеВыбораРемонтаИзПланГрафика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование выбора ремонта из план графика</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>El uso de la elección de la reparación del plan del gráfico</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Using repair selection from a schedule</value>
+  </synonym>
+</mdclass:Role>

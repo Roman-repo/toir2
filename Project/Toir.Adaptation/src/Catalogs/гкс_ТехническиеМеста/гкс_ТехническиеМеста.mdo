@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="27e71077-042f-4c19-8507-7d58b12bd45e">
+  <producedTypes>
+    <objectType typeId="5fd505a7-21c1-4297-8b79-05e97d26d0ea" valueTypeId="5f29ac36-7735-4b9c-8266-383f8388686c"/>
+    <refType typeId="db215b57-a16a-4eeb-b8bc-d9ed186a23c9" valueTypeId="5356257d-b38b-4ee0-9a43-d228dea11418"/>
+    <selectionType typeId="6ccebe5f-2fcd-4a17-9486-0b0855c0b959" valueTypeId="7df16547-2243-42e1-854b-91cc516b43e5"/>
+    <listType typeId="789e4888-e16c-46f6-9488-4542e7478b96" valueTypeId="3c3ea489-921e-466e-aca4-f9c7f281b80f"/>
+    <managerType typeId="99c5bd25-0142-4bb6-86af-08c776801c47" valueTypeId="cf86483e-adf0-4a69-a29a-7cebd6735e65"/>
+  </producedTypes>
+  <name>гкс_ТехническиеМеста</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <managerModule>Extended</managerModule>
+  </extension>
+</mdclass:Catalog>

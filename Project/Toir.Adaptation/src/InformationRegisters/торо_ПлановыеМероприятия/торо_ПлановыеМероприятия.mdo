@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a25cf511-f11d-4390-90b4-0267d9134259">
+  <producedTypes>
+    <selectionType typeId="7c45552a-864a-4a9f-b3f8-e68129cc46c4" valueTypeId="ceef80e9-07a3-45e3-95a4-a14094610d99"/>
+    <listType typeId="1275a3a7-aac5-4b0f-803d-624eac76a9e2" valueTypeId="e857d653-49f5-46dd-b468-cce82bbf24cf"/>
+    <managerType typeId="4e52c6f7-71ab-46fc-a121-76bf362c6a8f" valueTypeId="ec686e18-7f45-42a5-bc08-19e25ce743f5"/>
+    <recordSetType typeId="726e7035-ff14-4523-9da0-c78b0a97fc34" valueTypeId="3b5431e7-20b0-4b12-90a9-8e6322a9b4a6"/>
+    <recordKeyType typeId="3fd014a4-cf43-4757-ad3d-f56704b6e82c" valueTypeId="decf8868-2996-4a9d-ae32-b2e53080a22d"/>
+    <recordType typeId="c77a6f26-bb2b-4233-8357-66dda796b7d9" valueTypeId="319667d0-7079-48b7-9786-7d6b1252b8c0"/>
+    <recordManagerType typeId="7e0dd68c-389b-4d99-8522-8c470d011766" valueTypeId="bcbe2cae-11ae-4b84-83c8-c914c52e8d05"/>
+  </producedTypes>
+  <name>торо_ПлановыеМероприятия</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <resources uuid="e1e281f1-e414-4ca5-ba7d-5e62551eb42c">
+    <name>Подразделение</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.СтруктураПредприятия</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <resources uuid="0516e686-7d85-449d-8825-f54a047f1f51">
+    <name>Исполнитель</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <resources uuid="06d2977c-d9c3-43e6-9f3e-377b245dcb88">
+    <name>СпособВыполнения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.СпособыСтроительства</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <resources uuid="0ab41d09-af86-4886-9d54-0e712fabbe3e">
+    <name>Отменен</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <dimensions uuid="f69797ab-2779-47c6-a3fc-d580ec5fafd3">
+    <name>Организация</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Организации</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+  <dimensions uuid="8014b291-592b-4552-8778-c884b28cc724">
+    <name>ID</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </dimensions>
+  <dimensions uuid="27ba34e4-ec8e-4208-9eab-b770de403970">
+    <name>СписокОбъектов</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.торо_СписокОбъектовРегламентногоМероприятия</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+  <dimensions uuid="2625be25-6814-4b0c-b790-285864563b6f">
+    <name>ВидМероприятия</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.торо_ВидыРемонтов</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:InformationRegister>

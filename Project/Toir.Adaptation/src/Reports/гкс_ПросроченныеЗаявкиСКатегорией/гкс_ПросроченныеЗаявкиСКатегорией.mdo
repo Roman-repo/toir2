@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="009fb0fb-521a-484b-9edb-dffc5e62bf72">
+  <producedTypes>
+    <objectType typeId="e3c5a24d-604e-404d-9862-2637c87502b3" valueTypeId="215ba87e-9898-4ae5-8138-8cea5c756a23"/>
+    <managerType typeId="8b500515-4343-448c-84a1-92d5cd0b7f01" valueTypeId="25f1dac0-7d9e-44ec-8e51-19d90712e9ff"/>
+  </producedTypes>
+  <name>гкс_ПросроченныеЗаявкиСКатегорией</name>
+  <synonym>
+    <key>ru</key>
+    <value>Просроченные заявки с категорией</value>
+  </synonym>
+  <comment>TOIR20-785</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.гкс_ПросроченныеЗаявкиСКатегорией.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="119b17d9-548b-4eb4-8936-c7ea0c8a5b04">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

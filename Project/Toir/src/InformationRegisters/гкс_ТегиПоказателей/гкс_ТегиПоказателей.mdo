@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="841c466d-a993-4d13-a26a-ca64ebed30b7">
+  <producedTypes>
+    <selectionType typeId="31ac3408-50ff-4e34-bcdd-d823963cec76" valueTypeId="6ee66514-9a3f-4790-ba48-813677da9ce9"/>
+    <listType typeId="8982969b-2e60-445c-a4da-06f2aec7b141" valueTypeId="319001a7-9659-48d6-a0b6-e4bc7046ba3d"/>
+    <managerType typeId="f75a0ba9-ef89-4322-9f11-b0c9f618c07d" valueTypeId="419c9e15-c898-4980-8bc7-eedd09c3f6f7"/>
+    <recordSetType typeId="0220fc06-f8a6-4a1b-976d-e901789407d0" valueTypeId="2a578c57-058d-4c43-bc2b-3fe8007464bb"/>
+    <recordKeyType typeId="013f5330-8e9c-4146-a232-89b84efc2518" valueTypeId="79226cb7-1957-471d-aeea-f0fa097ac5b9"/>
+    <recordType typeId="1b46d953-ce57-4ce0-8d69-1d8fd25e1801" valueTypeId="57a592c1-648a-4bbb-a693-3a49b1ecb157"/>
+    <recordManagerType typeId="cc556ef1-1ae3-4261-9a50-a6e71d2e40a2" valueTypeId="154e95f7-beb7-472a-915d-baad1f97a8f0"/>
+  </producedTypes>
+  <name>гкс_ТегиПоказателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Теги показателей</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Indicator tags</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="42beafa2-e49b-48f5-99a4-6942462bd20e">
+    <name>Тег</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тег</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Tag</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="4553556c-c51e-4d2d-95af-47e75c01def6">
+    <name>ОР</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОР</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>OR</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.торо_ОбъектыРемонта</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c556a42d-5786-4055-988c-badec8c762a4">
+    <name>Показатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El índice</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Indicator</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.торо_ИзмеряемыеПоказателиОбъектовРемонта</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

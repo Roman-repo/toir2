@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32b2b52e-4dac-4501-af09-23fa80658f0d">
+  <name>КартинкиДереваТехОпераций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Картинки дерева тех операций</value>
+  </synonym>
+</mdclass:CommonPicture>

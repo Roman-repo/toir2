@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eb9ead9a-d11f-469b-b5de-c48d9d1c8fb5">
+  <name>УправлениеИтогамиИАгрегатами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление итогами и агрегатами (Гкс)</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>ScheduledJob.гкс_УстановкаПериодаРассчитанныхИтогов</content>
+  <content>CommonModule.гкс_УправлениеИтогамиИАгрегатамиСлужебный</content>
+  <parentSubsystem>Subsystem.гкс_ОбщиеМеханизмы</parentSubsystem>
+</mdclass:Subsystem>

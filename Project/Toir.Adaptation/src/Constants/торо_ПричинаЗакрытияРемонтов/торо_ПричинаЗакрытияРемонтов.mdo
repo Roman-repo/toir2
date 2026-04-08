@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3d147dea-25f5-4897-a78a-fd000f832749">
+  <producedTypes>
+    <managerType typeId="045b5f9a-ad89-4959-ae28-82cd5e154af4" valueTypeId="658cd87c-bba8-4670-8bc9-04e8988fc925"/>
+    <valueManagerType typeId="bcef840c-11e1-4e8d-904c-162ea20c607c" valueTypeId="8597bf9a-fec6-44af-ad4f-607911955984"/>
+    <valueKeyType typeId="ee09ce9c-7619-4fa6-9a08-4f821b7f1d76" valueTypeId="632c2782-0e26-4952-b30c-2c767d3fc83e"/>
+  </producedTypes>
+  <name>торо_ПричинаЗакрытияРемонтов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>CatalogRef.торо_ПричиныЗакрытияРемонтов</type>
+      </types>
+    </typeExtension>
+  </extension>
+</mdclass:Constant>

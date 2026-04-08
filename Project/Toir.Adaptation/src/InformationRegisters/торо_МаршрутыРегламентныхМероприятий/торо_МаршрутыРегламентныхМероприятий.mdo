@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="97e4e546-4d66-4081-bf42-e8f0304eb4b2">
+  <producedTypes>
+    <selectionType typeId="77ad326d-3b0c-492d-a687-5d5c19923294" valueTypeId="97613f4b-f1e3-4a1a-891e-1b1630aaebcc"/>
+    <listType typeId="c87f26e0-c338-4ce6-80e9-9e5878de6114" valueTypeId="a59193f4-562f-410e-8360-d57b9f8e4c4f"/>
+    <managerType typeId="d5a13c55-1f54-4449-a5d2-e3aefbc5bb8c" valueTypeId="ba5a0e02-08e4-4196-9c30-58d59a4decb7"/>
+    <recordSetType typeId="ab22db33-390e-4e55-995a-15b773ca667f" valueTypeId="2c731e65-0748-4f44-8f8f-8fc18f80c475"/>
+    <recordKeyType typeId="e9c50805-6a0d-40f6-8385-9f149e59fb75" valueTypeId="a417b5e3-d8eb-4c3b-97ac-430945a95ddc"/>
+    <recordType typeId="f9d4b101-f747-4102-8b0f-acc0c4e23892" valueTypeId="1022d528-ee67-4512-ae6e-f564f5448f3a"/>
+    <recordManagerType typeId="94a430be-b74e-4d03-b474-ffa260ef138e" valueTypeId="d8c598e0-3740-47a1-993d-13aa52c280fe"/>
+  </producedTypes>
+  <name>торо_МаршрутыРегламентныхМероприятий</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <dimensions uuid="7de11a81-14e4-4804-b8d8-25447021e6d1">
+    <name>ОбъектРемонта</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.торо_ОбъектыРемонта</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+  <dimensions uuid="777edc3a-03cd-4ecc-b969-2f3bd867cf50">
+    <name>СписокОбъектов</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.торо_СписокОбъектовРегламентногоМероприятия</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:InformationRegister>

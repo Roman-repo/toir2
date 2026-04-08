@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3aa33637-9ae0-49cb-9518-df91f46e86b9">
+  <name>торо_ЧтениеВидовСкользящихПланов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение видов скользящих планов</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>La lectura de los tipos de los planes que se deslizan</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Reading types of rolling plans</value>
+  </synonym>
+</mdclass:Role>

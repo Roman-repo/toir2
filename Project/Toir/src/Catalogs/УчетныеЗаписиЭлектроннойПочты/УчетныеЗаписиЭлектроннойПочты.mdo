@@ -1,0 +1,1356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6b2340d7-687f-43a3-8eb8-8ddb86712466">
+  <producedTypes>
+    <objectType typeId="2af140c2-a0a3-4b03-b64b-62e1faeaf8c1" valueTypeId="6185f749-ca79-40d1-9363-9e2d5e0fb2ff"/>
+    <refType typeId="d7be9875-8f30-4b48-8ce8-82daa6e416ce" valueTypeId="51ba5f84-d15e-4e89-9688-a90e305c34dd"/>
+    <selectionType typeId="f7dd35ea-7f27-44f1-af3c-587a1f8b7c2f" valueTypeId="928159e7-a861-4260-b13c-32b1df3e5e41"/>
+    <listType typeId="46911bb7-8727-44d9-9afc-4e46258eda5f" valueTypeId="e1802582-e622-469c-b6fa-54000c7a2f5e"/>
+    <managerType typeId="2579fe50-1f3a-4444-a9b2-e94556600bd4" valueTypeId="88f79ca6-5c79-4b87-a65c-834d46eeb569"/>
+  </producedTypes>
+  <name>УчетныеЗаписиЭлектроннойПочты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учетные записи электронной почты</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Las anotaciones de descuento del correo electrónico</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Email accounts</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УчетныеЗаписиЭлектроннойПочты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Наименование учетной записи</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El nombre de la anotación de descuento</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Account name</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Учетная запись электронной почты</value>
+  </objectPresentation>
+  <objectPresentation>
+    <key>es</key>
+    <value>La anotación de descuento del correo electrónico</value>
+  </objectPresentation>
+  <objectPresentation>
+    <key>en</key>
+    <value>Email account</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="5a8d021b-4548-4020-8cab-9ae6f06c8bf7">
+      <name>СистемнаяУчетнаяЗаписьЭлектроннойПочты</name>
+      <description>Системная учетная запись</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.УчетныеЗаписиЭлектроннойПочты.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.УчетныеЗаписиЭлектроннойПочты.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.УчетныеЗаписиЭлектроннойПочты.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="40b08a20-51a3-438b-ba54-466917ea809f">
+    <name>SMTPАутентификация</name>
+    <synonym>
+      <key>ru</key>
+      <value>SMTP аутентификация</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>SMTP аутентификация</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>SMTP authentication</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВариантыSMTPАутентификации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Применяемые параметры SMTP аутентификации</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>Los parámetros SMTP aplicados аутентификации</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Applicable SMTP Authentication Options</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <quickChoice>Use</quickChoice>
+    <createOnInput>DontUse</createOnInput>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ВариантыSMTPАутентификации.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9846e2f6-d82a-42a6-bf50-2a9cdf750a8f">
+    <name>АдресЭлектроннойПочты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес электронной почты</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La dirección del correo electrónico</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>E-mail address</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Адрес электронной почты в формате пользователь@сервер</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>La dirección del correo electrónico en el formato пользователь@сервер</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Email address in form of user@server</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9328da5c-4689-4a60-8136-ae9eac46ab38">
+    <name>ВремяОжидания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время ожидания сервера (сек)</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El tiempo de la espera del servidor (сек)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Server timeout (sec)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Время ожидания сервера до разрыва соединения</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El tiempo de la espera del servidor antes de la ruptura de la unión</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Server timeout before disconnection</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:NumberValue">
+      <value>30</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ca5d586f-81bb-40ee-b3bd-de854857c984">
+    <name>ИмяПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя пользователя</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El nombre del usuario</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Username</value>
+    </synonym>
+    <comment>Имя отправителя</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Адресат учетной записи. От его имени будут отсылаться почтовые сообщения. Например, &quot;Иван Петров&quot;.</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El destinatario de la anotación de descuento. De su nombre serán enviados los mensajes postales. Por ejemplo, &quot;Iván Petrov&quot;.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Account recipient. On his behalf, mail messages will be sent. For example, &quot;Ivan Petrov.&quot;</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="af22406b-daac-475d-b6a9-577452502b84">
+    <name>ИспользоватьБезопасныйВходНаСерверВходящейПочты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать безопасный вход на сервер входящей почты</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Usar la entrada segura al servidor del correo entrante</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Use secure login to incoming mail server</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Использовать шифрование учетных данных при аутентификации на сервере</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>Usar la cifración de los datos de descuento a аутентификации en el servidor</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Use credential encryption for server authentication</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7a925960-a579-4b06-90e0-5121dc774024">
+    <name>ИспользоватьБезопасныйВходНаСерверИсходящейПочты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать безопасный вход на сервер исходящей почты</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Usar la entrada segura al servidor del correo saliente</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Use secure login to outgoing mail server</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Использовать шифрование учетных данных при аутентификации на сервере</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>Usar la cifración de los datos de descuento a аутентификации en el servidor</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Use credential encryption for server authentication</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="32c10512-7bb8-423b-9503-ab2fa41386a4">
+    <name>ИспользоватьДляОтправки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать для отправки</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Usar para el envío</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Use to send</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Использовать учетную запись для отправки почтовых сообщений</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>Usar la anotación de descuento para el envío de los mensajes postales</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Use an account to send email messages</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="888edfc4-8140-4675-b267-c32bf1d8d29d">
+    <name>ИспользоватьДляПолучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать для получения</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Usar para la recepción</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Use to receive</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Использовать учетную запись для получения почтовых сообщений</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>Usar la anotación de descuento para la recepción de los mensajes postales</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Use an account to receive email messages</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2abbd53a-0ead-42af-8df6-fde663aea300">
+    <name>ИспользоватьЗащищенноеСоединениеДляВходящейПочты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать защищенное соединение для входящей почты</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Usar la unión protegida para el correo entrante</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Use a secure connection for incoming mail</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Использовать шифрование соединения (SSL)</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>Usar la cifración de la unión (SSL)</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Use connection encryption (SSL)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="24611bf9-5492-443a-935c-a0058e86493f">
+    <name>ИспользоватьЗащищенноеСоединениеДляИсходящейПочты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать защищенное соединение для исходящей почты</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Usar la unión protegida para el correo saliente</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Use a secure connection for outgoing mail</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Использовать шифрование соединения (SSL)</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>Usar la cifración de la unión (SSL)</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Use connection encryption (SSL)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="42641296-64da-46e0-a407-de2d492f9c90">
+    <name>ОставлятьКопииСообщенийНаСервере</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оставлять копии сообщений на сервере</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Dejar las copias de los mensajes en el servidor</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Leave copies of messages on the server</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Требуется оставлять копии сообщений на сервере</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>Es necesario dejar las copias de los mensajes en el servidor</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Required to leave copies of messages on the server</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b834af0b-086c-445d-a271-7e178c324551">
+    <name>ПериодХраненияСообщенийНаСервере</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период хранения сообщений на сервере</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El período del almacenaje de los mensajes en el servidor</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Period of message storage on the server</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Число дней, которое должны храниться сообщения на сервере. Вычисляется как разница между текущей датой и датой получения (если письма хранятся в ИБ), или датой отправки (если письма не хранятся в ИБ)</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El número de los días, que deben estar los mensajes en el servidor. Es calculado como la diferencia entre la fecha corriente y la fecha de la recepción (si las cartas están en ИБ), o la fecha del envío (si las cartas no están en ИБ)</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>The number of days that messages should be stored on the server. It is calculated as the difference between the current date and the date of receipt (if the letters are stored in the IB), or the date of sending (if the letters are not stored in the IB)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ec34befe-3c0b-4a75-b943-840c52e7dda5">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El usuario</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>User</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя пользователя для доступа к почте (логин)</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El nombre del usuario para el acceso a los correos (el login)</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Username for access to mail (login)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7f18eb86-e9ac-4cb8-a9aa-389f61dff582">
+    <name>ПользовательSMTP</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь SMTP</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El usuario SMTP</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>SMTP user</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя пользователя для дополнительной аутентификации на SMTP сервере</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El nombre del usuario para adicional аутентификации en SMTP el servidor</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Username for additional authentication on the SMTP server</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b5e81952-e469-4f26-b8d2-90e7d9e7bc1d">
+    <name>ПортСервераВходящейПочты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порт сервера входящей почты</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El puerto del servidor del correo entrante</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Incoming server port</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Номер порта</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El número del puerto</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Port number</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6733f1bd-7878-4a33-8995-c07526e87c1a">
+    <name>ПортСервераИсходящейПочты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порт сервера исходящей почты</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El puerto del servidor del correo saliente</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Outgoing server port</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Номер порта</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El número del puerto</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Port number</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f7e73257-fae1-465a-ae74-faaa0273a416">
+    <name>ПротоколВходящейПочты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Протокол входящей почты</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La acta del correo entrante</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Incoming protocol</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>4</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Протокол сервера входящей почты: POP или IMAP.</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>La acta del servidor del correo entrante: POP o IMAP.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Incoming server protocol: POP or IMAP.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <quickChoice>Use</quickChoice>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="73f89524-dbe8-426f-8ee6-1277eb1967cc">
+    <name>СерверВходящейПочты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервер входящей почты</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El servidor del correo entrante</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Incoming server</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>300</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя хоста сервера входящей почты</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El nombre del huésped del servidor del correo entrante</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Inbox server mail host name</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ee7d970c-cef7-4740-a357-1fe78f88a6e6">
+    <name>СерверИсходящейПочты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервер исходящей почты</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El servidor del correo saliente</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Outgoing mail server</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>300</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя хоста сервера исходящей почты</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El nombre del huésped del servidor del correo saliente</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Outgoing server mail host name</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ff18803b-4c3a-4720-a718-7547f04c6e2f">
+    <name>СпособPOP3Аутентификации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ POP3 аутентификации</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El modo POP3 аутентификации</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>POP3 authentication method</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СпособыPOP3Аутентификации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Способ аутентификации на POP3 сервере</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El modo аутентификации en POP3 el servidor</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Authentication method on POP3 server</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <quickChoice>Use</quickChoice>
+    <createOnInput>DontUse</createOnInput>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.СпособыPOP3Аутентификации.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0e0670d6-d8f7-4728-bd1b-f016fffa0570">
+    <name>СпособSMTPАутентификации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ SMTP аутентификации</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El modo SMTP аутентификации</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>SMTP authentication method</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СпособыSMTPАутентификации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Способ аутентификации на сервере SMTP</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El modo аутентификации en el servidor SMTP</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Authentication method on SMTP server</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <quickChoice>Use</quickChoice>
+    <createOnInput>DontUse</createOnInput>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.СпособыSMTPАутентификации.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="13beb01d-dd08-4a6d-863b-651e70bbf51f">
+    <name>ТребуетсяВходНаСерверПередОтправкой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Требуется вход на сервер перед отправкой</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Es necesaria la entrada al servidor ante el envío</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Login required before sending</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Установите этот флажок, если для аутентификации на SMTP сервере требуется успешное подключение к POP3 серверу.</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>Establezcan este banderín, si para аутентификации en SMTP el servidor es necesaria la conexión exitosa a POP3 al servidor.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Set this check box if authentication to the SMTP server requires a successful connection to the POP3 server.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a53f6e85-fbf7-4fb1-9301-d63e812fe16c">
+    <name>УдалитьВПредставлениеВключатьИмяПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>(не используется) В представление включать имя пользователя</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>(No se usa) En la representación incluir el nombre del usuario</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>(not used) Include username in viewing</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>В представление учетной записи включать имя пользователя</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>En la representación de la anotación de descuento incluir el nombre del usuario</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Include username in account view</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="57a0f5f3-6573-4b35-af25-cea3a25641f1">
+    <name>УдалитьОтветственныйЗаОбработкуПисем</name>
+    <synonym>
+      <key>ru</key>
+      <value>(не используется) Ответственный за обработку писем</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>(No se usa) Responsable del tratamiento de las cartas</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>(not used) Responsible for processing letters</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ответственный за обработку писем</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>Responsable del tratamiento de las cartas</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Responsible for processing letters</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.Пользователи.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0b7c4cb7-5126-4b5e-8941-cd56eaef76a0">
+    <name>УдалитьПароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>(не используется) Пароль</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>(No se usa) la Consigna</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>(not used) Password</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <passwordMode>true</passwordMode>
+    <toolTip>
+      <key>ru</key>
+      <value>Пароль для доступа к почте</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>La consigna para el acceso a los correos</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Password to access mail</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="144d5498-bb61-4bec-bef3-85a5a4aec3d5">
+    <name>УдалитьПарольSMTP</name>
+    <synonym>
+      <key>ru</key>
+      <value>(не используется) Пароль SMTP</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>(No se usa) la Consigna SMTP</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>(not used) SMTP password</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <passwordMode>true</passwordMode>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя пользователя для дополнительной аутентификации на SMTP сервере</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El nombre del usuario para adicional аутентификации en SMTP el servidor</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Username for additional authentication on the SMTP server</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="94bc76ae-72a0-418f-98c4-ae0a0326a2da">
+    <name>ОтправлятьСкрытыеКопииПисемНаЭтотАдрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлять скрытые копии писем на этот адрес</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Enviar las copias escondidas de las cartas a esta dirección</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Send hidden copies of letters to this address</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Если включен, то в получатели скрытых копий всех исходящих писем будет добавляться этот почтовый адрес.
+Рекомендуется включать при отсутствии штатных возможностей для хранения отправленных писем на почтовом сервере.</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>Si es incluido, en los destinatarios de las copias escondidas de todas las cartas salientes será añadida esta dirección postal. 
+Se Recomienda incluir por falta de las posibilidades de plantilla para el almacenaje de las cartas enviadas en el servidor postal.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>If included, then this mailing address will be added to the recipients of blind copies of all outgoing emails.
+It is recommended to enable it if there are no regular capabilities for storing sent letters on the mail server.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="784475ff-eec5-462a-a511-ba31f8374c2e">
+    <name>ВладелецУчетнойЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Владелец учетной записи</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El propietario de la anotación de descuento</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Account holder</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Владелец персональной учетной записи электронной почты</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El propietario de la anotación personal de descuento del correo electrónico</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Personal Email account owner</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8c994dd6-4dc1-46dd-a2c1-2c62ef8a32c8">
+    <name>торо_МаксимальноеКоличествоОтправляемых</name>
+    <synonym>
+      <key>ru</key>
+      <value>Максимальное количество отправляемых уведомлений за 1 раз</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La cantidad máxima de los avisos enviados por 1 vez</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Maximum number of notifications sent per time</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Значение 0 значит &quot;не ограничивать&quot;. Установите ненулевое значение, если на почтовом сервере настроено ограничение на количество отправляемых за 1 раз писем.</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El significado 0 significa &quot;no limitar&quot;. Establezcan el significado no de cero, si en el servidor postal es ajustada la restricción de la cantidad de las cartas, enviadas por vez 1.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>A value of 0 means &quot;no limit&quot;. Set a nonzero value if the mail server has a limit on the number of emails sent at one time.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="ecaa0af8-549c-4c07-82ff-1c4e02ff15b8">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La forma de la elección</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Selection form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="45a8c780-c067-40d7-bbe9-81f854aacf7a">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La forma de la lista</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>list form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="57885cac-059a-4a08-aa2c-43b116d2c777">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La forma del elemento</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Item shape</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c0403df4-b1f2-4d7e-adb5-9ed881c1359b">
+    <name>ПомощникНастройкиУчетнойЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Помощник настройки учетной записи</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El ayudante del ajuste de la anotación de descuento</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Account setup assistant</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="27e0b5d9-1a4c-45b8-8969-d1d1c39129c1">
+    <name>ПроверкаДоступаКУчетнойЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверка доступа к учетной записи</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La comprobación del acceso a la anotación de descuento</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Account access check</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

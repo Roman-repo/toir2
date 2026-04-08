@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="92e7e7c2-4018-4a70-9617-2ef4016ecd76">
+  <producedTypes>
+    <selectionType typeId="ae9c65b1-80b3-4776-bd66-625fd8f414a7" valueTypeId="7d7c0df1-55f4-4420-9933-f41013f322a3"/>
+    <listType typeId="dc0a364b-c5fd-4d7d-8a96-363ea00f2597" valueTypeId="a57968d3-4d78-4c4b-abad-3aa290e43585"/>
+    <managerType typeId="096ca560-2b9b-4ff2-a7d3-ee1f04b156d0" valueTypeId="73b353f9-00a6-4256-8d2d-aabf9acb8de9"/>
+    <recordSetType typeId="7a10af42-e0d1-484a-be72-e93587d95eca" valueTypeId="68ceba76-736f-42d3-9c2d-e8eb8abab7d2"/>
+    <recordKeyType typeId="ba034814-4585-42e8-8663-f21ca1e507bb" valueTypeId="31d774c0-5ffc-4c1e-a31b-44bbb3afa87a"/>
+    <recordType typeId="4a7914fc-dd79-40e6-abb3-ebb4e20de01a" valueTypeId="f8fcd587-3a43-4e37-bd9b-2d6f759b8595"/>
+    <recordManagerType typeId="5066e9c8-5829-40fd-bcee-1bcada51fd6e" valueTypeId="50a58691-77b7-433b-89c5-4b2722bf1d7a"/>
+  </producedTypes>
+  <name>торо_ВерсииТехКарт</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <resources uuid="34a04b7c-7357-4b08-b98f-465dd4355192">
+    <name>ТехКарта</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.торо_ТехКарты</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <dimensions uuid="023c8369-8ab6-442a-9e65-db4da6bda31e">
+    <name>ИдентификаторТехКарты</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.торо_ИдентификаторыТехКарт</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:InformationRegister>

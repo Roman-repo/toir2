@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="98bd7765-8ea1-4413-b13a-86c95d1a3464">
+  <name>гкс_ЧтениеСпргкс_ПодключениеКВебСервисамСпргкс_РесурсыВебСервисов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение справочников: Подключение к веб-сервисам и Ресурсы веб-сервисов (гкс)</value>
+  </synonym>
+  <comment>TOIR20-490</comment>
+</mdclass:Role>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d8a39285-3f32-4031-9720-6ade9510ae10">
+  <name>торо_ЧтениеКатегорийТяжестиПоследствий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение категорий тяжести последствий</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>La lectura de las categorías del peso de las consecuencias</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Reading severity categories</value>
+  </synonym>
+</mdclass:Role>

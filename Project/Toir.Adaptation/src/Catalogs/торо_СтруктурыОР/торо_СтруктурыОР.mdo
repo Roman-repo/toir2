@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9b53f4af-a3cf-4f34-8a05-4b4e29469c64" extendedConfigurationObject="2e7e4be5-3087-4482-8e4b-423f0931ccea">
+  <producedTypes>
+    <objectType typeId="07e4af5a-d9c5-49e0-b25b-65866fb9b85c" valueTypeId="5dd116d7-e9f3-46c4-af1a-8d1dc4fc4716"/>
+    <refType typeId="cf11f6f4-28d7-4eda-85c3-c8d1217796f9" valueTypeId="7247a5be-37a7-4b66-ac24-a472b9900b5f"/>
+    <selectionType typeId="4fab357b-73b3-422a-9d10-4e18186db766" valueTypeId="c0b06372-9cea-4cfe-8789-fc97d2bb585a"/>
+    <listType typeId="668ac091-5216-4b07-b108-361b9626c9a7" valueTypeId="254f8dad-6c15-4325-b74b-127e0580755c"/>
+    <managerType typeId="3ba596cf-6e2e-48bd-8ecf-098c969f0841" valueTypeId="f4373278-43a5-4a24-8c0c-6a605d576ac5"/>
+  </producedTypes>
+  <name>торо_СтруктурыОР</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <descriptionLength>Checked</descriptionLength>
+    <codeType>Checked</codeType>
+    <predefined>Extended</predefined>
+  </extension>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <predefined>
+    <items id="d73f6791-a946-4e61-868e-67cd97910daf">
+      <name>ОсновнаяИерархия</name>
+      <description>Основная иерархия</description>
+      <extension xsi:type="mdclassExtension:PredefinedItemExtension">
+        <state>AdoptedCheck</state>
+      </extension>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+  </predefined>
+</mdclass:Catalog>

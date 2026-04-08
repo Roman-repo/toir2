@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b831062a-d4bb-4bfc-a9f1-d5c841106ecf" extendedConfigurationObject="a1c9631b-daaf-4fd0-9120-b46cac356a66">
+  <producedTypes>
+    <managerType typeId="e850d708-4eca-474d-bba6-81e5e0fe857e" valueTypeId="f8023c2b-f635-407b-b5db-7fc114497ce0"/>
+    <valueManagerType typeId="1eba967c-22bf-46c4-9e66-155a1844c4d9" valueTypeId="dd413829-f136-41f2-aad0-88d065e42473"/>
+    <valueKeyType typeId="424d49c9-de09-4175-a3d3-6fc1161fb440" valueTypeId="77b61685-1fef-4c2d-8eaa-0ccaa93d8fea"/>
+  </producedTypes>
+  <name>гкс_ПараметрыОповещенияОИзмененииТехКарты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>CatalogRef.торо_СобытияУведомленийВДокументах</type>
+      </types>
+    </typeExtension>
+  </extension>
+</mdclass:Constant>

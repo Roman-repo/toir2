@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba394492-e8c2-46af-9a97-9f2c2c7f00d6">
+  <producedTypes>
+    <objectType typeId="10dde3fd-d61b-4bbc-a5ec-722ab9ce9dd4" valueTypeId="d72ba8fc-2839-4977-977a-3537e2f3696a"/>
+    <refType typeId="661901ba-37a4-4ff4-adee-50c72b503121" valueTypeId="c7671a7f-fd3c-4701-9e9a-0b0ab80eec88"/>
+    <selectionType typeId="1a194bc5-dab7-47e8-a444-7c045b980a9f" valueTypeId="c2094cfe-d92d-426e-b39e-de9eeb68ab9a"/>
+    <listType typeId="d5d638c4-3296-4bfe-8bfe-773723c56c19" valueTypeId="82657066-6aad-4a21-afa2-814926f82db2"/>
+    <managerType typeId="76b81cae-6a67-425f-aa64-34b9231c3ad5" valueTypeId="5d99165d-2f8a-407f-a41a-329e8446be44"/>
+  </producedTypes>
+  <name>гкс_Критичность</name>
+  <synonym>
+    <key>ru</key>
+    <value>Критичность</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.гкс_Критичность.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.гкс_Критичность.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

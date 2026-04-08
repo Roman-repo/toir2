@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e85cc406-ff84-4e12-bab8-c8daffc654ca" extendedConfigurationObject="a8b2fd1c-43be-4e9c-9c77-baa949b1246b">
+  <producedTypes>
+    <managerType typeId="712ccea6-1359-45c7-b4a9-8740fb83d286" valueTypeId="775140ec-5ba6-473e-8ad0-caf24941cebb"/>
+    <valueManagerType typeId="a177b017-4893-4bf5-af12-a7581c368a5d" valueTypeId="326a7285-a7e8-4350-a868-a6392d526d15"/>
+    <valueKeyType typeId="ad5de4ca-804a-4dec-bf37-e2ab1b3e0ca0" valueTypeId="5b6eb0f7-ad93-4064-ab43-f44083fae8cf"/>
+  </producedTypes>
+  <name>гкс_КоличествоДнейДоОкончанияАктуальностиТК</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Number</type>
+      </types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </typeExtension>
+  </extension>
+</mdclass:Constant>

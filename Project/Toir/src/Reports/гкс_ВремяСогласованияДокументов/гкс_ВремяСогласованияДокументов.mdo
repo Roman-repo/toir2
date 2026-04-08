@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20786e5d-11d7-4d76-a291-9bd58a92d43b">
+  <producedTypes>
+    <objectType typeId="81126e11-bf0a-42a6-8769-8e3ab400dafc" valueTypeId="271874a4-b4c1-4b43-b394-bf26853df959"/>
+    <managerType typeId="128b9174-7473-4cf4-a583-493628d72a23" valueTypeId="88586a4b-8668-491d-96c8-ccd8ef48401b"/>
+  </producedTypes>
+  <name>гкс_ВремяСогласованияДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Время согласования документов</value>
+  </synonym>
+  <comment>TOIR20-717</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.гкс_ВремяСогласованияДокументов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="b5019b8d-1e5d-4f86-86d5-404b15ce8d10">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

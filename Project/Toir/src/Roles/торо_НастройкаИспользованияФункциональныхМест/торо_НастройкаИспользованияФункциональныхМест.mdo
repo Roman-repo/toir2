@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e7274cb5-237f-4d04-beee-4c8564cfc074">
+  <name>торо_НастройкаИспользованияФункциональныхМест</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка использования функциональных мест</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Configuration of functional areas</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Configurar el uso de lugares funcionales</value>
+  </synonym>
+</mdclass:Role>

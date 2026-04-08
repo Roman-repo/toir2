@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ecc3fff3-32c5-4152-ad06-6fe2b9f75018" extendedConfigurationObject="55f96922-028d-4a96-a3c9-653b994a0706">
+  <producedTypes>
+    <selectionType typeId="d470953d-4e3c-400d-95a6-8fbba338e7a5" valueTypeId="84a15a3e-9a70-4b62-8368-cf9c4caad783"/>
+    <listType typeId="2bac5274-8ae7-49b7-8d5f-c6c6a511de9a" valueTypeId="1a8afe27-0f85-429b-958b-a8e56c2d808c"/>
+    <managerType typeId="affe5632-8809-4919-b647-63f378db05c2" valueTypeId="ddf533aa-6ea8-40f5-a2f3-62ad39eda4b2"/>
+    <recordSetType typeId="8b0bf7b2-8075-4a06-a28c-99caf3ded7f7" valueTypeId="16f4260f-ce06-4e88-a76e-01fba02d8beb"/>
+    <recordKeyType typeId="55adbe48-dd17-49bc-a51e-380a2d496455" valueTypeId="92b5e5ff-112f-4bb2-805b-494ff74603e5"/>
+    <recordType typeId="c33d9362-6c0e-40a9-923e-db378c8a4b02" valueTypeId="9edc77b8-932c-48c7-9ab1-ecebbc0b8e8a"/>
+    <recordManagerType typeId="7ee9226b-3ffc-4005-8a28-1228cdf1f371" valueTypeId="71354c9a-708f-485d-97b9-050e9892c5d4"/>
+  </producedTypes>
+  <name>ТекущиеКадровыеДанныеСотрудников</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <resources uuid="67c0cac3-b472-4184-9938-081bf50cec58" extendedConfigurationObject="95c957a3-253d-40b3-b048-0d4b596c7f6d">
+    <name>ТекущаяДолжность</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Должности</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <dimensions uuid="65b6f19f-3b2d-4458-a7f0-e38a3e63d8a1" extendedConfigurationObject="78e252f8-2002-4f46-9ad8-b27563ee317b">
+    <name>ФизическоеЛицо</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ФизическиеЛица</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:InformationRegister>

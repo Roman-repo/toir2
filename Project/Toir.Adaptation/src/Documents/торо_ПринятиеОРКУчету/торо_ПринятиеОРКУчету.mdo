@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="cba3354b-9fd7-4065-ba31-22d946d826ca">
+  <producedTypes>
+    <objectType typeId="edc82bd8-da54-4743-9f8e-7643f8c321dc" valueTypeId="365eb54d-28ba-4077-b363-5e37d0e178d8"/>
+    <refType typeId="f4ff09c5-961d-41fb-bc92-6f884a698dbd" valueTypeId="9d407024-371c-4909-8705-978b09a7e3b9"/>
+    <selectionType typeId="50d21510-f203-441d-8591-0392d7c0092e" valueTypeId="a9383cf5-34ee-400f-a16d-206df8c6064d"/>
+    <listType typeId="1461efde-28da-46d1-b347-f0a68f65b803" valueTypeId="6b73bf5d-da39-4e90-9afb-19fed7aab998"/>
+    <managerType typeId="39d41f81-3c0d-4e0f-ba72-45943230ba96" valueTypeId="27a27027-4cbd-46a7-ac4e-b8cf8140e1fb"/>
+  </producedTypes>
+  <name>торо_ПринятиеОРКУчету</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+</mdclass:Document>

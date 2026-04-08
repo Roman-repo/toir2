@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb481143-f5eb-486e-b611-e1d8e0d51638">
+  <name>торо_СостоянияВидовРемонтаДляКалькулятора</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния видов ремонта для калькулятора</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Los estados de los tipos de la reparación para el calculador</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Statuses of repair types for calculator</value>
+  </synonym>
+</mdclass:CommonPicture>

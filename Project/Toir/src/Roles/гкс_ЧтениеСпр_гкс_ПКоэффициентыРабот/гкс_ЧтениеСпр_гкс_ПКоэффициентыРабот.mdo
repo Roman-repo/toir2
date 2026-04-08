@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="adfb2395-c19e-484d-b911-7ff9783b0481">
+  <name>гкс_ЧтениеСпр_гкс_ПКоэффициентыРабот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение справочника повышающие коэффициенты работ (гкс)</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7510308a-cc5f-4ec5-8290-408a0de70a7c">
+  <producedTypes>
+    <selectionType typeId="d93c96c8-0d28-4379-8ff3-40f0eb560b35" valueTypeId="4098ae35-ee91-4e26-a491-f0f614361c5e"/>
+    <listType typeId="cb8c5446-993c-49aa-8239-560018d822d1" valueTypeId="87c0334b-8b54-4f86-aa05-7ec1832cd291"/>
+    <managerType typeId="1d255b47-5160-4a41-81b8-d9b0f9f424b7" valueTypeId="74d305e5-39a5-4397-811b-c7540af571f8"/>
+    <recordSetType typeId="af920675-fce9-4d3a-b0e9-90b94600dce1" valueTypeId="013104ab-c1d9-4994-b487-f45d06ce1ad2"/>
+    <recordKeyType typeId="ba02823b-a303-4be9-87da-50dcc75999d6" valueTypeId="fe15333a-1eb5-4f76-8454-a74ea9c782a3"/>
+    <recordType typeId="6bf9ea42-814c-414f-a1f3-5429ce0def5f" valueTypeId="8833e9e9-c251-4d5e-ae1a-c4b0d5016552"/>
+    <recordManagerType typeId="d597222f-47d8-447b-8f06-f0d1a45f1059" valueTypeId="2bafa24b-3b0d-43c7-889a-140dfce74c84"/>
+  </producedTypes>
+  <name>гкс_ПролонгацияППР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пролонгация ППР</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="742ac4d5-b4a5-4639-a3da-688ee01d226f">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.торо_ПланГрафикРемонта</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

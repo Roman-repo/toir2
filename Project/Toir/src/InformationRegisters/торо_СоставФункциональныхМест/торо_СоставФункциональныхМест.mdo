@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="02cc1af2-ed03-45f3-935f-e3bb20f4ca94">
+  <producedTypes>
+    <selectionType typeId="432d0df6-5ea3-457a-8da3-453122319586" valueTypeId="74000794-ff3d-4960-9f46-ebf4775d0484"/>
+    <listType typeId="926edba2-b83b-4479-9b46-fc3be88b88c5" valueTypeId="25cf87a9-6fb1-470d-ab6f-87a1a44a6abc"/>
+    <managerType typeId="19faaa70-ac45-4edc-9edb-e1f4b79e1fe0" valueTypeId="22900506-59b2-4ca3-b1db-5170fc30a651"/>
+    <recordSetType typeId="34da5f4a-c4bc-4419-8bb2-eb48eb688864" valueTypeId="483ca0fe-c75c-4790-a467-a50570b9f915"/>
+    <recordKeyType typeId="3de4facf-efd6-47e2-b7ed-08e5efb5a77d" valueTypeId="a2329f86-552b-4ee2-81de-c7cca5c5d059"/>
+    <recordType typeId="0817fb66-422b-4650-805d-fed3826e7d53" valueTypeId="58731a8a-d114-4ccd-862d-463da42141b5"/>
+    <recordManagerType typeId="ce597882-9a0d-4ba6-a8a0-3ff2e44ebc07" valueTypeId="9771644e-ed42-4e0b-9e3a-c8c255fff417"/>
+  </producedTypes>
+  <name>торо_СоставФункциональныхМест</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состав функциональных мест</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>The composition of the functional areas</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>La composición funcionales de los lugares</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="d29837f7-1d8c-4289-a454-b34de6239dd9">
+    <name>ФункциональноеМесто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Функциональное место</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Functional place</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Funcional lugar</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.торо_ОбъектыРемонта</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="400db755-bb5e-42e3-b3ed-ddf35cb10bf9">
+    <name>ТипОборудования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип оборудования</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Type of equipment</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El tipo de hardware</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.торо_ТиповыеОР</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b1fe75b4-b352-4344-9e1b-5120dda7389e">
+    <name>ОбъектРемонта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект ремонта</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Object of repair</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.торо_ОбъектыРемонта</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

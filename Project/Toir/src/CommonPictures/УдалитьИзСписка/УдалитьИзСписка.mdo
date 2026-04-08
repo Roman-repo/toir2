@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a693622a-a95f-4360-a13f-fc467e6f8407">
+  <name>УдалитьИзСписка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удалить из списка</value>
+  </synonym>
+</mdclass:CommonPicture>

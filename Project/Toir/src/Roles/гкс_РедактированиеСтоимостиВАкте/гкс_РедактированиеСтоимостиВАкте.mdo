@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d83cc39-06c3-468f-86cc-6325f9bd05a4">
+  <name>гкс_РедактированиеСтоимостиВАкте</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редактирование стоимости в акте</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d3b3b33e-e289-4844-aca9-107a9f716370">
+  <name>НаследоватьАтрибут</name>
+  <synonym>
+    <key>ru</key>
+    <value>Наследовать атрибут</value>
+  </synonym>
+</mdclass:CommonPicture>

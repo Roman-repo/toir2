@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d27956ab-2ff6-49d8-a1ad-726d3f4d0508">
+  <producedTypes>
+    <objectType typeId="f8ff3391-7a6d-407d-a70e-540abd13876f" valueTypeId="625fdab0-a524-4e25-add5-07be3348517a"/>
+    <refType typeId="f380baf8-55ff-4a3c-b0cc-97a153ab56dd" valueTypeId="9a9e4439-7f19-4e18-b42b-9cc98440778d"/>
+    <selectionType typeId="1d946732-0b60-41c4-b8bc-9cba4d30fcb6" valueTypeId="e86f52ff-cf58-4496-86f9-4383b8c2a8f3"/>
+    <listType typeId="4abb100c-fc09-45bb-9229-07524bec633b" valueTypeId="bef49be5-d513-4cad-b490-021d061be8a0"/>
+    <managerType typeId="12a28710-8431-4b21-964a-1c718d69d004" valueTypeId="de25b0f3-6d44-4417-b61d-b3848cf3e817"/>
+  </producedTypes>
+  <name>торо_ПредопределенныеСценарииРаботыСистемы</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

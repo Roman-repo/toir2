@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="04c19005-3e96-4173-b524-f9dad2f55b83" extendedConfigurationObject="49045744-5d73-4204-bc55-f8fe05dc6207">
+  <producedTypes>
+    <refType typeId="61f5c389-d04a-41b1-a8cd-ac39f3a1831c" valueTypeId="251332a8-1732-4f2a-9bcc-131b4af92564"/>
+    <listType typeId="a30626e7-33ce-41fb-8838-00ffeefef468" valueTypeId="7553cb71-47c3-4012-a177-bc5abb33811a"/>
+    <managerType typeId="e0953057-c634-4387-b07e-a35e2d20c3a3" valueTypeId="6de80740-b352-4fdc-ab9e-885c281a60f3"/>
+  </producedTypes>
+  <name>гкс_ВидыОперацииВводДанныхПоТрудовымРесурсам</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="1d0c0759-1eaa-4e36-8397-9ae3917fdbf4" extendedConfigurationObject="15b29ea7-d642-4232-a49b-96e32915062a">
+    <name>ВводДанных</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="37864552-85c0-4e3d-af0e-77b6a7c1631f" extendedConfigurationObject="6b091a01-ead0-4526-abb4-a29971101ffa">
+    <name>Корректировка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

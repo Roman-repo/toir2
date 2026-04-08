@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="cbb7c8bf-ea83-4e58-bc36-1061755b6015" extendedConfigurationObject="d63e7a40-edce-47a1-9f11-a92d6fcec35e">
+  <producedTypes>
+    <selectionType typeId="8ac8fc4b-7953-48fa-b70d-d5a1e21e48a3" valueTypeId="9df1ff39-70bc-48cb-888f-81650e39b957"/>
+    <listType typeId="5ec0e0e0-54c3-4737-8a14-8f2a14a99216" valueTypeId="95c54a6d-5794-4adb-a0b4-d044715bceda"/>
+    <managerType typeId="c0d90b69-634c-4c15-a814-760ea2c0557f" valueTypeId="9cad803f-9562-4ca6-a33a-14d2dd9d924e"/>
+    <recordSetType typeId="589e60c6-2cb1-473c-b162-02c44a181e37" valueTypeId="644fb359-a3c6-48fd-87e8-b77d6e90e389"/>
+    <recordKeyType typeId="d086c564-2ab7-408e-ad67-2f18adc96796" valueTypeId="d4677383-f003-403d-8eb4-4626c97b8545"/>
+    <recordType typeId="b579c370-8736-452e-bdb1-3b36bdb94499" valueTypeId="3f95d088-43d2-4c96-9c63-a032cab496ba"/>
+    <recordManagerType typeId="b9160647-9551-46c8-b1f3-441e67c94b53" valueTypeId="a55b6e9d-5cb2-494c-8648-dafec9189607"/>
+  </producedTypes>
+  <name>торо_СписокОповещаемыхЛиц</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+</mdclass:InformationRegister>

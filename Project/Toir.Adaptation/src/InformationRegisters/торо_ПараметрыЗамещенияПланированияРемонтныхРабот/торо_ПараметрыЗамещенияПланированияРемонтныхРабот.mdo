@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ff61658c-6758-48b7-8d52-49fa52510331" extendedConfigurationObject="2a508f59-4139-4129-9110-ff3d73dc1616">
+  <producedTypes>
+    <selectionType typeId="74a91a2e-3d9f-42ee-beba-0e6dac29ee23" valueTypeId="1237ca41-2a70-496e-afa8-58b84d0bbb7d"/>
+    <listType typeId="7f3e8d74-283e-4a3b-a25e-89917e2e39db" valueTypeId="1a018289-d497-4d15-90c7-9e0cce2ef352"/>
+    <managerType typeId="9dd14599-c901-4791-b1c8-1587bffe13c2" valueTypeId="ddbed14d-76cf-4075-8bd8-deac4556cfbb"/>
+    <recordSetType typeId="9d14b143-dea6-442a-922f-6a791fe70a97" valueTypeId="3dbc40dc-d034-4f7a-aaa4-d323a7d7b589"/>
+    <recordKeyType typeId="d5c0c6c4-76e4-4d3d-9208-e75b67dab499" valueTypeId="d6cb777d-f6fd-41c2-8b2d-421e822de52e"/>
+    <recordType typeId="c072df03-f658-4d91-8884-e3fad6691124" valueTypeId="7aec71ee-80fc-4d84-ac70-e05bd282e891"/>
+    <recordManagerType typeId="83b4c138-b685-4d67-b5e5-05a13fe412c8" valueTypeId="f5ff1223-1458-4120-8a36-ed39908bb297"/>
+  </producedTypes>
+  <name>торо_ПараметрыЗамещенияПланированияРемонтныхРабот</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+</mdclass:InformationRegister>

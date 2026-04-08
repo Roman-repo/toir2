@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b077239-3e12-4429-8752-ccf771298032">
+  <name>торо_ДобавлениеИзменениеПроведениеПометкаУдаленияУчетовНаработкиОборудования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление, изменение, проведение и пометка удаления учетов наработки оборудования</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>La adición, el cambio, la realización y la marca de la desaparición de los recuentos de la elaboración de la maquinaria</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Adding, changing, conducting and marking the removal of equipment operating time accounting</value>
+  </synonym>
+</mdclass:Role>

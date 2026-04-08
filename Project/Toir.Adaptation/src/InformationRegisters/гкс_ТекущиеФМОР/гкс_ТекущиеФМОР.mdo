@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d937d289-1bd6-49a6-bb74-8a02202b120c">
+  <producedTypes>
+    <selectionType typeId="64aa5b05-ad93-4338-b95e-6e3092fbbaf4" valueTypeId="34718275-19bf-4d9b-b502-138e23f16dfe"/>
+    <listType typeId="15876cef-aadf-4d21-83eb-de3e684bb3fb" valueTypeId="797a52b0-9fb7-4e6b-85d9-877e7f6f970c"/>
+    <managerType typeId="179e4a1b-5124-46fd-ba05-2f3ca2b38949" valueTypeId="7a08ed58-8e6e-42b4-b4bf-de492ca77eda"/>
+    <recordSetType typeId="8ee21982-ce24-435d-843c-2d4eaacd7bc3" valueTypeId="288d9681-64ef-4138-b393-0774dc9eb355"/>
+    <recordKeyType typeId="e2400339-8aba-42ef-830c-373a1fba3570" valueTypeId="43b7f593-9f21-4b1c-afdb-59b411386eff"/>
+    <recordType typeId="eb6abdb7-187a-437c-99c1-34913e399fef" valueTypeId="8f4c817e-708b-4431-a0c1-aa30b154e67a"/>
+    <recordManagerType typeId="382a65d2-6b0c-4db1-80ee-d9e360cbcf85" valueTypeId="5f57422b-6faf-43f4-9155-8db8ee7e5d6b"/>
+  </producedTypes>
+  <name>гкс_ТекущиеФМОР</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <resources uuid="2899cdec-94ab-4179-bb8e-f6631491f9d0">
+    <name>ТМФМ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.гкс_ТехническиеМеста</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <resources uuid="22a31771-04f4-4de6-871c-f67d61b3d363">
+    <name>ТМ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.гкс_ТехническиеМеста</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <resources uuid="68ac6160-3704-45e4-ae6b-85894dc4bf4a">
+    <name>ФМ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.торо_ОбъектыРемонта</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <dimensions uuid="865b4236-9bd1-445f-b5fc-70088682dd7e">
+    <name>ОР</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.торо_ОбъектыРемонта</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:InformationRegister>

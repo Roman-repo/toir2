@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="320842a4-d27d-44c8-ba06-52fda7b9fe08">
+  <name>торо_ТекущийЯзыкЭтоЯзыкПоУмолчанию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Текущий язык это язык по умолчанию</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>The current language is the default language</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+</mdclass:SessionParameter>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c6bd44e7-8fb1-4c9f-ae55-7c1974884bdb">
+  <producedTypes>
+    <selectionType typeId="18b17977-ebb9-4b52-b258-57dee6690b4b" valueTypeId="dca6d68f-fe30-4d95-8907-ccfbc01a2026"/>
+    <listType typeId="c842b9df-a23b-48f4-8e5e-3aba54be12f7" valueTypeId="c91cfc4e-cef1-417f-b7b4-f005d8b4acab"/>
+    <managerType typeId="c6a9d61b-596b-4202-8cb6-d12fbddb17bc" valueTypeId="e24de68e-d07a-4ef8-b195-a3639c5d86b3"/>
+    <recordSetType typeId="f800a25c-c44f-4f2a-9f6f-1c09af8f273d" valueTypeId="f72db58b-8a6a-4653-9378-8b6a0e8c60d6"/>
+    <recordKeyType typeId="74b2dff9-421a-4b37-8ed3-f60282d723cc" valueTypeId="5cefdabe-93b4-44fc-8ae5-872b4e33fd2a"/>
+    <recordType typeId="15a8cfda-602c-42e4-99a9-c031b4a232e2" valueTypeId="7103b7e3-7fa8-4f40-8d36-e3e06c1da540"/>
+    <recordManagerType typeId="196f009a-981b-43a1-9c8c-2f319371a1f4" valueTypeId="e6770244-5676-455a-ab0a-39aa7b6f80ef"/>
+  </producedTypes>
+  <name>гкс_ИсторияЗаменыСогласующих</name>
+  <synonym>
+    <key>ru</key>
+    <value>История замены согласующих</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c149ee61-7faa-47f4-aa3e-eb3d7f7e4315">
+    <name>Отменен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="54fbf324-0f13-4d68-80ee-b7c89f522e98">
+    <name>СпособСогласования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ согласования</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.торо_СпособыСогласованияДокументов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f4ff35c8-02be-4dfb-977e-5b3fcd7ce26a">
+    <name>Заменен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заменен</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="0dcbbe88-a060-4c66-850e-e76d67635ea6">
+    <name>Установлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установлен</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="ccecd5bd-9bfc-4442-a64a-49fa882b12fc">
+    <name>РМЗаменыСогласующих</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочее место замены согласующих</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="29095ca3-cbe1-4a1d-9123-3584926eadd7">
+    <name>ОткрытьРМЗАменыСогласующих</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочее место замены согласующих</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:InformationRegister>

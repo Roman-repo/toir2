@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b11000b-8357-4786-aeae-0645d0a1b9a9">
+  <name>гкс_ПолучениеДанныхОДоступностиТрудовыхРесурсов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получение данных о доступности трудовых ресурсов (гкс)</value>
+  </synonym>
+  <comment>TOIR20-211</comment>
+  <methodName>CommonModule.гкс_ПолучениеДанныхОДоступностиТрудовыхРесурсов.гкс_ПолучениеДанныхОДоступностиТрудовыхРесурсов</methodName>
+  <description>Получение данных о доступности трудовых ресурсов (гкс)</description>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

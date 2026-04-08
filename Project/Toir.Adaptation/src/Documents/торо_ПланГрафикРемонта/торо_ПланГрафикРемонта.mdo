@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c28dfde0-8a7f-41ed-898b-daf4f726eed2">
+  <producedTypes>
+    <objectType typeId="348ee2e3-d7a6-4d95-958b-a013be6ba094" valueTypeId="1eb61aa9-cdaa-4d31-91e2-3f276d43d5db"/>
+    <refType typeId="a375f30c-25d3-44b6-bc82-035210777125" valueTypeId="813fbd45-dd4c-4e07-a586-3b1503e474d1"/>
+    <selectionType typeId="2dba1a13-111c-4905-a6cb-43dc55594e63" valueTypeId="7942d3f2-7eeb-40d6-811f-20fabca9fda5"/>
+    <listType typeId="a7dcaaa1-7e54-4b47-8999-ab1596f8b55b" valueTypeId="356483a7-0fd3-4833-970c-ed57f8cac880"/>
+    <managerType typeId="17a72f6b-c4b0-491b-9bc4-00a6346b6eee" valueTypeId="4e95aab5-a3ed-493b-9298-ff6d3473043c"/>
+  </producedTypes>
+  <name>торо_ПланГрафикРемонта</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <managerModule>Extended</managerModule>
+  </extension>
+  <forms uuid="1194259a-669c-4a94-8fc8-df344b3feb7a">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <tabularSections uuid="d62184bf-4e0c-43d1-b169-d593764ea36c">
+    <producedTypes>
+      <objectType typeId="e22c42bd-ad3f-4bf7-954d-d68828e869e7" valueTypeId="0c2f0db8-40b6-4148-ad25-3261865c0b21"/>
+      <rowType typeId="adf16a77-1193-43f3-8276-da2dd803fb4e" valueTypeId="5345c2c4-3193-4321-8f42-f31341b76adb"/>
+    </producedTypes>
+    <name>ПланРемонтов</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <attributes uuid="66e206bd-ba6a-4491-95ef-1b2135d64188">
+      <name>ВидРемонтныхРабот</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.торо_ВидыРемонтов</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+    <attributes uuid="099553c6-7f63-4efc-852a-21d8e0336a96">
+      <name>ДатаНач</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>Date</type>
+          </types>
+          <dateQualifiers>
+            <dateFractions>Date</dateFractions>
+          </dateQualifiers>
+        </typeExtension>
+      </extension>
+    </attributes>
+    <attributes uuid="3d29bf3f-7bb6-4755-8642-aebd36745b11">
+      <name>ДатаКон</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>Date</type>
+          </types>
+          <dateQualifiers>
+            <dateFractions>Date</dateFractions>
+          </dateQualifiers>
+        </typeExtension>
+      </extension>
+    </attributes>
+    <attributes uuid="299729dd-d752-4762-966f-9d3c7434d89e">
+      <name>Отменен</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>Boolean</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+    <attributes uuid="1935062c-c5f7-41c1-aff9-75367fead8d5">
+      <name>ОбъектРемонтныхРабот</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.торо_ОбъектыРемонта</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+    <attributes uuid="931344fd-686c-46f7-8b48-4d6f1f075149">
+      <name>ID</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>String</type>
+          </types>
+          <stringQualifiers>
+            <length>36</length>
+          </stringQualifiers>
+        </typeExtension>
+      </extension>
+    </attributes>
+    <attributes uuid="595521ac-6135-40e3-9887-537817c1d597">
+      <name>Замещен</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>Boolean</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="97b80741-c3cf-4130-ae13-00a34883b860">
+  <name>торо_ИспользоватьЛоты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:FunctionalOptionExtension">
+    <location>Checked</location>
+  </extension>
+  <location>Constant.торо_ИспользоватьЛоты</location>
+</mdclass:FunctionalOption>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d884ca2-34d2-4326-9fa5-ba1a454493b4">
+  <name>торо_НастройкаИерархииДляВводаНовыхОР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка иерархии для ввода новых ОР</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>El ajuste de la jerarquía para la introducción nuevo ОР</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Set up a hierarchy to enter new EI</value>
+  </synonym>
+</mdclass:Role>

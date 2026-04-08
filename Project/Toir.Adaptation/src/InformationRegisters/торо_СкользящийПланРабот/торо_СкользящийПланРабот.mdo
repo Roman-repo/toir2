@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="29b3144b-1fe3-41dc-a56d-13450a2b35d5" extendedConfigurationObject="c7197952-917e-476f-8b3c-c1c48e43bd34">
+  <producedTypes>
+    <selectionType typeId="75ab510a-5b0e-47ab-9554-b1eb58566bbe" valueTypeId="fb228c3c-2ab3-4e42-8fa5-f36d302e163c"/>
+    <listType typeId="b9ecefcb-ddbd-4f43-bcfc-85fb787f39e0" valueTypeId="541be039-53c3-4d62-be07-efc5af7a426a"/>
+    <managerType typeId="d2035357-afc2-4f3d-b520-a92eb3be0374" valueTypeId="992cbd88-0a79-4053-8df2-8f48c02a9373"/>
+    <recordSetType typeId="59f73ab5-b833-4dab-818f-d8b275647e62" valueTypeId="5b1c4aa4-4874-4a30-9943-3d519197258d"/>
+    <recordKeyType typeId="8a32a411-f646-4b7d-90a8-fb979f8f8cf6" valueTypeId="5df8abd5-eaa2-4fc0-9b3f-5e5c28bd9592"/>
+    <recordType typeId="93f0163a-2852-4f98-8a9c-4199c3aa71e7" valueTypeId="71b66d49-3bdd-447a-856c-31aef1deed01"/>
+    <recordManagerType typeId="ae29c126-1a54-4b1a-a8be-a13eb297f359" valueTypeId="44f33d63-20f5-4be9-b617-6fa3134f4483"/>
+  </producedTypes>
+  <name>торо_СкользящийПланРабот</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dimensions uuid="9a8babe4-e29c-4c8f-b79d-e5e46ab933a5" extendedConfigurationObject="51911962-d3a6-41c6-af03-363f936687fc">
+    <name>ID_Ремонта</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:InformationRegister>

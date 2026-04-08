@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1e760c9f-a543-4296-b755-3badc08b0ec1">
+  <producedTypes>
+    <refType typeId="bc0f784f-b1c3-4ef6-aa2f-d56931284e79" valueTypeId="49479b88-f697-4ca3-a3d3-e3f445c53fa3"/>
+    <listType typeId="841213f8-dba2-48f0-9d97-762885ab8dfd" valueTypeId="dd67d647-0790-440d-99e6-effc8370959f"/>
+    <managerType typeId="0356fb5d-88b4-4a21-9420-f8f2224940b2" valueTypeId="22a73650-3297-4704-aced-62f5dee8bb49"/>
+  </producedTypes>
+  <name>торо_ТипыСигналовАСУТП</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+</mdclass:Enum>

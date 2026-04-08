@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="90c69088-50a5-460a-9142-213fe630588d">
+  <producedTypes>
+    <selectionType typeId="2493ce30-9c2d-40ff-8cb6-f9f18248b5ae" valueTypeId="088b8389-e6d0-4fe2-a05d-330f28cb32ac"/>
+    <listType typeId="760cda5a-b5b7-44e3-8065-bf12eeae6a7b" valueTypeId="d44c019c-09d7-4122-aebb-579666753f09"/>
+    <managerType typeId="4340adb4-5f02-45b2-b8c7-96baac1092ee" valueTypeId="bb2fce88-65a0-407f-9328-c77878353315"/>
+    <recordSetType typeId="ebe2f8ae-36ab-4096-b91f-323e74f189ab" valueTypeId="130cf76e-926c-44e5-bf13-22671a169493"/>
+    <recordKeyType typeId="5752af6c-5ee3-413b-a29b-6523c79d09fe" valueTypeId="2a0a2952-b20c-4e2d-948a-e621fe87d063"/>
+    <recordType typeId="f4a51fe7-037e-4ea6-8a83-34b06615b05e" valueTypeId="de6f2baf-5094-4511-ba76-dc96ed5215b2"/>
+    <recordManagerType typeId="ed2c10f4-e427-4411-b092-d575f34437c6" valueTypeId="5eb80c42-5bf8-4593-b5ed-fd01b03624da"/>
+  </producedTypes>
+  <name>торо_ИсторияПеремещенияОборудованияМеждуФМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>История перемещения оборудования между ФМ</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>History of movement of equipment between FP</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>El historial de movimientos de equipos entre fm</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="4fa29f9a-8720-4fac-bff5-8dd6439324fd">
+    <name>Событие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Событие</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Event</value>
+    </synonym>
+    <type>
+      <types>EnumRef.торо_СобытияОборудованияНаФМ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="ba25ddbc-6825-41e6-93d5-0200659df9b2">
+    <name>ФункциональноеМесто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Функциональное место</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Functional place</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Funcional lugar</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.торо_ОбъектыРемонта</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="07c1783b-3a16-4de6-93a2-a24c059941b5">
+    <name>ОбъектРемонта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект ремонта</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Object of repair</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.торо_ОбъектыРемонта</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

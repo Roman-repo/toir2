@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="274401e4-e183-4084-9c90-5bb9328b7673">
+  <name>торо_ДобавлениеЗаявокНаРемонт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление заявок на ремонт</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>La adición de las demandas por la reparación</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Adding repair requests</value>
+  </synonym>
+</mdclass:Role>

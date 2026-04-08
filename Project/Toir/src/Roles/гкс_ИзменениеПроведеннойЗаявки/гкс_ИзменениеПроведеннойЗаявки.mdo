@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2bc1204b-064e-4ff1-8ce1-cf6829cef14a">
+  <name>гкс_ИзменениеПроведеннойЗаявки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение проведенной заявки (гкс)</value>
+  </synonym>
+</mdclass:Role>

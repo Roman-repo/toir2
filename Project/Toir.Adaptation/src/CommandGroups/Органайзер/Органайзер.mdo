@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommandGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="80d792b3-4dd2-4ed8-a4f6-ea1eb2feb195" extendedConfigurationObject="c59e11f3-6bcb-404a-9d76-1416c12be354">
+  <name>Органайзер</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CommandGroupExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <category>Checked</category>
+  </extension>
+  <category>FormCommandBar</category>
+</mdclass:CommandGroup>

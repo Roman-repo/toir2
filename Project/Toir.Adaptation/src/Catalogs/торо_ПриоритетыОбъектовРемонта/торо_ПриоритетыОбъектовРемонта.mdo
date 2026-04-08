@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ca15573f-36a3-4e59-bb32-0e290daf0677" extendedConfigurationObject="e3575cab-4f0c-445b-b7c1-36dbb7f57165">
+  <producedTypes>
+    <objectType typeId="572c1b1a-b3d0-4357-835b-6e106e035087" valueTypeId="ed31e2fa-85fc-4db9-bc62-91b8ab822d4b"/>
+    <refType typeId="e37358e3-b349-4568-a0b5-842eb44f473d" valueTypeId="1db97d8b-6da3-4b59-b6cb-da5a28ceac88"/>
+    <selectionType typeId="040e6f3e-9c30-4424-b33f-4af9f964ef12" valueTypeId="0f00cdbc-6cb3-4dda-8125-2312c71bd201"/>
+    <listType typeId="0007db8f-e895-4c41-8cdf-ca74711998f5" valueTypeId="b3b58c66-0b80-4891-a998-051c4f92fa19"/>
+    <managerType typeId="e2a0f342-cb60-4812-ac6f-c487848c0bcb" valueTypeId="52f63c03-b371-4bdb-b513-8e4a5dc5df68"/>
+  </producedTypes>
+  <name>торо_ПриоритетыОбъектовРемонта</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

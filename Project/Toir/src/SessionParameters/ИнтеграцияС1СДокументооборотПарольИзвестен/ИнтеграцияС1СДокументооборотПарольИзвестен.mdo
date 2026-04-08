@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8b27fa3c-9fcc-4680-86a6-6dd82d626e24">
+  <name>ИнтеграцияС1СДокументооборотПарольИзвестен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Известен пароль пользователя 1С:Документооборота</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Es conocida la consigna del usuario 1С:Документооборота</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>1C: Workflow user password is known</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+</mdclass:SessionParameter>

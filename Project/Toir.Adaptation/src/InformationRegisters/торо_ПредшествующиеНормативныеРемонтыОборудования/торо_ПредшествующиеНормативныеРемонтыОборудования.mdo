@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="502d304f-6acd-4e98-ab38-590ef3e28674" extendedConfigurationObject="ed44a05a-2c19-4136-83f5-e23b53ae6020">
+  <producedTypes>
+    <selectionType typeId="6735e071-849f-429b-bf8b-8c3c3e19f8dc" valueTypeId="a8abfac6-425d-48c2-89f2-1863729910e2"/>
+    <listType typeId="0288418e-2f3a-4720-b6f7-447b428db2f4" valueTypeId="34653ebc-ae23-493b-8895-1573c2b9328f"/>
+    <managerType typeId="939a6366-0419-4b49-b83b-bf72b6960ead" valueTypeId="6841dc41-484e-48c3-95a7-c57909078fdb"/>
+    <recordSetType typeId="a5a8d771-993a-4a47-8bab-421e088ead90" valueTypeId="58b7efd5-9a29-4999-915a-8ab102ba90cd"/>
+    <recordKeyType typeId="7c8d4803-81d4-4fc6-a360-a574249196c5" valueTypeId="c0b0c51d-a168-4386-9d4d-eeff70fb60e2"/>
+    <recordType typeId="7c558111-10bd-491b-8ea9-4880cd569b25" valueTypeId="e0ec6a25-78b2-4c8f-8c3b-ed24a004f021"/>
+    <recordManagerType typeId="ffb92c81-0b3b-4454-9c85-417b160d9956" valueTypeId="1f371602-c39f-498b-a4c1-77cdd60b39c8"/>
+  </producedTypes>
+  <name>торо_ПредшествующиеНормативныеРемонтыОборудования</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+</mdclass:InformationRegister>

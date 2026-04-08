@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="fb8507b7-bf1a-40ba-bc41-446a0d29b0e5" extendedConfigurationObject="bb2d5d34-7e47-44ee-8df7-2a966309d1c4">
+  <producedTypes>
+    <managerType typeId="95488b0a-0410-4f53-8900-85b50edf2a63" valueTypeId="27a19315-4564-4a8b-8db6-762e3e8bcea6"/>
+    <valueManagerType typeId="1ea91196-1eac-48f7-8bef-448ddaa3d020" valueTypeId="a71eecf5-dfd1-4d77-aa1a-1db31e4b9d20"/>
+    <valueKeyType typeId="d2694856-7862-4e6a-8cc8-e5a2a5b9941f" valueTypeId="49117f5c-6894-488a-ad3c-8c95fe3197db"/>
+  </producedTypes>
+  <name>торо_ОтменятьЗакрытиеЗаявок</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+</mdclass:Constant>

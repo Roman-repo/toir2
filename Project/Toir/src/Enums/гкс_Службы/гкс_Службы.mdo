@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8d84ae9e-0427-4700-8e53-4f198277ae1d">
+  <producedTypes>
+    <refType typeId="582b5423-7ae1-443e-94b2-0a25173b4698" valueTypeId="3d2a0e17-ec83-4f49-963a-c47120a00162"/>
+    <listType typeId="b5dfcb1d-4714-41f7-a4df-0918a464e3ca" valueTypeId="7f823cda-b5c3-4e37-9901-b51cb5ad2af8"/>
+    <managerType typeId="04584d4f-4bee-432b-b49a-a24e9345091e" valueTypeId="922232a4-0e59-466f-9357-16606d3a5c27"/>
+  </producedTypes>
+  <name>гкс_Службы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Службы</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6ab28fb5-5daa-40f8-9ae1-a4aa5e81e5d6">
+    <name>ОГМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОГМ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a5fbab15-7f1c-472b-8fda-efd16af09afa">
+    <name>ОГЭ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОГЭ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8a4269e3-a973-4acf-bc78-52affd925770">
+    <name>КИПиА</name>
+    <synonym>
+      <key>ru</key>
+      <value>КИПиА</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4cccc3e0-75df-46f8-bee2-4b8cd5da6aeb">
+    <name>ЗиС</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЗиС</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

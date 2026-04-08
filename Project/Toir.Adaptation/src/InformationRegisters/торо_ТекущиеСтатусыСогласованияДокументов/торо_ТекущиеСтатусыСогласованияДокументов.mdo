@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6928a085-9de7-41c2-a6bd-c637403666dd">
+  <producedTypes>
+    <selectionType typeId="ef23369d-015f-4bf9-8cef-d6a5c6c051be" valueTypeId="85c5c947-bf0a-401b-a2d8-bc16f7ecaa9c"/>
+    <listType typeId="124438f9-c440-4da6-80bf-57523bf60eba" valueTypeId="251fde85-6a94-4b18-a1ba-ffb623d6eb7d"/>
+    <managerType typeId="4e848d03-b830-4a0a-9c10-959a1dbebb85" valueTypeId="eaec7043-a4e8-481e-a84f-a059ca5491d0"/>
+    <recordSetType typeId="344125f9-5a0a-4da9-bc06-bbd599549099" valueTypeId="19d1b1ff-4982-4dbf-a116-ec0cf910ff8c"/>
+    <recordKeyType typeId="2ee20b06-98b5-42aa-b87e-6e901e867c21" valueTypeId="62cfc0b0-62fd-4fc3-abac-7a1795134d33"/>
+    <recordType typeId="61ddc432-f4be-4218-a7e5-bc2d7c85b372" valueTypeId="29e27d21-36b1-4a9e-a8b7-01111ec88c52"/>
+    <recordManagerType typeId="9929d75d-adde-432b-b888-1bf025cf0472" valueTypeId="aa24b6f2-f297-4bf7-b5a1-0de7bde28e71"/>
+  </producedTypes>
+  <name>торо_ТекущиеСтатусыСогласованияДокументов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+    <managerModule>Extended</managerModule>
+  </extension>
+  <resources uuid="76000cce-3bc5-4081-8d6f-d964c276477a">
+    <name>СтатусДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.торо_СтатусыСогласованияДокументовРемонтныхРабот</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <dimensions uuid="e687bb94-e7e7-4d78-99a8-a8a8ee913894">
+    <name>СогласуемыйДокумент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.торо_СогласуемыеДокументы</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:InformationRegister>

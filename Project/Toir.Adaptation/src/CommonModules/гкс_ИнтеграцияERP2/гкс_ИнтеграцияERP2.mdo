@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fd593890-1b96-426d-84d9-2e06618df463">
+  <name>гкс_ИнтеграцияERP2</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция ERP 2 (сервер)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

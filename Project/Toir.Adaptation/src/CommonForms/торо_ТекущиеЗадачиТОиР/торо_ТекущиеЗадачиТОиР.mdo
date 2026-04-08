@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3cc515c5-eccc-46a6-8e89-9552ab8c8010" extendedConfigurationObject="5da15098-fed7-4202-80ed-3568031859ea">
+  <name>торо_ТекущиеЗадачиТОиР</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CommonFormExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <form>Extended</form>
+  </extension>
+</mdclass:CommonForm>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="248fe069-7a2a-452e-b600-91e664268aaf">
+  <producedTypes>
+    <managerType typeId="66464ea1-9b1c-48a4-8e08-47145d34d71a" valueTypeId="94381db7-82a8-40fd-9e48-4f368ed57b12"/>
+    <valueManagerType typeId="224d6fc4-ca28-455c-8cf9-5e194fd3d261" valueTypeId="e41ba906-5691-4ce3-aca8-a8e1ab7de06f"/>
+    <valueKeyType typeId="e9627ca0-6019-4cad-a442-cc50e88e6725" valueTypeId="9de9fa0e-1ac7-4040-915e-202451407270"/>
+  </producedTypes>
+  <name>торо_ВидЭксплуатацииДляВводаНаОснованииВыявленногоДефекта</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>CatalogRef.торо_ВидыЭксплуатации</type>
+      </types>
+    </typeExtension>
+  </extension>
+</mdclass:Constant>

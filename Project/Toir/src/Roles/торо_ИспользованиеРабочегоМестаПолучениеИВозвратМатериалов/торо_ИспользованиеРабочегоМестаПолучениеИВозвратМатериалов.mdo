@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dec874ec-1a0c-4436-9a9a-6518a52c893c">
+  <name>торо_ИспользованиеРабочегоМестаПолучениеИВозвратМатериалов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование рабочего места получение и возврат материалов</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>El uso del puesto de trabajo la recepción y el regreso de los materiales</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Use of the workplace receipt and return of materials</value>
+  </synonym>
+</mdclass:Role>

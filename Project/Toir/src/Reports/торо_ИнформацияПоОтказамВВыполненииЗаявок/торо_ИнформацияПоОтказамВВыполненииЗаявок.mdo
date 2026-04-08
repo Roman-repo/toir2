@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fd1a4513-7962-4d97-9da6-dfe90eba7474">
+  <producedTypes>
+    <objectType typeId="e9ef440e-b98a-46f2-bc83-21122401a5ed" valueTypeId="039c791d-0593-4051-8341-1d0239d74c42"/>
+    <managerType typeId="baa9decf-d8f1-43fb-adeb-72c1286a8f84" valueTypeId="f448fcc5-3672-4b77-b2df-207e44075f6a"/>
+  </producedTypes>
+  <name>торо_ИнформацияПоОтказамВВыполненииЗаявок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Информация по отказам в выполнении заявок</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>La información sobre las renuncias en la ejecución de las demandas</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Information on refusals to fulfill applications</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.торо_ИнформацияПоОтказамВВыполненииЗаявок.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="dafd93c4-cd36-4a59-8726-1a47c18e2eab">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El esquema básico de la composición de los datos</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Main data composition diagram</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b98ed5a-8f29-4e23-bc57-6d2db009a6ef">
+  <producedTypes>
+    <selectionType typeId="8f331e28-f7a5-492c-8368-9ca6e0a77c11" valueTypeId="0865c912-e073-40d6-ab8d-195c6ce89f2e"/>
+    <listType typeId="a45c0575-df90-463c-a1d5-1a6c1477b8f0" valueTypeId="7e63344e-b1d4-4ee8-860f-1dc6b65274cf"/>
+    <managerType typeId="30c211b9-c5f6-4d14-8d0f-54612ad01dc1" valueTypeId="fd4ea64d-1aea-4797-bafa-0ad79c3b0367"/>
+    <recordSetType typeId="4f51503c-c4cf-4c13-8a97-e7783aac95d7" valueTypeId="23db3865-b0d6-4745-8ec2-724ba7197dd6"/>
+    <recordKeyType typeId="82ff9dd8-3d58-4326-88b5-f55d4efefa9a" valueTypeId="71de785e-f801-45ee-a499-aeaa2c78810e"/>
+    <recordType typeId="91c2d754-0299-4128-ba78-238acd4a6b12" valueTypeId="2974ba49-3158-4cc9-b6b2-6bd8543be084"/>
+    <recordManagerType typeId="b4dd3011-a26c-4c79-bbdf-a1014cc14ee2" valueTypeId="0424fb0d-85bc-4c86-a2a0-64d4957eec06"/>
+  </producedTypes>
+  <name>гкс_НаличиеПрикрепленныхФайловВДокументообороте</name>
+  <synonym>
+    <key>ru</key>
+    <value>Наличие прикрепленных файлов в документообороте</value>
+  </synonym>
+  <comment>TOIR20-469</comment>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="002ee27d-9e80-4f72-a646-d820208d6b02">
+    <name>ВладелецФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Владелец файла</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Object</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.торо_ВыявленныеДефекты</types>
+      <types>DocumentRef.торо_АктОВыполненииЭтапаРабот</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f879b01f-94d1-427f-bde6-12961184bff2">
+    <name>ИдентификаторВладельцаФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор владельца файла</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>DF object ID</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f7994e68-a2bc-4770-a425-e4a714268ec1">
+    <name>ИдентификаторФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор файла</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>DF object ID</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="32fe62c4-fc78-4ef0-86b9-ea8b78236890" extendedConfigurationObject="3779a1fc-ad6e-4f88-bb69-ec4941cd5e38">
+  <producedTypes>
+    <objectType typeId="2671b7f2-6b2b-496a-905f-057b1ab9d760" valueTypeId="b020b6d7-93d8-44e7-9955-e744d1044d76"/>
+    <managerType typeId="76398d6f-a7a5-4d9b-9dcb-66973f375609" valueTypeId="dec2367c-5e47-4710-8456-904321705326"/>
+  </producedTypes>
+  <name>гкс_ФайлыДО</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ReportExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <mainDataCompositionSchema>Extended</mainDataCompositionSchema>
+    <defaultForm>Extended</defaultForm>
+  </extension>
+  <defaultForm>Report.гкс_ФайлыДО.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.гкс_ФайлыДО.Template.Макет</mainDataCompositionSchema>
+  <attributes uuid="ad2aa966-3c5a-48a3-baf1-2a1f1e276d52" extendedConfigurationObject="70a2260c-1102-406d-a73f-366c5f33449a">
+    <name>АктыОВыполненииЭтапаРабот</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="4a025923-cb4d-48cb-9833-2a5b80d54eee" extendedConfigurationObject="f517ba20-90d3-4020-8975-edcfbcc28340">
+    <name>ВыявленныеДефекты</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="51ace050-3d2b-432e-ac1f-d56fbd24bce6" extendedConfigurationObject="cf7199e7-3410-49ba-b6f8-344af3fa7a43">
+    <name>ЗаявкиНаРемонт</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="4a912866-98f5-495d-b49d-af6671bf7afc" extendedConfigurationObject="7ee8d81b-1dd5-4db3-9c8d-96a203f50de2">
+    <name>Период</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>StandardPeriod</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="914f9312-0cc7-4fe5-b339-742eb9ae4cb9" extendedConfigurationObject="78371f10-c5bc-4eed-902e-d0a4242db86d">
+    <name>ТолькоСФайлами</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <forms uuid="b1e7f323-fe4b-40b9-badd-8c2ddc200a13">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="b93120bb-e1f0-451d-a038-8e97ebefe986">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

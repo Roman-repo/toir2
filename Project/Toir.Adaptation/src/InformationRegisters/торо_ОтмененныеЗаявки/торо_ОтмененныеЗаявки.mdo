@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d09a2afc-f1f9-4268-a135-d03a71d5bc5c">
+  <producedTypes>
+    <selectionType typeId="dad0f486-3c2a-4ef6-9222-e488f26c6dcf" valueTypeId="b0f6b234-cbc2-4021-b9f8-1b6d2082d403"/>
+    <listType typeId="d67c823a-f4ff-4d89-9e44-866c529b6a98" valueTypeId="e08bc9a6-6dfe-4f20-94e9-b7234a3036eb"/>
+    <managerType typeId="7d345788-aa35-4621-b32f-76a3c2d0a731" valueTypeId="a4fe5db3-a21e-45ad-bcb8-7923670de62c"/>
+    <recordSetType typeId="6416bcda-51e4-42e2-ba60-507ca0dfa008" valueTypeId="e0f88730-f76a-4a74-99b4-546419c4183b"/>
+    <recordKeyType typeId="c2ef7b74-95f4-4e47-a193-cf491223335b" valueTypeId="c35e8ff4-fefa-4748-ad79-199a00bbc1bf"/>
+    <recordType typeId="9f5a4f20-7203-491f-98c4-86957a82f3bf" valueTypeId="4f56c028-d8e3-4333-b545-15a8baa02060"/>
+    <recordManagerType typeId="9f953ce2-bf08-4dbe-9556-f9f1f8c3d64f" valueTypeId="b968d750-89a4-4703-b27a-a1a1762beef9"/>
+  </producedTypes>
+  <name>торо_ОтмененныеЗаявки</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dimensions uuid="8bb5127c-1a45-4fc0-83d0-c760b1a8da49">
+    <name>Заявка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.торо_ЗаявкаНаРемонт</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+  <dimensions uuid="c1130700-c637-4483-8829-fc0df0c4ff3d" extendedConfigurationObject="63eb186f-3d50-43ff-911a-18c004e7d600">
+    <name>ИДРемонта</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:InformationRegister>

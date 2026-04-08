@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a2e0650-9aaa-4836-aa88-a63ee53a64be">
+  <producedTypes>
+    <selectionType typeId="8ba8c9cc-fca4-48e0-9a51-207e0d69bb4d" valueTypeId="ba96b0fe-fa62-46e9-92c7-31d1faa9da59"/>
+    <listType typeId="268fcd6a-ae09-42c1-9d7d-f545abde627c" valueTypeId="4a9cdbf0-eff1-4477-a320-f67eae54a95a"/>
+    <managerType typeId="82d0ec87-62b0-45be-a491-c30e4985ee6a" valueTypeId="2a2725bf-c9dd-4501-be93-cc460c79a595"/>
+    <recordSetType typeId="2ba85e75-bc0b-4dc9-bb88-da0add8a8b8e" valueTypeId="2aaa4e00-1683-4d04-afe1-02ccb1409a64"/>
+    <recordKeyType typeId="53c68b2b-1203-42b2-8387-3bcac10e45b9" valueTypeId="7c73cadb-6722-45d8-906b-458917b9acf0"/>
+    <recordType typeId="503cc063-47f0-4ed4-80fe-189d86d6a361" valueTypeId="a0046699-a5ca-49df-b664-d1b38a17d1b1"/>
+    <recordManagerType typeId="8960cbad-7f0f-4827-987c-086950bbffc9" valueTypeId="60fc61ad-4a88-49d0-847f-a61e80bdedbc"/>
+  </producedTypes>
+  <name>гкс_ОрганизацииПодключений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Организации подключений АСУТП</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="608b271b-ea36-44eb-99ff-a8239b3b2c8d">
+    <name>Подключение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подключение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.торо_ПодключенияКБазеДанных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="1772e221-5488-447c-a895-a66180204b0a">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

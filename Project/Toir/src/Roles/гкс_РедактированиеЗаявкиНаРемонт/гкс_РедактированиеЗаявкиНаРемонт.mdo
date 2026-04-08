@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="28635a6d-f3fd-45c9-80a2-65d5160dfd46">
+  <name>гкс_РедактированиеЗаявкиНаРемонт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Специалист &quot;ТОИР&quot;</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Los plenos derechos</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Full rights</value>
+  </synonym>
+</mdclass:Role>

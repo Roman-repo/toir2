@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5fd24e2c-6563-42e0-ae59-50339ac4bd06">
+  <producedTypes>
+    <managerType typeId="d5ff406f-a24b-41fd-98ad-cb43aed16d51" valueTypeId="bd493192-20f5-4131-99e4-df0efdd35e5d"/>
+    <valueManagerType typeId="3fa9613b-d29f-4584-aac8-f49d8eecd380" valueTypeId="56f91d3f-17be-4525-9971-4039d3d9c1d1"/>
+    <valueKeyType typeId="5bed092a-9e25-4aa9-aad2-1961ba039f7f" valueTypeId="c5afb728-c95a-43e8-bf38-bbd1264f36ea"/>
+  </producedTypes>
+  <name>торо_КоличествоДнейСмещенияВДефектеДляПростоев</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Number</type>
+      </types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </typeExtension>
+  </extension>
+</mdclass:Constant>

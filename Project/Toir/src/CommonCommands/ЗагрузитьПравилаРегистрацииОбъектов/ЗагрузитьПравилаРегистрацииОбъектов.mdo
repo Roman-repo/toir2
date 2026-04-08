@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ee0798f5-47a8-4118-a25c-cfd3473007c1">
+  <name>ЗагрузитьПравилаРегистрацииОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузить правила регистрации объектов</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Cargar las reglas del registro de los objetos</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Download object registration rules</value>
+  </synonym>
+  <group>CommandGroup.ПараметрыСинхронизацииДанных</group>
+  <commandParameterType>
+    <types>ExchangePlanRef.ОбменТОиР20УПП</types>
+    <types>ExchangePlanRef.ОбменТОИР20RCM</types>
+    <types>ExchangePlanRef.ОбменТОиР20ПБ</types>
+    <types>ExchangePlanRef.ОбменТОиР20ЕРП20</types>
+    <types>ExchangePlanRef.ИнтеграцияС1СДокументооборотом</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

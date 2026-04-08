@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b1a2dde2-9bb6-43e4-a321-9aef88245a45">
+  <name>УстановитьПометкуУдаленияПрисоединенныхФайловДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установить пометку удаления присоединенных файлов документов</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Establecer la marca de la desaparición de los ficheros juntados de los documentos</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Set deletion mark of attached document files</value>
+  </synonym>
+  <source>
+    <types>DefinedType.ВладелецПрисоединенныхФайловДокументОбъект</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ПрисоединенныеФайлы.УстановитьПометкуУдаленияПрисоединенныхФайловДокументов</handler>
+</mdclass:EventSubscription>

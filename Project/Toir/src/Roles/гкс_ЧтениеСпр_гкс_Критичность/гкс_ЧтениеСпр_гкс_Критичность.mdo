@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="11f195f8-5fba-4443-aace-811adaa43af7">
+  <name>гкс_ЧтениеСпр_гкс_Критичность</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение справочника Критичность (гкс)</value>
+  </synonym>
+  <comment>Гкс+[TOIR20-94] Борисов В.М. от 05.08.2020</comment>
+</mdclass:Role>

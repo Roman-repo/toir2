@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4fd6d24-f7d7-4d45-bfee-9302607df88b">
+  <name>гкс_ФункциональныеСодружество</name>
+  <synonym>
+    <key>ru</key>
+    <value>Функциональные подсистемы (Содружество)</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Catalog.гкс_ПодключениеКВебСервисам</content>
+  <content>Catalog.гкс_РесурсыВебСервисов</content>
+  <content>Role.гкс_ЧтениеСпргкс_ПодключениеКВебСервисамСпргкс_РесурсыВебСервисов</content>
+</mdclass:Subsystem>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b3b76f70-f385-49c4-8b14-651f143357ca">
+  <producedTypes>
+    <selectionType typeId="ea3376d9-9d8a-48ae-97ac-b8db6006f57e" valueTypeId="e8739171-4e3e-4778-bc4b-7dfdc2bb308a"/>
+    <listType typeId="04aa2035-8e99-41a6-a608-38e5f03514a5" valueTypeId="eff48e57-5406-49fa-b8b7-6b1cd1fc51a4"/>
+    <managerType typeId="1491c930-4cf4-4c37-9e8b-63b1adea2665" valueTypeId="79e5ef5e-9a30-4c7b-a0c3-2ed51dd68187"/>
+    <recordSetType typeId="ad190e90-5ff8-45d8-ad4d-3110556d0629" valueTypeId="f3702058-4e77-4175-b9be-d9466951097d"/>
+    <recordKeyType typeId="be86ea5d-007b-45e3-ac5e-58816ae56f92" valueTypeId="759ec80f-15df-49b8-a986-80002f9abc75"/>
+    <recordType typeId="d9a5722c-09c9-4043-82c1-fea64509b58e" valueTypeId="1a2cd7b1-b298-42f0-9f6a-c6aab30e1f6c"/>
+    <recordManagerType typeId="9c3d0c30-3b78-4945-8873-3f97433e4149" valueTypeId="5be024b4-8e56-49db-a9cc-3d757cd6ba71"/>
+  </producedTypes>
+  <name>ЗначенияАтрибутовКласса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значения атрибутов класса</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ЗначенияАтрибутовКласса.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ЗначенияАтрибутовКласса.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="3ce47807-3b20-4be6-b9f0-db4b3f46acd9">
+    <name>ЗначениеАтрибутаКласса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение атрибута класса</value>
+    </synonym>
+    <type>
+      <types>Characteristic.АтрибутыКласса</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceFoldersAndItems>FoldersAndItems</choiceFoldersAndItems>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>InformationRegister.ЗначенияАтрибутовКласса.Dimension.АтрибутКласса</field>
+    </choiceParameterLinks>
+    <linkByType>
+      <field>InformationRegister.ЗначенияАтрибутовКласса.Dimension.АтрибутКласса</field>
+    </linkByType>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="df84b231-6f36-4cb3-8557-aa002ed16037">
+    <name>Класс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Класс</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОбъектыНоменклатуры</types>
+      <types>CatalogRef.Классы</types>
+      <types>CatalogRef.НоменклатураКласса</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="51730bd1-d1eb-4afa-ad93-161f422fa736">
+    <name>АтрибутКласса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Атрибут класса</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.АтрибутыКласса</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="744c45ab-1cd8-4cf0-9d5a-b5c15c092626">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="431ea4ef-2469-442f-95cb-085aa25eca3e">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

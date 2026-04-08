@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="24c09a81-df39-4cbd-8426-36e2870f7bca">
+  <producedTypes>
+    <managerType typeId="56abbd3b-efda-4638-98af-5ffcf3d991a7" valueTypeId="a53f176c-5ca1-44ef-979b-044bfad7f710"/>
+    <valueManagerType typeId="d811ee03-0590-4596-accf-70a9debe3296" valueTypeId="1a7258ba-717e-4b91-9892-492d5a62c852"/>
+    <valueKeyType typeId="db151833-aace-54ae-83c0-1e6b2a7f90eb" valueTypeId="54225265-a33f-5dbe-96e7-e77a576f2f9d"/>
+  </producedTypes>
+  <name>торо_ПараметрыОповещенияОПроверкеОборудованияНаФМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры оповещения о проверке оборудования на функциональных местах</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Alert settings on the inspection of equipment at functional locations</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Configuración de alertas de inspección de equipos funcionales lugares</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.торо_СобытияУведомленийВДокументах</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

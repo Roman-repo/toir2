@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="96a4fc84-462e-4bff-a7a1-6298b506ccef">
+  <producedTypes>
+    <selectionType typeId="66ae4d20-d7ba-47e1-868b-2a8fa9db8aea" valueTypeId="680e10d1-94e2-4529-bb95-8e2e87f400f1"/>
+    <listType typeId="4a05813b-44e0-46ac-bb6f-1c3a99002dae" valueTypeId="bafe0f25-9e4f-4ae0-b77a-029cf3af25f4"/>
+    <managerType typeId="22a506ba-17b4-42b4-b596-d80864a70c1f" valueTypeId="503dbcf8-7c13-48a2-b59a-6956a293fef0"/>
+    <recordSetType typeId="4517189f-68e6-42c7-a566-25e7603ea968" valueTypeId="a13e66c4-960e-46b0-952d-4593a6ad7b56"/>
+    <recordKeyType typeId="ae0306cd-8212-45d6-9318-0ea447535f37" valueTypeId="e450148a-5658-44aa-bd1b-240545c11f90"/>
+    <recordType typeId="0b60e9e0-88d7-4235-b674-25bcfa744bc0" valueTypeId="51334cd4-7398-49fc-bd05-a135df8878b5"/>
+    <recordManagerType typeId="00022f84-a024-47ba-a03c-7c6ac7e0fd8a" valueTypeId="77fad379-73b3-4dcd-8658-fcd4cb3296e4"/>
+  </producedTypes>
+  <name>торо_Переводы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Переводы</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Translations</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.торо_Переводы.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="2bc19478-1bff-4273-894d-fbf17e265ac3">
+    <name>Текст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El texto</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Text</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="5af48e4b-c0f4-474e-b231-67790e582570">
+    <name>ID</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>ID</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>ID</value>
+    </synonym>
+    <type>
+      <types>AnyRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="cc59801f-f64f-4fd7-ac8f-244e2a694a33">
+    <name>Язык</name>
+    <synonym>
+      <key>ru</key>
+      <value>Язык</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La lengua</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Language</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.торо_Языки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e9a12325-934a-46f4-94c6-6a463b9cc94c">
+    <name>Реквизит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El requisito</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Props</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="93848a39-d23d-4517-a609-c52387cb8a8e">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La forma de la anotación</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Record form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

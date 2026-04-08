@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="212414d0-2d2b-4170-a5e9-3aa2e73899e5">
+  <producedTypes>
+    <selectionType typeId="fc697585-1d04-4a0e-99a8-215ab2d0709a" valueTypeId="73bc32e2-956f-4ef5-ac5b-dfdf9ce03665"/>
+    <listType typeId="11b9230e-bc42-4c54-8e20-db005901f8b7" valueTypeId="4962178a-ba41-43ec-b67e-5652715b09d5"/>
+    <managerType typeId="9f50c1d1-47b8-40d5-ae56-8bdd711ccd46" valueTypeId="9771c449-44c0-4976-ad33-1afae1160d8f"/>
+    <recordSetType typeId="8d40a578-9142-4e26-ab62-12995db811b6" valueTypeId="2665da83-9385-49eb-9f1f-1529b75eda50"/>
+    <recordKeyType typeId="35ab5201-8140-4748-a30c-41870a1b9005" valueTypeId="4cc07fcb-3555-467a-b5c3-cccae17a4832"/>
+    <recordType typeId="42c55aa3-1005-488c-86c0-9d6841dd2044" valueTypeId="00259106-2705-40b7-a9ff-2d5f2d671ff3"/>
+    <recordManagerType typeId="a5b8f109-d589-4ff1-8a1b-b0b4d535ca5b" valueTypeId="647b4065-1fab-405b-b222-be5dc7b9315f"/>
+  </producedTypes>
+  <name>торо_Ремонты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <resources uuid="de88958d-4126-495f-8546-bc82dc63ab8c">
+    <name>ГарантийныйРемонт</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <dimensions uuid="7d75ebd9-8cbb-4094-83cd-0ddf911221c0">
+    <name>ID</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </dimensions>
+  <dimensions uuid="c4bfb4da-7f25-4154-8124-aacaacff0fcf" extendedConfigurationObject="c78bcaa2-754f-4a7f-9e89-f5a6e42d7594">
+    <name>ВидРемонта</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.торо_ВидыРемонтов</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:InformationRegister>

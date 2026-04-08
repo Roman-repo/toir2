@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="917177b3-4d65-4163-90c5-ecbef1f8ea99">
+  <producedTypes>
+    <selectionType typeId="3eef3090-dc91-4f3a-a1a0-199d8df57bbf" valueTypeId="4b438038-0af1-4c91-b63a-239ad086cb49"/>
+    <listType typeId="c61ea814-2a11-42f7-9f1f-ba70ef862616" valueTypeId="ccfa824a-b882-441d-a99f-099c1735022c"/>
+    <managerType typeId="810e9c6e-d39a-4df9-835b-3f96f2a5cf3a" valueTypeId="a248cf6c-88d0-458e-a49c-a547afad3d85"/>
+    <recordSetType typeId="40631ae7-b2b5-43b9-89f7-deb1f3d334d1" valueTypeId="14803147-3543-4e65-82af-d1763fabd648"/>
+    <recordKeyType typeId="29746fbb-6e60-4583-b3e7-d818c3632a55" valueTypeId="72b7ed5e-2dbd-4f93-84e1-c2434cd3022a"/>
+    <recordType typeId="c060904a-2488-4cb3-9117-9623c9a7f6c4" valueTypeId="a83832ed-6709-4773-a3ee-25488f26c91f"/>
+    <recordManagerType typeId="33a959e7-2a2e-46b3-8f96-ebb7903cd438" valueTypeId="8b65a5d3-47ff-4540-afba-dbd66acf5dc1"/>
+  </producedTypes>
+  <name>гкс_ДополнительныеСвойстваСтатусов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные свойства статусов согласования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="3e01d89b-4c8c-4737-a246-79e33c410564">
+    <name>ЕВОБланкНаДоработке</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЕWО-Бланк на доработке</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="ba13e3c9-a817-4d7a-bc75-025db2d5d68d">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.торо_СтатусыСогласованияДокументовРемонтныхРабот</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

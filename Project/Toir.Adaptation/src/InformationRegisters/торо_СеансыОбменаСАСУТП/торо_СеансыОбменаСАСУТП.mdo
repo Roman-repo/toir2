@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="fe5354c7-ca67-4ceb-89dc-4960592b389d" extendedConfigurationObject="f540258d-70fa-41da-bc63-ddc137a230f1">
+  <producedTypes>
+    <selectionType typeId="d5dc48c8-faab-4a57-b177-e26a9a825d50" valueTypeId="391e17c7-e97f-48cd-ad27-30f603941e41"/>
+    <listType typeId="a12fb876-b6db-42b0-89b1-0e8a342552c2" valueTypeId="8a46d0e6-ba2c-4fea-bca7-56be49f0c0f9"/>
+    <managerType typeId="a71cf266-76b4-4132-ae2c-70ac4d6afe0f" valueTypeId="007416ee-698d-450c-87f1-c8849154a2f8"/>
+    <recordSetType typeId="a35709fd-9716-420c-8346-94c43187731f" valueTypeId="4ce17a20-c6d6-4dd6-a147-cf7d9cdb1294"/>
+    <recordKeyType typeId="32ba4a66-d0e2-4617-a27e-06a537672bb6" valueTypeId="f4fd38c7-500f-456f-93fc-6d667568e17f"/>
+    <recordType typeId="fe16c238-fd2b-4ec4-935a-7c0669035d85" valueTypeId="3ec16b2c-1e2d-461e-8fec-7ecfc922a805"/>
+    <recordManagerType typeId="4871b282-3bc4-434c-a7e8-cc2f64945b78" valueTypeId="cce886c3-d0dd-4e52-b0de-ff19e9ff737a"/>
+  </producedTypes>
+  <name>торо_СеансыОбменаСАСУТП</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+</mdclass:InformationRegister>

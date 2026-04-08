@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6ae091f6-543b-423b-906a-33ca8c4c06fa">
+  <producedTypes>
+    <selectionType typeId="ebb1ae22-3591-4a3f-aff1-803cc365767f" valueTypeId="8edde757-d8cd-40ea-a7b4-9150548c2169"/>
+    <listType typeId="436622e3-1156-41b4-8489-f1969dc76b45" valueTypeId="e1469f94-8eb7-4933-bd86-fd1332ac39fd"/>
+    <managerType typeId="7658dd73-bb7b-4dc6-992a-f94decd2994b" valueTypeId="6194a60f-b549-4793-a579-e1109f88170f"/>
+    <recordSetType typeId="3994cad5-6610-4988-ade9-612cc8502ce2" valueTypeId="7b8d9845-043a-4b4c-8ed2-8349e00abfce"/>
+    <recordKeyType typeId="6a6e8fb2-0276-4f21-afa8-5c7ab73743db" valueTypeId="edd3f135-1c58-443b-8a0d-e0bc6bf8a16f"/>
+    <recordType typeId="cb86a0cb-acbd-43ec-bc07-d1682455c061" valueTypeId="e70742ad-7b69-4459-8a55-16758d140971"/>
+    <recordManagerType typeId="ad8bde0d-3426-4e12-bbc7-1cb8268343d0" valueTypeId="bd1d18e8-1263-478d-9767-e7eda3d6dab1"/>
+  </producedTypes>
+  <name>торо_ОбъектыДляПроверкиТребованийФМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объекты для проверки требований ФМ</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>The objects to validate the requirements of FP</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Objetos para la verificación de los requisitos de la fm</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="6ba474e1-ce18-433e-94cb-9abc03e65388">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Object</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.торо_ТиповыеОР</types>
+      <types>CatalogRef.торо_ОбъектыРемонта</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="879b4bc6-dfb9-4da0-9afb-4b0a12a89b4b" extendedConfigurationObject="e5fcc1d6-fbf7-4b0d-becd-f0f5d0add7b8">
+  <producedTypes>
+    <objectType typeId="3a014494-bd9d-4299-98b5-f19c94810b82" valueTypeId="2e52c1bc-9cca-4123-aa45-622bfda8e958"/>
+    <managerType typeId="659cd9e3-c490-4680-af6b-be009d743000" valueTypeId="ca0db7a9-bb38-4891-b82d-b264f676b8c4"/>
+  </producedTypes>
+  <name>торо_МатрицаОценкиРисков</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <forms uuid="8da8cb7c-10ad-487a-beb3-b69e00eb2f04" extendedConfigurationObject="ff12843e-d421-4282-a1e1-41a4f46fd339">
+    <name>ФормаПодбора</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:DataProcessor>

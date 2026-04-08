@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="af1f7669-985c-446a-b92c-3d89779a9990">
+  <name>торо_ПометкаУдаленияОстановочныхРемонтов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пометка удаления остановочных ремонтов</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>La marca de la desaparición de las reparaciones de parada</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Marking the removal of stop repairs</value>
+  </synonym>
+</mdclass:Role>

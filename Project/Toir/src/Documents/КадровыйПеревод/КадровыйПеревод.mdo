@@ -1,0 +1,1065 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9f3711e5-69f1-406d-b6f7-9e1d9ebc4707">
+  <producedTypes>
+    <objectType typeId="5c435989-5c66-4dc5-a05a-853749b7b30d" valueTypeId="141e8828-f5ba-4671-a3f3-d290e5ccfff2"/>
+    <refType typeId="4f2323d5-a664-408f-9a00-7b94c49afc1d" valueTypeId="9965e2cf-aef8-4f39-8a56-cf4f8272689e"/>
+    <selectionType typeId="06ec9b6d-81f2-4f3c-a7f2-28045c853623" valueTypeId="71b85c49-04e4-4584-bd52-3bdc56fecfb4"/>
+    <listType typeId="7557f262-63b9-4f20-a7ce-53cb91ec8d32" valueTypeId="35508805-347e-401f-a7e3-2843ed08cdf5"/>
+    <managerType typeId="0d372100-f0a6-426a-b4d2-b60dc3963a0c" valueTypeId="7e3eb7f2-b801-4660-a805-054571845eec"/>
+  </producedTypes>
+  <name>КадровыйПеревод</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кадровый перевод</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>La traducción profesional</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Personnel relocation</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.КадровыйПеревод.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <format>
+      <key>ru</key>
+      <value>ДЛФ=D</value>
+    </format>
+    <format>
+      <key>es</key>
+      <value>ÄÏÖ=D</value>
+    </format>
+    <format>
+      <key>en</key>
+      <value>ДЛФ=D</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДЛФ=D</value>
+    </editFormat>
+    <editFormat>
+      <key>es</key>
+      <value>ÄÏÖ=D</value>
+    </editFormat>
+    <editFormat>
+      <key>en</key>
+      <value>ДЛФ=D</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <characteristics>
+    <characteristicTypes>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения</characteristicTypes>
+    <keyField>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения.Attribute.Свойство</keyField>
+    <typesFilterField>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения.StandardAttribute.Ref</typesFilterField>
+    <typesFilterValue xsi:type="core:ReferenceValue">
+      <value>Catalog.НаборыДополнительныхРеквизитовИСведений.Документ_КадровыйПеревод</value>
+    </typesFilterValue>
+    <dataPathField>-1</dataPathField>
+    <multipleValuesUseField>-1</multipleValuesUseField>
+    <characteristicValues>InformationRegister.ДополнительныеСведения</characteristicValues>
+    <objectField>InformationRegister.ДополнительныеСведения.Dimension.Объект</objectField>
+    <typeField>InformationRegister.ДополнительныеСведения.Dimension.Свойство</typeField>
+    <valueField>InformationRegister.ДополнительныеСведения.Resource.Значение</valueField>
+    <multipleValuesKeyField>-1</multipleValuesKeyField>
+    <multipleValuesOrderField>-1</multipleValuesOrderField>
+  </characteristics>
+  <characteristics>
+    <characteristicTypes>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеРеквизиты</characteristicTypes>
+    <keyField>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеРеквизиты.Attribute.Свойство</keyField>
+    <typesFilterField>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеРеквизиты.StandardAttribute.Ref</typesFilterField>
+    <typesFilterValue xsi:type="core:ReferenceValue">
+      <value>Catalog.НаборыДополнительныхРеквизитовИСведений.Документ_КадровыйПеревод</value>
+    </typesFilterValue>
+    <dataPathField>-1</dataPathField>
+    <multipleValuesUseField>-1</multipleValuesUseField>
+    <characteristicValues>Document.КадровыйПеревод.TabularSection.ДополнительныеРеквизиты</characteristicValues>
+    <objectField>Document.КадровыйПеревод.TabularSection.ДополнительныеРеквизиты.StandardAttribute.Ref</objectField>
+    <typeField>Document.КадровыйПеревод.TabularSection.ДополнительныеРеквизиты.Attribute.Свойство</typeField>
+    <valueField>Document.КадровыйПеревод.TabularSection.ДополнительныеРеквизиты.Attribute.Значение</valueField>
+    <multipleValuesKeyField>-1</multipleValuesKeyField>
+    <multipleValuesOrderField>-1</multipleValuesOrderField>
+  </characteristics>
+  <basedOn>Catalog.Сотрудники</basedOn>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Кадровый перевод</value>
+  </objectPresentation>
+  <objectPresentation>
+    <key>es</key>
+    <value>La traducción profesional</value>
+  </objectPresentation>
+  <objectPresentation>
+    <key>en</key>
+    <value>Personnel relocation</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Кадровые переводы</value>
+  </listPresentation>
+  <listPresentation>
+    <key>es</key>
+    <value>Las traducciones profesionales</value>
+  </listPresentation>
+  <listPresentation>
+    <key>en</key>
+    <value>Personnel relocations</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.КадровыйПеревод.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.КадровыйПеревод.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Document.КадровыйПеревод.Form.ФормаСписка</defaultChoiceForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecords>InformationRegister.ГрафикРаботыСотрудников</registerRecords>
+  <registerRecords>InformationRegister.КадроваяИсторияСотрудников</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="87e33a97-18bb-45b9-ad53-41fced5376d6">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La organización</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Organization</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Организация предприятия, от имени которой оформляется документ.</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>La organización de la empresa, en nombre de que es formalizado el documento.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Organization of the enterprise on behalf of which the document is drawn up.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="966eb0ea-bdc8-4cdd-91df-96c54da6f3c2">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La subdivisión</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Subdivision</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтруктураПредприятия</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Подразделение организации, от имени которого оформляется документ.</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>La subdivisión de la organización, en nombre de que es formalizado el documento.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>The organizational unit on behalf of which the document is drawn up.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b830cc1f-f579-4195-9310-83cc0fbb6b31">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El empleado</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Employee</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Переводимый сотрудник</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El empleado traducido</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Transferring employee</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameterLinks>
+      <name>Отбор.ДатаПримененияОтбора</name>
+      <changeMode>DontChange</changeMode>
+      <field>Document.КадровыйПеревод.Attribute.ДатаНачала</field>
+    </choiceParameterLinks>
+    <choiceParameterLinks>
+      <name>Отбор.ТекущаяОрганизация</name>
+      <field>Document.КадровыйПеревод.Attribute.Организация</field>
+    </choiceParameterLinks>
+    <choiceParameters>
+      <name>Отбор.ВАрхиве</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="58d3dba0-3dc8-4412-a32f-d2d84dac8eaa">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата перевода</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La fecha de la traducción</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Date of transfer</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата перевода на другую работу</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>La fecha de la traducción a otro trabajo</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Date of transfer to another job</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fc0343e1-97e1-447e-a489-c55f0c2e51f2">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата возврата</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La fecha del regreso</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>return date</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата завершения перевода и возврата на текущее место работы. Заполняется только при временном переводе на другую работу </value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>La fecha de la terminación de la traducción y el regreso al lugar corriente del trabajo. Se llena solamente a la traducción temporal a otro trabajo </value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Date of completion of the transfer and return to the current place of work. To be completed only upon temporary transfer to another job </value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="027bb246-c1c7-4a2c-86ff-a8c64971a5fc">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El puesto</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Position</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Должности</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Для указания должности</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>Para la instrucción del puesto</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>To indicate the position</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="32a203d8-5fef-42ed-bd98-9d16948351a8">
+    <name>ВидЗанятости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид занятости</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El tipo del empleo</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Type of employment</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыЗанятости</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Основное место работы или совместительство</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El lugar básico del trabajo o la simultaneidad de cargos</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Main place of work or part-time job</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ВидыЗанятости.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3dae984f-b08d-477a-98ed-77d03e691f88">
+    <name>КоличествоСтавок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество ставок</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La cantidad de las tasas</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Number of bets</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Количество ставок сотрудника</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>La cantidad de las tasas del empleado</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Number of employee bets</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:NumberValue">
+      <value>1</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b5d0ecb9-9032-44b7-8272-a48a5e33a413">
+    <name>ГрафикРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>График работы</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El gráfico del trabajo</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Schedule</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Календари</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>График работы сотрудника</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El gráfico del trabajo del empleado</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Employee Schedule</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0c1bf1d4-88df-4ad9-bcaf-095332a2c6ab">
+    <name>ИзменитьПодразделениеИДолжность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменить подразделение и должность</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Cambiar la subdivisión y el puesto</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Change unit and position</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Изменять ли подразделение и должность</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>cambiar la subdivisión y el puesto</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Change the unit and position</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6affc5e8-798d-415a-b3ea-ec4b3c33c797">
+    <name>ИзменитьГрафикРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменить график работы</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Cambiar el gráfico del trabajo</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Change work schedule</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Изменять ли график работы</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>cambiar el gráfico del trabajo</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Change the schedule</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="841af2c3-eee7-46c2-b41e-d5f5e55e8625">
+    <name>ПричинаПеревода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Причина перевода</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La causa de la traducción</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Reason for transfer</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Причина перевода сотрудника</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>La causa de la traducción del empleado</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Reason for employee transfer</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="25f121c9-d025-41da-9b37-77210331e4e2">
+    <name>ОснованиеПеревода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основание перевода</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La razón de la traducción</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Translation basis</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>254</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>заявление, медицинское заключение и т.д.</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>La declaración, el dictamen médico etc.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>application, medical report, etc.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="eca8fe7b-c9e7-4b9a-8cb5-814cce9b2f44">
+    <name>Руководитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Руководитель</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El dirigente</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Supervisor</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Руководитель сотрудника</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El dirigente del empleado</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Employee manager</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="51c1a40b-4e92-4f4d-8efd-ff4ed786ad94">
+    <name>ДолжностьРуководителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность руководителя</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El puesto del dirigente</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Head position</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Должности</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Должность руководителя сотрудника</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El puesto del dirigente del empleado</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Position of the head of employee</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="63bcc8ad-4188-49cd-8b24-7e2ac9018b79">
+    <name>ФизическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La persona física</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Individual</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Содержит физическое лицо</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>Contiene a la persona física</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Contains an individual</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="61f84603-ba7f-47fa-80f1-7837ecee9f9b">
+    <name>ИсправленныйДокумент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исправленный документ</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El documento corregido</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Corrected Document</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.КадровыйПеревод</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Содержит ссылку на исправленный документ</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>Contiene la referencia al documento corregido</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Contains a reference to a revised document</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a88916ac-a363-4711-bd97-5171aebc618d">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Responsable</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Responsible</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь, ответственный за  документ.</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El usuario responsable del documento.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Document responsible user.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cadbe96e-b571-46fc-b0a9-7d550f507c2b">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El comentario</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Comment</value>
+    </synonym>
+    <comment>Любая дополнительная информация</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Произвольный комментарий.</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El comentario cualquiera.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>An arbitrary comment.</value>
+    </toolTip>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="ef233996-ed78-413b-be15-a5abe8738d0f">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La forma del documento</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Document form</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f64433c4-6752-4cf8-9deb-184ce6ecf4c7">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La forma de la lista</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>list form</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="16b6f55c-214a-4f39-b667-be21b96b7dd1">
+    <producedTypes>
+      <objectType typeId="7cea040a-8538-48d3-bd95-ecb7b9113332" valueTypeId="6b38e21d-10bd-4975-a025-7a5f07b8cc2e"/>
+      <rowType typeId="536c616f-aa52-4ad3-a8e7-ee4bb6acd63c" valueTypeId="065f0509-47b2-47c8-8eb2-b589912955d9"/>
+    </producedTypes>
+    <name>ДополнительныеРеквизиты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные реквизиты</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Los requisitos adicionales</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Additional details</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="5e39f060-e5cc-49a8-97bc-1ca8b42bd828">
+      <name>Свойство</name>
+      <synonym>
+        <key>ru</key>
+        <value>Свойство</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La propiedad</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Property</value>
+      </synonym>
+      <type>
+        <types>ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Дополнительный реквизит</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El requisito adicional</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Additional property</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a75682fc-2d5e-4a08-a733-21aa5f19aacb">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>El significado</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Value</value>
+      </synonym>
+      <type>
+        <types>Characteristic.ДополнительныеРеквизитыИСведения</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Значение дополнительного реквизита</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El significado del requisito adicional</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>The value of the additional attribute</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Document.КадровыйПеревод.TabularSection.ДополнительныеРеквизиты.Attribute.Свойство</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="63419957-2aa6-4131-a780-59489ad6befc">
+      <name>ТекстоваяСтрока</name>
+      <synonym>
+        <key>ru</key>
+        <value>Текстовая строка</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La línea textual</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Text string</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Полный текст строкового дополнительного реквизита</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El texto completo del requisito de renglón adicional</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Full text of string additional property</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

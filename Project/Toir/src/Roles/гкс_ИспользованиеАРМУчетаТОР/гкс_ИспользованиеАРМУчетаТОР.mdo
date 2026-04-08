@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fe587505-6b40-4291-99fa-b204bdfff735">
+  <name>гкс_ИспользованиеАРМУчетаТОР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование АРМ учета ТОР</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Using an AWP for accounting TRO</value>
+  </synonym>
+</mdclass:Role>

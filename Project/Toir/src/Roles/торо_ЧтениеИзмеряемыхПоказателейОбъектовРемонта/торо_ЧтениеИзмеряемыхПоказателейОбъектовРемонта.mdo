@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1c6d8b50-49f9-4ebd-8806-1a43703b6989">
+  <name>торо_ЧтениеИзмеряемыхПоказателейОбъектовРемонта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение измеряемых показателей объектов ремонта</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>La lectura de los índices medidos de los objetos de la reparación</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Reading measured indicators of repair objects</value>
+  </synonym>
+</mdclass:Role>

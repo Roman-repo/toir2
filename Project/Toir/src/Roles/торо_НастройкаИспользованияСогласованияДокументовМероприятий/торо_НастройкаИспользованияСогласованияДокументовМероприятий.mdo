@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="60196b42-198f-41ef-a46b-798f7b7e4106">
+  <name>торо_НастройкаИспользованияСогласованияДокументовМероприятий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка использования согласования документов мероприятий</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>El ajuste del uso de la coordinación de los documentos de las medidas</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Configure the use of event approval</value>
+  </synonym>
+</mdclass:Role>

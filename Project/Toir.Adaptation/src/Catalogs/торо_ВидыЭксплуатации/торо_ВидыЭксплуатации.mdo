@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6cb198d6-242a-410c-9180-4786ac2459ec">
+  <producedTypes>
+    <objectType typeId="c956dc2f-dc62-48df-9ba4-cf858eabc5a1" valueTypeId="af2b1030-3973-4ff3-8b29-2c1c3cedce30"/>
+    <refType typeId="26af874f-4f57-4d5a-a22a-b46e6dc9ed6c" valueTypeId="1d3d0226-014d-4796-a498-84b74cec89a7"/>
+    <selectionType typeId="e14707d3-5371-4308-a395-f0c254941d7b" valueTypeId="ec0c4d43-bfeb-4aee-ab48-31080be9277a"/>
+    <listType typeId="453cbc32-2df4-4386-9b70-8920cf5f7fd1" valueTypeId="8d813f42-6c72-4176-8621-8b02bd874551"/>
+    <managerType typeId="b02c08cf-9885-4652-b1cb-8a46e00ba2ab" valueTypeId="89df429b-88cd-46c8-af41-202d9614356e"/>
+  </producedTypes>
+  <name>торо_ВидыЭксплуатации</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="649084c3-b4ad-4339-ba89-91d296163389" extendedConfigurationObject="21e8f5c8-dc6d-471e-9d3a-3b64083ec79b">
+    <name>ТипЭксплуатации</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.торо_ТипЭксплуатации</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <forms uuid="2381d823-14cf-45fb-b664-165036ce98c8" extendedConfigurationObject="a750aaef-861c-49a7-8451-5a220748ff47">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

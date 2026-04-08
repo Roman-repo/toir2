@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5623ce6d-9ab5-4d60-a6ba-ad64ff104ec6" extendedConfigurationObject="aef659d6-bf3c-4c70-ae9e-af146c01cf76">
+  <producedTypes>
+    <objectType typeId="88abad74-b6c1-47c6-8b3b-163fe5f4a25e" valueTypeId="1dda98ab-e481-4be5-b5f0-920f9ed4c7e0"/>
+    <refType typeId="a03e19e3-51f4-4f44-b613-487b2fda32c3" valueTypeId="0a2a9f8f-b1a0-4fa2-8acc-38f2b4347b02"/>
+    <selectionType typeId="dd44b612-3635-47f6-940c-317902d46375" valueTypeId="3d69f50d-d524-4cdb-9f48-e9eedbadee24"/>
+    <listType typeId="5b1d5053-49b4-48ca-ac1d-fc0d5482b6a0" valueTypeId="be26525d-c391-4ba2-9450-1f1cfe3c3878"/>
+    <managerType typeId="bfe7fbb4-0735-4d9e-9f2c-e9ebe58758c1" valueTypeId="96a980c4-a4f2-40c6-b82c-eddc4c7a2e6e"/>
+  </producedTypes>
+  <name>Увольнение</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <managerModule>Extended</managerModule>
+  </extension>
+  <forms uuid="6b32594e-4a05-4af9-b84d-a529a254688e" extendedConfigurationObject="012c69b6-0777-47c7-b2ec-467271840a27">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="ad0eead8-6986-49c4-b559-5499102ea044" extendedConfigurationObject="352b4709-1741-403a-a244-89e33488f304">
+    <name>ФормаСписка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Document>

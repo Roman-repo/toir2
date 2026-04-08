@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e359b6e5-2921-4800-bf3c-36f63225f88f">
+  <producedTypes>
+    <objectType typeId="8e849859-91b0-4a25-a8d5-8842dd53df52" valueTypeId="dc913ba5-c7b7-4490-87e4-1c76c263497d"/>
+    <refType typeId="0759bc1c-7985-4889-a23f-8b3ac3b2aaa7" valueTypeId="ca5b858b-c8d2-4672-8b2b-dbb39df840e6"/>
+    <selectionType typeId="97eb8fb3-a095-483e-8319-d96681348b50" valueTypeId="16177bca-389c-4b6b-bada-08e75cf2eaae"/>
+    <listType typeId="2408d7ab-84c5-4ae8-9caf-5f074e717df2" valueTypeId="08ced4e7-f321-447b-8288-00c3c1ed57cc"/>
+    <managerType typeId="b9f76d37-f184-4026-b07d-a682ab49aee6" valueTypeId="2991c614-9006-4b7d-b901-3a051799f553"/>
+    <containerType typeId="67d094a7-47c9-4a8d-8be3-30a080127eb3" valueTypeId="83b535d4-6c5b-423b-bc95-0c9ac77bfe49"/>
+  </producedTypes>
+  <name>гкс_ПроизвольныеПредопределенныеОбъекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Произвольные предопределенные объекты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.гкс_ПроизвольныеПредопределенныеОбъекты.StandardAttribute.Code</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.гкс_ПроизвольныеПредопределенныеОбъекты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>CatalogRef.торо_СтатусыСогласованияДокументовРемонтныхРабот</types>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>150</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="dfa1b4ac-0876-43b2-8b8d-2e153313c29c">
+      <name>СтатусСогласованияВыбранаПодряднаяОрганизация</name>
+      <description>Статус согласования &quot;Выбрана подрядная организация&quot;</description>
+      <code>000000001</code>
+      <type>
+        <types>CatalogRef.торо_СтатусыСогласованияДокументовРемонтныхРабот</types>
+      </type>
+    </items>
+    <items id="751e8454-8b79-4993-81ee-78d70e27100d">
+      <name>СтатусСогласованияДляСМТСОтГлСпециалиста</name>
+      <description>Статус согласования &quot;Для СМТС от гл.специалиста (проверка КРО)&quot;</description>
+      <code>000000002</code>
+      <type>
+        <types>CatalogRef.торо_СтатусыСогласованияДокументовРемонтныхРабот</types>
+      </type>
+    </items>
+    <items id="67ce941c-b091-43f2-bd63-d98add9c79e8">
+      <name>СтатусСогласованияПринятоВРаботуСМТС</name>
+      <description>Статус согласования &quot;Принято в работу СМТС&quot;</description>
+      <code>000000003</code>
+      <type>
+        <types>CatalogRef.торо_СтатусыСогласованияДокументовРемонтныхРабот</types>
+      </type>
+    </items>
+    <items id="ab5fe881-5c49-4aa3-b786-eea77d022bdf">
+      <name>СтатусСогласованияВнесеноВПланРабот</name>
+      <description>Статус согласования &quot;Внесено в план работ&quot;</description>
+      <code>000000004</code>
+      <type>
+        <types>CatalogRef.торо_СтатусыСогласованияДокументовРемонтныхРабот</types>
+      </type>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="3d157401-ebdf-4e8b-a931-145c872a1077">
+    <name>СсылкаНаОбъект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка на объект</value>
+    </synonym>
+    <type>
+      <types>Characteristic.гкс_ПроизвольныеПредопределенныеОбъекты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:ChartOfCharacteristicTypes>

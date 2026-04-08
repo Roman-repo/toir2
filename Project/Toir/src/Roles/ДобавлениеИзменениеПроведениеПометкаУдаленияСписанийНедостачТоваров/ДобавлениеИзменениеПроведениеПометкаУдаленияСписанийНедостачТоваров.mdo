@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2bc4dc27-6b89-481c-96ad-c314f1eaeded">
+  <name>ДобавлениеИзменениеПроведениеПометкаУдаленияСписанийНедостачТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление, изменение, проведение и пометка удаления списаний недостач товаров</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>La adición, el cambio, la realización y la marca de la desaparición de las amortizaciones de las carencias de las mercancías</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Adding, modifying, posting, and flagging deletion of shortages</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ef883ca5-117e-4abf-82eb-e6a9c4d3e3e9">
+  <producedTypes>
+    <refType typeId="7c832c45-42dd-45d2-b3d2-a58f186f4685" valueTypeId="a91cd274-12a0-4947-97be-0c758924a485"/>
+    <listType typeId="7cab9281-4a1c-4384-84d3-936e3521c133" valueTypeId="b6dba2ee-d21f-4f1c-b30a-6c926ff08690"/>
+    <managerType typeId="d51d621b-6479-4c6e-8aca-72822cfb61f7" valueTypeId="13012272-2fba-4085-9e65-575b1fab5142"/>
+  </producedTypes>
+  <name>ПровайдерыSMS</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+</mdclass:Enum>

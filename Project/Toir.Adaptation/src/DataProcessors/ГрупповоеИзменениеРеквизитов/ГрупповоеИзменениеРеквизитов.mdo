@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b17a30f4-5f06-465c-9f94-a78f92d9728d" extendedConfigurationObject="e1b94dcf-ec37-4b2d-a7af-120eeee40944">
+  <producedTypes>
+    <objectType typeId="546739b1-0e86-47ce-aef9-afb3ed854cf2" valueTypeId="0cfb7b4b-9b34-405a-9e49-39932dbf39d0"/>
+    <managerType typeId="08c243f0-09a9-4231-8ce3-fd78aa9d6a21" valueTypeId="6b05dabb-c29a-4941-8685-eaa6a82b7077"/>
+  </producedTypes>
+  <name>ГрупповоеИзменениеРеквизитов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <defaultForm>Extended</defaultForm>
+    <objectModule>Extended</objectModule>
+  </extension>
+  <defaultForm>DataProcessor.ГрупповоеИзменениеРеквизитов.Form.Форма</defaultForm>
+  <forms uuid="52de3fec-bd20-401b-b456-3ffd80128a28" extendedConfigurationObject="da9821c3-4b16-48b7-9088-d3cf8ac536a6">
+    <name>Форма</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="c3e0062a-216f-47f6-9a64-fe7a7fd2249c" extendedConfigurationObject="fb36c775-1124-4ba6-8af8-133bf66fcb54">
+    <name>ВыбранныеЭлементы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="7e2d60b3-48bc-483b-bc1d-fc8a363a0d34" extendedConfigurationObject="d5142574-a040-4dd0-a482-cdc61c1d86ab">
+    <name>ДополнительныеПараметры</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="d1ff2edc-9279-4b5b-87bb-4c2af2e9bc17">
+    <name>гкс_ФормаРедактированияНаработкиОР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма редактирования наработки ОР</value>
+    </synonym>
+    <comment>// Гкс+[TOIR20-87] Селимов от 15.04.2020</comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e529cea8-6415-453c-bf7b-a4b89d67b9d7">
+  <name>торо_ИспользованиеЗакрытияЗаявокИРемонтов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование закрытия заявок и ремонтов</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>El uso del cierre de las demandas y las reparaciones</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Using closing bids and repairs</value>
+  </synonym>
+</mdclass:Role>

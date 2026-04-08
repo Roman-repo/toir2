@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="435721b4-b877-44e0-95d5-ac72764f533d">
+  <producedTypes>
+    <selectionType typeId="24ec68a2-2031-4e89-b3b7-5b2524eb55b4" valueTypeId="5b3cae30-d188-4240-917c-eac28cac9e16"/>
+    <listType typeId="4754162f-41d1-432f-9e14-407ed0e1a067" valueTypeId="223a1725-d83b-4b2c-a3fe-6a32180b1ac8"/>
+    <managerType typeId="8703fc4e-efc8-4d5b-89c0-19ce5dd43e54" valueTypeId="45edc3ba-84d4-4626-be90-ba37c9ac75f2"/>
+    <recordSetType typeId="b28e715e-ca52-4ace-a0bd-a0d21c77ce02" valueTypeId="53a6fc00-f156-4e7b-8c32-be976e99347d"/>
+    <recordKeyType typeId="6a2ec0ed-c20c-49d1-a85b-bd7dff7678f2" valueTypeId="21dc5473-4d17-4fe4-9c10-b3a0d629b4e4"/>
+    <recordType typeId="eb423ab4-202a-4758-b8c6-18cc5213898e" valueTypeId="d7fe869e-5bc1-49f7-b0e3-3002bf8092d3"/>
+    <recordManagerType typeId="7094798a-10e5-4fe2-8167-bea815fa605a" valueTypeId="e6f0dbcf-e471-45a9-971f-41a22ba35d6a"/>
+  </producedTypes>
+  <name>торо_ТекущееСостояниеОР</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <resources uuid="26660859-d094-48c1-b443-5eb0712379a0">
+    <name>ВидЭксплуатации</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.торо_ВидыЭксплуатации</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <dimensions uuid="1583066a-003b-4999-a983-f467679f7cda">
+    <name>ОбъектРемонта</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.торо_ОбъектыРемонта</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:InformationRegister>

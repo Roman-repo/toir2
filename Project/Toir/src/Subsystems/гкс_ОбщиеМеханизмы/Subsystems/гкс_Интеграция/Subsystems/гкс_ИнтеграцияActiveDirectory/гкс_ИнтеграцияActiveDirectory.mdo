@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a89a69b-b5c2-4424-bcc5-d81946d04add">
+  <name>гкс_ИнтеграцияActiveDirectory</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция active directory</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <parentSubsystem>Subsystem.гкс_ОбщиеМеханизмы.Subsystem.гкс_Интеграция</parentSubsystem>
+</mdclass:Subsystem>

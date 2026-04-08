@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0c268cd7-e64f-4bd2-b551-f09dea96da38">
+  <name>гкс_ЗапретРедактированиеКлассовТиповыхОР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запрет редактирования классов типовых ОР</value>
+  </synonym>
+</mdclass:Role>

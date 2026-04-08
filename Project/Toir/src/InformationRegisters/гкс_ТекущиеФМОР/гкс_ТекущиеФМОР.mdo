@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5b10577c-aa60-4887-b936-3b3c3512ddc7">
+  <producedTypes>
+    <selectionType typeId="d77ac37f-d86f-4ede-b8bf-69df53d104f0" valueTypeId="6867f9d6-bbfe-429c-8b34-f88b0ead88a8"/>
+    <listType typeId="e9f35444-270c-4e8c-938c-e672429e2773" valueTypeId="d49a9c27-64a0-4b22-9b1c-378db26c98ae"/>
+    <managerType typeId="bb997446-c4ef-4538-88ee-d5081b85c4d7" valueTypeId="1f5bc42e-4d7e-4fc2-a5f7-aef819d0dcfc"/>
+    <recordSetType typeId="7ef916ad-5424-40ea-bea9-362c4dce7b9e" valueTypeId="b58a1b15-765c-4b78-be8d-43b9a9f909c7"/>
+    <recordKeyType typeId="a3f4777d-576a-4757-ba7d-8c2950bf5590" valueTypeId="c813e017-44d1-455e-a5b5-ca16fad2a5d2"/>
+    <recordType typeId="0ae90d06-8b70-43de-b48f-338b77c44a5f" valueTypeId="dd38b437-97ce-435a-acb7-53970e63e62a"/>
+    <recordManagerType typeId="5e62e68e-c579-45e6-9359-ff408ad2c95c" valueTypeId="25acafe7-0408-4093-8d79-5ef28cdc0be8"/>
+  </producedTypes>
+  <name>гкс_ТекущиеФМОР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Текущие ФМ объектов ремонта</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Current FP of repair object</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="0032a5e1-4f8f-4c79-a013-6bffa65f4af9">
+    <name>ФМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ФМ</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>FP</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.торо_ОбъектыРемонта</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="09158afc-bc6c-4fb6-9539-17db86d84cb8">
+    <name>ТМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТМ</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>TL</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гкс_ТехническиеМеста</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5169f5cf-634c-4689-98d1-e0de83ae89d7">
+    <name>ТМФМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тех место ФМ</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Tech. location FP</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.гкс_ТехническиеМеста</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="0af85a0d-3595-4c38-956f-dd27c0bf2902">
+    <name>ОР</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОР</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>EI</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.торо_ОбъектыРемонта</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

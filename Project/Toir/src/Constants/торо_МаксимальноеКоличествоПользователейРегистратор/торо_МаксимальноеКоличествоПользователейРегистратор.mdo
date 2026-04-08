@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a8bc1ff7-d886-4885-95e8-9fa56e586efb">
+  <producedTypes>
+    <managerType typeId="ac77b05b-a37a-4df7-b086-8c74f01479de" valueTypeId="3f299db5-3c6e-4755-94a5-5f3a9cb357bd"/>
+    <valueManagerType typeId="983b551d-d55d-4ed0-ba15-3be3ae044df5" valueTypeId="b95de31a-c158-463d-997a-2edf2bac1d91"/>
+    <valueKeyType typeId="177116e7-00cd-5e91-90aa-0ade6b6c0cbb" valueTypeId="22d2e769-2863-5435-ab58-f2fc5b14261d"/>
+  </producedTypes>
+  <name>торо_МаксимальноеКоличествоПользователейРегистратор</name>
+  <synonym>
+    <key>ru</key>
+    <value>Максимальное количество пользователей регистратор</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>La cantidad máxima de los usuarios el registrador</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Maximum number of users registrar</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6752393b-3824-4b72-a8ca-081bff037453">
+  <producedTypes>
+    <selectionType typeId="4f56afb3-b323-45d0-93fd-b5f4570ce3f0" valueTypeId="ce2be900-d6a6-4375-acb4-f2eb70ca0259"/>
+    <listType typeId="46bb750f-bff4-48a8-9c36-0cf0a3b65af0" valueTypeId="cdc5ea7a-3642-4595-97b5-8cd9d00a7d6a"/>
+    <managerType typeId="99b24a1b-3d10-4358-a33a-a1317e128314" valueTypeId="6ebfd3b9-dca4-485b-9f82-43a029df53d9"/>
+    <recordSetType typeId="fcd0a58a-cee5-48e1-90ee-c7c1cc583531" valueTypeId="a5e04ffa-4d56-4f42-873e-8da3c5b6f7af"/>
+    <recordKeyType typeId="186eaa24-54f3-4ac5-8de1-b8ad8fc4651a" valueTypeId="08bfbe1e-e365-495a-a067-5b2298b81ae7"/>
+    <recordType typeId="5b517587-a58e-4294-987a-d6456dbfe101" valueTypeId="cc24989f-c4df-4176-8f9d-3199fddce989"/>
+    <recordManagerType typeId="92f3cec0-2969-4f84-b0a4-f0ce4bed5413" valueTypeId="0a4054b7-e96e-47e4-9bf2-ba41461dfab8"/>
+  </producedTypes>
+  <name>торо_ИзмеряемыеПоказателиОбъектовРемонта</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <resources uuid="7f38c155-e848-4eaf-b8f2-c38d4dfb9e69">
+    <name>КритическийМинимум</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Characteristic.торо_ИзмеряемыеПоказателиОбъектовРемонта</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <resources uuid="17ffa241-3596-4fa6-aee2-8fafe94f634a">
+    <name>КритическийМаксимум</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Characteristic.торо_ИзмеряемыеПоказателиОбъектовРемонта</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <resources uuid="9dfd5454-91f3-4bae-9ebe-ddbca95b1ea8">
+    <name>ДопустимыйМинимум</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Characteristic.торо_ИзмеряемыеПоказателиОбъектовРемонта</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <resources uuid="49bb4f0e-d89e-412e-ac57-9122a69b0014">
+    <name>ДопустимыйМаксимум</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Characteristic.торо_ИзмеряемыеПоказателиОбъектовРемонта</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <attributes uuid="67eb3080-d14d-4b80-bee8-499449a902be">
+    <name>ТочкаЗамера</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="44fbf4a6-ea9b-4f46-ad22-10109dc37cc6">
+    <name>ЗначенияКонтролируемыхПоказателейИзОР</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="c4d08a2f-d766-4ce9-9161-fe915e8d766d">
+    <name>Удален</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <dimensions uuid="95da0a07-a76b-4190-bcf2-35616412d2bf">
+    <name>ОбъектРемонта</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+  <dimensions uuid="e58e5b5f-45a3-48e6-80c9-e1b4ea3c2cb9">
+    <name>Показатель</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>ChartOfCharacteristicTypesRef.торо_ИзмеряемыеПоказателиОбъектовРемонта</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:InformationRegister>

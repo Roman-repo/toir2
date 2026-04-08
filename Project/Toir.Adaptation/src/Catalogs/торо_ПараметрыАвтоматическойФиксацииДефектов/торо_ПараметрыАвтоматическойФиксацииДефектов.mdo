@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="cc00e00c-8ea8-4595-a26c-c1d69f145524">
+  <producedTypes>
+    <objectType typeId="4abe32e5-d6c7-4bdc-9577-191b2b995d3b" valueTypeId="8e4fcff7-f7b5-4452-91a1-ee58a5371d99"/>
+    <refType typeId="748469c6-3f3e-4d95-a07b-8f8f41729c78" valueTypeId="a575b485-858e-4c18-af07-46fa615f0dae"/>
+    <selectionType typeId="cf04a6ba-70db-4c7e-86f2-22c673319953" valueTypeId="8f1ef8fa-688d-47f4-b2b7-fd35eb8cad93"/>
+    <listType typeId="456babfa-db37-4b8d-a7bd-ef2663040476" valueTypeId="99fc7190-1e7c-47b8-86fe-6c79f9a07a66"/>
+    <managerType typeId="f702fe84-fd6d-44e2-b2ad-c6ab558d1d29" valueTypeId="c74dd884-fa8d-4bea-aceb-ed9f4d76faeb"/>
+  </producedTypes>
+  <name>торо_ПараметрыАвтоматическойФиксацииДефектов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <forms uuid="cab10363-0543-4f4a-a311-1eb1dc620e9c" extendedConfigurationObject="14ca2c67-f24f-43a5-9cb2-e835569dee12">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

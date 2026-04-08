@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb406d9f-dcc8-44b7-b492-b594fef7b8c7">
+  <producedTypes>
+    <objectType typeId="ba8ddcee-536c-4ba0-9cc2-0ea565426927" valueTypeId="a3eb4b3b-92f5-4b3b-93be-be7f7fb3093f"/>
+    <managerType typeId="fe57b4ee-991e-4075-bb88-82e121e4237f" valueTypeId="b79b4feb-8d04-474a-b1b9-a02e6789d6cd"/>
+  </producedTypes>
+  <name>торо_ОтказыОборудования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ отказов оборудования</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>El análisis de las renuncias de la maquinaria</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Hardware failure analysis</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.торо_ОтказыОборудования.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="fb655825-8a0d-4c60-b4f4-83c3e37afd1c">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El esquema básico de la composición de los datos</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Main data composition diagram</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="5565b777-4b8f-47ce-be45-1ccd55e293da">
+    <name>гкс_ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El esquema básico de la composición de los datos</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Main data composition diagram</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

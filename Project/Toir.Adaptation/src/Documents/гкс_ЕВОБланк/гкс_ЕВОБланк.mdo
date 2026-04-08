@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4e6fba59-5ea8-4054-a44c-b174fe3a72d5">
+  <producedTypes>
+    <objectType typeId="02ed71e2-50d6-4db8-89bc-b23b51e6949e" valueTypeId="862db649-0501-4d7a-879f-fd9b140a2c06"/>
+    <refType typeId="9ecc2c23-6ab2-4338-92f1-6b48db2d3878" valueTypeId="b654856f-2a0c-4d14-a250-c711dce1a39d"/>
+    <selectionType typeId="84f95289-d037-42b4-a711-6d4c6d2ba7ea" valueTypeId="7378c23a-3b75-4bdc-a042-877ca5e3593e"/>
+    <listType typeId="5afc9af7-7128-4e41-8031-9be8d14fe02d" valueTypeId="e6048e80-c6f5-45c1-b72d-f0a36ab04e00"/>
+    <managerType typeId="87c20ac4-0de0-4e1f-b7f8-d68fc94d5f12" valueTypeId="c2a304c2-2930-44d3-9369-3424c2f45dc1"/>
+  </producedTypes>
+  <name>гкс_ЕВОБланк</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+</mdclass:Document>

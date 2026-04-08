@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9d89a1ef-d8a5-4198-94d6-97a1d107b150">
+  <producedTypes>
+    <managerType typeId="40a4421e-8d77-4404-893d-7223ae942121" valueTypeId="969ec961-612c-48c8-9a1f-bfad36e71d71"/>
+    <valueManagerType typeId="f6f6a77c-2e2e-487c-86b3-95032b2fc01e" valueTypeId="5deb8744-d2fe-4d53-8164-bc25d480f8a3"/>
+    <valueKeyType typeId="a4cc949b-481d-4312-80e4-7bec73137ce2" valueTypeId="e9f93c76-3c59-4440-bb83-476a6770e79d"/>
+  </producedTypes>
+  <name>торо_ПортСервераСЛК</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Number</type>
+      </types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </typeExtension>
+  </extension>
+</mdclass:Constant>

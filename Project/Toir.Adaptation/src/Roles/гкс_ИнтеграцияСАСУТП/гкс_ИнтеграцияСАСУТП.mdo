@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fede6268-1514-4091-b9a1-5a18dba31a53">
+  <name>гкс_ИнтеграцияСАСУТП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция САСУТП (гкс)</value>
+  </synonym>
+</mdclass:Role>

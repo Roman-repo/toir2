@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="cfe35943-2c47-42e7-9826-14939c33000e" extendedConfigurationObject="c9c1c2c5-e05b-43f6-ab0e-9160a35320cc">
+  <producedTypes>
+    <objectType typeId="d6662f0c-65e8-4419-8967-333f72ae7b23" valueTypeId="47e57558-a59d-4068-afb7-793f34dcc9ad"/>
+    <refType typeId="ab5cb6a9-cb8b-4e00-99d7-8dd64b2f854a" valueTypeId="d8ad9994-9a7b-43cf-96a6-a657a63c57c4"/>
+    <selectionType typeId="02a5c8f1-8ea0-4bb5-8aa9-febabaa5182e" valueTypeId="e80e2761-62b3-4343-9255-0ab4dba3d06c"/>
+    <listType typeId="c04483b9-2d24-433b-b563-eaa50129b80d" valueTypeId="2407c200-3ba6-4553-9aff-8cd96048828d"/>
+    <managerType typeId="4889dbe0-720d-4cf6-84c9-fbf08aef4727" valueTypeId="6e27a711-f9ab-4663-8320-a09e372584cc"/>
+  </producedTypes>
+  <name>торо_ШаблоныСообщенийИУведомлений</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <forms uuid="f75a4797-ba6c-4055-b29a-aba72b570415" extendedConfigurationObject="5726fc3b-9bdf-41fb-9e59-4629e4fff01c">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

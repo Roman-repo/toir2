@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1328947f-91c3-43f4-a11e-f34893d987b3">
+  <name>ВерсииШаблоновОграниченияДоступа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версии шаблонов ограничения доступа</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Las versiones de los modelos de la restricción del acceso</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Access control template versions</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+</mdclass:SessionParameter>

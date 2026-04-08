@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="cf338726-6ec9-4f72-b9a3-03c206040620">
+  <producedTypes>
+    <objectType typeId="4af70d4b-6571-4704-aefb-4170f2b04ce4" valueTypeId="bf7891f1-1172-4927-8ab9-36765a527a10"/>
+    <refType typeId="fbf2fc33-0170-404c-88c7-e83f5eb32329" valueTypeId="03198d63-3946-4614-a38d-babdd9d4cf76"/>
+    <selectionType typeId="0ea26ddc-ba65-4e22-850c-ccf398cc7a3f" valueTypeId="ebcd6799-1f57-4890-b583-dfe15da41e06"/>
+    <listType typeId="3c607889-1dac-4c9c-89a7-75e80411aee2" valueTypeId="41436282-5100-4d99-8626-0f9e81817d56"/>
+    <managerType typeId="62b0cec3-1f64-4315-9112-a6ed98fa07d4" valueTypeId="5612c3a3-72e0-4749-8897-d1b403f6ed44"/>
+  </producedTypes>
+  <name>торо_ПричиныПростояОборудования</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

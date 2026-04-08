@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c6936da-9f8e-4cdb-9382-0379936269c7">
+  <name>торо_ОбработкаПолученияФормы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработка получения формы</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Processing of receipt forms</value>
+  </synonym>
+  <source>
+    <types>DocumentManager</types>
+    <types>CatalogManager</types>
+  </source>
+  <event>FormGetProcessing</event>
+  <handler>CommonModule.торо_Локализация.ОбработкаПолученияФормыОбработкаПолученияФормы</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="67c6c9fb-ca34-42ed-8152-edd047a15597" extendedConfigurationObject="982315ba-df74-4a31-8929-71d1e5e6f147">
+  <name>ПечатьДокументов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CommonFormExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <form>Extended</form>
+  </extension>
+</mdclass:CommonForm>

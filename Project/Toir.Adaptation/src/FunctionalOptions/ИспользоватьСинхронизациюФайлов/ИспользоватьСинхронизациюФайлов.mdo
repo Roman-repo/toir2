@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="16d55de1-10f8-40d3-8228-76078176d3d1">
+  <name>ИспользоватьСинхронизациюФайлов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:FunctionalOptionExtension">
+    <location>Checked</location>
+  </extension>
+  <location>Constant.СинхронизироватьФайлы</location>
+</mdclass:FunctionalOption>

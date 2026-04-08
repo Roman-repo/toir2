@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a177377-3eac-4df2-b41f-b2bbe10f648a">
+  <name>торо_ИспользоватьФункциональныеМеста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать функциональные места</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Use functional location</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Utilizar las zona</value>
+  </synonym>
+  <location>Constant.торо_ИспользоватьФункциональныеМеста</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.торо_ОграниченияНаХарактеристикиОбрудования</content>
+  <content>InformationRegister.торо_ОграниченияНаХарактеристикиОборудования</content>
+  <content>InformationRegister.торо_ТиповойСоставФункциональныхМест</content>
+  <content>InformationRegister.торо_СоставФункциональныхМест</content>
+  <content>InformationRegister.торо_ИсторияПеремещенияОборудованияМеждуФМ</content>
+  <content>Constant.торо_ПараметрыОповещенияОПроверкеОборудованияНаФМ</content>
+</mdclass:FunctionalOption>

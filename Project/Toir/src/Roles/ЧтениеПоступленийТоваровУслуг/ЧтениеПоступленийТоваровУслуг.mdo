@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="24828f0d-c85f-433d-8a26-81d7738c4ff0">
+  <name>ЧтениеПоступленийТоваровУслуг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение поступлений товаров и услуг</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>La lectura de los ingresos de las mercancías y los servicios</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Reading receipts of goods and services</value>
+  </synonym>
+</mdclass:Role>

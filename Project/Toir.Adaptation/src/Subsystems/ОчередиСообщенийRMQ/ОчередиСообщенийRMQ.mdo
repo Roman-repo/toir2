@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d836315b-700f-4bca-abee-feb1d447f1bf" extendedConfigurationObject="361e8947-b55c-4015-a8e2-334aae142b13">
+  <name>ОчередиСообщенийRMQ</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:SubsystemExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <commandInterface>Extended</commandInterface>
+  </extension>
+</mdclass:Subsystem>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e7244083-4515-4a55-a202-3c3c16ae6ce9">
+  <producedTypes>
+    <managerType typeId="b87ad48d-2127-4e0a-9101-f0b270f2a4f5" valueTypeId="d1209af4-4572-46aa-ab9d-1a323fbc7de5"/>
+    <valueManagerType typeId="84b9f9cf-f455-4b78-bfc3-61c1bbd5171a" valueTypeId="6a1aacae-246a-4b27-a07d-9b6359681213"/>
+    <valueKeyType typeId="5a979807-fd80-5ade-891b-d885e5f335df" valueTypeId="27bd364c-d667-5140-b373-ee3094393c75"/>
+  </producedTypes>
+  <name>торо_ДатаНачалаФиксацииПеремещенийМеждуФМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дата начала фиксации перемещений между ФМ</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Start date of fixing the displacement between the FP</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>La fecha de inicio de la fijación de movimientos entre fm</value>
+  </synonym>
+  <type>
+    <types>Date</types>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

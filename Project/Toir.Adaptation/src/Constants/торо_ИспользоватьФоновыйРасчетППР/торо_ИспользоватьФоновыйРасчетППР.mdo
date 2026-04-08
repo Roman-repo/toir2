@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="bede0920-5e7c-4784-a021-bb311d5e4ae0">
+  <producedTypes>
+    <managerType typeId="1cb1e7b4-ceec-47ee-a365-055f441acadd" valueTypeId="07a2c45d-ad39-499c-8335-186335025b4d"/>
+    <valueManagerType typeId="425b2206-3e55-4060-9ec9-82fec3033f5b" valueTypeId="717be221-2c66-4047-b1f0-0154a7243ad1"/>
+    <valueKeyType typeId="cc829f29-b1e8-4f89-b83a-0eca5eeaac9a" valueTypeId="91d04eaf-e6e5-456a-a331-eb069aebf2b7"/>
+  </producedTypes>
+  <name>торо_ИспользоватьФоновыйРасчетППР</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+</mdclass:Constant>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="29208af7-4ba4-4066-ac34-05c93367262f">
+  <producedTypes>
+    <refType typeId="5b4ffe9b-4080-4eee-9d19-75e987069143" valueTypeId="07398386-0309-48ac-b6f6-d05728130b1f"/>
+    <listType typeId="7f28480a-eb15-4f89-a3ca-13d91263958c" valueTypeId="02f74285-47f8-485c-8691-9c418a1e420f"/>
+    <managerType typeId="288a4ca5-aa4b-48b4-8138-12e5ea616817" valueTypeId="3fef5a0a-6509-4680-9ce2-e0fdb59ce65e"/>
+  </producedTypes>
+  <name>гкс_ТипыПроблем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Гкс типы проблем</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ea488a47-dc32-4bf9-b87b-539c2974f700">
+    <name>ПроблемаСКачеством</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проблема с качеством</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9e440e8c-42b4-4b8a-a1dc-f95c4c5ef540">
+    <name>БлокировкаПродуктом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Блокировка продуктом</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1bd44214-99b5-4acc-9a6e-e4d4a42df859">
+    <name>ПопаданиеПостороннегоПредмета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Попадание постороннего предмета</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e433fcb9-8902-4067-8a3d-67442d2bbea4">
+    <name>Механика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Механика</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3dc45284-03bb-47f6-a4ef-0631212dfab6">
+    <name>АСУТП</name>
+    <synonym>
+      <key>ru</key>
+      <value>АСУТП</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ab802193-d1f2-437c-b6b2-72a5e9fcb492">
+    <name>КИПиА</name>
+    <synonym>
+      <key>ru</key>
+      <value>КИПиА</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4ec924e4-4294-4343-9289-d0d342644c94">
+    <name>Электрика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электрика</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="68e7dce1-aad7-487e-9fc9-e7f4b9fa7304">
+    <name>Метрология</name>
+    <synonym>
+      <key>ru</key>
+      <value>Метрология</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e9e3f2a1-ffb8-4d17-8312-c1400a78e4ba">
+    <name>Внешняя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешняя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="309a848e-2221-4cd0-8b80-49eaa9c048e2">
+    <name>НеОпределена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не определена</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

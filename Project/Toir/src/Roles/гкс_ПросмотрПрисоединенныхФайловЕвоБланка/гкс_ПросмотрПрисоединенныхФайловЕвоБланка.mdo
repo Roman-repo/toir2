@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2af98d7c-4512-4a6d-b9f4-68a771cd3afe">
+  <name>гкс_ПросмотрПрисоединенныхФайловЕвоБланка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Просмотр присоединенных файлов EWO-Бланка (гкс)</value>
+  </synonym>
+  <comment>TOIR20-812</comment>
+</mdclass:Role>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9790ec7c-8470-4e55-9de2-19f8e9e89388">
+  <name>ERP2IntegrationService</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервис интеграции с ERP 2</value>
+  </synonym>
+  <comment>TOIR20-722</comment>
+  <rootURL>erp2</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="f178850f-a893-4982-9497-38609039292c">
+    <name>Ping</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ping</value>
+    </synonym>
+    <template>/ping</template>
+    <methods uuid="28edcb2b-bda1-4b79-a096-6ffe33eaea7a">
+      <name>Ping</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ping</value>
+      </synonym>
+      <httpMethod>Any</httpMethod>
+      <handler>Ping</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="781c4a80-0d45-4282-b229-6ea22b4c79a3">
+    <name>SummaryReport</name>
+    <synonym>
+      <key>ru</key>
+      <value>Summary report</value>
+    </synonym>
+    <template>/SummaryReport</template>
+    <methods uuid="d2a6cc9d-7e74-4181-a871-e069e356bcc8">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>SummaryReport</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

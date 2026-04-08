@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a54ab535-db24-4a22-813c-492d5eb7de72">
+  <name>торо_ПроверкаОборудованияНаФункциональныхМестах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка оборудования на функциональных местах</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Inspection of equipment at functional locations</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>La comprobación de los aparatos funcionales lugares</value>
+  </synonym>
+  <methodName>CommonModule.гкс_ПроверкаФункциональныхМест.торо_ПроверкаОборудованияНаФункциональныхМестах</methodName>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

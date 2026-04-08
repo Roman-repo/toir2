@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="20464541-5097-4e3d-a539-a30a11a9a357" extendedConfigurationObject="851e7e4b-afb0-4d83-b1a5-57d0ed477dbb">
+  <producedTypes>
+    <managerType typeId="680dbca1-76ac-4b53-bf87-b569aa3cc095" valueTypeId="57d89fd4-2694-4d46-9cd2-13979b262855"/>
+    <valueManagerType typeId="4c5c1cfc-8b7c-4be1-ad8d-15644e47ded0" valueTypeId="e8007e0c-35b6-4fdc-a1e8-7d8769cb057c"/>
+    <valueKeyType typeId="045871b0-ed7f-4d2a-a023-76bd48332f74" valueTypeId="510c3c6c-46b6-48a4-9aef-e112eee7a32b"/>
+  </producedTypes>
+  <name>гкс_КоличествоПериодовДействияТехКартПоУмолчанию</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Number</type>
+      </types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </typeExtension>
+  </extension>
+</mdclass:Constant>

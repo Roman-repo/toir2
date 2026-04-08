@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="adde33db-b089-4234-8dec-20bf8b513227">
+  <producedTypes>
+    <managerType typeId="5e3a4138-9724-4c4c-9596-a21e82afc7ba" valueTypeId="d5361dea-30f4-49f9-99a4-0d4533985b19"/>
+    <valueManagerType typeId="e3ba4987-3fc4-4b6e-86b1-0e6d05e65860" valueTypeId="a6303020-b691-477f-8b05-021584afb8a3"/>
+    <valueKeyType typeId="65ce5356-1e3e-4a19-b520-6367ba90bc42" valueTypeId="28c6f9e1-e526-41e7-8e33-086c58647d5c"/>
+  </producedTypes>
+  <name>гкс_РазрешитьПрисоединенныеФайлыТОИР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разрешить присоединенные файлы ТОИР</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Permitir archivos adjuntos TOIR</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

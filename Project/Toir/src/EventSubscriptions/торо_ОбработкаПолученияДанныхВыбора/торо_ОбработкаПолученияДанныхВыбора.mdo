@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4cad5ea0-c8fe-4b7c-9907-2f93d87053ae">
+  <name>торо_ОбработкаПолученияДанныхВыбора</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработка получения данных выбора</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Processing of selection data acquisition</value>
+  </synonym>
+  <source>
+    <types>CatalogManager.торо_ТиповыеОР</types>
+    <types>CatalogManager.торо_ОбъектыРемонта</types>
+  </source>
+  <event>ChoiceDataGetProcessing</event>
+  <handler>CommonModule.торо_Локализация.ОбработкаПолученияДанныхВыбораОбработкаПолученияДанныхВыбора</handler>
+</mdclass:EventSubscription>

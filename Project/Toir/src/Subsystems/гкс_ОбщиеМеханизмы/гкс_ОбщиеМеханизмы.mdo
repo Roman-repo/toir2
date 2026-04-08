@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cdd3a052-b897-4d50-a324-c34ac6274947">
+  <name>гкс_ОбщиеМеханизмы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общие механизмы</value>
+  </synonym>
+  <comment>//ACC17-01 Макаревич Д.И. от 15.01.2018г</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <subsystems>гкс_Интеграция</subsystems>
+  <subsystems>УправлениеИтогамиИАгрегатами</subsystems>
+</mdclass:Subsystem>

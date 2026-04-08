@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="fafd7a37-918f-42b0-8d72-5fab2bc938d8" extendedConfigurationObject="573bd39c-a1e4-4f2a-8fc7-a8d6cd9d74b2">
+  <producedTypes>
+    <objectType typeId="3fe9f258-1f8e-499c-b2c6-3299120b2709" valueTypeId="244146e3-9647-4e4e-8aeb-5de25764a0de"/>
+    <refType typeId="1c57d18a-5c09-4b3a-8655-f9559135b4fa" valueTypeId="37a70d64-4365-4f8e-843d-3a7360f841ca"/>
+    <selectionType typeId="4efe249f-01d4-4dbc-aa98-780a97df2cbf" valueTypeId="cdc8b729-b08f-4126-8ca7-20d53582477d"/>
+    <listType typeId="a9027591-4b67-434b-a20b-ab2015c5d454" valueTypeId="2a2cdc21-ed44-49c3-b137-fd5d08c4643a"/>
+    <managerType typeId="2bc0a06c-566c-47be-9c97-fde90342ed79" valueTypeId="3b12ee95-7780-46b7-9589-d074f562d3f2"/>
+  </producedTypes>
+  <name>торо_ПланРаботПодразделения</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Document>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e671b40-8951-4e1f-8b2f-085e4d11a2c0">
+  <name>гкс_ПолучениеДанныхОДоступностиТрудовыхРесурсов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получение данных о доступности трудовых ресурсов (гкс)</value>
+  </synonym>
+  <comment>TOIR20-211</comment>
+  <server>true</server>
+</mdclass:CommonModule>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="cbb0c8d3-3685-4e75-8959-36fa4ad56aed">
+  <producedTypes>
+    <objectType typeId="b7e33c2e-af28-4018-b048-879f6b3f111b" valueTypeId="3ca25c4b-d5c3-44ff-bf15-a5c2114b0b16"/>
+    <refType typeId="dc1145da-bad3-48e7-ad8d-a55b0c66c225" valueTypeId="0f1198c8-2767-47a0-a413-4bfdeb1f4b0c"/>
+    <selectionType typeId="19e5becc-d35d-4ff4-958e-7b37f5f7f6b9" valueTypeId="821248c9-c334-48d2-b57f-e88f4af92c59"/>
+    <listType typeId="a95be235-e081-4018-9a99-980d679d90d4" valueTypeId="69cffbec-a8bc-42a8-93d2-fcde1c31e31e"/>
+    <managerType typeId="6f04f5d5-6857-472f-9539-5be71baaf842" valueTypeId="0053d8db-5acb-4cb9-93df-1016137e5bbd"/>
+  </producedTypes>
+  <name>торо_УчетКонтролируемыхПоказателей</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <objectModule>Extended</objectModule>
+  </extension>
+  <registerRecords>InformationRegister.торо_ЗначенияКонтролируемыхПоказателей</registerRecords>
+  <attributes uuid="dd178e42-6cb1-42d2-8f00-dd70b642a08d">
+    <name>Организация</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Организации</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="3230f2d9-6043-4323-8f36-85d445520a41" extendedConfigurationObject="17acea66-f6c9-487b-a647-e9cc33ee27ab">
+    <name>Подразделение</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.СтруктураПредприятия</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <tabularSections uuid="3132c83b-c90f-4b08-9583-246b157392af" extendedConfigurationObject="d76ccf21-2b19-452e-9028-4edb77481e00">
+    <producedTypes>
+      <objectType typeId="8791e1e9-0117-407d-8590-669e6b1d8eb7" valueTypeId="47719880-de21-46d9-971f-540e03d21da6"/>
+      <rowType typeId="81927600-ea15-4e19-adf8-a4d1bf54edf9" valueTypeId="3ee50262-aeb3-4a86-96e4-edc671ec821c"/>
+    </producedTypes>
+    <name>Показатели</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </tabularSections>
+</mdclass:Document>

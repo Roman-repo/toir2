@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8face8dd-5404-4d80-9e3a-9bc7113d9969" extendedConfigurationObject="46edb341-aab9-4a76-b3ab-f889ed5d2c5e">
+  <producedTypes>
+    <objectType typeId="11f7273d-49fa-4633-a98e-69843ea7e226" valueTypeId="45142b0c-f419-489a-a9a2-0c42c42792ca"/>
+    <refType typeId="a7f8ff40-a59c-4f3d-804f-1cef4e8387f0" valueTypeId="4efed1ac-f5ff-4dd5-80a7-edfba6d580a5"/>
+    <selectionType typeId="ed74d1a8-4174-4f1c-ae21-773818a29295" valueTypeId="3967767c-8aba-4b66-a6d3-a365045874bd"/>
+    <listType typeId="4a800dc6-5979-48ed-8269-96950fe1a680" valueTypeId="34cc12e4-63c7-4eb2-9e50-547578f40e19"/>
+    <managerType typeId="d48e7e09-fbfe-439a-8fde-01d63c8e1b0b" valueTypeId="8db10b6a-6bc9-4f34-b663-1ee2f4d25336"/>
+  </producedTypes>
+  <name>торо_ВариантыАнализаПоказателейKPI</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <forms uuid="ac856384-4131-4178-866c-4f7909ba2b32" extendedConfigurationObject="7e34ae01-7374-47bb-9139-1152dd34b994">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

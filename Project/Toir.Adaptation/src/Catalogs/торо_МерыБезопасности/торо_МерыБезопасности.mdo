@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="349c46e4-aaf9-4a73-a82a-d51296c0bc4c">
+  <producedTypes>
+    <objectType typeId="447cdf83-f79b-4f00-9f4d-6e2f13194904" valueTypeId="d6c1e0d0-4763-4b87-bdcf-78197e8eebe9"/>
+    <refType typeId="60ad7733-d996-41ef-aae1-8f485b67df9d" valueTypeId="1fbe0c3c-816f-47de-b356-ffaf00ec1e66"/>
+    <selectionType typeId="e37b558c-d374-4c63-ab03-2a8c6254084e" valueTypeId="97d92f0f-1817-48e6-9323-48dcb98cd998"/>
+    <listType typeId="78069e0b-f694-4234-9600-e6f886896c72" valueTypeId="33c8a9d2-e4bc-44e3-837f-2e889bf5ee81"/>
+    <managerType typeId="39086f19-ff3f-4179-a840-08b873d32ab6" valueTypeId="6d9de570-d9cb-4a03-a30c-7256895208cf"/>
+  </producedTypes>
+  <name>торо_МерыБезопасности</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

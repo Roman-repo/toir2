@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="cbe2aab9-0443-4181-abe6-6aa32e4e798f" extendedConfigurationObject="f7954be1-86f2-4e13-9837-d2a42dc4d403">
+  <producedTypes>
+    <objectType typeId="d85c9aff-5b60-4987-b6f8-1fabcef99f30" valueTypeId="7879cffb-5dde-4c50-a97d-72caf2b24f90"/>
+    <refType typeId="5c39c60c-8b8a-4d84-8e32-8ea8afe2075b" valueTypeId="6c205687-0f37-470f-a61a-82d09b3a9502"/>
+    <selectionType typeId="c496f6b0-c849-44ef-8750-329a52c21fe9" valueTypeId="431b9826-79d5-4cdd-8d0b-d3427962a243"/>
+    <listType typeId="e85989fa-c3ce-4a59-8353-9effc1130cd4" valueTypeId="e60aaa88-53de-4f78-8251-63bf07ba860a"/>
+    <managerType typeId="c42ae5f0-b301-4834-82dd-1916e23334de" valueTypeId="6540a211-89ec-4fad-9fef-6bd2e057466d"/>
+  </producedTypes>
+  <name>гкс_ПроизвольныеНастройкиИнтеграций</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <managerModule>Extended</managerModule>
+    <defaultObjectForm>Extended</defaultObjectForm>
+  </extension>
+  <defaultObjectForm>Catalog.гкс_ПроизвольныеНастройкиИнтеграций.Form.гкс_ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="1255aea3-f26d-4992-98a8-803694ec93da" extendedConfigurationObject="9f8eb78e-1cbe-41e9-9240-35ef4ace121a">
+    <name>ДопСвойства</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>ValueStorage</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <tabularSections uuid="55c0f55b-115e-4bfb-a477-3677ea85bf64" extendedConfigurationObject="05eaf328-d5be-4e7b-90f6-0c245f5888bc">
+    <producedTypes>
+      <objectType typeId="25e0f054-5bc7-4e7a-be4a-6a77cf72572a" valueTypeId="011c7c32-25d7-4fa9-bd84-ba7681f981d9"/>
+      <rowType typeId="05505053-463e-434a-83ab-6c843a849491" valueTypeId="108f89d3-c802-4f0b-bed6-6b5a8837a8ed"/>
+    </producedTypes>
+    <name>Свойства</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="74125ae8-e3af-4b7e-8251-78436247b08a" extendedConfigurationObject="4057ede0-2c77-4630-ba90-13eae2cb911b">
+      <name>Ключ</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>String</type>
+          </types>
+          <stringQualifiers>
+            <length>150</length>
+          </stringQualifiers>
+        </typeExtension>
+      </extension>
+    </attributes>
+    <attributes uuid="9dbff292-6196-4a0c-8409-ec1857770933" extendedConfigurationObject="7dbc80a5-8863-4cec-b3b3-b3c76d03b314">
+      <name>Значение</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>AnyRef</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+  </tabularSections>
+  <forms uuid="27be32e4-8ecb-42f4-8460-2329816bbea7">
+    <name>гкс_ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

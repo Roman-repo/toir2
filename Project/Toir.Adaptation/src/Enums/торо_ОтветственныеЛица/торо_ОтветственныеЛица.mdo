@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="707cb811-72fd-4ed1-bad2-ab6ba5b7891a" extendedConfigurationObject="7ec5414d-f243-49d4-9141-3cf33dff4ba4">
+  <producedTypes>
+    <refType typeId="37731645-7d5b-4e37-a4b0-5aa49d444170" valueTypeId="0e602d69-d25d-4bbe-8b98-26dcf1458ac9"/>
+    <listType typeId="86142dec-6963-4dec-940b-069d884ce9c4" valueTypeId="209e17c2-d17f-48bc-aa09-e34af6a3809d"/>
+    <managerType typeId="2284f1c9-b486-4c7b-9cc6-41ef0c927cd7" valueTypeId="fca007e6-2a39-47b2-9e76-7ca71688814a"/>
+  </producedTypes>
+  <name>торо_ОтветственныеЛица</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="44e1358d-52a8-45a4-be31-6c66a3a0fc2c" extendedConfigurationObject="2ad779cc-e898-4714-89f3-913d5d8962cc">
+    <name>Допускающий</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="81fd581c-e9d5-4f07-b140-5937538d2519" extendedConfigurationObject="1c938446-cafc-4fd4-aa35-5fd5c683da1a">
+    <name>РуководительРабот</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="757172f7-f3b7-432f-a956-b61db4bdfa7d" extendedConfigurationObject="24c490e1-26a7-4c13-b459-88689191d610">
+    <name>ИсполнительРабот</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="01a8e4b8-0471-4db4-9511-fd6f4f207996" extendedConfigurationObject="6c333df0-922d-4af0-bf02-7b5db995bcd7">
+    <name>ОтветственныйЗаПодготовкуОбъекта</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="63f519be-7452-4bad-8f0a-74ad247c43c9" extendedConfigurationObject="10db7b9e-5a69-4cf4-b6e3-5a2dbb4c1507">
+    <name>Наряд_допускВыдал</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

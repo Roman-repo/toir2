@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="af5653fa-6191-4f55-83d0-d6029c72ef0a">
+  <name>торо_РаботаСУведомлениямиГлобальный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с уведомлениями глобальный</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>El trabajo con los avisos global</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Work with notifications global</value>
+  </synonym>
+  <global>true</global>
+  <clientManagedApplication>true</clientManagedApplication>
+</mdclass:CommonModule>

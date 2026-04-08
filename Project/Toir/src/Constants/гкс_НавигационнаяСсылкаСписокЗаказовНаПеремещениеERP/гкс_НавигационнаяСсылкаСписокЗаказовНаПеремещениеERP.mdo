@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b572792-c7b1-4d9d-a691-df8fbb574839">
+  <producedTypes>
+    <managerType typeId="f439bf90-fb55-4435-8ff2-5168898ad6ae" valueTypeId="775cc992-e8c7-4d4b-b029-c3d9d8e06a1c"/>
+    <valueManagerType typeId="2274c351-abba-4c5b-9c28-e2adf8829fda" valueTypeId="02f0baef-7485-443a-b10d-f069a5315fa1"/>
+    <valueKeyType typeId="9659b820-1d2d-4daa-a605-198f8e680056" valueTypeId="8d96f534-77a8-4f2d-80a9-b5d2bf9a527b"/>
+  </producedTypes>
+  <name>гкс_НавигационнаяСсылкаСписокЗаказовНаПеремещениеERP</name>
+  <synonym>
+    <key>ru</key>
+    <value>Навигационная ссылка на  список &quot;Заказов на перемещение&quot; ERP (ГКС)</value>
+  </synonym>
+  <comment>// Гкс+[TOIR20-140] Борисов В.М. от 03.08.2020.</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>100</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

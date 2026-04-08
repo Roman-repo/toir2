@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="90743b24-e6bb-4f72-b276-e103a2ee0e3d">
+  <producedTypes>
+    <objectType typeId="0975f4dd-ea11-4b5a-bd76-dafae524a849" valueTypeId="7a2930dc-a01d-490f-a492-08ad2957285a"/>
+    <refType typeId="d43ca57d-666d-44bb-899b-bcb6eed962c3" valueTypeId="deee2171-e9d9-4fb2-8a86-532ece50164e"/>
+    <selectionType typeId="1416f4ce-b27f-4edb-b14a-1ce2bedb9834" valueTypeId="212e6191-8608-4e57-9261-15e0004e4c90"/>
+    <listType typeId="7a169e69-c387-461a-9444-fe4503a303cd" valueTypeId="2e61a393-e3e2-42af-9498-ed2776479a6d"/>
+    <managerType typeId="482ff26f-3d36-42fd-b530-e7f76f7a1a4c" valueTypeId="04d34278-f3cc-49d1-b840-28b0f6e32814"/>
+  </producedTypes>
+  <name>Номенклатура</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="4bb69a5b-f88d-4bae-b7ea-507c6bc6b67e">
+    <name>ЕдиницаИзмерения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ЕдиницыИзмерения</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <forms uuid="7edce101-bb89-40fd-b519-193f4fdf9895" extendedConfigurationObject="411c55c4-4326-4716-9bed-9ca57ed04237">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

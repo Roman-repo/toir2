@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4823a4ca-f597-4a62-b4ff-64880caba15b" extendedConfigurationObject="fa796b2a-defd-4237-adae-d2d4e9120a3a">
+  <name>торо_ИнтеграцияСАСУТП</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:SubsystemExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <commandInterface>Extended</commandInterface>
+  </extension>
+</mdclass:Subsystem>

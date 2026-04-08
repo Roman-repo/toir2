@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6026b723-8c61-46b6-8f53-cdd00912e308">
+  <name>гкс_РедактированиеСрочностиВоздействия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редактирование срочности воздействия</value>
+  </synonym>
+</mdclass:Role>

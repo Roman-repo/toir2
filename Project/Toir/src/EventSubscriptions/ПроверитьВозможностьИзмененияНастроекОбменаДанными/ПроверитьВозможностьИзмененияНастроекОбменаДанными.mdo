@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e731dab7-df9e-48ae-8542-4c0c30666ae9">
+  <name>ПроверитьВозможностьИзмененияНастроекОбменаДанными</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверить возможность изменения настроек обмена данными</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Comprobar la posibilidad del cambio de los ajustes del cambio para los datos</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Check the ability to change communication settings</value>
+  </synonym>
+  <source>
+    <types>ExchangePlanObject</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ОбменДаннымиСобытия.ПроверитьВозможностьИзмененияНастроекОбменаДанными</handler>
+</mdclass:EventSubscription>

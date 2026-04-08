@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f0bb3f95-e247-4fe5-b0a9-ce092e5e6a1c">
+  <producedTypes>
+    <objectType typeId="f547a5c9-b095-46d6-a898-f6d0b4c2bfdc" valueTypeId="3d13dcd0-b244-40ac-9f9c-29097f9ef208"/>
+    <refType typeId="89416420-fe39-4e32-8ee4-1a4f87d6776c" valueTypeId="e1f4d9ec-3261-4385-905e-0dd1bc3185a4"/>
+    <selectionType typeId="b3414f41-2422-4f28-889e-3e7d35dcf94d" valueTypeId="361475f3-c6b7-46b8-8884-6e997b189ed7"/>
+    <listType typeId="5b5005bd-71a7-46f9-8270-57dfca73760d" valueTypeId="fa3d7594-e08c-4cc1-8f3c-0e753ec9d7cc"/>
+    <managerType typeId="a50bdb9a-1351-4aed-8c47-e90f67859818" valueTypeId="f3662139-51cd-4d71-ba70-cba72fb37660"/>
+  </producedTypes>
+  <name>ЗаказНаВнутреннееПотребление</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <attributes uuid="02bacab2-47f5-4b33-a171-7a5c09fa08f5">
+    <name>Склад</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Склады</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="de8ee1fb-1067-4918-86b5-b63d1e57dce1">
+    <name>ДатаОтгрузки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

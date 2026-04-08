@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9b341306-243f-4346-98b1-1c4e50f811ae">
+  <producedTypes>
+    <refType typeId="b49f822b-844a-4528-9956-a17f900c7254" valueTypeId="84b039fe-b104-40c9-bc32-19ed373f5b4f"/>
+    <listType typeId="06b3e210-300e-4300-993b-1fb0f708be86" valueTypeId="aa1f0630-f393-414e-a3cc-c5e279431ec9"/>
+    <managerType typeId="1d602ed1-27af-4cae-94d5-10016fc430d7" valueTypeId="02395d4b-c49a-4571-adc2-a364e9d89993"/>
+  </producedTypes>
+  <name>Периодичность</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="d5b9fcf8-e022-4a79-a95c-8a92f236c80f" extendedConfigurationObject="473b2fa8-99d9-4792-a6b8-e458d7079650">
+    <name>День</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="f1d6ca24-e3c6-4b01-a050-f9e4cd97af68" extendedConfigurationObject="75346382-d059-4b8c-b2b7-a18ca56176f2">
+    <name>Неделя</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="23f6c20b-b7f0-4cfe-8d6e-230f67d5102b" extendedConfigurationObject="2360f632-dc4d-4464-8c3c-855804dc7e36">
+    <name>Полугодие</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="1bfa2678-6780-46c1-a0ea-36cb89c899c0" extendedConfigurationObject="a367ecfc-7135-485a-9f99-bc5553ddb898">
+    <name>Месяц</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="ac6ba61c-c2fa-4cb2-879c-8b4e1320367f" extendedConfigurationObject="2712affc-b7ac-44a4-8973-8b9e94a64b14">
+    <name>Год</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="6ee338c1-5259-4d8c-a8f8-ea2b57d8b4d8" extendedConfigurationObject="f1050b47-3d75-4dc7-a340-fc03a54222fa">
+    <name>Квартал</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

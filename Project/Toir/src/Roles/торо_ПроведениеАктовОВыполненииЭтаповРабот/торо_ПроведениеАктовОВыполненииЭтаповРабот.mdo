@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="443ddd94-b1bd-4ff4-ba79-17947608f0ea">
+  <name>торо_ПроведениеАктовОВыполненииЭтаповРабот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проведение актов о выполнении этапов работ</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>La realización de las actas sobre la ejecución de las etapas de los trabajos</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Carrying out acts on the implementation of work stages</value>
+  </synonym>
+</mdclass:Role>

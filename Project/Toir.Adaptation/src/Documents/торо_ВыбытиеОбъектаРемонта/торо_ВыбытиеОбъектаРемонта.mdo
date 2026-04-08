@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="79384491-1df5-494e-8f58-69da13aefcbb">
+  <producedTypes>
+    <objectType typeId="f9197197-76ac-4949-ad10-f0227858526e" valueTypeId="1a5555c7-da22-47c3-b7e3-796064b8b74b"/>
+    <refType typeId="a28a1a3c-3269-4cc0-83b0-5f6ce71fbea1" valueTypeId="3b9738a8-5b1d-40b2-a0e3-19559e52e3ee"/>
+    <selectionType typeId="e1192794-767d-4330-b068-f02878e928c0" valueTypeId="8abe8ec2-774c-4e4c-84c5-af2efdd29c3f"/>
+    <listType typeId="775d9734-691d-4018-b4e5-1cd3cd1d74e9" valueTypeId="e9201e20-dacc-448d-98ef-217c86e3bb10"/>
+    <managerType typeId="db1e1904-8b79-42f0-92ad-21e15979beb0" valueTypeId="b84ffe1b-bcf5-487e-afba-2b889529c023"/>
+  </producedTypes>
+  <name>торо_ВыбытиеОбъектаРемонта</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+</mdclass:Document>

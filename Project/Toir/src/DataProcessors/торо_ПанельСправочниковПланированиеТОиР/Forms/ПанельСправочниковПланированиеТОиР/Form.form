@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <title>
+    <key>ru</key>
+    <value>Настройки и справочники</value>
+  </title>
+  <title>
+    <key>es</key>
+    <value>Los ajustes y las guías</value>
+  </title>
+  <title>
+    <key>en</key>
+    <value>Settings and references</value>
+  </title>
+  <items xsi:type="form:Decoration">
+    <name>ДекорацияОтступ</name>
+    <id>17</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <extendedTooltip>
+      <name>ДекорацияОтступExtendedTooltip</name>
+      <id>205</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ДекорацияОтступКонтекстноеМеню</name>
+      <id>18</id>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>Label</type>
+    <autoMaxWidth>true</autoMaxWidth>
+    <autoMaxHeight>true</autoMaxHeight>
+    <extInfo xsi:type="form:LabelDecorationExtInfo">
+      <horizontalAlign>Left</horizontalAlign>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormGroup">
+    <name>ГруппаПланированиеТОиР</name>
+    <id>71</id>
+    <items xsi:type="form:FormGroup">
+      <name>ГруппаПланированиеТОиРГоризонтальная1</name>
+      <id>145</id>
+      <items xsi:type="form:FormGroup">
+        <name>ГруппаПричиныЗакрытия</name>
+        <id>257</id>
+        <items xsi:type="form:FormGroup">
+          <name>ГруппаПричиныЗакрытияРемонтов</name>
+          <id>76</id>
+          <items xsi:type="form:Button">
+            <name>ОткрытьПричиныЗакрытияРемонтов</name>
+            <id>253</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ОткрытьПричиныЗакрытияРемонтовРасширеннаяПодсказка</name>
+              <id>254</id>
+              <type>Label</type>
+              <autoMaxHeight>true</autoMaxHeight>
+              <textColor xsi:type="core:ColorRef">
+                <color>Style.ПоясняющийТекст</color>
+              </textColor>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <type>Hyperlink</type>
+            <commandName>Form.Command.ОткрытьПричиныЗакрытияРемонтов</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Причины закрытия ремонтов</value>
+          </title>
+          <title>
+            <key>es</key>
+            <value>Las causas del cierre de las reparaciones</value>
+          </title>
+          <title>
+            <key>en</key>
+            <value>Reasons for closing repairs</value>
+          </title>
+          <toolTip>
+            <key>ru</key>
+            <value>Группа причины закрытия ремонтов</value>
+          </toolTip>
+          <toolTip>
+            <key>es</key>
+            <value>El grupo de la causa del cierre de las reparaciones</value>
+          </toolTip>
+          <toolTip>
+            <key>en</key>
+            <value>Repairs closing reasons group</value>
+          </toolTip>
+          <extendedTooltip>
+            <name>ГруппаПричиныЗакрытияРемонтовРасширеннаяПодсказка</name>
+            <id>247</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>UsualGroup</type>
+          <extInfo xsi:type="form:UsualGroupExtInfo">
+            <group>Vertical</group>
+            <behavior>Auto</behavior>
+            <showLeftMargin>true</showLeftMargin>
+            <throughAlign>Auto</throughAlign>
+            <currentRowUse>Auto</currentRowUse>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormGroup">
+          <name>ГруппаПричиныЗакрытияЗаявок</name>
+          <id>259</id>
+          <items xsi:type="form:Button">
+            <name>ОткрытьПричиныЗакрытияЗаявок</name>
+            <id>261</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ОткрытьПричиныЗакрытияЗаявокРасширеннаяПодсказка</name>
+              <id>262</id>
+              <title>
+                <key>ru</key>
+                <value>Справочник предназначен для хранения информации о причинах досрочного закрытия невыполненных заявок.</value>
+              </title>
+              <title>
+                <key>es</key>
+                <value>La guía es destinada al almacenaje de la información sobre las causas del cierre anticipado de las demandas no cumplidas.</value>
+              </title>
+              <title>
+                <key>en</key>
+                <value>The directory is intended to store information about the reasons for the early closure of outstanding applications.</value>
+              </title>
+              <type>Label</type>
+              <autoMaxHeight>true</autoMaxHeight>
+              <textColor xsi:type="core:ColorRef">
+                <color>Style.ПоясняющийТекст</color>
+              </textColor>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <type>Hyperlink</type>
+            <commandName>Form.Command.ОткрытьПричиныЗакрытияЗаявок</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Группа причины закрытия заявок</value>
+          </title>
+          <title>
+            <key>es</key>
+            <value>El grupo de la causa del cierre de las demandas</value>
+          </title>
+          <title>
+            <key>en</key>
+            <value>Applications closing reasons group</value>
+          </title>
+          <toolTip>
+            <key>ru</key>
+            <value>Группа причины закрытия заявок</value>
+          </toolTip>
+          <toolTip>
+            <key>es</key>
+            <value>El grupo de la causa del cierre de las demandas</value>
+          </toolTip>
+          <toolTip>
+            <key>en</key>
+            <value>Applications closing reasons group</value>
+          </toolTip>
+          <extendedTooltip>
+            <name>ГруппаПричиныЗакрытияЗаявокРасширеннаяПодсказка</name>
+            <id>260</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>UsualGroup</type>
+          <extInfo xsi:type="form:UsualGroupExtInfo">
+            <group>Vertical</group>
+            <behavior>Auto</behavior>
+            <showLeftMargin>true</showLeftMargin>
+            <throughAlign>Auto</throughAlign>
+            <currentRowUse>Auto</currentRowUse>
+          </extInfo>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Группа причины закрытия</value>
+        </title>
+        <title>
+          <key>es</key>
+          <value>El grupo de la causa del cierre</value>
+        </title>
+        <title>
+          <key>en</key>
+          <value>Closing reasons group</value>
+        </title>
+        <toolTip>
+          <key>ru</key>
+          <value>Группа причины закрытия</value>
+        </toolTip>
+        <toolTip>
+          <key>es</key>
+          <value>El grupo de la causa del cierre</value>
+        </toolTip>
+        <toolTip>
+          <key>en</key>
+          <value>Closing reasons group</value>
+        </toolTip>
+        <extendedTooltip>
+          <name>ГруппаПричиныЗакрытияРасширеннаяПодсказка</name>
+          <id>258</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>Vertical</group>
+          <behavior>Auto</behavior>
+          <showLeftMargin>true</showLeftMargin>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>Auto</currentRowUse>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormGroup">
+        <name>ГруппаТипыКоэффициентовПереводаСтоимостейРемонтов</name>
+        <id>80</id>
+        <items xsi:type="form:Button">
+          <name>ОткрытьТипыКоэффициентовПереводаСтоимостейРемонта</name>
+          <id>255</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ОткрытьТипыКоэффициентовПереводаСтоимостейРемонтаРасширеннаяПодсказка</name>
+            <id>256</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>Hyperlink</type>
+          <commandName>Form.Command.ОткрытьТипыКоэффициентовПереводаСтоимостейРемонта</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
+        <items xsi:type="form:Decoration">
+          <name>ДекорацияТипыКоэффициентовПереводаСтоимостейРемонтов</name>
+          <id>82</id>
+          <title>
+            <key>ru</key>
+            <value>Справочник предназначен для ведения списка типов коэффициентов, с помощью которых выполняется расчет стоимостей ремонтов.</value>
+          </title>
+          <title>
+            <key>es</key>
+            <value>La guía es destinada a la gestión de la lista de los tipos de los coeficientes, con que ayuda se cumple el cálculo стоимостей de las reparaciones.</value>
+          </title>
+          <title>
+            <key>en</key>
+            <value>The directory is intended for maintaining a list of types of coefficients with the help of which the calculation of repair costs is performed.</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ДекорацияТипыКоэффициентовПереводаСтоимостейРемонтовРасширеннаяПодсказка</name>
+            <id>252</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ДекорацияТипыКоэффициентовПереводаСтоимостейРемонтовКонтекстноеМеню</name>
+            <id>83</id>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>Label</type>
+          <width>43</width>
+          <autoMaxHeight>true</autoMaxHeight>
+          <textColor xsi:type="core:ColorRef">
+            <color>Style.ПоясняющийТекст</color>
+          </textColor>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+            <verticalAlign>Top</verticalAlign>
+          </extInfo>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Типы коэффициентов перевода стоимостей ремонтов</value>
+        </title>
+        <title>
+          <key>es</key>
+          <value>Los tipos de los coeficientes de la traducción стоимостей de las reparaciones</value>
+        </title>
+        <title>
+          <key>en</key>
+          <value>Types of conversion factors for repair costs</value>
+        </title>
+        <toolTip>
+          <key>ru</key>
+          <value>Группа типы коэффициентов перевода стоимостей ремонтов</value>
+        </toolTip>
+        <toolTip>
+          <key>es</key>
+          <value>El grupo los tipos de los coeficientes de la traducción стоимостей de las reparaciones</value>
+        </toolTip>
+        <toolTip>
+          <key>en</key>
+          <value>Group of types of conversion factors for repair costs</value>
+        </toolTip>
+        <extendedTooltip>
+          <name>ГруппаТипыКоэффициентовПереводаСтоимостейРемонтовРасширеннаяПодсказка</name>
+          <id>250</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>Vertical</group>
+          <behavior>Auto</behavior>
+          <showLeftMargin>true</showLeftMargin>
+          <united>true</united>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>Auto</currentRowUse>
+        </extInfo>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Группа планирование т ои р горизонтальная1</value>
+      </title>
+      <title>
+        <key>es</key>
+        <value>El grupo la planificación de t ои р горизонтальная1</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Group planning t oi p horizontal1</value>
+      </title>
+      <titleFont xsi:type="core:FontRef">
+        <font>System.DefaultGUIFont</font>
+        <height>10.0</height>
+        <bold>true</bold>
+        <italic>false</italic>
+        <underline>false</underline>
+        <strikeout>false</strikeout>
+      </titleFont>
+      <toolTip>
+        <key>ru</key>
+        <value>Группа планирование т ои р горизонтальная1</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El grupo la planificación de t ои р горизонтальная1</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Group planning t oi p horizontal1</value>
+      </toolTip>
+      <horizontalStretch>false</horizontalStretch>
+      <extendedTooltip>
+        <name>ГруппаПланированиеТОиРГоризонтальная1РасширеннаяПодсказка</name>
+        <id>246</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualGroup</type>
+      <extInfo xsi:type="form:UsualGroupExtInfo">
+        <group>AlwaysHorizontal</group>
+        <behavior>Auto</behavior>
+        <showLeftMargin>true</showLeftMargin>
+        <slaveItemsWidth>Equal</slaveItemsWidth>
+        <throughAlign>Auto</throughAlign>
+        <currentRowUse>Auto</currentRowUse>
+      </extInfo>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Планирование ТОиР</value>
+    </title>
+    <title>
+      <key>es</key>
+      <value>La planificación ТОиР</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>MRO planning</value>
+    </title>
+    <titleFont xsi:type="core:FontRef">
+      <font>System.DefaultGUIFont</font>
+      <height>10.0</height>
+      <bold>true</bold>
+      <italic>false</italic>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+    </titleFont>
+    <toolTip>
+      <key>ru</key>
+      <value>Ценообразование</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>La formación de precios</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Pricing</value>
+    </toolTip>
+    <horizontalStretch>false</horizontalStretch>
+    <extendedTooltip>
+      <name>ГруппаПланированиеТОиРРасширеннаяПодсказка</name>
+      <id>245</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>Vertical</group>
+      <behavior>Auto</behavior>
+      <representation>NormalSeparation</representation>
+      <showLeftMargin>true</showLeftMargin>
+      <showTitle>true</showTitle>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
+  </items>
+  <autoCommandBar>
+    <name>ФормаКоманднаяПанель</name>
+    <id>-1</id>
+    <horizontalAlign>Left</horizontalAlign>
+  </autoCommandBar>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
+  <autoUrl>true</autoUrl>
+  <group>Vertical</group>
+  <autoFillCheck>true</autoFillCheck>
+  <enabled>true</enabled>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
+  <formCommands>
+    <name>ОткрытьПричиныЗакрытияРемонтов</name>
+    <title>
+      <key>ru</key>
+      <value>Причины закрытия ремонтов</value>
+    </title>
+    <title>
+      <key>es</key>
+      <value>Las causas del cierre de las reparaciones</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Reasons for closing repairs</value>
+    </title>
+    <id>1</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Справочник предназначен для хранения информации о причинах досрочного закрытия невыполненных ремонтов.</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>La guía es destinada al almacenaje de la información sobre las causas del cierre anticipado de las reparaciones no cumplidas.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>The directory is intended to store information about the reasons for the early closure of outstanding repairs.</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОткрытьПричиныЗакрытияРемонтов</name>
+      </handler>
+    </action>
+    <functionalOptions>FunctionalOption.торо_ИспользоватьВозможностьОтменыРемонтов</functionalOptions>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОткрытьТипыКоэффициентовПереводаСтоимостейРемонта</name>
+    <title>
+      <key>ru</key>
+      <value>Типы коэффициентов перевода стоимостей ремонта</value>
+    </title>
+    <title>
+      <key>es</key>
+      <value>Los tipos de los coeficientes de la traducción стоимостей de la reparación</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Types of conversion factors for repair costs</value>
+    </title>
+    <id>2</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Открыть типы коэффициентов перевода стоимостей ремонта</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>Abrir los tipos de los coeficientes de la traducción стоимостей de la reparación</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Open types of conversion factors for repair costs</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОткрытьТипыКоэффициентовПереводаСтоимостейРемонта</name>
+      </handler>
+    </action>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОткрытьПричиныЗакрытияЗаявок</name>
+    <title>
+      <key>ru</key>
+      <value>Причины закрытия заявок</value>
+    </title>
+    <title>
+      <key>es</key>
+      <value>Las causas del cierre de las demandas</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Reasons for closing applications</value>
+    </title>
+    <id>3</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Открыть причины закрытия заявок</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>Abrir las causas del cierre de las demandas</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Open reasons for closing applications</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОткрытьПричиныЗакрытияЗаявок</name>
+      </handler>
+    </action>
+    <functionalOptions>FunctionalOption.торо_ИспользоватьВозможностьОтменыРемонтов</functionalOptions>
+    <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <commandInterface>
+    <navigationPanel/>
+    <commandBar/>
+  </commandInterface>
+</form:Form>

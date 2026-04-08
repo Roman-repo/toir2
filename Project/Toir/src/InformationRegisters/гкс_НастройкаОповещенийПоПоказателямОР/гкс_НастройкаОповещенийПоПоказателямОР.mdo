@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb533d10-a290-46f7-93b1-71f2c05633fb">
+  <producedTypes>
+    <selectionType typeId="498f5d3b-31c9-42db-90d2-aeeb6e5f8b06" valueTypeId="743ee41e-37c0-4c75-ab24-131f06fb8478"/>
+    <listType typeId="5915e9bb-d303-4bc3-b935-e08ddc7ed49b" valueTypeId="3cd5da2e-1743-4962-ae46-f4f07f4de5a9"/>
+    <managerType typeId="921413be-cce0-4c77-a9f2-576e94a1a6c1" valueTypeId="eda5e473-8805-4e70-81f1-cb4611a044c0"/>
+    <recordSetType typeId="a12b88e3-46cb-4f82-bd99-270dffaf6707" valueTypeId="cd07a544-746e-4c0b-a76c-bc8f69689584"/>
+    <recordKeyType typeId="01cec50b-57b3-4bcd-9480-6b352cc4a04b" valueTypeId="bf231c09-2e89-4c4f-8cc5-9311bfffd591"/>
+    <recordType typeId="e4e0e771-89d6-4982-add0-41d41ab72686" valueTypeId="e8484fd1-302d-4680-a2ec-a94df08fba9c"/>
+    <recordManagerType typeId="3b1792bf-884f-42a0-a6bd-84053230b119" valueTypeId="7220cc64-a937-4ca5-8ed2-571832edeed3"/>
+  </producedTypes>
+  <name>гкс_НастройкаОповещенийПоПоказателямОР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка оповещений по показателям объектов ремонта</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="5b6d7dcb-4fd8-49e8-a25b-1081a95a5c40">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a2f34d65-b421-4f99-a78a-a7134e376620">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="dd7813a3-ba33-41d2-9604-6f0f7efc13c7">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтруктураПредприятия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

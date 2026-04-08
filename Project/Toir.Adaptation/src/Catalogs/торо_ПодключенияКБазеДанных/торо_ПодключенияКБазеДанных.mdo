@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="65296330-4335-4be0-af3c-16cb4ac09f1b">
+  <producedTypes>
+    <objectType typeId="3372fa98-2af7-4ab5-859c-c649dbbdeae9" valueTypeId="610a2085-5d2b-4385-9c99-db6056ec7ec2"/>
+    <refType typeId="77b4f38f-c7b5-40b6-a4d5-0a3e613438f9" valueTypeId="887f43a0-2adc-4352-bf2b-4619fc1c3d9f"/>
+    <selectionType typeId="e777eabe-5ad1-4fdf-a7e7-541a02dcb8b3" valueTypeId="3c087883-d26b-4e7b-97f5-4bb7218cbbce"/>
+    <listType typeId="db11b5ff-4290-4f44-b938-3198cd5e1c15" valueTypeId="dfd3c496-d27d-42c2-8aec-fc13c8aaebbd"/>
+    <managerType typeId="57b1de44-47be-4a5c-a3e4-2c58b4f763e6" valueTypeId="643b0a50-3030-4cb0-b413-4cd290961ad3"/>
+  </producedTypes>
+  <name>торо_ПодключенияКБазеДанных</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <codeLength>Checked</codeLength>
+    <codeAllowedLength>Checked</codeAllowedLength>
+    <descriptionLength>Checked</descriptionLength>
+    <codeType>Checked</codeType>
+  </extension>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <attributes uuid="aff64448-5760-4b94-a968-4acb5055fcc8">
+    <name>ИспользоватьПометкуДанных</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="97d52b8e-fe4b-4a57-983e-fe8eb08c0608">
+    <name>ИспользованиеРазбиениеДанныхНаПорции</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="901ec872-bae3-4c39-a8e8-89224081bff8">
+    <name>Отключен</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="f0a23d83-4ac0-4b5a-9821-c5f356ba05c3">
+    <name>Логин</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="300f70db-1845-4228-9800-837bb009d58a">
+    <name>Сервер</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="2b8ed758-fbfa-4164-8689-2061a8c4c491">
+    <name>БазаДанных</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="183f6fee-882d-4e45-bab2-80a90c94c71c">
+    <name>Пароль</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="180ddb32-6f55-4e38-bd17-3ffbc95d94ef">
+    <name>ТекстЗапросаЧтения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers/>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="848895ce-a580-4af3-9fe2-9e5de8ff3ffb">
+    <name>ТекстЗапросаПометкиОбрабатываемых</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers/>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="56a8e789-5dc4-46c4-af68-da93aa128ebf">
+    <name>ИспользоватьУдалениеДанных</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="9d5c8fe1-632b-407f-8577-a7287ef5183f">
+    <name>ТекстЗапросаУдаленияОбработанных</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers/>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <forms uuid="e40b974c-1ddd-4dcf-b84a-ecca716c9396">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

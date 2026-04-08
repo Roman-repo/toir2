@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="62118332-c672-4ed2-bd02-e99e0677e2d1" extendedConfigurationObject="9c8a034d-c170-41c2-8c62-4ccb394e445e">
+  <producedTypes>
+    <objectType typeId="2b910ef0-4a93-4024-9ece-17e7a67a38cb" valueTypeId="34d4d7b0-62f1-4c40-b4a4-19d527d7355b"/>
+    <refType typeId="6c46de29-27b4-43a3-a3dd-d4e4aba06bcd" valueTypeId="83316953-501f-4648-8482-430bd898a5dc"/>
+    <selectionType typeId="1ab1a465-31c7-4cee-b63c-7f2ffb85934c" valueTypeId="572089fc-39ae-4f13-9def-3a0f710dd6c1"/>
+    <listType typeId="6d54d105-0555-46cf-844d-99ef85fb8562" valueTypeId="89c1c326-94af-463b-99e6-d3fcd27681f9"/>
+    <managerType typeId="e462a36c-831b-404b-9b3e-f8e0cd44dae0" valueTypeId="e2e502b5-b956-4771-ab00-bdf50f13adb3"/>
+  </producedTypes>
+  <name>ПараметрыВыработкиОС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <descriptionLength>Checked</descriptionLength>
+  </extension>
+  <descriptionLength>50</descriptionLength>
+  <attributes uuid="438b1ab8-96fb-4eb0-a484-d54560bd77f4">
+    <name>ЕдиницаИзмерения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ЕдиницыИзмерения</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Catalog>

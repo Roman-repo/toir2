@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="39ec4126-aa95-4b07-88d9-1943c4f5c5dc">
+  <producedTypes>
+    <objectType typeId="d29d3d50-6f31-4da2-9d33-c140391cc1b3" valueTypeId="5953d1f1-a501-4215-b943-d9c4bc9cd5b1"/>
+    <managerType typeId="9ee7a2e7-1c4f-47a4-9c55-fc1dd048fbf5" valueTypeId="9b361e2b-cdcb-4b11-8376-ecfafeb05c86"/>
+  </producedTypes>
+  <name>гкс_АРМУчетТиповыхОР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рабочее место учета типовых ОР</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>TRO accounting workplace</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

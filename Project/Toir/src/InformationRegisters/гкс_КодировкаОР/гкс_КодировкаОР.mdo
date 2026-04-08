@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="584f2736-87d4-43db-88fc-5b30e442bd02">
+  <producedTypes>
+    <selectionType typeId="c620fead-6175-4486-8500-3fa594a0fc6c" valueTypeId="2803a5bf-51ea-4a10-bc59-5fa36f678c92"/>
+    <listType typeId="f74c8e7c-bbf8-481a-9a77-9d6a34457c62" valueTypeId="e06ef1ec-f42a-491f-9a17-5564f38aa297"/>
+    <managerType typeId="c30ac6f3-3b1c-484f-87ed-af8b91c8fca3" valueTypeId="3aabd85a-0a2d-4abe-94f4-4d6e171ea717"/>
+    <recordSetType typeId="bcc0e201-33e1-4056-806f-afd54200fc29" valueTypeId="5183d902-3013-4077-8706-45324e6feef9"/>
+    <recordKeyType typeId="d45dbad4-0840-4ba0-9acf-d402e37a1487" valueTypeId="c6d22826-8a2e-4dd6-991a-7c978911e995"/>
+    <recordType typeId="fb22d992-b309-4896-a831-dddc88b73e77" valueTypeId="bd89cb3d-c61b-4561-a11f-efc32132738f"/>
+    <recordManagerType typeId="49b59f39-3c9f-4099-ab98-13bd2a1c310e" valueTypeId="c0fd3e96-ed74-47cf-b39c-61594e3ef2e1"/>
+  </producedTypes>
+  <name>гкс_КодировкаОР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кодировка ОР</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Encoding EI</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="8374e84f-ebab-4471-abf6-e066dc813f98">
+    <name>Текст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>17</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="57a2c516-97c0-4155-a162-dc7baa853643">
+    <name>ОР</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОР</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.торо_ОбъектыРемонта</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

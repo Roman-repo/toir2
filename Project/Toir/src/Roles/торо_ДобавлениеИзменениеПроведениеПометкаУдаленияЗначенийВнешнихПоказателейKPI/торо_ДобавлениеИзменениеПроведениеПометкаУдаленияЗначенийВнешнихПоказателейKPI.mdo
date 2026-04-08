@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="203b000a-dea6-4b9d-928a-10a6fca9a308">
+  <name>торо_ДобавлениеИзменениеПроведениеПометкаУдаленияЗначенийВнешнихПоказателейKPI</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление, изменение, проведение и пометка удаление на документ &quot;Регистрация значений внешних показателей&quot;</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>La adición, el cambio, la realización y la marca la desaparición al documento &quot;el Registro de los significados de los índices exteriores&quot;</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Adding, changing, posting and marking deletion to the document &quot;Registration of values ​​of external indicators&quot;</value>
+  </synonym>
+</mdclass:Role>

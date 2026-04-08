@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5421fa36-8c8d-44c7-9b8b-bd0476e8ae5b">
+  <producedTypes>
+    <refType typeId="414985a3-954a-42c9-8c69-20dab8e49819" valueTypeId="f3cbf6f1-0b48-47cf-9841-0d7896c3dc9c"/>
+    <listType typeId="3145775b-7a31-4a5b-827e-8cc8b50ebcc6" valueTypeId="d2cc948a-e0b5-4f2c-b7ab-dbe2fcdcfb58"/>
+    <managerType typeId="9d8efc10-544a-4d07-9bfe-eef350b00b07" valueTypeId="7727d44d-899a-4ab4-9a72-39677341fe7c"/>
+  </producedTypes>
+  <name>торо_СтатусыДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы документов</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Los estatus de los documentos</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Documents statuses</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="17242492-094d-4d6f-805a-a10d65fa8670">
+    <name>Зарегистрирован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зарегистрирован</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Es registrado</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Registered</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bbc52ebb-aa0b-4fff-9ce7-16874c4613a0">
+    <name>ЗапланированоУстранение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запланировано устранение</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Es planeada la eliminación</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Scheduled for elimination</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b486cddf-c606-48a0-b4d9-79359f8995b4">
+    <name>Устраняется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Устраняется</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Se aparta</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Is eliminated</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ec71da61-b558-4a2a-b10c-d5734aa936cd">
+    <name>Устранен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Устранен</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Es eliminado</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Fixed</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9b529d08-3c8a-4348-b676-a0e6a1c0065f">
+    <name>Отклонен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отклонен</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Es declinado</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Rejected</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e4ffdb13-bdf4-4105-92f1-9c5dc748637d">
+    <name>Выполняется</name>
+    <synonym>
+      <key>ru</key>
+      <value>В работе</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>En el trabajo</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>In work</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="12013120-ddb7-448d-8a52-b1a0212dd9c4">
+    <name>Выполнен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнен</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Es cumplido</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Completed</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="91bc17f5-8b7c-487f-8759-3e891929fcc6">
+    <name>ОтказИсполнителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отказ исполнителя</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La renuncia del ejecutor</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Executor failure</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="62ccdc8a-74d4-48f3-bfc6-e3928a0ae7cb">
+    <name>ВозобновленоПослеОтказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возобновлено после отказа</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Es recomenzado después de la renuncia</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Resumed after failure</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a1a0a9b5-fd3d-458d-b50b-de28b957e3ba">
+    <name>Приостановлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приостановлен</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Es detenido</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Paused</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="97ff8156-77b5-45f9-93d6-665a3335a2bf">
+    <name>ОтказПодразделения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отказ подразделения</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La renuncia de la subdivisión</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Unit failure</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e3824168-331e-4e9c-9a97-88d442450c1c">
+    <name>гкс_ВыполненНеобходимАктПриемки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнен. Необходим акт приемки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Done. Equipment acceptance required</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ee12e5d3-3edb-491c-8af6-c4cb0fc16d16">
+    <name>гкс_Новый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новый</value>
+    </synonym>
+    <comment>TOIR20-673</comment>
+  </enumValues>
+</mdclass:Enum>

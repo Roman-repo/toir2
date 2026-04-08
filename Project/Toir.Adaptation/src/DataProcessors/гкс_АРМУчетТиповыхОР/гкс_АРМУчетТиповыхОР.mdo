@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0cfa1cc5-9d2f-4080-84d4-ca18102b1e27">
+  <producedTypes>
+    <objectType typeId="73cab497-a4f7-4ef3-902a-0ce14dde58fa" valueTypeId="d8b4808d-6311-49bd-9a9e-4530fad63b08"/>
+    <managerType typeId="d7a9919c-105a-4353-83b1-615c0ac76cb3" valueTypeId="8ebd3b40-a373-4b3d-bf51-e44e82225d56"/>
+  </producedTypes>
+  <name>гкс_АРМУчетТиповыхОР</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension">
+    <defaultForm>Extended</defaultForm>
+  </extension>
+  <defaultForm>DataProcessor.гкс_АРМУчетТиповыхОР.Form.Форма_2</defaultForm>
+  <forms uuid="275d2c25-fa40-46eb-8bf9-292acd7a3021">
+    <name>Форма_2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма 2</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form 2</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

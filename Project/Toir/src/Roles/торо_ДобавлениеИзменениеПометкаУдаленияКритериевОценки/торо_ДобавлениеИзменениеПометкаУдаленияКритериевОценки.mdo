@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6ebbf48b-366b-40b8-8d07-f3100d902f1d">
+  <name>торо_ДобавлениеИзменениеПометкаУдаленияКритериевОценки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление, изменение и установка пометки удаления на критерии оценки</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>La adición, el cambio y la instalación de la marca de la desaparición en el criterio de la apreciación</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Adding, modifying, and flagging deletion on evaluation criteria</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7895ad13-1adb-465a-94cc-3e40a50be62b" extendedConfigurationObject="ad5754a3-9e13-4637-aacd-0ff2d2f6fe09">
+  <producedTypes>
+    <objectType typeId="2d5d1b59-a2ff-4ae7-9fdf-703f17633e13" valueTypeId="ef0dbc55-09f3-43d9-bd18-25902ebcb110"/>
+    <managerType typeId="b25d5b9d-da06-497e-bcfe-872b007cf6ad" valueTypeId="ad6c391d-1908-4888-a683-0f6029ae2e8b"/>
+  </producedTypes>
+  <name>торо_СобытияИнтеграцииСАСУТП</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ReportExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Report>

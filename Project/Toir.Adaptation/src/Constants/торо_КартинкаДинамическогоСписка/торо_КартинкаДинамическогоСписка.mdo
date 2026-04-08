@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2d525a15-5752-4d45-8f3b-d896daea5793">
+  <producedTypes>
+    <managerType typeId="d21e1e47-fb29-426b-827f-1f62bcc705ed" valueTypeId="29744fc8-b90a-40e7-b8e5-de4f53b247ef"/>
+    <valueManagerType typeId="56d8a084-9b82-4bc5-aa0a-b4a4797b3348" valueTypeId="1cccadd2-f3a4-45c8-8176-f0a8dc798b44"/>
+    <valueKeyType typeId="a21f9f63-8620-43fc-9684-a3cef847784a" valueTypeId="d17c1675-2ae5-4ecb-b9b4-5790122d0587"/>
+  </producedTypes>
+  <name>торо_КартинкаДинамическогоСписка</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>String</type>
+      </types>
+      <types>
+        <state>Checked</state>
+        <type>Number</type>
+      </types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </typeExtension>
+  </extension>
+</mdclass:Constant>

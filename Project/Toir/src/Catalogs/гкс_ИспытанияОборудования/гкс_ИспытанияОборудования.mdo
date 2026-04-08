@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0df42bce-a609-4729-acb9-cfe30365ffe2">
+  <producedTypes>
+    <objectType typeId="c435ee09-5fa6-47c9-82e1-faf8b2e9c6cb" valueTypeId="fe46ed1b-979c-47d1-bc44-58be2fbf8730"/>
+    <refType typeId="aabbea6b-0f04-45b5-8be0-9e0048ff6731" valueTypeId="149d6290-2009-444b-8435-5938c6e26348"/>
+    <selectionType typeId="1e9551dc-abd7-49c8-9a18-ce597d779083" valueTypeId="6e998af0-1281-4beb-af08-57e1350830d9"/>
+    <listType typeId="c8535f22-d6aa-4e13-80e4-40262ef243c0" valueTypeId="ba7139bf-c026-42b0-b422-a42fb91ab36a"/>
+    <managerType typeId="e1164289-f3c7-41ef-9f2f-fc9c4ee2ab6b" valueTypeId="8f151b2c-df6c-4e9d-9fa1-b8e919aeb903"/>
+  </producedTypes>
+  <name>гкс_ИспытанияОборудования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Испытания оборудования</value>
+  </synonym>
+  <comment>TOIR20-503</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.гкс_ИспытанияОборудования.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.гкс_ИспытанияОборудования.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="b47ce6a6-f22f-4750-bb6b-a322f07ed203">
+      <name>ГидравлическиеИспытания</name>
+      <description>Гидравлические испытания</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="29707e64-eaf9-432f-bf27-01ce5a72407b">
+      <name>ДополнительныеИспытанияНаГерметичность</name>
+      <description>Дополнительные испытания на герметичность</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="2b390b56-d0bf-459a-9430-4eb5f6464348">
+      <name>ИспытанияОборудованияБезЗагрузки</name>
+      <description>Испытания оборудования без загрузки</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="ed884382-f296-43fc-9eab-c6d8cd1280f0">
+      <name>ИспытанияОборудованияПодНагрузкой</name>
+      <description>Испытания оборудования под нагрузкой</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

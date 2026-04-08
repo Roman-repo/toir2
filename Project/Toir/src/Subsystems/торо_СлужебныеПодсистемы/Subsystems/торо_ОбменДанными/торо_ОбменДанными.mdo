@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5195071b-b9c3-4788-a983-7a8226669894">
+  <name>торо_ОбменДанными</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен данными</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>El cambio para los datos</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Data exchange</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.ОбменТОиР20УППСобытия</content>
+  <content>CommonModule.ОбменТОиР20ЕРП20События</content>
+  <content>CommonModule.ОбменТОиР20БПСобытия</content>
+  <content>CommonModule.торо_ОбменДанными</content>
+  <content>CommonModule.ОбменДаннымиТОИР20RCM</content>
+  <content>CommonModule.торо_ИнтеграцияСmsProject</content>
+  <content>CommonModule.торо_ИнтеграцияСmsProjectКлиентСервер</content>
+  <content>CommonModule.торо_ИнтеграцияСmsProjectСервер</content>
+  <content>ExchangePlan.ОбменТОиР20ЕРП20</content>
+  <content>ExchangePlan.ОбменТОиР20ПБ</content>
+  <content>ExchangePlan.ОбменТОиР20УПП</content>
+  <content>ExchangePlan.ОбменТОИР20RCM</content>
+  <content>Role.торо_ВыгрузкаИЗагрузкаИзMSProject</content>
+  <content>EventSubscription.ОбменТОиР20ЕРП20_ЗарегистрироватьИзменение</content>
+  <content>EventSubscription.ОбменТОиР20ЕРП20_ЗарегистрироватьИзменениеДокумента</content>
+  <content>EventSubscription.ОбменТОиР20ЕРП20_ЗарегистрироватьИзменениеНабораЗаписей</content>
+  <content>EventSubscription.ОбменТОиР20ПБ_ЗарегистрироватьИзменение</content>
+  <content>EventSubscription.ОбменТОиР20ПБ_ЗарегистрироватьИзменениеДокумента</content>
+  <content>EventSubscription.ОбменТОиР20ПБ_ЗарегистрироватьИзменениеНабораЗаписей</content>
+  <content>EventSubscription.ОбменТОиР20УПП_ЗарегистрироватьИзменениеДокумента</content>
+  <content>EventSubscription.торо_АктуализироватьЗаписиРегистраЗаказовНаРемонт</content>
+  <content>EventSubscription.торо_АктуализироватьЗаписиРегистраЗаказовНаРемонтОбработкаУдаленияПроведения</content>
+  <content>EventSubscription.торо_АктуализироватьЗаписиРегистраЗаказовНаРемонтПередЗаписью</content>
+  <content>EventSubscription.ЗарегистрироватьИзменениеСправочникаДляRCM</content>
+  <content>EventSubscription.ЗарегистрироватьИзменениеДокументаДляRCM</content>
+  <content>EventSubscription.ЗарегистрироватьУдалениеДляRCM</content>
+  <content>EventSubscription.ЗарегистрироватьИзменениеНабораДляRCM</content>
+  <content>InformationRegister.торо_ЗаказыНаРемонтВЕРП</content>
+  <content>InformationRegister.торо_ИнтеграцияДокументов</content>
+  <content>Enum.торо_ТипыОбъектовRCM</content>
+  <content>FunctionalOption.торо_ИспользоватьВыгрузкуЗагрузкуMSProject</content>
+  <content>FunctionalOption.торо_ИспользоватьСинхронизациюСERP</content>
+  <content>CommonCommand.торо_ВыгрузитьВProject</content>
+  <content>CommonCommand.торо_ЗагрузитьИзProject</content>
+  <content>CommonCommand.ОбменДаннымиСERP20</content>
+  <content>CommonTemplate.ProjectXMLSchema</content>
+  <content>CommonTemplate.EmptyProjectXMLDoc</content>
+  <content>Constant.торо_ИспользоватьСинхронизациюСERP</content>
+  <content>CommonForm.торо_ФормаВыбораФайлаProjectКЗагрузке</content>
+  <content>XDTOPackage.MSProjectXDTO</content>
+  <content>CommonPicture.ДокументProject</content>
+  <content>CommonPicture.ДокументProjectАльтернативный</content>
+  <content>CommonForm.торо_ФормаПодбораРемонтовДляВыгрузкиВMSProject</content>
+  <parentSubsystem>Subsystem.торо_СлужебныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

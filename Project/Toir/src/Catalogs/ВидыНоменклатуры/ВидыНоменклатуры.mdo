@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f3b86010-6dc9-4bd6-9fda-850ce2f2ea58">
+  <producedTypes>
+    <objectType typeId="a223fdb8-7d24-4a33-845a-3039647f58ff" valueTypeId="6fecf1c4-49f9-408d-8f01-5f988522b26f"/>
+    <refType typeId="0fda8e31-0724-4b9f-8db6-f2d7c4d04ad9" valueTypeId="42b23a72-21f6-4c61-aba7-af55dd44fe29"/>
+    <selectionType typeId="ed410e19-de51-456d-b99d-b5ad52a29db4" valueTypeId="57955e30-ad1f-4f07-a77e-76de948d43fa"/>
+    <listType typeId="4f61aa37-1196-41ce-a752-adcafb0e3184" valueTypeId="e8ee172c-07e8-4df1-b48c-8239fc00d048"/>
+    <managerType typeId="8afb9135-b3d6-4d10-baf3-5a21d6bdf43e" valueTypeId="2f39c85e-19dc-4dc8-9403-ff2b285732fd"/>
+  </producedTypes>
+  <name>ВидыНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды номенклатуры</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Los tipos de la nomenclatura</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Types of Nomenclature</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыНоменклатуры.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа видов номенклатуры</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El grupo de los tipos de la nomenclatura</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Item Type Group</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Группа, в которую входит данный вид номенклатуры.</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El grupo, en que entra el tipo dado de la nomenclatura.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>The group that this type of item belongs to.</value>
+    </toolTip>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.ВидыНоменклатуры.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Наименование вида номенклатуры.</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El nombre del tipo de la nomenclatura.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Name of the type of item.</value>
+    </toolTip>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <toolTip>
+      <key>ru</key>
+      <value>(Код)</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>(El código)</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>(Code)</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <characteristics>
+    <characteristicTypes>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеРеквизиты</characteristicTypes>
+    <keyField>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеРеквизиты.Attribute.Свойство</keyField>
+    <typesFilterField>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеРеквизиты.StandardAttribute.Ref</typesFilterField>
+    <typesFilterValue xsi:type="core:ReferenceValue">
+      <value>Catalog.НаборыДополнительныхРеквизитовИСведений.Справочник_ВидыНоменклатуры</value>
+    </typesFilterValue>
+    <dataPathField>-1</dataPathField>
+    <multipleValuesUseField>-1</multipleValuesUseField>
+    <characteristicValues>Catalog.ВидыНоменклатуры.TabularSection.ДополнительныеРеквизиты</characteristicValues>
+    <objectField>Catalog.ВидыНоменклатуры.TabularSection.ДополнительныеРеквизиты.StandardAttribute.Ref</objectField>
+    <typeField>Catalog.ВидыНоменклатуры.TabularSection.ДополнительныеРеквизиты.Attribute.Свойство</typeField>
+    <valueField>Catalog.ВидыНоменклатуры.TabularSection.ДополнительныеРеквизиты.Attribute.Значение</valueField>
+    <multipleValuesKeyField>-1</multipleValuesKeyField>
+    <multipleValuesOrderField>-1</multipleValuesOrderField>
+  </characteristics>
+  <characteristics>
+    <characteristicTypes>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения</characteristicTypes>
+    <keyField>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения.Attribute.Свойство</keyField>
+    <typesFilterField>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения.StandardAttribute.Ref</typesFilterField>
+    <typesFilterValue xsi:type="core:ReferenceValue">
+      <value>Catalog.НаборыДополнительныхРеквизитовИСведений.Справочник_ВидыНоменклатуры</value>
+    </typesFilterValue>
+    <dataPathField>-1</dataPathField>
+    <multipleValuesUseField>-1</multipleValuesUseField>
+    <characteristicValues>InformationRegister.ДополнительныеСведения</characteristicValues>
+    <objectField>InformationRegister.ДополнительныеСведения.Dimension.Объект</objectField>
+    <typeField>InformationRegister.ДополнительныеСведения.Dimension.Свойство</typeField>
+    <valueField>InformationRegister.ДополнительныеСведения.Resource.Значение</valueField>
+    <multipleValuesKeyField>-1</multipleValuesKeyField>
+    <multipleValuesOrderField>-1</multipleValuesOrderField>
+  </characteristics>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Вид номенклатуры</value>
+  </objectPresentation>
+  <objectPresentation>
+    <key>es</key>
+    <value>El tipo de la nomenclatura</value>
+  </objectPresentation>
+  <objectPresentation>
+    <key>en</key>
+    <value>Type of item</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Вид номенклатуры</value>
+  </extendedObjectPresentation>
+  <extendedObjectPresentation>
+    <key>es</key>
+    <value>El tipo de la nomenclatura</value>
+  </extendedObjectPresentation>
+  <extendedObjectPresentation>
+    <key>en</key>
+    <value>Type of item</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Виды номенклатуры</value>
+  </listPresentation>
+  <listPresentation>
+    <key>es</key>
+    <value>Los tipos de la nomenclatura</value>
+  </listPresentation>
+  <listPresentation>
+    <key>en</key>
+    <value>Types of Nomenclature</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Виды номенклатуры</value>
+  </extendedListPresentation>
+  <extendedListPresentation>
+    <key>es</key>
+    <value>Los tipos de la nomenclatura</value>
+  </extendedListPresentation>
+  <extendedListPresentation>
+    <key>en</key>
+    <value>Types of Nomenclature</value>
+  </extendedListPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Классификатор, предназначенный для объединения номенклатуры по общим признакам учета: товар с дополнительными характеристиками, товар в упаковках, возвратная тара, услуги по хранению товара и т.д..</value>
+  </explanation>
+  <explanation>
+    <key>es</key>
+    <value>El clasificador destinado a la asociación de la nomenclatura por los indicios generales del recuento: la mercancía con las características adicionales, la mercancía en los embalajes, el embalaje de vuelta, el servicio del almacenaje de la mercancía y т.д.</value>
+  </explanation>
+  <explanation>
+    <key>en</key>
+    <value>A classifier designed to combine the nomenclature according to general accounting features: goods with additional characteristics, goods in packages, returnable packaging, goods storage services, etc.</value>
+  </explanation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>BothWays</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВидыНоменклатуры.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ВидыНоменклатуры.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="08523aaa-c465-4110-9eda-04a40e5d7dac">
+    <name>ТипНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип номенклатуры</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El tipo de la nomenclatura</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Nomenclature type</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыНоменклатуры</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Указывается тип, к которому относится номенклатура данного вида.</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>Es indicado el tipo, a que se refiere la nomenclatura del tipo dado.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>The type to which the item of this type belongs is indicated.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ТипыНоменклатуры.EnumValue.Товар</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1f97e2ac-fd12-42fa-b729-c780db45610a">
+    <name>ИспользоватьХарактеристики</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать характеристики</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Usar las características</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Use specifications</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак необходимости использовать характеристики  товара</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El indicio de la necesidad de usar las características de la mercancía</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Sign of the need to use the characteristics of the goods</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bfa3ef56-fd92-4398-bae5-55c07fb709b0">
+    <name>ИспользованиеХарактеристик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использование характеристик</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El uso de las características</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Using features</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВариантыИспользованияХарактеристикНоменклатуры</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вариант использования характеристик для данного вида номенклатуры. Можно выбрать значения: Не использовать, Использовать общие для вида номенклатуры, Использовать индивидуальные для номенклатуры.</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>La variante del uso de las características para el tipo dado de la nomenclatura. Se puede escoger: no usar significado, Usar generales para el tipo de la nomenclatura, Usar individual para la nomenclatura.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Option to use characteristics for this type of item. You can select the values: Do not use, Use common for the type of item, Use individual for the item.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ВариантыИспользованияХарактеристикНоменклатуры.EnumValue.НеИспользовать</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7427b149-ef4b-4e6f-aee6-c90e31e5b4a9">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La descripción</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Description</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Описание характеристики</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>La descripción de la característica</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Feature description</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cc508efb-0f1c-4381-9d68-64fdc8327cd2">
+    <name>НаборСвойств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор свойств</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El juego de las propiedades</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Property set</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НаборыДополнительныхРеквизитовИСведений</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Набор дополнительных реквизитов и сведений</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El juego de los requisitos adicionales y las noticias</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>A set of additional details and information</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4e4a165b-9e9c-4e57-a03e-f7778619358d">
+    <name>НаборСвойствХарактеристик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор свойств характеристик</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El juego de las propiedades de las características</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Feature properties set</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НаборыДополнительныхРеквизитовИСведений</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Набор дополнительных реквизитов и сведений</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El juego de los requisitos adicionales y las noticias</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>A set of additional details and information</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6673d95d-5505-48ac-867a-3145366a0bbd">
+    <name>ИспользоватьСерии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вести учет по сериям</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Llevar la cuenta por unas series</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Keep records of series</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>(Вести учет по сериям)</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>(Llevar la cuenta por unas series)</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>(Keep records of series)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d47d024c-b012-4728-af6a-0d62f0c7bb18">
+    <name>НастройкаИспользованияСерий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка использования серий</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El ajuste del uso de las series</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Configure series usage</value>
+    </synonym>
+    <type>
+      <types>EnumRef.НастройкиИспользованияСерийНоменклатуры</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>(Настройка использования серий)</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>(El ajuste del uso de las series)</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>(Configuring series usage)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="8b44e23b-fa6d-469f-8fb9-69ab60e36d34">
+    <producedTypes>
+      <objectType typeId="245816f3-0d02-4692-940d-59b3f31817eb" valueTypeId="d57dadc8-ad6e-4f98-abd5-efee0ea92ba5"/>
+      <rowType typeId="79fb8667-0402-4142-a4b7-5515f5083106" valueTypeId="f4d61dfc-a32b-4341-9e8b-c17ae665c361"/>
+    </producedTypes>
+    <name>ДополнительныеРеквизиты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные реквизиты</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Los requisitos adicionales</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Additional details</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="21f2f9f5-6b7c-4d90-8fe8-af1c8765d17a">
+      <name>Свойство</name>
+      <synonym>
+        <key>ru</key>
+        <value>Свойство</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La propiedad</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Property</value>
+      </synonym>
+      <type>
+        <types>ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Дополнительный реквизит</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El requisito adicional</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Additional property</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <quickChoice>DontUse</quickChoice>
+      <createOnInput>Use</createOnInput>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a997caf0-409e-4548-a0ab-e696a778714c">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>El significado</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Value</value>
+      </synonym>
+      <type>
+        <types>Characteristic.ДополнительныеРеквизитыИСведения</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Значение дополнительного реквизита</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El significado del requisito adicional</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>The value of the additional attribute</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Catalog.ВидыНоменклатуры.TabularSection.ДополнительныеРеквизиты.Attribute.Свойство</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="92b2fcf0-cbe2-44f9-b8c5-59608f916720">
+      <name>ТекстоваяСтрока</name>
+      <synonym>
+        <key>ru</key>
+        <value>Текстовая строка</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La línea textual</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Text string</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Полный текст строкового дополнительного реквизита</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El texto completo del requisito de renglón adicional</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Full text of string additional property</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="563fa4bb-fd9e-452e-8225-2c24507f519b">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La forma del elemento</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Item shape</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d978d836-4a7b-43ea-a90c-45d447f7f83f">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La forma de la lista</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>list form</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

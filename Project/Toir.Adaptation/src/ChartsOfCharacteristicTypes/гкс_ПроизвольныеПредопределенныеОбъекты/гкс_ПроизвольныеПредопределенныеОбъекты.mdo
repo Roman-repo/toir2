@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="debb050d-92ba-48d2-87a8-d8d8db99a33c" extendedConfigurationObject="e359b6e5-2921-4800-bf3c-36f63225f88f">
+  <producedTypes>
+    <objectType typeId="5e2f1028-3416-428f-a427-21e866af76e0" valueTypeId="62294620-f4d6-422d-809d-d608657baef5"/>
+    <refType typeId="dd540f58-856d-4c59-a593-b1bd6d2f3104" valueTypeId="4213a086-f630-48d5-8724-b1dab5729dee"/>
+    <selectionType typeId="79f57b11-22bd-43a4-8d3f-67a29eea0c6f" valueTypeId="7093b777-ea8c-44f0-9723-dbb594921693"/>
+    <listType typeId="6702aad1-6be9-4d86-88c1-e65a22eff155" valueTypeId="597cc610-169c-4d17-a0d7-7e115946f6a1"/>
+    <managerType typeId="e948f10c-d6f3-4666-9570-090d0af76bcd" valueTypeId="b2cec824-24fe-4e1b-a3cb-33deffc50e4c"/>
+    <containerType typeId="f60da278-17a8-4408-8a9a-b91162e80ae1" valueTypeId="afe7874d-0f27-4fba-9f95-57ac2a150109"/>
+  </producedTypes>
+  <name>гкс_ПроизвольныеПредопределенныеОбъекты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ChartOfCharacteristicTypesExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>CatalogRef.торо_СтатусыСогласованияДокументовРемонтныхРабот</type>
+      </types>
+    </typeExtension>
+    <codeLength>Checked</codeLength>
+    <codeAllowedLength>Checked</codeAllowedLength>
+    <descriptionLength>Checked</descriptionLength>
+    <predefined>Checked</predefined>
+  </extension>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>150</descriptionLength>
+  <predefined/>
+</mdclass:ChartOfCharacteristicTypes>

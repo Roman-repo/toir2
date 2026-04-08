@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="aa29cbd0-7aed-4bce-9dba-3efb00c382e7">
+  <producedTypes>
+    <objectType typeId="2f1dd008-ec4d-4faa-9d96-b38720e82e01" valueTypeId="5017145e-2e2a-4c9a-897b-c0fd5ec3db96"/>
+    <refType typeId="850b574b-f959-4751-a578-4ade7afbfa36" valueTypeId="dc3a2533-c5b5-417f-8dd6-e00d65e01f7c"/>
+    <selectionType typeId="fcc8f7c8-17c9-4919-8912-dbd02ecd1930" valueTypeId="3ca5bde4-fcb2-49c7-a62c-5377fba6859f"/>
+    <listType typeId="94719e30-fbe2-4f19-a707-ce3de3f40b15" valueTypeId="a2c32cec-caa7-47ac-b3d9-23cdbec4ced0"/>
+    <managerType typeId="75eb52b3-11ef-47e9-8f56-1f79ed81e28f" valueTypeId="54156c91-9b57-4ff3-8548-c5eb28efd75b"/>
+  </producedTypes>
+  <name>торо_ТиповыеДефектыОборудования</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

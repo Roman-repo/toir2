@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ad904b1a-1dde-4503-850a-e2508d10bf41">
+  <producedTypes>
+    <managerType typeId="f1b7db50-c69c-476d-a879-5bf5a0267974" valueTypeId="e0b585fe-e005-43bc-a23d-430d63831da3"/>
+    <valueManagerType typeId="fa521bbd-5c68-446e-a4ed-8b43e4c84264" valueTypeId="c765de25-97c1-49e8-b2c3-cb683f6d1b17"/>
+    <valueKeyType typeId="242523c0-f3e0-429a-8717-5b900f619024" valueTypeId="4c41e3a9-1307-494e-b768-a0a11b7542af"/>
+  </producedTypes>
+  <name>торо_ВидРемонтаПриВводеНаОснованииВнешнихОснований</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>CatalogRef.торо_ВидыРемонтов</type>
+      </types>
+    </typeExtension>
+  </extension>
+</mdclass:Constant>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="200e66b0-4b69-4ea5-be05-17220074bff2">
+  <producedTypes>
+    <managerType typeId="4309d093-c563-4bf0-90e2-97c095a66686" valueTypeId="69d25be8-d8ff-4b54-b756-bf7417991879"/>
+    <valueManagerType typeId="307777fb-06f5-4d24-81e6-dd471554a82f" valueTypeId="5febd068-707a-44ae-97f0-1d3d9b2bee88"/>
+    <valueKeyType typeId="f80634e1-4606-4271-bd53-cf294749baeb" valueTypeId="797d5fb3-a781-4991-9410-44fcf364205a"/>
+  </producedTypes>
+  <name>торо_ИспользоватьПланированиеПоЖесткимРемЦиклам</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+</mdclass:Constant>

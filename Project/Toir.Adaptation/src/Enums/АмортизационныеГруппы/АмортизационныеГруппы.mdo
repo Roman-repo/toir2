@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d6002d3b-9463-494a-a47c-9f3770e1bd19" extendedConfigurationObject="47f4a7a1-07fe-4b84-a892-ea04503e7ba3">
+  <producedTypes>
+    <refType typeId="36a18fbe-eb54-495f-a1d6-18a0d638c6d9" valueTypeId="0a5b56a2-65db-4463-bbe0-95a645f55fb0"/>
+    <listType typeId="d07a75fb-c39e-408d-a157-42c26487fd87" valueTypeId="711e253a-410d-4bad-b30d-1cdd0fd2f836"/>
+    <managerType typeId="18de7b1a-0e59-4e8a-a4c9-3e40d38fd69c" valueTypeId="d9d5c551-bf67-40e5-af42-090883a44fb5"/>
+  </producedTypes>
+  <name>АмортизационныеГруппы</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Enum>

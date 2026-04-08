@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e2e52b7f-6f7a-4a47-8d94-3b6b9f9f8797">
+  <name>торо_ДобавлениеИзменениеПроведениеИзмененийПоложенияВСтруктуреИерархии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление, изменение, проведение и пометка удаления изменений положения в структуре иерархии</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>La adición, el cambio, la realización y la marca de la desaparición de los cambios de la posición en la estructura de la jerarquía</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Adding, modifying, posting and marking the deletion of position changes in the hierarchy structure</value>
+  </synonym>
+</mdclass:Role>

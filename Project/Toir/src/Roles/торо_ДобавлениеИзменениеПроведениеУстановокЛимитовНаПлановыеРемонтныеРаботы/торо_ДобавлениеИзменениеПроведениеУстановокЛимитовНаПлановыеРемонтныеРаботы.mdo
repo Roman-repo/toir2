@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="51b0cba0-d76a-4d27-9875-baf1bfd55ef9">
+  <name>торо_ДобавлениеИзменениеПроведениеУстановокЛимитовНаПлановыеРемонтныеРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление, изменение, проведение и пометка удаления установок лимитов на плановые ремонтные работы</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>La adición, el cambio, la realización y la marca de la desaparición de las instalaciones de los límites a los trabajos de reparación planificados</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Adding, changing, conducting and marking the removal of limit settings for scheduled repairs</value>
+  </synonym>
+</mdclass:Role>

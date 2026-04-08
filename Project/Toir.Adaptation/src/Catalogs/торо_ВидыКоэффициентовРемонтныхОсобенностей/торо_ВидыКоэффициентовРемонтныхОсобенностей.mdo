@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b03a0070-6345-4149-9782-acfc85f98dfc">
+  <producedTypes>
+    <objectType typeId="6d0daeae-ae86-4d9a-8c81-d77258c9f67b" valueTypeId="1ccc3e25-9d53-4f83-b578-b8dc5afa723b"/>
+    <refType typeId="c7100d40-6126-4995-93c3-553a9df8482f" valueTypeId="4f80c9db-ef1b-40e8-a036-1e9086cec457"/>
+    <selectionType typeId="e4c7379e-213b-4302-b661-8e8c74c254f1" valueTypeId="3c1237fc-8d39-4457-af43-749500ebcda5"/>
+    <listType typeId="9e8db491-ba86-4bde-8238-d412ca67a856" valueTypeId="568b099a-9319-4654-868e-bf3062b2d6a0"/>
+    <managerType typeId="c96a48b0-5345-4f9f-90e1-c457b02ead2e" valueTypeId="1dc376e4-ae52-4efb-8dcb-a784d922b25d"/>
+  </producedTypes>
+  <name>торо_ВидыКоэффициентовРемонтныхОсобенностей</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

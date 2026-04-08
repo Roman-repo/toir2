@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="43eeffcf-06f3-4bc5-bfcc-cd1a09577f28">
+  <name>торо_РазделУправлениеНарядамиИРаботами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Раздел управление нарядами и работами</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Ha desvestido la dirección de los vestidos y los trabajos</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Management of orders and work section</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3662f6f-2d99-4f37-9669-5ce56b7a1b0b">
+  <name>гкс_ДобавлениеИзменениеРСгкс_НаличиеПрикрепленныхФайловВДокументообороте</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление изменение регистра Наличие прикрепленных файлов в документообороте</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="56a89fcc-cc79-4dbf-bf9c-6a0aacc35b27">
+  <producedTypes>
+    <managerType typeId="cff33c1c-537f-4a47-a65f-73c23976650e" valueTypeId="80efe297-2aee-4f23-acd4-1f385cac19d6"/>
+    <valueManagerType typeId="da0949f9-0303-41cc-af46-7fa59324a2c6" valueTypeId="1ed2fc27-e35f-4e53-946b-c496825d0023"/>
+    <valueKeyType typeId="25cf8001-6ddd-442c-9293-4399665a5ed0" valueTypeId="200d4923-5508-4250-a287-e4feea50414a"/>
+  </producedTypes>
+  <name>торо_РассчитыватьПлановуюСтоимостьРемонтовПриПланировании</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+</mdclass:Constant>

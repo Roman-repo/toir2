@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b1fa9dff-f3af-4673-b61e-e583dbeb3f6e">
+  <producedTypes>
+    <objectType typeId="fc2bf45c-c480-47e0-b4ce-64c0ee538d8e" valueTypeId="1038ee2d-f64e-49a7-8009-f39899e86299"/>
+    <refType typeId="eeca867c-7fca-4a7a-85fe-61bf1f029a54" valueTypeId="04a85078-f984-4bf9-a94a-9562f4708a34"/>
+    <selectionType typeId="82b81a57-b89b-4ff6-8a1e-04d5d32fa80b" valueTypeId="7653f769-09b5-4e07-8173-a0ba908205e2"/>
+    <listType typeId="d12dea17-a9ec-42eb-b92a-f43561a8a0c9" valueTypeId="2d3ef97e-50d0-4a16-9d54-2be0c3e19123"/>
+    <managerType typeId="a5cf4162-5661-4144-9c86-674af9528c3a" valueTypeId="a8b8dd35-7063-43d9-a396-14f9d1c7fa67"/>
+  </producedTypes>
+  <name>торо_УстановкаПроизвольногоЗначенияНаработки</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+</mdclass:Document>

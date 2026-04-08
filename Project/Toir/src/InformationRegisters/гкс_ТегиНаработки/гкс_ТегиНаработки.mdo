@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cbc4627a-7bd3-43d3-9955-6e6441acd16a">
+  <producedTypes>
+    <selectionType typeId="6c3c1a87-7ef2-49ef-a164-5408ab8b4ffd" valueTypeId="7e74114b-612c-4e3a-aaa4-4f37c522fb9b"/>
+    <listType typeId="4edd8b21-e6f7-4921-b87e-f4de54c7e5d4" valueTypeId="20a3253e-1636-4483-b2de-ec81edc7a8e2"/>
+    <managerType typeId="3d74f8df-47b0-4d0a-9966-e5eae6d6907e" valueTypeId="22fba8a1-f171-4233-881b-93713d1008b8"/>
+    <recordSetType typeId="a7536cdd-173c-4239-baf6-4c76e2c3e571" valueTypeId="41a3a2bf-45bf-4b9b-ab75-3e28a28513c6"/>
+    <recordKeyType typeId="e9f8bfd7-a3a1-4cc3-88f7-671a124881c4" valueTypeId="e626cdfd-24d4-4388-94ac-eda0d62f1ea5"/>
+    <recordType typeId="313fb970-3d7c-4fa6-8e53-8663c307376e" valueTypeId="bb5aa8c6-c854-44b8-92aa-4b361ff6d511"/>
+    <recordManagerType typeId="09e87431-4ab0-4d28-a3e5-9286adbd2e89" valueTypeId="2e6c4c0c-564a-4611-9047-9c06ec226165"/>
+  </producedTypes>
+  <name>гкс_ТегиНаработки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Теги наработки</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Working hours tags</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a6a5f06d-b580-4db8-a5ee-cee3f1c7822c">
+    <name>Тег</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тег</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Tag</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="20b351f4-b782-40e9-a407-96a595eb00d7">
+    <name>ОР</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОР</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>OR</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.торо_ОбъектыРемонта</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7c442660-cefd-4482-8008-f21d87c90cfa">
+    <name>ПараметрНаработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметр наработки</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El parámetro de la elaboración</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Operating time parameter</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПараметрыВыработкиОС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

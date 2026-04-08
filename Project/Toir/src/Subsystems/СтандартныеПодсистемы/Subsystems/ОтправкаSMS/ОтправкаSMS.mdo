@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9aecf4f5-46ed-4d1c-a584-cd028e467895">
+  <name>ОтправкаSMS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправка SMS</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>El envío SMS</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>SMS sending</value>
+  </synonym>
+  <content>CommonModule.ОтправкаSMS</content>
+  <content>CommonModule.ОтправкаSMSЧерезМТС</content>
+  <content>CommonModule.ОтправкаSMSПереопределяемый</content>
+  <content>Constant.ПровайдерSMS</content>
+  <content>Constant.УдалитьЛогинДляОтправкиSMS</content>
+  <content>Constant.УдалитьПарольДляОтправкиSMS</content>
+  <content>Enum.ПровайдерыSMS</content>
+  <content>CommonModule.ОтправкаSMSЧерезБилайн</content>
+  <content>CommonForm.НастройкаОтправкиSMS</content>
+  <content>CommonModule.ОтправкаSMSКлиент</content>
+  <content>CommonModule.ОтправкаSMSКлиентПереопределяемый</content>
+  <content>CommonForm.ОтправкаSMS</content>
+  <content>Role.ОтправкаSMS</content>
+  <content>CommonModule.ОтправкаSMSЧерезSMSRU</content>
+  <content>CommonModule.ОтправкаSMSЧерезSMSЦЕНТР</content>
+  <content>CommonModule.ОтправкаSMSЧерезСМСУслуги</content>
+  <content>CommonModule.ОтправкаSMSЧерезGSMINFORM</content>
+  <content>CommonModule.ОтправкаSMSПовтИсп</content>
+  <content>CommonModule.ОтправкаSMSЧерезSMS4B</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

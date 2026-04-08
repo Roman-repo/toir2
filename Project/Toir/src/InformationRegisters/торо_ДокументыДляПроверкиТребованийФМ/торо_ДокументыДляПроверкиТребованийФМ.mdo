@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="326551ba-40ad-4c24-ac17-b9a7147e7e41">
+  <producedTypes>
+    <selectionType typeId="ec67bba3-53eb-48d9-b175-8265fc7dbebc" valueTypeId="a92f31df-c36f-4140-a15d-9e467dade8c1"/>
+    <listType typeId="0997532b-cee0-4886-a38a-6d53a301d4ed" valueTypeId="fee36cd6-1e9c-4850-aff6-75341708941e"/>
+    <managerType typeId="d77c4b93-708d-4603-ae1c-d5133761daa4" valueTypeId="49885173-5e3d-440f-80f0-cf9f45610cb7"/>
+    <recordSetType typeId="4ae943d5-2a31-4b48-9473-69805f3c6a43" valueTypeId="9a609ac0-a453-499f-b5c5-88028829f79f"/>
+    <recordKeyType typeId="2d7af090-f215-451e-a25b-c0833a601073" valueTypeId="117eac56-4cf2-40cb-a1a3-cb2840f6f011"/>
+    <recordType typeId="639a918f-7e0a-40d2-af8a-857f2cf0de02" valueTypeId="4cc1a6e9-c943-476f-9109-743c4f7dda76"/>
+    <recordManagerType typeId="10936529-9ed6-4e49-afc7-07403c412102" valueTypeId="c302821f-41a1-4ad9-beb4-2591c699a19c"/>
+  </producedTypes>
+  <name>торо_ДокументыДляПроверкиТребованийФМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы для проверки требований ФМ</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Documents to check requirements for FP</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Documentos para la verificación de los requisitos de la fm</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="953aa636-0dc8-4dfd-b8f5-38d99296378a">
+    <name>ПроверяемыйДокумент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверяемый документ</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Check the document</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El documento</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.торо_УчетКонтролируемыхПоказателей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

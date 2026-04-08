@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="64ba1f58-3c86-4407-b7a4-1e462aadbcb2" extendedConfigurationObject="4941d48d-f71d-4079-b2b4-86a8479d4ffe">
+  <producedTypes>
+    <managerType typeId="5ada51e4-0acf-44b4-94c4-7251a06e5fef" valueTypeId="0cf06c73-d49b-41f7-9e9d-be7482bd5ec7"/>
+    <valueManagerType typeId="3610da7f-569f-4bb7-bbf3-f481f9edf347" valueTypeId="4bd62d56-955f-46e7-a3c9-3f255dac8747"/>
+    <valueKeyType typeId="3aa3447d-780f-446e-a153-31e5fbc515ba" valueTypeId="5c4bee00-5add-4971-942b-27cd1b20e51c"/>
+  </producedTypes>
+  <name>гкс_СобытиеПереносРемонтаЗаявки</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>CatalogRef.торо_СобытияУведомленийВДокументах</type>
+      </types>
+    </typeExtension>
+  </extension>
+</mdclass:Constant>

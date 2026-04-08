@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1778b732-7b72-4763-bf21-f5b833c5099c">
+  <producedTypes>
+    <selectionType typeId="93df6fbd-34e8-4af8-91ce-9d1e7f5b74d8" valueTypeId="2cc51a71-c4ba-4006-81f2-ac52b4def29c"/>
+    <listType typeId="6f247506-5dc3-4bc7-811c-d470170b1e23" valueTypeId="6a2ec066-24bd-40e1-a895-2de5da66870b"/>
+    <managerType typeId="3f886fdb-2e98-4d1e-a240-7279e5f07fd1" valueTypeId="412c38ac-d4e8-4de2-a88e-770a58676801"/>
+    <recordSetType typeId="201d62e3-ae1f-4f72-9e78-cf01e96a7225" valueTypeId="b71aca3d-d70c-4c3d-983e-e2863ff046c1"/>
+    <recordKeyType typeId="355b9ce0-6e87-461f-a968-88022c4ea9ac" valueTypeId="cd44d541-3c23-45d4-ba28-4a7463c0d96d"/>
+    <recordType typeId="6eaf3866-df21-48e3-b968-b0deae1da94f" valueTypeId="3207e0c4-e0db-4d1e-a782-2e044efe293f"/>
+    <recordManagerType typeId="fe1dbc15-f31d-4e67-b323-eef54d0c0197" valueTypeId="8323181f-29da-407e-a3b5-921bc67988bb"/>
+  </producedTypes>
+  <name>гкс_ИерархияТехКарт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Иерархия тех карт</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Hierarchy of technological map</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c1b4ecf6-538b-4e3a-8191-5976b8c9f0dc">
+    <name>Родитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Родитель</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Parent</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.торо_ИдентификаторыТехКарт</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="7148802b-6afa-4650-99b0-16fb73956331">
+    <name>Подчиненный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подчиненный</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Slave</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.торо_ИдентификаторыТехКарт</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

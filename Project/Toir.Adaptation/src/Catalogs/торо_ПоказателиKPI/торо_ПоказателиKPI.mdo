@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="648294a0-62b1-4565-ab0f-62ed577f4389">
+  <producedTypes>
+    <objectType typeId="86db74ce-af2f-4766-b87d-e643f169cc9f" valueTypeId="c04a71fb-323a-486c-ab18-6d40d2e4f3bb"/>
+    <refType typeId="6501ef1b-12aa-4974-a692-d50ba56391bf" valueTypeId="bfb70ce1-eae2-4870-b2ca-b7bb4967c29b"/>
+    <selectionType typeId="abeed7c1-1dfe-4871-bb5c-5b40234096b8" valueTypeId="d99b829a-315a-4637-aca0-51ea70ec9b49"/>
+    <listType typeId="3b07be33-b55d-4f86-b5a8-55fee7d287ab" valueTypeId="36068253-d3cf-4324-8b5b-26626d98a343"/>
+    <managerType typeId="90b6aefe-cb79-480f-ade6-807f14a5448d" valueTypeId="57a37251-d36e-4a71-99d7-07adb8ce32b3"/>
+  </producedTypes>
+  <name>торо_ПоказателиKPI</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

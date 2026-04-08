@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9ce8eb28-b8ee-416f-8578-7a9e8b9aa4e9">
+  <name>торо_ДобавитьУзелТехнологическихОпераций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавить узел технологических операций</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Añadir el nudo de las operaciones tecnológicas</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Add technological operations node</value>
+  </synonym>
+  <transparentPixel>
+    <y>13</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

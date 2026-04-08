@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dafd89aa-c951-4609-8164-defbe281416a">
+  <producedTypes>
+    <selectionType typeId="36475f53-55d8-4085-a031-305467079fd1" valueTypeId="2e642146-2960-4dcf-baae-ef79d17e19f7"/>
+    <listType typeId="9b55be82-661a-41a0-aa6b-90b520e4d873" valueTypeId="4d509ffb-6f10-4a33-aa8c-d5332e3d79a3"/>
+    <managerType typeId="3283437d-7966-4e0c-9112-8675fdf30f0a" valueTypeId="f5732f21-87ef-4f6e-96b1-dcd5a1370613"/>
+    <recordSetType typeId="b7053f09-69ed-4bd2-a326-7d0055d667d2" valueTypeId="ded1390a-8c97-4e0c-b090-2cdd997ec5d3"/>
+    <recordKeyType typeId="d2d3fcef-ab3b-4794-a655-5d0b1f49a301" valueTypeId="7d9d2850-3e9d-4e1e-a4e6-33f28a06ea8f"/>
+    <recordType typeId="ecc4e941-4de5-4078-8d5e-bec76809ba5c" valueTypeId="0ead6c55-112f-4565-93d4-dae9364530f0"/>
+    <recordManagerType typeId="c903e2b3-3379-49e2-bc92-b319ede04cc6" valueTypeId="541ff28d-2efe-499d-b858-ca7d6aacb3df"/>
+  </producedTypes>
+  <name>НенаследуемыеЗначения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ненаследуемые значения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="078204c0-f5d9-4425-84fe-f300887b78c0">
+    <name>НеНаследуемыйАтрибут</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не наследуемый атрибут</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="2be867e7-2fbd-4179-9791-e475c449d472">
+    <name>Класс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Класс</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Классы</types>
+      <types>CatalogRef.НоменклатураКласса</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="87553275-dff0-4af3-b78b-08c6c219589f">
+    <name>АтрибутКласса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Атрибут класса</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.АтрибутыКласса</types>
+      <types>CatalogRef.НаборыАтрибутов</types>
+      <types>CatalogRef.ВложенныеАтрибутыКласса</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="88a7e288-8038-4fbb-84df-f9b81c93ed71">
+    <name>ЗначениеАтрибутаКласса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение атрибута класса</value>
+    </synonym>
+    <type>
+      <types>Characteristic.АтрибутыКласса</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceFoldersAndItems>FoldersAndItems</choiceFoldersAndItems>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>InformationRegister.НенаследуемыеЗначения.Dimension.АтрибутКласса</field>
+    </choiceParameterLinks>
+    <linkByType>
+      <field>InformationRegister.НенаследуемыеЗначения.Dimension.АтрибутКласса</field>
+    </linkByType>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

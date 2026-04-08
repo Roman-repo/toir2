@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="95b4eea1-511f-43e7-9814-5d3e14a2d256">
+  <producedTypes>
+    <managerType typeId="0dd5c432-2d65-4bf4-968f-fd5f7d030062" valueTypeId="7bac1796-e96c-4c52-a80b-fb572f417ef8"/>
+    <valueManagerType typeId="ef354210-9804-491c-a7bf-f4270e687345" valueTypeId="74ca26ea-e1a9-4389-b0be-01a8861c567e"/>
+    <valueKeyType typeId="a6efff32-5cfc-446d-ad7c-17f8fee85a54" valueTypeId="4e0b9f68-51ee-448e-903d-cae59935d0f7"/>
+  </producedTypes>
+  <name>торо_ИспользоватьСинхронизациюСERP</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+</mdclass:Constant>

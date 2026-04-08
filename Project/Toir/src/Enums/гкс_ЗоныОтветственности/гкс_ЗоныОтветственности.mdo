@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2fa6a13a-17d9-4cd7-b0dc-1c7af8f9dcf1">
+  <producedTypes>
+    <refType typeId="eaaaf847-c323-4020-8a8a-12c8cad96f15" valueTypeId="1ceffbf3-6594-46a8-b936-de3dda96c3fc"/>
+    <listType typeId="a73f0733-1b0c-4458-806b-dbb098a59a06" valueTypeId="ea337310-bf1f-4332-85a6-f30f58c95b54"/>
+    <managerType typeId="989e1653-8ed5-43d3-b287-a41276c8f46b" valueTypeId="5e39fd4c-dadd-47f5-b89a-24d90f682b58"/>
+  </producedTypes>
+  <name>гкс_ЗоныОтветственности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зоны ответственности (гкс)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="77fbd06d-9255-46a6-8ea4-cf170c055805">
+    <name>ОтделПланированияТОиР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отдел планирования ТОиР</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1acabcbf-5c6e-43c3-851e-7025816a921a">
+    <name>Механики</name>
+    <synonym>
+      <key>ru</key>
+      <value>Механики</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="30e65a9b-0ccc-4041-811f-2ba5092c08ba">
+    <name>АСУТП</name>
+    <synonym>
+      <key>ru</key>
+      <value>АСУТП</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b1c0a1c4-c128-45ff-99b0-ba8744dea0c2">
+    <name>ИСЗиС</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИСЗиС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3a3c348b-4e42-4a85-bc16-1dccfebc14b4">
+    <name>КИПиА</name>
+    <synonym>
+      <key>ru</key>
+      <value>КИПиА</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="854d5954-6aa2-48ab-a087-4905c59937e5">
+    <name>Метрология</name>
+    <synonym>
+      <key>ru</key>
+      <value>Метрология</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8fc486c1-1220-445c-9509-2cbfe27ed659">
+    <name>ПСиГХ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПСиГХ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3c0cf382-eada-4092-ac5b-ee0e57b89ac0">
+    <name>ВОиК</name>
+    <synonym>
+      <key>ru</key>
+      <value>ВОиК</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9bea5a0a-c0fd-4db7-9dd0-5ba046e0cd45">
+    <name>ВКиАО</name>
+    <synonym>
+      <key>ru</key>
+      <value>ВКиАО</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0151a21c-f90d-42f2-b010-4d3806a72a73">
+    <name>Электрики</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электрики</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="348bbe92-6da3-4bcf-a48b-fc18142eb647">
+    <name>РМУ_ЦКОО</name>
+    <synonym>
+      <key>ru</key>
+      <value>РМУ/ЦКОО</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="55597483-8afb-4e04-98c9-d5e96d8e0dce">
+    <name>Производство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производство</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a6a386a7-383c-4a91-8525-6d2d0213b50f">
+    <name>Технология</name>
+    <synonym>
+      <key>ru</key>
+      <value>Технология</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d969c5c3-b21e-4f90-856e-c7a9e8cedcc6">
+    <name>СЗМОиУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>СЗМОиУ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f0758282-76eb-434d-8e83-a3ef173fd2bf">
+    <name>СервиснаяКомпания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервисная компания</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6d810f79-e0e7-4a8b-abef-11ac572d36f1">
+    <name>Внешняя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешняя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fd07a6d8-4fa1-42de-8d5d-dd26dad8506e">
+    <name>НеОпределена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не определена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4cab4a4e-23e3-49fb-8f1a-aa6584e3eb26">
+    <name>ОтделПоНадежностиОборудования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отдел по надежности оборудования</value>
+    </synonym>
+    <comment>TOIR20-805</comment>
+  </enumValues>
+  <enumValues uuid="80ea29a1-bc82-4828-aca3-e3293f716588">
+    <name>СлужбаИТОтделАдминистрирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Служба ИТ. Отдел администрирования</value>
+    </synonym>
+    <comment>TOIR20-805</comment>
+  </enumValues>
+</mdclass:Enum>

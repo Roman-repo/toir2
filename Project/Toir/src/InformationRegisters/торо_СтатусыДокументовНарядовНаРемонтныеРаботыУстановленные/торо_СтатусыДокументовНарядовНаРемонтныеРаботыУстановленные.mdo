@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ddbc8bda-a0dc-4fa9-a28f-2a1c14e9d900">
+  <producedTypes>
+    <selectionType typeId="aac1779e-8589-4c11-b73e-e37e180b083c" valueTypeId="061a46b2-386b-49a2-a94b-33995e65982c"/>
+    <listType typeId="9d733b78-268a-4a43-96eb-192cc08ef7f7" valueTypeId="e9fae26e-aba9-4bd2-959d-8978a846516d"/>
+    <managerType typeId="cb85f4c1-9cd7-4fa3-a97d-f2737879b4d0" valueTypeId="cc4d558a-0a8f-491c-85d2-f5693e5ce4f0"/>
+    <recordSetType typeId="99f5987e-e333-4f81-ae36-4e8b18256fc5" valueTypeId="5b164f0a-a775-4dff-8e9d-27f019a00f17"/>
+    <recordKeyType typeId="eae4d3ab-725a-4f7b-b0cd-973e6e90b621" valueTypeId="93e2f02a-a80f-484d-aedd-8d7901bf0c08"/>
+    <recordType typeId="d78dc243-e0bc-491b-95ab-a9eedf0e9f57" valueTypeId="aafce5f7-482c-4ade-9655-93fa6e1fde85"/>
+    <recordManagerType typeId="59225956-0bb2-448d-bc65-e5acd6629ac8" valueTypeId="3075ec57-cc3b-4267-aa5b-96d0e2def1a3"/>
+  </producedTypes>
+  <name>торо_СтатусыДокументовНарядовНаРемонтныеРаботыУстановленные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы документов нарядов на выполнение ремонтных работ (установленные)</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Los estatus de los documentos de los vestidos a la ejecución de los trabajos de reparación (establecido)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Statuses of documents of orders for repair work (established)</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <toolTip>
+      <key>ru</key>
+      <value>(Период)</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>(El período)</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>(Period)</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="eb45a3aa-ffd5-469a-a64d-1fb86f336f91">
+    <name>СтатусДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус документа</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El estatus del documento</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Document status</value>
+    </synonym>
+    <type>
+      <types>EnumRef.торо_СтатусыДокументов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>(Статус документа)</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>(El estatus del documento)</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>(Document Status)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="8d0fd05f-a172-4c91-bdd9-fec41acacba0">
+    <name>ИзменяемыйДокумент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменяемый документ</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El documento cambiado</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Editable document</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.торо_НарядНаВыполнениеРемонтныхРабот</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>(Документ)</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>(El documento)</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>(Document)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

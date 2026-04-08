@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e6f1c8ac-f238-44a8-b203-7601f25bbc8a">
+  <name>ОбработкаНовостейПовтИсп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработка новостей, повторное использование (сервер)</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>El tratamiento de las novedades, el uso (servidor) repetido</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>News processing, reuse (server)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>

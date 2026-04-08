@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e172f8fa-c3cc-41dc-a162-ab81a143980a">
+  <producedTypes>
+    <managerType typeId="442bb7df-8790-41e7-a16f-a76e265d4c0c" valueTypeId="b760ac16-add8-491e-96aa-ae91282a7b5b"/>
+    <valueManagerType typeId="a4016d58-7363-498e-a421-1c296d378bcc" valueTypeId="46ce1a75-c798-4c29-9d2a-31f7f15c6b07"/>
+    <valueKeyType typeId="35ba8127-185c-444f-af10-ed386c70ddad" valueTypeId="91b59232-cdc2-4ceb-a79a-5e2262b240d7"/>
+  </producedTypes>
+  <name>торо_ПредставлениеВРДляПечати</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>EnumRef.торо_ВидыПредставленийВРДляПечати</type>
+      </types>
+    </typeExtension>
+  </extension>
+</mdclass:Constant>

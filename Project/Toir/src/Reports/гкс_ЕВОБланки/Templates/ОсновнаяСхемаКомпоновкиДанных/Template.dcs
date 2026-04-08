@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Ссылка</dataPath>
+			<field>Ссылка</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Документ</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Document</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Номер</dataPath>
+			<field>Номер</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипКорневойПричины</dataPath>
+			<field>ТипКорневойПричины</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КорневаяПричина</dataPath>
+			<field>КорневаяПричина</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Дата</dataPath>
+			<field>Дата</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВремяПростояОборудования</dataPath>
+			<field>ВремяПростояОборудования</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Время простоя оборудования (мин.)</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Equipment downtime (min)</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Подразделение</dataPath>
+			<field>Подразделение</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДокументОснование</dataPath>
+			<field>ДокументОснование</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ФМ</dataPath>
+			<field>ФМ</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Функциональное место</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Functional location</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОР</dataPath>
+			<field>ОР</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Объект ремонта</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Repair object</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидПоломки</dataPath>
+			<field>ВидПоломки</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вид поломки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Type of failure</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОписаниеПроблемы</dataPath>
+			<field>ОписаниеПроблемы</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Описание проблемы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Problem description</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Мероприятие</dataPath>
+			<field>Мероприятие</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Меры по недопущению</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Prevention measures</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДнейДоОкончанияСрокаИсполненияМероприятия</dataPath>
+			<field>ДнейДоОкончанияСрокаИсполненияМероприятия</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дней до окончания срока исполнения мероприятия, (сутки/дни)</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Days before the event completion deadline</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВремяРеагирования</dataPath>
+			<field>ВремяРеагирования</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Время реагирования ТС (мин.)</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВремяРемонта</dataPath>
+			<field>ВремяРемонта</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Время ремонта (мин.)</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗонаОтветственности</dataPath>
+			<field>ЗонаОтветственности</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Зона ответственности</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Влияние</dataPath>
+			<field>Влияние</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Влияние</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Выполнено</dataPath>
+			<field>Выполнено</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отметки выполненных мероприятий</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Ответственный</dataPath>
+			<field>Ответственный</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ответственный по мероприятиям</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипПроблемы</dataPath>
+			<field>ТипПроблемы</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВремяНачалаОстановки</dataPath>
+			<field>ВремяНачалаОстановки</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата останова</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Срок</dataPath>
+			<field>Срок</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Срок исполнения мероприятий</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПовторныйОтказ</dataPath>
+			<field>ПовторныйОтказ</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Повторный отказ</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	гкс_ЕВОБланк.Ссылка КАК Ссылка,
+	гкс_ЕВОБланк.Номер КАК Номер,
+	гкс_ЕВОБланк.Дата КАК Дата,
+	гкс_ЕВОБланк.Подразделение КАК Подразделение,
+	гкс_ЕВОБланк.ДокументОснование КАК ДокументОснование,
+	гкс_ЕВОБланк.КорневаяПричина КАК КорневаяПричина,
+	гкс_ЕВОБланк.ТипКорневойПричины КАК ТипКорневойПричины,
+	ВЫБОР
+		КОГДА гкс_ЕВОБланк.ВремяЗапуска = ДАТАВРЕМЯ(1, 1, 1)
+			ТОГДА 0
+		ИНАЧЕ РАЗНОСТЬДАТ(гкс_ЕВОБланк.ВремяНачалаОстановки, гкс_ЕВОБланк.ВремяЗапуска, МИНУТА)
+	КОНЕЦ КАК ВремяПростояОборудования
+	// Гкс+[TOIR20-512] Вялых Д.А. от 22.01.2025. Добавлено:{
+	//,гкс_ЕВОБланк.ВидНеисправности КАК ЗонаОтветственности,
+	,гкс_ЕВОБланк.ЗонаОтветственности КАК ЗонаОтветственности,
+	ВЫБОР
+		КОГДА гкс_ЕВОБланк.ВремяНачалаТС = ДАТАВРЕМЯ(1, 1, 1)
+				ИЛИ гкс_ЕВОБланк.ВремяОкончанияТС = ДАТАВРЕМЯ(1, 1, 1)
+			ТОГДА ДАТАВРЕМЯ(1, 1, 1)
+		ИНАЧЕ РАЗНОСТЬДАТ(гкс_ЕВОБланк.ВремяНачалаТС, гкс_ЕВОБланк.ВремяОкончанияТС, МИНУТА)
+	КОНЕЦ КАК ВремяРемонта,
+	ВЫБОР
+		КОГДА гкс_ЕВОБланк.ВремяНачалаТС = ДАТАВРЕМЯ(1, 1, 1)
+				ИЛИ гкс_ЕВОБланк.ВремяОкончанияТС = ДАТАВРЕМЯ(1, 1, 1)
+			ТОГДА ДАТАВРЕМЯ(1, 1, 1)
+		ИНАЧЕ РАЗНОСТЬДАТ(гкс_ЕВОБланк.ВремяВызоваТС, гкс_ЕВОБланк.ВремяНачалаТС, МИНУТА)
+	КОНЕЦ КАК ВремяРеагирования
+	// } Гкс-[TOIR20-512] Вялых Д.А. от 22.01.2025. 
+	// Гкс+[TOIR20-520] Вялых Д.А. от 29.01.2025. Добавлено:{
+    , гкс_ЕВОБланк.ТипПроблемы
+	// } Гкс-[TOIR20-520] Вялых Д.А. от 29.01.2025.
+	// Гкс+[TOIR20-551] Вялых Д.А. от 03.03.2025. Добавлено:{
+    , ВЫБОР
+		КОГДА гкс_ЕВОБланк.ВремяНачалаОстановки = ДАТАВРЕМЯ(1, 1, 1)
+			ТОГДА ДАТАВРЕМЯ(1, 1, 1)
+		ИНАЧЕ ДОБАВИТЬКДАТЕ(гкс_ЕВОБланк.ВремяНачалаОстановки, ЧАС, &amp;СдвигЧП + 1)
+	КОНЕЦ КАК ВремяНачалаОстановки, 
+	гкс_ЕВОБланк.гкс_ПовторныйОтказ КАК ПовторныйОтказ
+	// } Гкс-[TOIR20-551] Вялых Д.А. от 03.03.2025.
+	
+	
+ПОМЕСТИТЬ ВсеБланки
+ИЗ
+	Документ.гкс_ЕВОБланк КАК гкс_ЕВОБланк
+{ГДЕ
+	(гкс_ЕВОБланк.Дата &lt;= &amp;ДатаОкончания
+			И гкс_ЕВОБланк.Дата &gt;= &amp;ДатаНачала)}
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	торо_ВыявленныеДефектыСписокДефектов.ОбъектРемонта КАК ФМ,
+	торо_ВыявленныеДефектыСписокДефектов.ОтказавшийЭлемент КАК ОР,
+	торо_ВыявленныеДефектыСписокДефектов.ВидДефекта КАК ВидПоломки,
+	(ВЫРАЗИТЬ(торо_ВыявленныеДефектыСписокДефектов.гкс_СимптомДефекта.Наименование КАК СТРОКА(300))) + " " + торо_ВыявленныеДефектыСписокДефектов.ДефектОписание КАК ОписаниеПроблемы,
+	ВсеБланки.ДокументОснование КАК ДокументОснование 
+	// Гкс+[TOIR20-512] Вялых Д.А. от 22.01.2025. Добавлено:{
+	,торо_ВыявленныеДефектыСсылка.гкс_Влияние КАК Влияние 
+	// } Гкс-[TOIR20-512] Вялых Д.А. от 22.01.2025.
+	
+ПОМЕСТИТЬ ИзДефектов
+ИЗ
+	ВсеБланки КАК ВсеБланки
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.торо_ВыявленныеДефекты.СписокДефектов КАК торо_ВыявленныеДефектыСписокДефектов
+		ПО ВсеБланки.ДокументОснование = торо_ВыявленныеДефектыСписокДефектов.Ссылка
+			И (торо_ВыявленныеДефектыСписокДефектов.НомерСтроки = 1)
+		// Гкс+[TOIR20-512] Вялых Д.А. от 22.01.2025. Добавлено:{	 
+		ЛЕВОЕ СОЕДИНЕНИЕ Документ.торо_ВыявленныеДефекты КАК торо_ВыявленныеДефектыСсылка 
+		ПО торо_ВыявленныеДефектыСписокДефектов.Ссылка = торо_ВыявленныеДефектыСсылка.Ссылка
+		// } Гкс-[TOIR20-512] Вялых Д.А. от 22.01.2025.
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	гкс_ЕВОБланкМероприятияПоПредупреждению.Мероприятие КАК Мероприятие,
+	ВсеБланки.Ссылка КАК Ссылка,
+	ВсеБланки.Номер КАК Номер,
+	ВсеБланки.Дата КАК Дата,
+	ВсеБланки.Подразделение КАК Подразделение,
+	ВсеБланки.ДокументОснование КАК ДокументОснование,
+	ВсеБланки.КорневаяПричина КАК КорневаяПричина,
+	ВсеБланки.ТипКорневойПричины КАК ТипКорневойПричины,
+	ВсеБланки.ВремяПростояОборудования КАК ВремяПростояОборудования,
+	ИзДефектов.ФМ КАК ФМ,
+	ИзДефектов.ОР КАК ОР,
+	ИзДефектов.ВидПоломки КАК ВидПоломки,
+	ИзДефектов.ОписаниеПроблемы КАК ОписаниеПроблемы,
+	РАЗНОСТЬДАТ( &amp;ТекДата,гкс_ЕВОБланкМероприятияПоПредупреждению.Срок, ДЕНЬ) КАК ДнейДоОкончанияСрокаИсполненияМероприятия
+	// Гкс+[TOIR20-512] Вялых Д.А. от 22.01.2025. Добавлено:{
+	,ВсеБланки.ЗонаОтветственности КАК ЗонаОтветственности,
+	ИзДефектов.Влияние КАК Влияние,
+	гкс_ЕВОБланкМероприятияПоПредупреждению.Выполнено КАК Выполнено,
+	гкс_ЕВОБланкМероприятияПоПредупреждению.Ответственный КАК Ответственный,
+	ВсеБланки.ВремяРемонта КАК ВремяРемонта,
+	ВсеБланки.ВремяРеагирования КАК ВремяРеагирования
+	// } Гкс-[TOIR20-512] Вялых Д.А. от 22.01.2025.
+	// Гкс+[TOIR20-520] Вялых Д.А. от 29.01.2025. Добавлено:{
+    , ВсеБланки.ТипПроблемы КАК ТипПроблемы
+	// } Гкс-[TOIR20-520] Вялых Д.А. от 29.01.2025.
+	// Гкс+[TOIR20-551] Вялых Д.А. от 03.03.2025. Добавлено:{
+    , ВсеБланки.ВремяНачалаОстановки КАК ВремяНачалаОстановки, 
+	ВсеБланки.ПовторныйОтказ КАК ПовторныйОтказ,
+	гкс_ЕВОБланкМероприятияПоПредупреждению.Срок КАК Срок
+	// } Гкс-[TOIR20-551] Вялых Д.А. от 03.03.2025.
+ИЗ
+	ВсеБланки КАК ВсеБланки
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ ИзДефектов КАК ИзДефектов
+		ПО ВсеБланки.ДокументОснование = ИзДефектов.ДокументОснование
+		ЛЕВОЕ СОЕДИНЕНИЕ Документ.гкс_ЕВОБланк.МероприятияПоПредупреждению КАК гкс_ЕВОБланкМероприятияПоПредупреждению
+		ПО ВсеБланки.Ссылка = гкс_ЕВОБланкМероприятияПоПредупреждению.Ссылка</query>
+	</dataSet>
+	<totalField>
+		<dataPath>ДнейДоОкончанияСрокаИсполненияМероприятия</dataPath>
+		<expression>Максимум(ДнейДоОкончанияСрокаИсполненияМероприятия)</expression>
+		<group>Мероприятие</group>
+	</totalField>
+	<parameter>
+		<name>ДатаНачала</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата начала</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Start date</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;ПериодОтчета.ДатаНачала</expression>
+	</parameter>
+	<parameter>
+		<name>ДатаОкончания</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата окончания</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>End date</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;ПериодОтчета.ДатаОкончания</expression>
+	</parameter>
+	<parameter>
+		<name>ПериодОтчета</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Period</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>v8:StandardPeriod</v8:Type>
+		</valueType>
+		<value xsi:type="v8:StandardPeriod">
+			<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+			<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+			<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+		</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ТекДата</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Тек дата</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Current date</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>ТекущаяДата()</expression>
+		<use>Always</use>
+	</parameter>
+	<parameter>
+		<name>СдвигЧП</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Сдвиг ЧП</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>0</v8:Digits>
+				<v8:FractionDigits>0</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</valueType>
+		<value xsi:type="xs:decimal">0</value>
+		<useRestriction>true</useRestriction>
+		<expression>Час(ТекущаяДатаСеанса()) - Час(ТекущаяДата())</expression>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>EWO-бланки</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Основной</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>es</v8:lang>
+				<v8:content>Основной</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>tr</v8:lang>
+				<v8:content>Основной</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВремяНачалаОстановки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Ссылка</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Подразделение</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ФМ</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОР</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОписаниеПроблемы</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КорневаяПричина</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТипКорневойПричины</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>ВидПоломки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЗонаОтветственности</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ТипПроблемы</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Влияние</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВремяРемонта</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВремяРеагирования</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВремяПростояОборудования</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПовторныйОтказ</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Мероприятие</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Ответственный</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Срок</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Выполнено</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДнейДоОкончанияСрокаИсполненияМероприятия</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ПериодОтчета</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardPeriod">
+						<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+						<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+						<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+					</dcscor:value>
+					<dcsset:userSettingID>908b533e-1934-44f1-b303-1062c919a68c</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:conditionalAppearance>
+				<dcsset:item>
+					<dcsset:use>false</dcsset:use>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>ДнейДоОкончанияСрокаИсполненияМероприятия</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>Мероприятие</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>Выполнено</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>Ответственный</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ВремяРеагирования</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>ВремяРемонта</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ДнейДоОкончанияСрокаИсполненияМероприятия</dcsset:left>
+							<dcsset:comparisonType>Less</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ЦветФона</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">web:Red</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+			</dcsset:conditionalAppearance>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:use>false</dcsset:use>
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Ссылка</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Подразделение</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ФМ</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ОР</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ОписаниеПроблемы</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>КорневаяПричина</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ТипКорневойПричины</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ВидПоломки</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ЗонаОтветственности</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ТипПроблемы</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Влияние</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ВремяРемонта</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ВремяРеагирования</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ВремяПростояОборудования</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+				</dcsset:item>
+			</dcsset:item>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

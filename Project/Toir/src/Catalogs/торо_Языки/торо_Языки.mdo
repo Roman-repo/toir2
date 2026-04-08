@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3295d12a-40ed-400a-921a-bd400159c2ec">
+  <producedTypes>
+    <objectType typeId="d1a007ee-0017-4086-9c43-8bc5af236ff4" valueTypeId="9b4005e5-797b-4f97-a12d-9ccf616a0e19"/>
+    <refType typeId="94146561-d9ce-4e3b-bf3b-357184c763be" valueTypeId="56f42b22-e0b6-45d0-a380-40d67af7a429"/>
+    <selectionType typeId="be31960b-1988-4b70-a270-2ffa1967670c" valueTypeId="1891da52-f9fb-453c-9bc6-cfb09fe5d003"/>
+    <listType typeId="69dda463-c8b8-413e-b691-779525d77afa" valueTypeId="8f5ea6f0-6354-4c0c-8eab-ec444ae0e514"/>
+    <managerType typeId="ddf52c69-493a-4dad-821c-58a4b3f07a81" valueTypeId="3acc49d1-5dd2-4f22-bfff-8785d2f82524"/>
+  </producedTypes>
+  <name>торо_Языки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Языки</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Las lenguas</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Languages</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.торо_Языки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.торо_Языки.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="1a0ef8c9-c12c-4b8c-adaa-2ae663bdde4b">
+      <name>Английский</name>
+      <description>Английский</description>
+      <code xsi:type="core:StringValue">
+        <value>en</value>
+      </code>
+    </items>
+    <items id="dc935cba-8fca-4cc2-a2ae-c27ef0d5fb85">
+      <name>Испанский</name>
+      <description>Испанский</description>
+      <code xsi:type="core:StringValue">
+        <value>es</value>
+      </code>
+    </items>
+    <items id="17c4ac99-0fbc-47db-b757-1576231c84bd">
+      <name>Русский</name>
+      <description>Русский</description>
+      <code xsi:type="core:StringValue">
+        <value>ru</value>
+      </code>
+    </items>
+    <items id="86bb0362-e83a-491f-907b-70e6ff5af7af">
+      <name>Турецкий</name>
+      <description>Турецкий</description>
+      <code xsi:type="core:StringValue">
+        <value>tr</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

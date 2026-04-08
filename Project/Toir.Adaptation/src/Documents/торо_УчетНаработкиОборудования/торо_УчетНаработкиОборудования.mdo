@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c5cb920f-e43f-40ef-b4dd-7f790a3f4afc">
+  <producedTypes>
+    <objectType typeId="c59df931-c59e-494c-811c-c467f8cdda2b" valueTypeId="161bea0b-b243-4d66-9210-91281c374a2c"/>
+    <refType typeId="6a28c8f2-621f-435e-b3e3-86921af8ef55" valueTypeId="69952961-0505-4dde-803e-6f72a01b698a"/>
+    <selectionType typeId="4f6d4aad-7bc1-4982-b24a-e87f789711b0" valueTypeId="74880a9b-5f75-40a3-9f53-aa0c306cfc5f"/>
+    <listType typeId="457eab5a-f2e0-462d-a3cd-aa025ff4ace0" valueTypeId="a29a8ef5-0504-45a5-9e44-a2086126ab42"/>
+    <managerType typeId="65300f6e-9de6-4377-8d7c-a3bbbddc95b3" valueTypeId="f137bdd2-1c1e-48a1-8f6a-061f09e00c8f"/>
+  </producedTypes>
+  <name>торо_УчетНаработкиОборудования</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <objectModule>Extended</objectModule>
+  </extension>
+  <forms uuid="b19f30b4-270b-4f88-aa47-7459ea2ad5d2" extendedConfigurationObject="f9012365-2b3b-49de-bdf8-ced25d60ddf4">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="e32dba6e-7e44-4dc0-a8e6-4de0183b101d" extendedConfigurationObject="5b331c75-7b57-472b-be31-eba8ce979311">
+    <name>ФормаСписка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Document>

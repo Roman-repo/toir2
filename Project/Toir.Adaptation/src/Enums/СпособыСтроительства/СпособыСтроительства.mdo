@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="edf327da-4b74-4c86-9df1-230f59e59962">
+  <producedTypes>
+    <refType typeId="a57d1664-70f0-4b34-9bca-5707cd957ede" valueTypeId="eca278ad-820e-4049-a348-67c85e4275a6"/>
+    <listType typeId="147a89ec-ee1f-461e-ba52-cc7d618ea194" valueTypeId="63a4437a-4087-4790-9355-9b35fb34b56d"/>
+    <managerType typeId="fdb05d29-145b-46de-bd27-b6a508307695" valueTypeId="d94fe684-c101-4599-8335-01294c2769fd"/>
+  </producedTypes>
+  <name>СпособыСтроительства</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="50af72d6-0bca-49d0-bfd6-df073a40c223">
+    <name>Хозспособ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="c3557562-b14a-4775-8e32-5fc8e2a8b26c">
+    <name>Подрядный</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

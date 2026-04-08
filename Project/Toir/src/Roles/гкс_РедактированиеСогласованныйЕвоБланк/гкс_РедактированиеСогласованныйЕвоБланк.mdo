@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7545166f-5301-411d-a50e-ecef555970c9">
+  <name>гкс_РедактированиеСогласованныйЕвоБланк</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редактирование согласованный EWO-бланк</value>
+  </synonym>
+</mdclass:Role>

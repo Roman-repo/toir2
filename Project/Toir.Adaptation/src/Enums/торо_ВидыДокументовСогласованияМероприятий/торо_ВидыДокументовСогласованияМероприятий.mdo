@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="eeb0b8b2-65f8-4b00-a6f4-e9817105bb0c">
+  <producedTypes>
+    <refType typeId="0f710ed6-cb44-4cd6-ad50-157368294980" valueTypeId="3de11b7b-3fee-452d-9270-d66b6f40f158"/>
+    <listType typeId="a2906b2f-6b92-462e-bab5-9e5b69fef073" valueTypeId="7984eb09-c2f3-445f-a046-df9ae78366d7"/>
+    <managerType typeId="4e28a08a-1859-4fd8-9d84-86eaa9981fdf" valueTypeId="32ff7c94-7a9d-4d0a-8020-72219f158887"/>
+  </producedTypes>
+  <name>торо_ВидыДокументовСогласованияМероприятий</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+</mdclass:Enum>

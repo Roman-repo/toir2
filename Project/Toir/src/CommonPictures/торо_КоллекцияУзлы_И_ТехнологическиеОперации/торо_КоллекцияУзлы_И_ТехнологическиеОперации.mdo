@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f115d79-32ad-455a-9f61-0cde9e8d5f07">
+  <name>торо_КоллекцияУзлы_И_ТехнологическиеОперации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коллекция узлы и технологические операции</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>La colección los nudos y las operaciones tecnológicas</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Collection of knots and technological operations</value>
+  </synonym>
+  <transparentPixel>
+    <x>76</x>
+    <y>1</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

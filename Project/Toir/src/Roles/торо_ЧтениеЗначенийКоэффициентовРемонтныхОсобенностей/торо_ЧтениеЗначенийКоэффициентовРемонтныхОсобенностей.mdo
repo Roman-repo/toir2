@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="af142e4d-ae30-4839-9f81-929f65c29d9b">
+  <name>торо_ЧтениеЗначенийКоэффициентовРемонтныхОсобенностей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение значений коэффициентов ремонтных особенностей</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>La lectura de los significados de los coeficientes de los rasgos de reparación</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Reading the values ​​of the coefficients of repair features</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f165c617-2566-4ef3-a160-0858a666ed80">
+  <name>торо_ДобавлениеИзменениеПометкаУдаленияПараметровАвтоматическойФиксацииДефектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление, изменение, пометка удаления параметров автоматической фиксации дефектов</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>La adición, el cambio, la marca de la desaparición de los parámetros de la fijación automática de los defectos</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Adding, changing, marking the removal of parameters of automatic fixation of defects</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="70b5f781-fa2c-4432-a866-9d50f4e55da9">
+  <name>гкс_ПролонгацияППР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пролонгация ППР</value>
+  </synonym>
+  <methodName>CommonModule.гкс_ПересчетППР.гкс_ПролонгацияППР</methodName>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

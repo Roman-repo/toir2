@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="74373ba3-2633-4b82-84c2-9803cb0f3192">
+  <name>ДобавлениеИзменениеПометкаУдаленияКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление, изменение и пометка удаления контрагентов</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>La adición, el cambio y la marca de la desaparición de los contratantes</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Adding, modifying and flagging deletion of counterparties</value>
+  </synonym>
+</mdclass:Role>

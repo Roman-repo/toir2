@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac0b4f25-204c-4bf2-95c1-1ed140a76d17">
+  <name>гкс_ИзменениеШаблоновТехКарт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение шаблонов тех карт</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Change those standard maintenance plan</value>
+  </synonym>
+</mdclass:Role>

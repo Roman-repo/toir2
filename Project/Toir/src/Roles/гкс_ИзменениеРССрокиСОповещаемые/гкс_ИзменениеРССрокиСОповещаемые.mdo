@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="979670d0-fe62-4fc7-8ad9-341848447b7a">
+  <name>гкс_ИзменениеРССрокиСОповещаемые</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение РС Оповещаемые сроков согласования</value>
+  </synonym>
+</mdclass:Role>

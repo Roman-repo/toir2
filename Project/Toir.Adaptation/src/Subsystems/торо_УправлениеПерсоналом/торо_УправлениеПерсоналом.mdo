@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2ae92171-5c62-47dd-b08b-917a456f7f70" extendedConfigurationObject="c439a431-4ec3-42e6-9080-0f4571e9b641">
+  <name>торо_УправлениеПерсоналом</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:SubsystemExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <content>Extended</content>
+    <commandInterface>Extended</commandInterface>
+  </extension>
+  <content>Document.гкс_УстановкаСоответствийДолжностейИКвалификаций</content>
+</mdclass:Subsystem>

@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a6614f09-0d84-4ac0-8cb9-ed61ffcdf79e">
+  <producedTypes>
+    <selectionType typeId="b6fd5ea8-ed32-4f1a-abaa-4e07b658b3e5" valueTypeId="3a4a36d6-e03d-4313-a7c3-7ea1946372a0"/>
+    <listType typeId="48d72d27-f5cf-4567-b64e-ac2ff451b69e" valueTypeId="dd698acf-6988-4eae-92cb-d8174b99c1ae"/>
+    <managerType typeId="c02eb950-07ab-43f3-80a4-3b5bb341c36e" valueTypeId="279cb2be-7b7b-47c8-bd9e-004e034b612c"/>
+    <recordSetType typeId="514158ea-9560-4814-a20a-804af9addd51" valueTypeId="c53a8e78-02fa-4b01-8871-b8c987570062"/>
+    <recordKeyType typeId="aaff5965-4ef9-4a20-b6bc-83278159c218" valueTypeId="8464b018-271e-49f8-ac90-25a7c872735d"/>
+    <recordType typeId="847849f3-f990-45b7-b6de-09a8752397b8" valueTypeId="ca9a8d66-2137-4772-b31b-da562df88238"/>
+    <recordManagerType typeId="81f012aa-e8ac-4006-bc95-9494520d3279" valueTypeId="dd67d448-646b-4a2b-9061-6b3878aeb663"/>
+  </producedTypes>
+  <name>торо_НормативныеРемонтыОборудования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нормативные ремонты оборудования</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Las reparaciones normativas de la maquinaria</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Regulatory equipment repairs</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="1d7e3482-1aaf-495f-8cd5-3167bce1138f">
+    <name>НормативныйРемонт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нормативный ремонт</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La reparación normativa</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Regulatory repair</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.торо_ИдентификаторыТехКарт</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Технологическая карта ремонта</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>La tarjeta tecnológica de la reparación</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Repair technological map</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d30c4db5-e74f-463a-ae64-5fbd511553c3">
+    <name>СпособПланирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ планирования</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El modo de la planificación</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Planning method</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.торо_СпособыПланированияРемонтныхРабот</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Способ планирования ремонта</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El modo de la planificación de la reparación</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Repair planning method</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8c63d7c6-06c1-4714-98f4-9e83471b1d9b">
+    <name>ГрафикРемонтныхРабот</name>
+    <synonym>
+      <key>ru</key>
+      <value>График ремонтных работ</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El gráfico de los trabajos de reparación</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Repair Schedule</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Календари</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>График выполнения ремонтных работ</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El gráfico de la ejecución de los trabajos de reparación</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Repair Schedule</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b5c26398-de07-43ac-803f-f0c1870847d6">
+    <name>СпособВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ выполнения</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El modo de la ejecución</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Execution method</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СпособыСтроительства</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Хозспособ или подрядный</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>Хозспособ o por contrato</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Economic method or contractor</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="fe5d3e46-f6db-44b6-8d42-7a1a2a6bcd5e">
+    <name>НеИспользоватьВПланированииДатуВводаВЭксплуатацию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не использовать в планировании дату ввода в эксплуатацию</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>No usar en la planificación la fecha de la introducción en la explotación</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Do not use commissioning date in planning</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>признак того, что при формировании графика ППР в качестве даты отсчёта не будет браться дата ввода в эксплуатацию</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El indicio de lo que a la formación del gráfico ППР en calidad de la fecha de la lectura no se cogerá la fecha de la introducción en la explotación</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>sign that when setting up the PPM schedule, the commissioning date will not take</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="72ef4eb0-288a-4e85-9368-ca8e4d324328">
+    <name>СпособУчетаДатыОтсчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ учета даты отсчета</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El modo del recuento de la fecha de la lectura</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Method of accounting for the reference date</value>
+    </synonym>
+    <type>
+      <types>EnumRef.торо_СпособыУчетаДатыОтсчетаПриПланированииРемонтныхРабот</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Название способа, в соответствии с которым учитывается дата отсчета графика ППР</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El nombre del modo, en concordancia con que es tomada en consideración la fecha de la lectura del gráfico ППР</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>The name of the method according to which the countdown date of the PPM schedule is taken into account</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e905d725-7618-4edb-a751-ebca3b574428">
+    <name>НеУчаствуетВПланировании</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не участвует в планировании</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>No participa en la planificación</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Not involved in planning</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что нормативный ремонт не будет планироваться при формировании графика ППР и будет иметь справочное значение</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El indicio de lo que la reparación normativa no se planeará a la formación del gráfico ППР y tendrá el significado de información</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Sign that normative repairs will not be planned during the formation of the PPM schedule and will have a reference value</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4e43a785-2706-4646-98e2-a44cac191e5f">
+    <name>РазрешитьСокращатьМежремонтныйПериодПриПланировании</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разрешить сокращать межремонтный период при планировании</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Permitir reducir межремонтный el período a la planificación</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Permit to shorten the overhaul period when planning</value>
+    </synonym>
+    <comment>Разрешить сокращать межремонтный период в случае, если начало ремонта приходится на выходной день</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак перемещения планового ремонта на более раннюю дату</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El indicio del traslado de la reparación planificada a una fecha más temprana</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Sign of scheduled repair moving to an earlier date</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="bec55919-796d-46be-b47b-348f0909aada">
+    <name>НеУчитыватьПриПланированииГрафикРаботыОборудования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не учитывать при планировании график работы оборудования</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>No tomar en consideración a la planificación el gráfico del trabajo de la maquinaria</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Do not take into account when planning the schedule of equipment</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак, определяющий способ расчета плановой наработки для определения даты следующего ремонта при расчете графика ППР</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El indicio que determina el modo del cálculo de la elaboración planificada para la definición de la fecha de la reparación siguiente al cálculo del gráfico ППР</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>A sign that determines the method of calculating the planned operating time to determine the date of the next repair when calculating the schedule</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="44adb22b-665c-46c5-ae26-ad733386eca3">
+    <name>НеУчитыватьПриПланированииГрафикРемонтныхРабот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не учитывать при планировании график ремонтных работ</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>No tomar en consideración a la planificación el gráfico de los trabajos de reparación</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Do not consider the repair schedule when planning</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что при формировании графика ППР ремонты будут запланированы без учета графика ремонтов оборудования</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El indicio de lo que a la formación del gráfico ППР las reparaciones serán planeadas sin tomar en cuenta el gráfico de las reparaciones de la maquinaria</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Sign that during the formation of the PPM schedule, repairs will be planned without taking into account the equipment repair schedule</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f5f084e2-8159-4f2e-9597-5a2f71ded98c">
+    <name>НеУчитыватьПродолжительность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не учитывать продолжительность</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>No tomar en consideración la duración</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Do not consider duration</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак, определяющий дату начала планирования следующего ремонта</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El indicio que determina la fecha del comienzo de la planificación de la reparación siguiente</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>A sign that determines the start date of planning the next repair</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e3073458-052a-4282-8be3-cc9965e7acce">
+    <name>ИспользоватьКоэффициентыРемонтныхОсобенностей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать коэффициенты ремонтных особенностей</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Usar los coeficientes de los rasgos de reparación</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Use repair factors</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что при формировании графика ППР будут учитываться заданные коэффициенты ремонтных особенностей</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El indicio de lo que a la formación del gráfico ППР serán tomados en consideración los coeficientes dados de los rasgos de reparación</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Sign that during the formation of the PPM schedule, the specified coefficients of repair features will be taken into account</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="64f53b04-b44c-4fea-9f08-32f5b7ea597a">
+    <name>УчитыватьПростоиОборудования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учитывать простои оборудования</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Tomar en consideración las horas muertas de la maquinaria</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Consider equipment downtime</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что при формировании графика ППР ремонты будут запланированы с учетом простоев оборудования</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El indicio de lo que a la formación del gráfico ППР las reparaciones serán planeadas tomando en cuenta las horas muertas de la maquinaria</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>A sign that during the formation of the PPM schedule, repairs will be planned taking into account equipment downtime</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="35b5c935-8999-4d00-a96d-554761a860d1">
+    <name>Приоритет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритет</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La prioridad</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Priority</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Приоритет объекта ремонта</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>La prioridad del objeto de la reparación</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Priority repair facility</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1f235459-d095-44b0-bc6b-aa151c906f7f">
+    <name>СтратегияОбслуживания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стратегия обслуживания</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La estrategia del servicio</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Service strategy</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.торо_СтратегииОбслуживания</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f7184903-1f27-417d-b0b8-5f2a2680f0b9">
+    <name>ИсточникСтратегии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник стратегии</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La fuente de la estrategia</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Strategy source</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="bc1309b6-9ba3-46a3-b2a0-f739d2af5fa4">
+    <name>ОбъектРемонта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект ремонта</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El objeto de la reparación</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Object of repair</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.торо_ОбъектыРемонта</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Объект ремонта, для которого установлен норматив</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El objeto de la reparación, para que es establecida la norma</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Repair object for which the standard is established</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="654540a8-efae-49bf-b596-f2a612abe9c4">
+    <name>ВидРемонта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид ремонта</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El tipo de la reparación</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Type of repair</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.торо_ВидыРемонтов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид ремонта объекта ремонта</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El tipo de la reparación del objeto de la reparación</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Type of repair of the repair object</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="5614fb54-ffb3-4b46-94a6-cb631365a571">
+    <name>ТиповойОР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Типовой ОР</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Tipo ОР</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Typical EI</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.торо_ТиповыеОР</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Типовой объект ремонта, для которого установлен норматив</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El objeto tipo de la reparación, para que es establecida la norma</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Typical repair facility for which the standard is established</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

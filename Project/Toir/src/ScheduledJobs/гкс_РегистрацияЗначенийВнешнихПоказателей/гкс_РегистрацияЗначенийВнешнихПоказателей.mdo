@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e7a241e4-05f7-4e45-a72f-5a7f4780c550">
+  <name>гкс_РегистрацияЗначенийВнешнихПоказателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрация значений внешних показателей</value>
+  </synonym>
+  <methodName>CommonModule.гкс_ОбщегоНазначенияСервер.гкс_РегистрацияЗначенийВнешнихПоказателей</methodName>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="02f14f72-a9be-4fc3-b6bd-09e68c43b674">
+  <name>ЧтениеЕдиницИзмерения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение единиц измерения</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>La lectura de las unidades de medida</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Reading units</value>
+  </synonym>
+</mdclass:Role>

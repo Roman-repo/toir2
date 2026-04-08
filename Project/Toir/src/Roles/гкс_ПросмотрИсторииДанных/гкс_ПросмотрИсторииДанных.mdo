@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c95628e5-f6d2-405c-950a-48f6718cd04d">
+  <name>гкс_ПросмотрИсторииДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Просмотр истории данных</value>
+  </synonym>
+</mdclass:Role>

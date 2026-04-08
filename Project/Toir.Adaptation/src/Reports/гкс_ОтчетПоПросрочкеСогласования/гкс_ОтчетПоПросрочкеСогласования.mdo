@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a0d96052-7d23-4a9d-9de5-1d961233916f">
+  <producedTypes>
+    <objectType typeId="4c091943-0157-4319-888c-bd19e97494de" valueTypeId="35981595-e1c1-482a-a3b0-c60b5816646e"/>
+    <managerType typeId="8310294d-ec8f-4a11-a90d-3cda1339fea2" valueTypeId="cdb6c3ac-b286-4880-bd83-87aba7e43592"/>
+  </producedTypes>
+  <name>гкс_ОтчетПоПросрочкеСогласования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по пользователям с просроченным согласованием</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.гкс_ОтчетПоПросрочкеСогласования.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="af5367f1-0b9d-4c96-acf8-98f9afbb1717">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

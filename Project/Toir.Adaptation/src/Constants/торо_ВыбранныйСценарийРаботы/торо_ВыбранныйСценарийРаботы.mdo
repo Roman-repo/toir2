@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="31df77f7-6a04-42fa-aab0-4a785025104f">
+  <producedTypes>
+    <managerType typeId="70550e74-91e3-4e39-9619-bcde2041e36b" valueTypeId="aac80178-ceb2-4901-9f62-c8dedb02ef83"/>
+    <valueManagerType typeId="30d45c06-ed3b-4191-992c-1fd5f2fda1a9" valueTypeId="72363785-ee17-4a52-a917-9663fcc16b1f"/>
+    <valueKeyType typeId="acf5a868-37e3-4f2d-9b10-b9a5ada0ff10" valueTypeId="2aa00ed5-eb47-4351-8ce2-176666eb97ba"/>
+  </producedTypes>
+  <name>торо_ВыбранныйСценарийРаботы</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>CatalogRef.торо_ПредопределенныеСценарииРаботыСистемы</type>
+      </types>
+    </typeExtension>
+  </extension>
+</mdclass:Constant>

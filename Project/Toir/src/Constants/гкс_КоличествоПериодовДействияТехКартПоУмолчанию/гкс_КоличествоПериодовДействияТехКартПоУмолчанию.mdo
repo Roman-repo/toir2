@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="851e7e4b-afb0-4d83-b1a5-57d0ed477dbb">
+  <producedTypes>
+    <managerType typeId="68acffb1-6a1a-474b-9405-558f1668427f" valueTypeId="8628f4ae-a7e5-4190-8232-389d4ba87851"/>
+    <valueManagerType typeId="161be837-f3db-4db2-8a63-6eb392df445e" valueTypeId="ef76a56d-0052-4024-a12d-cb26d8afaab6"/>
+    <valueKeyType typeId="168c3708-ea4f-4c41-b2e5-f3e7c25157b1" valueTypeId="c206783c-e3dd-4f58-8928-7cafd5cf934e"/>
+  </producedTypes>
+  <name>гкс_КоличествоПериодовДействияТехКартПоУмолчанию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Количество периодов действия тех карт по умолчанию</value>
+  </synonym>
+  <comment>TOIR20-194</comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>3</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

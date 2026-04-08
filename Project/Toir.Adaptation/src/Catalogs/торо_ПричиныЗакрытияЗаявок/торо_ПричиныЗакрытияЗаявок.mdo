@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e1a8befa-638a-42b9-a457-6f2a9d312574">
+  <producedTypes>
+    <objectType typeId="ddcfa939-2948-4759-b554-ce94fbdabc0d" valueTypeId="6f3a1d82-d554-48ab-beac-230c8276685b"/>
+    <refType typeId="77200899-ce09-47c4-9bdb-2aa3e3722b87" valueTypeId="6c3b82fd-8fc6-4672-8f9a-ce00b8467faf"/>
+    <selectionType typeId="a15689ab-75f2-4dcb-be60-9a7e5ead6b0a" valueTypeId="97175c94-476e-4027-bf76-a879981c5564"/>
+    <listType typeId="f86f1b47-ac0f-4c61-841f-5bbff6559db8" valueTypeId="c20cb6a6-9a69-4c80-b1e1-92362d6e1e81"/>
+    <managerType typeId="ae8c810d-30ca-4435-b540-257848176545" valueTypeId="9c7bf7c4-052c-4283-a22c-32bcdb1ba52b"/>
+  </producedTypes>
+  <name>торо_ПричиныЗакрытияЗаявок</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

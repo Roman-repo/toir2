@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae1b38e4-7f19-4618-b3b9-8a26d11d04e4">
+  <producedTypes>
+    <selectionType typeId="f62e95ef-f089-4b8d-9e89-9c44967914fe" valueTypeId="8d68d662-1a5a-48bf-a4a2-f88c364b296b"/>
+    <listType typeId="1a86e67c-9683-4ba5-ab6c-66d709b36b41" valueTypeId="ed92656b-3cbf-4623-874a-d023545449a2"/>
+    <managerType typeId="be3ae686-53ec-488d-8eef-6c64f02db9bf" valueTypeId="da0b8244-1615-4a35-86f0-93c30e0a1264"/>
+    <recordSetType typeId="bee0415e-62e3-4bea-9a4e-7b26543cf2e6" valueTypeId="fd98ae7c-cc56-4966-937f-f86de3a986fb"/>
+    <recordKeyType typeId="e81c4732-cf35-406f-a4ba-7b5d6af1ad8f" valueTypeId="e04ecb9a-80d2-448d-b3e6-56bd59302d87"/>
+    <recordType typeId="f2963846-9fea-436b-9427-6a550f7aa868" valueTypeId="0930419f-af2b-4f80-a5ea-d8fbf4f77ed4"/>
+    <recordManagerType typeId="7c20c829-e280-4c69-9091-511d23743519" valueTypeId="190518c7-864d-4950-9534-5a7182f06108"/>
+  </producedTypes>
+  <name>гкс_СоответствиеЗначенийСостояниям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соответствие значений состояниям</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Matching values to States</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="03521e99-8229-4252-9c58-dd4b014a6fb3">
+    <name>Состояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El estado</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Status </value>
+    </synonym>
+    <type>
+      <types>CatalogRef.торо_ВидыЭксплуатации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a5193c70-06e3-42a3-83f4-0803de2425e6">
+    <name>ПричинаПростоя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Причина простоя</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Reason for downtime</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.торо_ПричиныПростояОборудования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="4e346ff1-0e91-4000-b3bb-54f9b42b2d75">
+    <name>Подключение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подключение</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La conexión</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Connection</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.торо_ПодключенияКБазеДанных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4e222be7-504f-4c83-a1b2-5bc7410b4d23">
+    <name>Тег</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тег</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Тег</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Tag</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1dbc9b12-ac27-4d96-9c26-0d58eebeedab">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Value</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

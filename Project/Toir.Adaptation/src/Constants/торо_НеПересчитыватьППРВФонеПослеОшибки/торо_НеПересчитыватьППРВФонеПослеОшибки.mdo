@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b555c5d5-f372-40b6-86be-70e67f10dd9b">
+  <producedTypes>
+    <managerType typeId="af00f500-857a-444d-bd02-da2fde080e01" valueTypeId="93f2e56c-5e91-4479-91e1-46fcd75a28be"/>
+    <valueManagerType typeId="1aa7e177-2a32-48c9-b24f-2581b7d3ba0c" valueTypeId="120b92f3-bcc5-4c84-beaa-90f78a2c0ed2"/>
+    <valueKeyType typeId="9e707d33-f7ec-49a7-83fb-d0e799b82e80" valueTypeId="89fdb943-df01-4802-9514-4f5849960520"/>
+  </producedTypes>
+  <name>торо_НеПересчитыватьППРВФонеПослеОшибки</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+</mdclass:Constant>

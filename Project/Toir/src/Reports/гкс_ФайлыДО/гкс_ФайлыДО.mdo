@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3779a1fc-ad6e-4f88-bb69-ec4941cd5e38">
+  <producedTypes>
+    <objectType typeId="1c4a892b-3f39-40b8-8169-510760096fac" valueTypeId="b3d2d815-e1e6-4931-a543-50e3cf868bf6"/>
+    <managerType typeId="fc432ab7-a372-449c-97ad-5be70d1df590" valueTypeId="c5e5e9df-6e9a-4247-91e6-3831152d25a2"/>
+  </producedTypes>
+  <name>гкс_ФайлыДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Наличие файлов документа в ДО</value>
+  </synonym>
+  <comment>TOIR20-217</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultSettingsForm>CommonForm.ВспомогательнаяФормаНастроекОтчета</defaultSettingsForm>
+  <attributes uuid="70a2260c-1102-406d-a73f-366c5f33449a">
+    <name>АктыОВыполненииЭтапаРабот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акты о выполнении этапа работ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f517ba20-90d3-4020-8975-edcfbcc28340">
+    <name>ВыявленныеДефекты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выявленные дефекты</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="cf7199e7-3410-49ba-b6f8-344af3fa7a43">
+    <name>ЗаявкиНаРемонт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявки на ремонт</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7ee8d81b-1dd5-4db3-9c8d-96a203f50de2">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="78371f10-c5bc-4eed-902e-d0a4242db86d">
+    <name>ТолькоСФайлами</name>
+    <synonym>
+      <key>ru</key>
+      <value>Только с файлами</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+</mdclass:Report>

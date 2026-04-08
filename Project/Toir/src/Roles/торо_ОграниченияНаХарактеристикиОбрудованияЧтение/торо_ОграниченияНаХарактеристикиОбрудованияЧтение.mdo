@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e015c1fd-1dc8-4a33-a1c7-6e14557ac96a">
+  <name>торо_ОграниченияНаХарактеристикиОбрудованияЧтение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение Ограничения на характеристики обрудования</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Reading Limitations on the characteristics of the equipment</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>La lectura de las Restricciones sobre las características de la compañia de</value>
+  </synonym>
+</mdclass:Role>

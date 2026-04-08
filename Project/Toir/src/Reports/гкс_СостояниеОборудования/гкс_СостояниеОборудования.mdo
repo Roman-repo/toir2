@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a10055c-dd10-4fdd-ac9e-720683ec9669">
+  <producedTypes>
+    <objectType typeId="59eba56e-bb0f-43be-a774-7d999298cd25" valueTypeId="fad804a2-7e78-4d83-9b89-99098370e38b"/>
+    <managerType typeId="e986f6ba-6d53-4f20-9bef-70c26b810122" valueTypeId="dfbd38ee-bb9e-4582-9e52-f80a72cdc14e"/>
+  </producedTypes>
+  <name>гкс_СостояниеОборудования</name>
+  <synonym>
+    <key>en</key>
+    <value>Equipment condition</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>El estado de la maquinaria</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние оборудования (гкс)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.гкс_СостояниеОборудования.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="d46ec2c0-3de1-41de-b59b-8d090927a9d5">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El esquema básico de la composición de los datos</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Main data composition diagram</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

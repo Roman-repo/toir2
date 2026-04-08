@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="68991a86-7d23-4e40-bce9-2678b6794622">
+  <name>гкс_ЗапускОтчета_ФайлыДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запуск отчета Наличие файлов документа в ДО (ГКС)</value>
+  </synonym>
+</mdclass:Role>

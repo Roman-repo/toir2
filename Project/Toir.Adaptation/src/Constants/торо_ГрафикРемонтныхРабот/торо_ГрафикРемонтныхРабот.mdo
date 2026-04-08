@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e1fec982-e569-46e7-8a77-43ad7f0cde72">
+  <producedTypes>
+    <managerType typeId="5d23f47e-c034-45bc-8eb6-f0bc1ea1b505" valueTypeId="fb4800fe-ee61-496b-89a8-497a87f565dd"/>
+    <valueManagerType typeId="c25c8098-889f-48eb-a05c-83ab28fcbbd3" valueTypeId="df41ded3-87ce-4513-b1fd-51ffb484bb12"/>
+    <valueKeyType typeId="6cb64973-fc65-467a-a4f6-887ef955c548" valueTypeId="3f221414-c927-4798-a3cd-9f84ee2bd7bf"/>
+  </producedTypes>
+  <name>торо_ГрафикРемонтныхРабот</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>CatalogRef.Календари</type>
+      </types>
+    </typeExtension>
+  </extension>
+</mdclass:Constant>

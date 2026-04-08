@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="964ded25-e662-4d6a-8de2-1358f39a1512">
+  <name>гкс_КомпонентыИзменение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Компоненты редактирование</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Components editing</value>
+  </synonym>
+</mdclass:Role>

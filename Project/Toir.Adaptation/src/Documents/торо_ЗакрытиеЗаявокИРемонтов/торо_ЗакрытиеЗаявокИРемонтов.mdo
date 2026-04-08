@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="596e5dad-002e-4bf4-839b-96aae2f9805a">
+  <producedTypes>
+    <objectType typeId="4656d30a-a8e4-4051-9bb6-f9be59e67bd3" valueTypeId="a2bad3a6-b02b-4cd2-b5e9-16365c3e3115"/>
+    <refType typeId="f6de4528-3cd5-44d3-9138-8582f81fd14e" valueTypeId="47678dfc-b6d9-4027-aba3-443eaeeb43ed"/>
+    <selectionType typeId="d4320999-88a0-4c7d-a212-d8e6424d5d3d" valueTypeId="5dd19277-f7a0-43ba-a95a-1a5c5c3ac7e8"/>
+    <listType typeId="d9774d21-c8a3-4c26-a98e-2aeff2d4569c" valueTypeId="e4a8c41b-83ec-4109-8f3a-42538e07e813"/>
+    <managerType typeId="0e86f98d-643a-4df0-a31c-d97072dab78e" valueTypeId="bebcc879-734a-4034-af77-c1b2a10f4fbe"/>
+  </producedTypes>
+  <name>торо_ЗакрытиеЗаявокИРемонтов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <objectModule>Extended</objectModule>
+    <numberType>Checked</numberType>
+    <numberLength>Checked</numberLength>
+    <numberAllowedLength>Checked</numberAllowedLength>
+  </extension>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <attributes uuid="2b5cb82b-6d72-4fde-ae89-3e07d76c9400" extendedConfigurationObject="1956cb75-56b8-44d3-8976-c6da63c7e472">
+    <name>Организация</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Организации</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="a29876c9-9028-438c-bbe7-4303a2978c6c" extendedConfigurationObject="4e6ff1a5-fcd3-468d-afb2-4548864e1036">
+    <name>ДатаАктуальности</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="89e7d7ef-72c5-41ca-b94c-d561d5a4a368" extendedConfigurationObject="e3a25bb8-46cc-47c7-88ab-d8638955a412">
+    <name>ППРИнициатор</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.торо_ПланГрафикРемонта</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="695dd929-6342-4ecb-9aa5-05c960389ea5" extendedConfigurationObject="42802afd-70ab-4cd7-9b79-5e87db6590e0">
+    <name>Ответственный</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Пользователи</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <forms uuid="695da667-80d8-4669-b573-ba5ecec42efa">
+    <name>гкс_МассовыйПереносЗаявок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Массовый перенос заявок</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8ac1843b-a9be-45c1-ac04-f2b4777e90f9">
+    <name>гкс_ПодборРемонтов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подбор ремонтов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7b4cd5dc-0cb2-412a-924a-2fe6891c2c8e" extendedConfigurationObject="a29f04a1-e661-4c06-b55b-1f2877f89761">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <tabularSections uuid="e69ffcd7-b28f-429d-b95b-6f52505587b8" extendedConfigurationObject="007823c2-bb3a-4d9b-87d1-b5d3444f3df5">
+    <producedTypes>
+      <objectType typeId="bd905e7c-39bf-4294-82dc-9913927a22b9" valueTypeId="7056841b-02a2-4146-85ae-cec1ad2562ef"/>
+      <rowType typeId="56d1fa89-be04-4ecb-9963-22344a21fd83" valueTypeId="7c414d9d-d720-4ed1-9490-f64875a52323"/>
+    </producedTypes>
+    <name>ЗакрываемыеРемонты</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="c7b45024-9f20-4e87-8de3-589459916c54" extendedConfigurationObject="76a060af-30f2-4d31-a1e0-f17789c677b6">
+      <name>Перенесен</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>Boolean</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+    <attributes uuid="bf3a53b0-3202-4072-971f-2e21532df2c0" extendedConfigurationObject="ad8bf9c9-0087-44cc-849d-67c3762f7c6f">
+      <name>ID</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>String</type>
+          </types>
+          <stringQualifiers>
+            <length>36</length>
+          </stringQualifiers>
+        </typeExtension>
+      </extension>
+    </attributes>
+    <attributes uuid="9503deea-19b5-41c7-b87c-38e5f5248cfd" extendedConfigurationObject="350c3b6f-c76f-4d49-957e-0ce792d0ed05">
+      <name>ОбъектРемонта</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.торо_ОбъектыРемонта</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+    <attributes uuid="f2820000-a2d1-48df-a863-43df66f47835" extendedConfigurationObject="af553d9d-972c-4298-b6a4-887e960089ef">
+      <name>ВидРемонта</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.торо_ВидыРемонтов</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+    <attributes uuid="0926b9f6-ea65-427e-a198-39dec9969feb" extendedConfigurationObject="32713c10-0fa0-41cc-850c-655be40da2d9">
+      <name>ДатаНачала</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>Date</type>
+          </types>
+          <dateQualifiers>
+            <dateFractions>Date</dateFractions>
+          </dateQualifiers>
+        </typeExtension>
+      </extension>
+    </attributes>
+    <attributes uuid="5cfca2f7-57f8-423e-8149-d55ff91399b8" extendedConfigurationObject="189e7549-3f0c-418a-b4e1-57ef1a2dcf23">
+      <name>ДатаОкончания</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>Date</type>
+          </types>
+          <dateQualifiers>
+            <dateFractions>Date</dateFractions>
+          </dateQualifiers>
+        </typeExtension>
+      </extension>
+    </attributes>
+    <attributes uuid="57e323ef-81b2-40b7-a26f-50d2ce091b5b" extendedConfigurationObject="0160c88d-a1cc-4915-9cef-f895a1ca119d">
+      <name>Отменен</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>Boolean</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+    <attributes uuid="48cac314-b686-47c2-9c46-78b641950d71" extendedConfigurationObject="049f70c2-3f4f-41b2-a503-10a28b152fa7">
+      <name>НоваяДатаНачала</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>Date</type>
+          </types>
+          <dateQualifiers>
+            <dateFractions>Date</dateFractions>
+          </dateQualifiers>
+        </typeExtension>
+      </extension>
+    </attributes>
+    <attributes uuid="92983dca-b126-4b43-a7da-26fe92893f21" extendedConfigurationObject="23b56d4f-7c04-4bfd-9a20-3ea25aa83315">
+      <name>НоваяДатаОкончания</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>Date</type>
+          </types>
+          <dateQualifiers>
+            <dateFractions>Date</dateFractions>
+          </dateQualifiers>
+        </typeExtension>
+      </extension>
+    </attributes>
+    <attributes uuid="989d61d4-c345-44c0-b8ac-90a799539c51" extendedConfigurationObject="0a8c9a08-a4ae-4fd5-8f1e-f1fb945a37f4">
+      <name>ПричинаЗакрытия</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.торо_ПричиныЗакрытияРемонтов</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+    <attributes uuid="03d6308c-8458-481e-9a42-dab6b10481e4" extendedConfigurationObject="40f5f639-3326-4442-93c7-db72bc8c2b5e">
+      <name>ДокументОснование</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>AnyRef</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="edf085df-f290-4eb2-8645-e238c9f05503" extendedConfigurationObject="1b6212e2-26ba-4550-804d-6c85664e4b5a">
+    <producedTypes>
+      <objectType typeId="0989ac7a-60d7-49da-9987-b65eaf8cd556" valueTypeId="5c62b492-e564-401b-a9f3-3b71acc0175c"/>
+      <rowType typeId="dde3c1eb-6d63-4392-bf02-f65674839482" valueTypeId="ccfa5d57-388c-4e6c-a376-e9e244dd5a2e"/>
+    </producedTypes>
+    <name>ЗакрываемыеЗаявки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="0546a151-2191-4da4-b273-348988366280" extendedConfigurationObject="b37a7dd6-3d54-4079-a8c7-1c03548f8537">
+      <name>Заявка</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>DocumentRef.торо_ЗаявкаНаРемонт</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+    <attributes uuid="06c49c94-984a-4347-9f36-59cb2fcaf1b1" extendedConfigurationObject="1afb4107-068f-4994-98dd-e2872c1878ab">
+      <name>ПричинаЗакрытия</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.торо_ПричиныЗакрытияЗаявок</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+  </tabularSections>
+  <commands uuid="51777d94-70d0-47c8-9941-f2cd0aa0ffe3">
+    <name>гкс_МассовыйПереносЗаявок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Массовый перенос заявок</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicCommandExtension">
+      <synonym>Extended</synonym>
+      <group>Checked</group>
+    </extension>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Document>

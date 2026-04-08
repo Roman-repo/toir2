@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f03d262a-e727-4a0c-a7b4-f904c877a090">
+  <name>торо_ИспользованиеПриложенияМобильныеБригады</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование приложения мобильные бригады</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>El uso de la aplicación las brigadas móviles</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Using the mobile teams application</value>
+  </synonym>
+  <location>Constant.торо_ИспользоватьПриложениеМобильныеБригады</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Report.торо_ИнформацияПоОтказамВВыполненииЗаявок</content>
+</mdclass:FunctionalOption>

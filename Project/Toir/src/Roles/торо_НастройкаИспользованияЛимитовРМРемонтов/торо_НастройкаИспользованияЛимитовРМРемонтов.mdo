@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0738261e-14b9-4bde-9e3a-a45e5b3cb926">
+  <name>торо_НастройкаИспользованияЛимитовРМРемонтов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка использования лимитов РМ ремонтов</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>El ajuste del uso de los límites РМ de las reparaciones</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Setting the use of PM repair limits</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="238af948-4c14-4ecc-9d26-59937f9483e9">
+  <producedTypes>
+    <managerType typeId="bd93beb3-e335-4a33-8ff1-1d68e841394c" valueTypeId="0da7ac9e-25c8-49e2-b8d6-2fd37ff5161d"/>
+    <valueManagerType typeId="ae6ba56b-7697-461e-8701-0a6f3cef2363" valueTypeId="7f5472ab-c5f3-449d-84a2-6da5982ccd0d"/>
+    <valueKeyType typeId="c1f2fcdf-0575-4db5-b416-5ad7eccb7ca7" valueTypeId="d1d826db-2200-4196-b152-ea66d3971e57"/>
+  </producedTypes>
+  <name>гкс_СобытиеИстеченияСрокаСогласования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Событие истечения срока согласования</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.торо_СобытияУведомленийВДокументах</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

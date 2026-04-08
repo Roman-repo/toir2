@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e6e8112-948b-4e94-a663-4f6940f8bf8c">
+  <name>торо_ОбработкаПолученияПредставления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработка получения представления</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Processing of the submission</value>
+  </synonym>
+  <source>
+    <types>CatalogManager.торо_ТиповыеОР</types>
+    <types>CatalogManager.торо_ОбъектыРемонта</types>
+  </source>
+  <event>PresentationGetProcessing</event>
+  <handler>CommonModule.торо_Локализация.ОбработкаПолученияПредставленияОбработкаПолученияПредставления</handler>
+</mdclass:EventSubscription>

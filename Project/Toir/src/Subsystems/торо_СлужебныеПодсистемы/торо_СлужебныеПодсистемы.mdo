@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3ce0d6d8-1f2e-45f0-b3d5-61088f0e02a5">
+  <name>торо_СлужебныеПодсистемы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Служебные подсистемы</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Los subsistemas de servicio</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Service subsystems</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <subsystems>торо_СогласованиеДокументов</subsystems>
+  <subsystems>торо_СообщенияИУведомления</subsystems>
+  <subsystems>торо_СЛК</subsystems>
+  <subsystems>торо_ОбменДанными</subsystems>
+  <subsystems>торо_ОбщегоНазначения</subsystems>
+  <subsystems>торо_РасширениеСтандартныхПодсистем</subsystems>
+</mdclass:Subsystem>

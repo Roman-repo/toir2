@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6ad3965c-0333-4e58-a2ad-76ba859d4547">
+  <name>торо_Локализация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Локализация</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Localization</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ИнтернетПоддержкаПользователей</picture>
+  </picture>
+  <content>Catalog.торо_Языки</content>
+  <content>InformationRegister.торо_Переводы</content>
+  <content>EventSubscription.торо_ОбработкаПолученияПредставления</content>
+  <content>CommonModule.торо_Локализация</content>
+  <content>CommonForm.торо_ПользовательскиеНастройки</content>
+  <content>EventSubscription.торо_ОбработкаПолученияДанныхВыбора</content>
+  <content>CommonForm.торо_Автоформа</content>
+  <content>CommonModule.торо_ЛокализацияКлиент</content>
+  <content>CommonModule.торо_ЛокализацияСобытияФорм</content>
+  <content>CommonModule.торо_ЛокализацияМодификацияФорм</content>
+  <content>Catalog.торо_ТиповыеОР</content>
+  <content>Catalog.торо_ОбъектыРемонта</content>
+  <content>CommonForm.торо_ВводПеревода</content>
+  <content>EventSubscription.торо_ОбработкаПолученияФормы</content>
+  <content>CommonModule.торо_ЛокализацияАвтоформы</content>
+  <content>CommonModule.ПодборТоваровСервер</content>
+  <content>CommonModule.торо_СобытияФорм</content>
+  <content>CommonModule.торо_ОбщегоНазначенияПовтИсп</content>
+</mdclass:Subsystem>

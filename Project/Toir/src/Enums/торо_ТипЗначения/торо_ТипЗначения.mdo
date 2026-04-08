@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1eb259ee-9af6-4d53-b890-2406f853f21d">
+  <producedTypes>
+    <refType typeId="15dfb45e-a150-4275-9a56-ba5085d3abc7" valueTypeId="1d4265a9-487a-42ec-a059-d2c72ac57318"/>
+    <listType typeId="383c7e9a-49e9-445f-a79f-e4666f8ba043" valueTypeId="a55be602-42c2-4128-8189-e15e997b4fc9"/>
+    <managerType typeId="f7b9eb3b-5ec8-4e29-8122-ee0b7675a150" valueTypeId="60a74c11-ad74-4805-9f5a-dc7969acff91"/>
+  </producedTypes>
+  <name>торо_ТипЗначения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип значения</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Value type</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a97a34dd-276e-49c3-b418-97ecfe93ffb3">
+    <name>Вход</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вход</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Entrance</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La entrada</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e345bf67-dc3c-4421-a69e-b27331023920">
+    <name>Выход</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выход</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Exit</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bbc96bdc-dbb2-4f3f-b6f7-d031f5c9db22">
+    <name>Действие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действие</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Action </value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

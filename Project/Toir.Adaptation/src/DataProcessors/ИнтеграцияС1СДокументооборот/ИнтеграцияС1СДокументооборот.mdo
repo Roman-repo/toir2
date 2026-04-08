@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="61d54883-4678-4365-9455-fc7cbc564548" extendedConfigurationObject="c9ae60de-0fd8-4ded-9d21-df18b8131b34">
+  <producedTypes>
+    <objectType typeId="e1aeb061-9212-4c5a-9ed6-751dd36dcb87" valueTypeId="061fc01c-88f0-491d-b590-8e484cc54673"/>
+    <managerType typeId="d53444b7-d592-4117-887b-b0a732d08cf8" valueTypeId="bbe0e546-f40f-4e9b-820f-c295fa30db24"/>
+  </producedTypes>
+  <name>ИнтеграцияС1СДокументооборот</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <forms uuid="8f9f6c9a-04bb-4f5b-af12-9203511faa1a" extendedConfigurationObject="f15b4746-0b88-46a0-804e-1ff2ad4c4812">
+    <name>ЗадачиМне</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="05f2495e-f276-4f3f-9f35-df218ea5b10b" extendedConfigurationObject="d8a6b356-08cd-4e58-ac8f-be9a7657cdd6">
+    <name>ЗадачиБизнесПроцесса</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="cfc54d1c-6521-4c5b-a8ad-1a2858005959" extendedConfigurationObject="5b4f69a0-186a-400b-86ca-bf0c0949803e">
+    <name>МоиОтчеты</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="9e11cdf9-227f-4063-be16-1d711f8ebe00" extendedConfigurationObject="a316ce87-148c-4be8-95a8-f93718a422a3">
+    <name>Документооборот</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:DataProcessor>

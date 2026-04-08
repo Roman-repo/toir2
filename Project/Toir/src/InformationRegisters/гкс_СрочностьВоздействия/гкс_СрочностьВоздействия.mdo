@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7eb7c490-96db-4482-b1fc-f19ee86d242f">
+  <producedTypes>
+    <selectionType typeId="97e4602a-0431-4c37-ae56-5ef2aefb839a" valueTypeId="d254ab8d-cab7-4c80-bbb0-abaf41a10a29"/>
+    <listType typeId="4f0317bd-cda0-48bb-aede-e32dd2bb13e7" valueTypeId="5aa92f90-9e51-4d03-b4ec-e39fadd8c1e3"/>
+    <managerType typeId="77d2e5f2-214d-4989-933e-7b9708974c96" valueTypeId="b2205f73-67a2-4c85-a5f7-4fafec205225"/>
+    <recordSetType typeId="6b227ed2-8170-488d-be48-a52015def013" valueTypeId="f4d62657-22cd-40bd-997b-03abd86b759e"/>
+    <recordKeyType typeId="9d8cd039-a85a-4ca7-91ad-21d4109967a4" valueTypeId="a8cb716a-8796-4eca-b591-decee06acfc5"/>
+    <recordType typeId="70bd2a7d-922b-4ad8-b357-75342f7ce7ee" valueTypeId="7b7b8e1b-11ba-4760-b41d-ab176a9b47cf"/>
+    <recordManagerType typeId="50737496-7e32-4f77-97d5-60673d09e162" valueTypeId="21e3e76f-02b0-4753-a7d2-ece1bfcfbfad"/>
+  </producedTypes>
+  <name>гкс_СрочностьВоздействия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Срочность воздействия</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Urgency of impact</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Urgencia de impacto</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="e43d7bd9-92b3-488c-905a-50fc8feb3622">
+    <name>СрочностьВоздействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срочность воздействия</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Urgency of impact</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Urgencia de impacto</value>
+    </synonym>
+    <type>
+      <types>EnumRef.гкс_СрочностьВоздействия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="815a1aad-7a6f-4986-8df4-fda21e82f52a">
+    <name>КатегорияРиска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категория риска</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Risk category</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Categoría de riesgo</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.торо_КатегорииРиска</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="53fe1bda-072e-498a-b2e0-ced071c9962b">
+    <name>КритичностьДефекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Критичность дефекта</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Defect severity</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Severidad del defecto</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.торо_КритичностьДефекта</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="3b551e00-c290-467c-8443-76bfee3244d3">
+    <name>гкс_КачественнаяОценка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Качественная оценка</value>
+    </synonym>
+    <type>
+      <types>EnumRef.гкс_КачественнаяОценкаКритичности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

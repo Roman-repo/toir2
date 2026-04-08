@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="65fae709-b3c7-4317-bea4-ca58b721a822" extendedConfigurationObject="1778b732-7b72-4763-bf21-f5b833c5099c">
+  <producedTypes>
+    <selectionType typeId="b561d918-b136-4009-9b99-6c0ea043cd6e" valueTypeId="dc38d4ff-cdab-4d53-96fa-526740de3438"/>
+    <listType typeId="5b12f376-d31e-4e61-ae8e-e1c2ba38b0b7" valueTypeId="314efe85-92f6-47e5-a4d9-164f78ec8acf"/>
+    <managerType typeId="c544745e-d06b-40a1-ad3d-2ceb37a885df" valueTypeId="18988cbe-4be3-4c1c-951b-1ac1f7512d40"/>
+    <recordSetType typeId="e86dc514-b715-4e0a-8792-cc75552a9fa7" valueTypeId="74872652-a69b-4291-96dd-182602d4e582"/>
+    <recordKeyType typeId="e7a12752-de5b-4ce4-a778-298780bf5d97" valueTypeId="7d794900-e1ca-4e01-b831-e5756cc01c87"/>
+    <recordType typeId="e0b9c9e9-2b51-486d-9fd5-f8c3e3d424e8" valueTypeId="fb4eb607-a377-4839-a53d-a4e1000b29b9"/>
+    <recordManagerType typeId="d3b5b693-dcd1-4196-af94-d6aab8df8b7b" valueTypeId="9b118642-73b0-4e08-8d27-79e02f80c4b5"/>
+  </producedTypes>
+  <name>гкс_ИерархияТехКарт</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <resources uuid="987be244-c543-456b-96db-8ea2641c332d" extendedConfigurationObject="c1b4ecf6-538b-4e3a-8191-5976b8c9f0dc">
+    <name>Родитель</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.торо_ИдентификаторыТехКарт</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <dimensions uuid="e42185d3-7862-41e6-ab23-a5bd63229be7" extendedConfigurationObject="7148802b-6afa-4650-99b0-16fb73956331">
+    <name>Подчиненный</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.торо_ИдентификаторыТехКарт</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:InformationRegister>

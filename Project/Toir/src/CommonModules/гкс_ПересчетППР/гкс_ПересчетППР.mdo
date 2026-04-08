@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="be570875-7eaf-4952-9e6b-b0ac88c30527">
+  <name>гкс_ПересчетППР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пересчет ППР</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

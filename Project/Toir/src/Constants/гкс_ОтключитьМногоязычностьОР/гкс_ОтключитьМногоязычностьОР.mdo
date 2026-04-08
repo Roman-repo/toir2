@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="89077d8f-3ccd-431b-a996-8527b1698607">
+  <producedTypes>
+    <managerType typeId="fa1ba888-350b-49a5-9bef-7605fcc431f0" valueTypeId="9850bede-1537-44a8-8ef6-232a6eae4940"/>
+    <valueManagerType typeId="4c501e51-ae18-48cb-ad9e-388fe6c5e596" valueTypeId="0d4be331-3797-4e4f-8811-1a3846c5ab16"/>
+    <valueKeyType typeId="13453824-ab10-4115-916a-740b9072f18d" valueTypeId="be9dd822-db45-43c8-ab39-2e8b16c0a8fd"/>
+  </producedTypes>
+  <name>гкс_ОтключитьМногоязычностьОР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отключить многоязычность объектов ремонта</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

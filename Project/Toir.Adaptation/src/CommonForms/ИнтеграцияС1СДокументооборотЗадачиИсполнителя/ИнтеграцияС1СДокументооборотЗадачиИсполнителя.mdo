@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="fc0a1eb2-46fd-40f9-a53c-6c7b29fd0c3d" extendedConfigurationObject="1b635b27-7651-4fcd-b725-78c0bd917dfb">
+  <name>ИнтеграцияС1СДокументооборотЗадачиИсполнителя</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CommonFormExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <form>Extended</form>
+  </extension>
+</mdclass:CommonForm>

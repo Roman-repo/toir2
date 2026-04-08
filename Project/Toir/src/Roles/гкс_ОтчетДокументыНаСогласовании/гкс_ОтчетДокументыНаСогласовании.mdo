@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="27225595-92fe-4831-ad8a-2565efd4571e">
+  <name>гкс_ОтчетДокументыНаСогласовании</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет &quot;документы на согласовании&quot;</value>
+  </synonym>
+</mdclass:Role>

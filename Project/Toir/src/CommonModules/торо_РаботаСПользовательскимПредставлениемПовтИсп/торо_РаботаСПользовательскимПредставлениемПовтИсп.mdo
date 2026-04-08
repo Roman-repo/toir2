@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7377c530-32a5-4b64-99a5-cfd27159d768">
+  <name>торо_РаботаСПользовательскимПредставлениемПовтИсп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с пользовательским представлением</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>El trabajo con la representación de usuario</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Work with custom view</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <serverCall>true</serverCall>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>

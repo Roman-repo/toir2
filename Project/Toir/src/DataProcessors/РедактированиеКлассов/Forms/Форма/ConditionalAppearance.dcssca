@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConditionalAppearance xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+	<item>
+		<selection>
+			<item>
+				<field>АтрибутыЗначениеАтрибутаКласса</field>
+			</item>
+			<item>
+				<field>АтрибутыЗначениеАтрибутаКлассаСоставное</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemGroup">
+				<groupType>OrGroup</groupType>
+				<item xsi:type="FilterItemComparison">
+					<left xsi:type="dcscor:Field">Объект.Атрибуты.СтатусНаследования</left>
+					<comparisonType>Greater</comparisonType>
+					<right xsi:type="xs:decimal">3</right>
+				</item>
+				<item xsi:type="FilterItemComparison">
+					<left xsi:type="dcscor:Field">Объект.Атрибуты.МножественноеЗначение</left>
+					<comparisonType>Equal</comparisonType>
+					<right xsi:type="xs:boolean">true</right>
+				</item>
+				<item xsi:type="FilterItemComparison">
+					<left xsi:type="dcscor:Field">Объект.Атрибуты.РежимИспользования</left>
+					<comparisonType>Equal</comparisonType>
+					<right xsi:type="dcscor:DesignTimeValue">Перечисление.РежимыИспользованияАтрибутов.ТолькоДляОбъектовНоменклатуры</right>
+				</item>
+				<item xsi:type="FilterItemComparison">
+					<left xsi:type="dcscor:Field">Объект.Атрибуты.ЭтоВложенныйАтрибут</left>
+					<comparisonType>Equal</comparisonType>
+					<right xsi:type="xs:boolean">true</right>
+				</item>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>ТолькоПросмотр</dcscor:parameter>
+				<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>АтрибутыЗначениеАтрибутаКласса</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">Объект.Атрибуты.ЗначениеАтрибутаКласса</left>
+				<comparisonType>NotFilled</comparisonType>
+			</item>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">Объект.Атрибуты.СоставнойТипЗначения</left>
+				<comparisonType>Equal</comparisonType>
+				<right xsi:type="xs:boolean">false</right>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>ЦветТекста</dcscor:parameter>
+				<dcscor:value xsi:type="v8ui:Color">style:ТекстЗапрещеннойЯчейкиЦвет</dcscor:value>
+			</dcscor:item>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>Текст</dcscor:parameter>
+				<dcscor:value xsi:type="dcscor:Field">Объект.Атрибуты.ТипЗначенияПредставление</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>АтрибутыЗначениеАтрибутаКлассаСоставное</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">Объект.Атрибуты.ЗначениеАтрибутаКлассаСоставное</left>
+				<comparisonType>NotFilled</comparisonType>
+			</item>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">Объект.Атрибуты.СоставнойТипЗначения</left>
+				<comparisonType>Equal</comparisonType>
+				<right xsi:type="xs:boolean">true</right>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>ЦветТекста</dcscor:parameter>
+				<dcscor:value xsi:type="v8ui:Color">style:ТекстЗапрещеннойЯчейкиЦвет</dcscor:value>
+			</dcscor:item>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>Текст</dcscor:parameter>
+				<dcscor:value xsi:type="dcscor:Field">Объект.Атрибуты.ТипЗначенияПредставление</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>АтрибутыАтрибутКласса</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">Объект.Атрибуты.СтатусНаследования</left>
+				<comparisonType>Greater</comparisonType>
+				<right xsi:type="xs:decimal">1</right>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>ТолькоПросмотр</dcscor:parameter>
+				<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<use>false</use>
+		<selection>
+			<item>
+				<field>АтрибутыМножественноеЗначение</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">Объект.Атрибуты.МножественноеЗначение</left>
+				<comparisonType>Equal</comparisonType>
+				<right xsi:type="xs:boolean">false</right>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>Видимость</dcscor:parameter>
+				<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>АтрибутыУровеньЗначения</field>
+			</item>
+			<item>
+				<field>АтрибутыЗначениеАтрибутаКласса</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">Объект.Атрибуты.СоставнойТипЗначения</left>
+				<comparisonType>Equal</comparisonType>
+				<right xsi:type="xs:boolean">true</right>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>Видимость</dcscor:parameter>
+				<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>АтрибутыУровеньЗначенияСоставной</field>
+			</item>
+			<item>
+				<field>АтрибутыЗначениеАтрибутаКлассаСоставное</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">Объект.Атрибуты.СоставнойТипЗначения</left>
+				<comparisonType>Equal</comparisonType>
+				<right xsi:type="xs:boolean">false</right>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>Видимость</dcscor:parameter>
+				<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>Атрибуты</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">Объект.Атрибуты.РежимИспользования</left>
+				<comparisonType>Equal</comparisonType>
+				<right xsi:type="dcscor:DesignTimeValue">Перечисление.РежимыИспользованияАтрибутов.ТолькоДляОбъектовНоменклатуры</right>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>ЦветТекста</dcscor:parameter>
+				<dcscor:value xsi:type="v8ui:Color">web:Teal</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>Атрибуты</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">Объект.Атрибуты.СтатусНаследования</left>
+				<comparisonType>Greater</comparisonType>
+				<right xsi:type="xs:decimal">3</right>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>ЦветТекста</dcscor:parameter>
+				<dcscor:value xsi:type="v8ui:Color">style:ТекстЗапрещеннойЯчейкиЦвет</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>ИспользованиеВСоставеОбъектов</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">ИспользованиеВСоставеОбъектов.КартинкаСтрок</left>
+				<comparisonType>Equal</comparisonType>
+				<right xsi:type="xs:decimal">1</right>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>ЦветФона</dcscor:parameter>
+				<dcscor:value xsi:type="v8ui:Color">style:ReportGroup1BackColor</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>ИспользованиеВСоставеОбъектовВыбрано</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">ИспользованиеВСоставеОбъектов.НельзяВыбрать</left>
+				<comparisonType>Equal</comparisonType>
+				<right xsi:type="xs:boolean">true</right>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>Отображать</dcscor:parameter>
+				<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>ЗначенияСписочногоАтрибута</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemGroup">
+				<groupType>OrGroup</groupType>
+				<item xsi:type="FilterItemComparison">
+					<left xsi:type="dcscor:Field">ЗначенияСписочногоАтрибута.ИспользуемоеЗначение</left>
+					<comparisonType>Equal</comparisonType>
+					<right xsi:type="xs:boolean">true</right>
+				</item>
+				<item xsi:type="FilterItemComparison">
+					<use>false</use>
+					<left xsi:type="dcscor:Field">ЗначенияСписочногоАтрибута.СтатусНаследования</left>
+					<comparisonType>Equal</comparisonType>
+					<right xsi:type="xs:decimal">3</right>
+				</item>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>Шрифт</dcscor:parameter>
+				<dcscor:value xsi:type="v8ui:Font" ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>ЗначенияСписочногоАтрибутаИспользуемоеЗначение</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemGroup">
+				<groupType>OrGroup</groupType>
+				<item xsi:type="FilterItemComparison">
+					<left xsi:type="dcscor:Field">ЗначенияСписочногоАтрибута.МожетБытьИспользуемымЗначением</left>
+					<comparisonType>Equal</comparisonType>
+					<right xsi:type="xs:boolean">false</right>
+				</item>
+				<item xsi:type="FilterItemComparison">
+					<left xsi:type="dcscor:Field">ЗначенияСписочногоАтрибута.СтатусНаследования</left>
+					<comparisonType>Greater</comparisonType>
+					<right xsi:type="xs:decimal">3</right>
+				</item>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:use>false</dcscor:use>
+				<dcscor:parameter>Видимость</dcscor:parameter>
+				<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+			</dcscor:item>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>Отображать</dcscor:parameter>
+				<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>ЗначенияСписочногоАтрибутаДоступноеЗначение</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemGroup">
+				<groupType>OrGroup</groupType>
+				<item xsi:type="FilterItemComparison">
+					<left xsi:type="dcscor:Field">ЗначенияСписочногоАтрибута.МожноИзменятьДоступноеЗначение</left>
+					<comparisonType>Equal</comparisonType>
+					<right xsi:type="xs:boolean">false</right>
+				</item>
+				<item xsi:type="FilterItemComparison">
+					<left xsi:type="dcscor:Field">ЗначенияСписочногоАтрибута.СтатусНаследования</left>
+					<comparisonType>Greater</comparisonType>
+					<right xsi:type="xs:decimal">3</right>
+				</item>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>ТолькоПросмотр</dcscor:parameter>
+				<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+			</dcscor:item>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:use>false</dcscor:use>
+				<dcscor:parameter>Отображать</dcscor:parameter>
+				<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>ЗначенияСписочногоАтрибутаНоменклатураДоступноеЗначение</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">ЗначенияСписочногоАтрибутаНоменклатура.МожноИзменятьДоступноеЗначение</left>
+				<comparisonType>Equal</comparisonType>
+				<right xsi:type="xs:boolean">false</right>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>ТолькоПросмотр</dcscor:parameter>
+				<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>ЗначенияСписочногоАтрибутаНоменклатураДоступноеЗначение</field>
+			</item>
+			<item>
+				<field>ЗначенияСписочногоАтрибутаНоменклатураИспользуемоеЗначение</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">ЗначенияСписочногоАтрибутаНоменклатура.СтатусНаследования</left>
+				<comparisonType>Equal</comparisonType>
+				<right xsi:type="xs:decimal">1</right>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>Отображать</dcscor:parameter>
+				<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>ЗначенияСписочногоАтрибутаНоменклатураИспользуемоеЗначение</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">ЗначенияСписочногоАтрибутаНоменклатура.МожноИзменятьИспользуемоеЗначение</left>
+				<comparisonType>Equal</comparisonType>
+				<right xsi:type="xs:boolean">false</right>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>ТолькоПросмотр</dcscor:parameter>
+				<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>ЗначенияСписочногоАтрибутаОбъектыНоменклатурыДоступноеЗначение</field>
+			</item>
+			<item>
+				<field>ЗначенияСписочногоАтрибутаОбъектыНоменклатурыИспользуемоеЗначение</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">ЗначенияСписочногоАтрибутаОбъектыНоменклатуры.СтатусНаследования</left>
+				<comparisonType>Equal</comparisonType>
+				<right xsi:type="xs:decimal">1</right>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>Отображать</dcscor:parameter>
+				<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>ЗначенияСписочногоАтрибутаОбъектыНоменклатурыДоступноеЗначение</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">ЗначенияСписочногоАтрибутаОбъектыНоменклатуры.МожноИзменятьДоступноеЗначение</left>
+				<comparisonType>Equal</comparisonType>
+				<right xsi:type="xs:boolean">false</right>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>ТолькоПросмотр</dcscor:parameter>
+				<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>ЗначенияСписочногоАтрибутаОбъектыНоменклатурыИспользуемоеЗначение</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">ЗначенияСписочногоАтрибутаОбъектыНоменклатуры.МожноИзменятьИспользуемоеЗначение</left>
+				<comparisonType>Equal</comparisonType>
+				<right xsi:type="xs:boolean">false</right>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>ТолькоПросмотр</dcscor:parameter>
+				<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>СоставТехКартыТехКартаВложенная</field>
+			</item>
+			<item>
+				<field>СоставТехКартыТипСтроки</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">СоставТехКарты.ТипСтроки</left>
+				<comparisonType>Equal</comparisonType>
+				<right xsi:type="xs:decimal">0</right>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>Видимость</dcscor:parameter>
+				<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>СоставТехКартыВидОперации</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">СоставТехКарты.ТипСтроки</left>
+				<comparisonType>Equal</comparisonType>
+				<right xsi:type="xs:decimal">2</right>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>Видимость</dcscor:parameter>
+				<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>ТехКартыНаименование</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">ТехКарты.Наименование</left>
+				<comparisonType>NotFilled</comparisonType>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>ЦветТекста</dcscor:parameter>
+				<dcscor:value xsi:type="v8ui:Color">style:BorderColor</dcscor:value>
+			</dcscor:item>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>Текст</dcscor:parameter>
+				<dcscor:value xsi:type="dcscor:Field">ТехКарты.НаименованиеТипа</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>ДоступныеОперацииОбъект</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">ДоступныеОперации.ПредставлениеЗначения</left>
+				<comparisonType>Filled</comparisonType>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>Текст</dcscor:parameter>
+				<dcscor:value xsi:type="dcscor:Field">ДоступныеОперации.ПредставлениеЗначения</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+	<item>
+		<selection>
+			<item>
+				<field>АтрибутыЗначениеАтрибутаКласса</field>
+			</item>
+			<item>
+				<field>АтрибутыЗначениеАтрибутаКлассаСоставное</field>
+			</item>
+		</selection>
+		<filter>
+			<item xsi:type="FilterItemComparison">
+				<left xsi:type="dcscor:Field">Объект.Атрибуты.ЗначениеАтрибутаКласса</left>
+				<comparisonType>NotFilled</comparisonType>
+			</item>
+			<item xsi:type="FilterItemGroup">
+				<groupType>OrGroup</groupType>
+				<item xsi:type="FilterItemComparison">
+					<left xsi:type="dcscor:Field">Объект.Атрибуты.ЭтотАтрибутВШаблоне</left>
+					<comparisonType>Equal</comparisonType>
+					<right xsi:type="xs:decimal">1</right>
+				</item>
+				<item xsi:type="FilterItemComparison">
+					<left xsi:type="dcscor:Field">Объект.Атрибуты.РежимЗаполненияРодителя</left>
+					<comparisonType>Equal</comparisonType>
+					<right xsi:type="dcscor:DesignTimeValue">Перечисление.РежимыЗаполненияАтрибутов.ОбязательныйДляКласса</right>
+				</item>
+				<item xsi:type="FilterItemComparison">
+					<left xsi:type="dcscor:Field">Объект.Атрибуты.РежимЗаполнения</left>
+					<comparisonType>Equal</comparisonType>
+					<right xsi:type="dcscor:DesignTimeValue">Перечисление.РежимыЗаполненияАтрибутов.ФиксированноеЗначение</right>
+				</item>
+			</item>
+		</filter>
+		<appearance>
+			<dcscor:item xsi:type="SettingsParameterValue">
+				<dcscor:parameter>ОтметкаНезаполненного</dcscor:parameter>
+				<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</item>
+</ConditionalAppearance>

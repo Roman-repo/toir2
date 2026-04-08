@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3bfd346d-6a6d-4509-b4a0-18f5eab6b737" extendedConfigurationObject="dc671c1c-e890-46b3-856d-4aefda6ed658">
+  <producedTypes>
+    <objectType typeId="106b98bb-40a6-4aa0-b0f1-1088ec32f514" valueTypeId="8502d734-9e74-49ed-a411-dfa5ddadefb6"/>
+    <refType typeId="ed1c412e-02aa-4430-9f38-c41cf0b9b3a1" valueTypeId="43a6d4bb-1d13-4766-8cce-ee0dfc5f64a3"/>
+    <selectionType typeId="62c07d0f-4ef2-4598-bb45-bfad3d2381e2" valueTypeId="c3aa3fc3-fbbe-4629-a22f-c4a3152142b3"/>
+    <listType typeId="7bf91ead-d54c-45de-acec-5730fa3a35ac" valueTypeId="a8ac1599-8031-4594-82e0-7123b4ca799c"/>
+    <managerType typeId="c0539e56-e3ba-4e43-81eb-7a45212dff65" valueTypeId="6746376e-9d6d-4771-8f2a-6fbb252bd115"/>
+  </producedTypes>
+  <name>торо_СтратегииОбслуживания</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

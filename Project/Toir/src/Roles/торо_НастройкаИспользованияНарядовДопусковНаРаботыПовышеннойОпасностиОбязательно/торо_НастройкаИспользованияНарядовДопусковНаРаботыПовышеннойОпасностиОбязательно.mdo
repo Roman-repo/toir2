@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb93aec6-7a26-40d7-aaa9-e3e35b2d516a">
+  <name>торо_НастройкаИспользованияНарядовДопусковНаРаботыПовышеннойОпасностиОбязательно</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка использования нарядов допусков на работы повышенной опасности</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>El ajuste del uso de los vestidos de los permisos a los trabajos del peligro subido</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Configuring the use of work permits for hazardous work</value>
+  </synonym>
+</mdclass:Role>

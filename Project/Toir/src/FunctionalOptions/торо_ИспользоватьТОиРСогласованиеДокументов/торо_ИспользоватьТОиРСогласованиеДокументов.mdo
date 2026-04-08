@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c909ee7-c9db-440a-a853-7b0f90808054">
+  <name>торо_ИспользоватьТОиРСогласованиеДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать ТОиР согласование документов</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Usar ТОиР la coordinación de los documentos</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Use MRO approval of documents</value>
+  </synonym>
+  <location>Constant.торо_ИспользоватьСогласованиеДокументовРемонтов</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

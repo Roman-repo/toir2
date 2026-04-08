@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="231fc1b1-026e-421f-b09f-b57c404b3fc4">
+  <name>гкс_ЧтениеРССоответствияДолжностейИКвалификаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение регистра сведений Соответствия должностей и квалификаций (ГКС)</value>
+  </synonym>
+  <comment>TOIR20-181</comment>
+</mdclass:Role>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5bc777a8-b9c7-4b7a-847f-39c373000a67">
+  <name>торо_ЧтениеИзмененийПоложенияВСтруктуреИерархии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение изменений положения в структуре иерархии</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>La lectura de los cambios de la posición en la estructura de la jerarquía</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Reading position changes in the hierarchy structure</value>
+  </synonym>
+</mdclass:Role>

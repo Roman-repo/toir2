@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="deacf69c-3ad9-452e-8e9d-0e55a2b1ab8f">
+  <name>торо_ДобавлениеИзменениеПометкаУдаленияПричинИзмененияНаработки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление, изменение и пометка удаления на причины изменения наработки</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>La adición, el cambio y la marca de la desaparición a las causas del cambio de la elaboración</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Adding, modifying, and marking deletion as causes of change</value>
+  </synonym>
+</mdclass:Role>

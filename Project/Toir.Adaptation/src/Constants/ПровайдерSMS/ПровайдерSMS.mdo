@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9bfde5e6-fb47-4934-abf9-2e98a8b7b083">
+  <producedTypes>
+    <managerType typeId="cecc6958-0907-4b01-93c2-1a881b7742e3" valueTypeId="81916b5e-2b39-44ee-a9f3-c49a8432fcc2"/>
+    <valueManagerType typeId="bd40f19c-a505-4d79-ba2d-294293098484" valueTypeId="bdac5e48-d706-4ae6-b4c6-ff50dc8d791a"/>
+    <valueKeyType typeId="5e9dcd5c-7546-494a-a271-5e943d0e4013" valueTypeId="ff976935-c3fe-4baf-9554-b3265a4471bb"/>
+  </producedTypes>
+  <name>ПровайдерSMS</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>EnumRef.ПровайдерыSMS</type>
+      </types>
+    </typeExtension>
+  </extension>
+</mdclass:Constant>

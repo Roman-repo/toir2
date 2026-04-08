@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="16190a3b-53a2-4913-a061-f3432a08787b">
+  <producedTypes>
+    <managerType typeId="ee9e4bb3-088e-40b0-be8f-8130dc191250" valueTypeId="9832338c-7a5c-4710-88fc-c6a346967c1d"/>
+    <valueManagerType typeId="cbb1d019-330a-4717-a7cf-575269968fcd" valueTypeId="359369de-517e-4029-a6af-2f6f3f3eb23d"/>
+    <valueKeyType typeId="82bf7be5-df45-444c-8c0d-6982a85dcb59" valueTypeId="17875551-4cce-41dc-96dc-35b1deff3f4c"/>
+  </producedTypes>
+  <name>торо_ИспользоватьСложныеТехКартыРемонтов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+</mdclass:Constant>

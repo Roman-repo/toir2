@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fa796b2a-defd-4237-adae-d2d4e9120a3a">
+  <name>торо_ИнтеграцияСАСУТП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с системами АСУ ТП</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>MES integration</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>La integración con los sistemas del SISTEMA informatizado de gestión ТП</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.СинхронизацияДанныхПодсистема</picture>
+  </picture>
+  <content>CommonModule.торо_ПолучениеДанныхАСУТП</content>
+  <content>DataProcessor.торо_ИнтеграцияСАСУТП</content>
+  <content>Catalog.торо_ПодключенияКБазеДанных</content>
+  <content>InformationRegister.торо_СеансыОбменаСАСУТП</content>
+  <content>InformationRegister.торо_ДанныеАСУТП</content>
+  <content>InformationRegister.торо_СоответствияТеговАСУТПОбъектамТОИР</content>
+  <content>CommonModule.торо_ОбработкаДанныхАСУТП</content>
+  <content>Enum.торо_ОшибкиАСУТП</content>
+  <content>InformationRegister.торо_СобытияИнтеграцииСАСУТП</content>
+  <content>Constant.торо_ОтладкаАСУТП_ЗагрузкаДанныхИзМакета</content>
+  <content>CommonTemplate.торо_ОтладочныеДанныеАСУТП</content>
+  <content>Enum.торо_ТипыСигналовАСУТП</content>
+  <content>ScheduledJob.торо_ИнтеграцияСАСУТП</content>
+  <content>Enum.торо_СобытияИнтеграции</content>
+  <content>Report.торо_СобытияИнтеграцииСАСУТП</content>
+  <content>Report.торо_ОшибкиПриПодключенииКБазеДанных</content>
+  <content>Constant.торо_УдалятьОбработанныеЗаписиАСУТП</content>
+  <content>InformationRegister.торо_СписокОповещаемыхЛиц</content>
+  <content>CommonModule.торо_ОбработкаДанныхАСУТППереопределяемый</content>
+  <content>Constant.торо_ОтступВСекундахАСУТП</content>
+  <content>ScheduledJob.торо_УдалениеОбработанныхДанныхАСУТП</content>
+  <content>Constant.торо_ПоказыватьПодсистемуИнтеграцияАСУТП</content>
+  <content>FunctionalOption.торо_ПоказыватьПодсистемуИнтеграцияАСУТП</content>
+  <content>InformationRegister.гкс_СоответствиеЗначенийСостояниям</content>
+  <content>Constant.гкс_МинимальнаяДатаОбменаАСУТП</content>
+  <content>InformationRegister.гкс_ТегиНаработки</content>
+  <content>InformationRegister.гкс_ТегиПоказателей</content>
+  <content>Constant.гкс_АСУТПСоздаватьОбщийДокумент</content>
+  <content>InformationRegister.гкс_ОрганизацииПодключений</content>
+</mdclass:Subsystem>

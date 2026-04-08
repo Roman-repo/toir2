@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="98498c65-dfdd-4f05-b23c-17828859da30">
+  <producedTypes>
+    <refType typeId="101763e6-0dbb-4c73-8fe7-08e2dc88d6a9" valueTypeId="54631aa1-cd70-4301-a269-e2ede5a5496c"/>
+    <listType typeId="c533c369-11ea-4d46-92be-74079e23cd20" valueTypeId="0c4035d2-3862-4501-ac3b-1fbb42f13342"/>
+    <managerType typeId="539b41f0-51b9-4b6e-8c65-3d3431ae6fb3" valueTypeId="223b766e-9911-43c0-865f-3032cf749e93"/>
+  </producedTypes>
+  <name>ТипыСтрокШаблона</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы строк шаблона</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0157783c-2587-4326-a2d2-148c008a1b41">
+    <name>РеквизитРодителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит родителя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="38e6e0c0-0428-49ee-b9fb-fb851f5039c2">
+    <name>АтрибутРодителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Атрибут родителя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="28609f50-891b-464c-96de-cefc8692ab92">
+    <name>РеквизитОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит объекта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ce4aa1d8-0984-453a-928b-5bb08f642128">
+    <name>АтрибутОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Атрибут объекта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="29586909-e028-45e1-a3a9-2bbac2112a37">
+    <name>Текст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

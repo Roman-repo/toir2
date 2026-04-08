@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="894a8dc6-ec88-428d-946c-6f2854b6ea5b">
+  <name>гкс_ИзменениеРНгкс_ТрудовыеРесурсы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение РН Трудовые ресурсы (ГКС)</value>
+  </synonym>
+  <comment>TOIR20-172</comment>
+</mdclass:Role>

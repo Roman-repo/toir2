@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e6f2b2ff-d091-4fe5-b76f-8b1507fc31e8">
+  <producedTypes>
+    <objectType typeId="2a821134-1e04-4f29-ad78-415785f2054d" valueTypeId="cea47a4f-e849-4791-a2f3-82866d1f9111"/>
+    <refType typeId="9f897830-8ab9-40eb-88ee-ef56c9981d85" valueTypeId="f8f81b6a-b388-4bb2-85ac-40cc1a681ebe"/>
+    <selectionType typeId="0c391a82-20ca-4526-b62d-52daeda96a06" valueTypeId="38fc28ae-4bef-46ef-a386-e99870a5a9ee"/>
+    <listType typeId="88dfee71-82f0-4a1f-8225-132d5a830f39" valueTypeId="83775b39-3e93-4a30-93e1-813baf13c1ce"/>
+    <managerType typeId="28d6741b-514d-47fd-8a99-f3ede988895b" valueTypeId="8701d5d4-f32d-4d92-844f-e350b9dbfd4e"/>
+  </producedTypes>
+  <name>торо_Комиссии</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="42af4e0b-3ce4-4b3c-a9b2-192c8be7e7e7" extendedConfigurationObject="9edfc38e-ae9b-42d6-9d75-f050eaf57607">
+    <name>гкс_НомерПриказа</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>16</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="2d5aa7f3-135b-43fb-8295-0602594ae320" extendedConfigurationObject="3a80e72a-b672-4f54-9f48-f0396ae2445b">
+    <name>гкс_ДатаПриказа</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <forms uuid="e59c2210-b7bd-4e2f-9132-e37dfb562c93" extendedConfigurationObject="dbfaf292-d523-4c8d-90f0-74199e880580">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

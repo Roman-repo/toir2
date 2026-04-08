@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="28ca08fd-5376-4ae6-8c8e-c9ba528c69c9">
+  <name>ЧтениеКадровойИсторииСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение кадровой истории сотрудников</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>La lectura de la historia profesional de los empleados</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Reading staff history</value>
+  </synonym>
+</mdclass:Role>

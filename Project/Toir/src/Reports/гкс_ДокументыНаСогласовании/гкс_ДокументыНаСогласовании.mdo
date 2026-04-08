@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="656b184a-10ac-4d68-88cc-50b72c956544">
+  <producedTypes>
+    <objectType typeId="e1914a1b-18d2-43b2-a91d-0609c33c3118" valueTypeId="64dd8b6d-35e3-478b-b332-662f160793e6"/>
+    <managerType typeId="5e5ef420-09fa-431f-ab00-827081696da0" valueTypeId="fbc2c70e-49b8-499d-9a96-32029cf39e73"/>
+  </producedTypes>
+  <name>гкс_ДокументыНаСогласовании</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы на согласовании</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.гкс_ДокументыНаСогласовании.Template.ОСКД</mainDataCompositionSchema>
+  <templates uuid="7793966e-5a85-4888-ac84-a0ccc2f0efae">
+    <name>ОСКД</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОСКД</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

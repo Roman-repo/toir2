@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="008f3fef-c71f-469a-95a3-36ff99c11ddb">
+  <name>ДобавлениеИзменениеПометкаУдаленияПараметровВыработкиОС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление, изменение и пометка удаления параметров выработки ОС</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>La adición, el cambio y la marca de la desaparición de los parámetros de la fabricación de la SO</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Adding, changing and marking deletion of OS generation parameters</value>
+  </synonym>
+</mdclass:Role>

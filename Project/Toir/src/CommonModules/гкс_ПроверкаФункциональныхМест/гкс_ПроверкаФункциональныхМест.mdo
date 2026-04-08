@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dbfbbab2-41f7-466b-8896-ea490d19e25f">
+  <name>гкс_ПроверкаФункциональныхМест</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка функциональных мест</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Check of functional places</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+  <privileged>true</privileged>
+</mdclass:CommonModule>

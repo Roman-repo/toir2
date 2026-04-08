@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="21f677ba-f313-4633-8d22-9e920bf36a91">
+  <name>торо_ЧтениеВидовДокументовУведомлений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение видов документов уведомлений</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>La lectura de los tipos de los documentos de los avisos</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Reading notification document types</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6f189a2c-b3ce-4ad4-87c7-a42e0222efa2" extendedConfigurationObject="45f44e81-9f72-4642-9e3f-26c15131f71d">
+  <producedTypes>
+    <objectType typeId="9f166e74-7310-48b6-acf0-2c57956ad329" valueTypeId="9e9e5d2a-7e24-4ca4-b088-a7db24ec33b6"/>
+    <managerType typeId="fcc489d4-2378-4616-91fc-2082a5debeec" valueTypeId="b0afc81b-8422-4160-b53d-06145ee33870"/>
+  </producedTypes>
+  <name>гкс_ОтчетОбАктуальностиТехКарт</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ReportExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Report>

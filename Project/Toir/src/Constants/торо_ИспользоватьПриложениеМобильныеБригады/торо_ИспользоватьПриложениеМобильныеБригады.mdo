@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="479b11f8-50f2-4535-9359-215eac362f58">
+  <producedTypes>
+    <managerType typeId="647012a0-2f65-4bd3-a5b1-58e92465e909" valueTypeId="0f44f32a-f0f2-4af0-b24f-b57e1f2ac0b4"/>
+    <valueManagerType typeId="d332a70c-0362-4262-8fc8-d7dd00382a9b" valueTypeId="955341cc-8501-45fd-8603-0e80ea804293"/>
+    <valueKeyType typeId="99d5861a-1040-5dd3-8920-2ed64fa95881" valueTypeId="bafac91d-7f11-501e-9b86-2b40eba59be7"/>
+  </producedTypes>
+  <name>торо_ИспользоватьПриложениеМобильныеБригады</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать приложение мобильные бригады</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Usar la aplicación las brigadas móviles</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Use mobile teams app</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

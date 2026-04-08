@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b2652a12-b2f7-4379-a4c9-28952396b034">
+  <producedTypes>
+    <selectionType typeId="ef5f3238-6723-49ce-9a9b-ed835cf4f782" valueTypeId="0599b59d-572f-4cb2-a50e-e63b53334c6c"/>
+    <listType typeId="69ad0c11-083a-4c2c-8428-a6fed34870ca" valueTypeId="119802f1-3764-46b0-b41c-8b73f18a15c1"/>
+    <managerType typeId="85fc0769-4f3c-4f43-8959-2a0f37ed0950" valueTypeId="f4366ed9-bd90-4a6f-bc26-8c8df298cd42"/>
+    <recordSetType typeId="f9a96776-15e3-462e-a498-52b3a210e2ca" valueTypeId="0e2c040d-e292-4555-8823-2e7c860db269"/>
+    <recordKeyType typeId="50bb4153-7c5d-4f40-aaf1-d281bfe0c143" valueTypeId="09ed9a26-3f0e-4f3f-944b-c4c585261b1d"/>
+    <recordType typeId="d814d969-3a2b-4fe3-aedb-a2b84f837e2a" valueTypeId="26752929-6bfd-49dc-b153-251656ef2178"/>
+    <recordManagerType typeId="0ee348bc-ac20-4adc-847d-268943e3d910" valueTypeId="e2f2556f-ba86-4123-a1b6-312ba8206b04"/>
+  </producedTypes>
+  <name>торо_СоответствияТеговАСУТПОбъектамТОИР</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <resources uuid="0fa1c98a-de09-4a86-b334-b2b507119b5c">
+    <name>Отключить</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <resources uuid="c3314279-2012-48dc-a7f5-35706473500c">
+    <name>ОбъектРемонта</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.торо_ОбъектыРемонта</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <resources uuid="8e8247b9-05ac-40fc-9a68-a380a1cfb68f">
+    <name>ТипСигнала</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.торо_ТипыСигналовАСУТП</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <resources uuid="dd5befca-3479-43a6-9fb2-2b6f28645747">
+    <name>Ответственный</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Пользователи</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <resources uuid="f4cceb57-95f5-4948-bda9-ce498da1073d">
+    <name>Подразделение</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.СтруктураПредприятия</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <resources uuid="3f4256b6-0cb3-4f5a-a876-60c290d712e8">
+    <name>Организация</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Организации</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <resources uuid="8cb9e6f7-c1a3-42d6-85f8-c0b4cceaf5d2">
+    <name>Состояние</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.торо_ВидыЭксплуатации</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <resources uuid="2ff94309-3c87-4234-b218-c700e2ca4a3f">
+    <name>Показатель</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>ChartOfCharacteristicTypesRef.торо_ИзмеряемыеПоказателиОбъектовРемонта</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <resources uuid="8a5d645f-50be-405b-ba03-534fdb14c55a">
+    <name>ПричинаПростоя</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.торо_ПричиныПростояОборудования</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <resources uuid="1a200932-64db-4e9e-89c0-13383d04a83a">
+    <name>ВидДефекта</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.торо_ТиповыеДефектыОборудования</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <resources uuid="9a501dac-1968-41be-8524-153d51726a29">
+    <name>ПараметрНаработки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ПараметрыВыработкиОС</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <resources uuid="f8398ffd-cde8-4a18-9797-ba5034a08da1">
+    <name>ПоказательKPI</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.торо_ПоказателиKPI</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <dimensions uuid="81fa11eb-0da6-460b-8740-83dd10b79bb4">
+    <name>Подключение</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.торо_ПодключенияКБазеДанных</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+  <dimensions uuid="c7954b26-6a09-4fda-96c7-74ecc1725964">
+    <name>НаименованиеОР</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </dimensions>
+  <dimensions uuid="8cc66520-7232-4449-8fe5-2bec984d13a2">
+    <name>Тег</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </dimensions>
+  <forms uuid="f928ef4e-589d-4b32-b553-5f9082565b99">
+    <name>ФормаЗаписи</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:InformationRegister>

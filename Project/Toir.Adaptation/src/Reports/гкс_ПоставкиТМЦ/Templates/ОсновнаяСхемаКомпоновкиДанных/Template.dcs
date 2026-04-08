@@ -1,0 +1,1101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаНачала</dataPath>
+			<field>ДатаНачала</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Актуальная дата начала ремонта</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">20</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Комментарий</dataPath>
+			<field>Комментарий</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Комментарий</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Критичность</dataPath>
+			<field>Критичность</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Критичность дефекта</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">15</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИД_Ремонта</dataPath>
+			<field>ИД_Ремонта</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>И д ремонта</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаОкончания</dataPath>
+			<field>ДатаОкончания</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Актуальная дата окончания ремонта</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">20</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Смета</dataPath>
+			<field>Смета</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Смета</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерСметы</dataPath>
+			<field>НомерСметы</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>№ Сметы ремонта (заявки на ремонт)</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОР</dataPath>
+			<field>ОР</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Объект ремонта</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">20</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СпособСоглСметы</dataPath>
+			<field>СпособСоглСметы</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Способ согл сметы</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВР</dataPath>
+			<field>ВР</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вид работ</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">20</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОписаниеРемонта</dataPath>
+			<field>ОписаниеРемонта</field>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">30</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Организация</dataPath>
+			<field>Организация</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Организация</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Подразделение</dataPath>
+			<field>Подразделение</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подразделение</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">20</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Приоритет</dataPath>
+			<field>Приоритет</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Приоритет ОР</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НуженОстанов</dataPath>
+			<field>НуженОстанов</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Необходима остановка производства</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТехНомер</dataPath>
+			<field>ТехНомер</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тех номер</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Ответственный</dataPath>
+			<field>Ответственный</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ответственный</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">20</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Порядок</dataPath>
+			<field>Порядок</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Порядок</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Срочность</dataPath>
+			<field>Срочность</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Срочность воздействия</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтатусСметы</dataPath>
+			<field>СтатусСметы</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Статус сметы</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтатусДокумента</dataPath>
+			<field>СтатусДокумента</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Статус согласования сметы ремонта (заявки на ремонт)</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтоимостьПлан</dataPath>
+			<field>СтоимостьПлан</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Стоимость план</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИзменяемыйДокумент</dataPath>
+			<field>ИзменяемыйДокумент</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтатусСметыРемонта</dataPath>
+			<field>СтатусСметыРемонта</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Статус сметы ремонта (Заявки на ремонт)</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ РАЗЛИЧНЫЕ
+	ДатыРемонтов.IDРемонта КАК ИД_Ремонта,
+	ДатыРемонтов.ДатаНачала КАК ДатаНачала,
+	ДатыРемонтов.ДатаОкончания КАК ДатаОкончания
+ПОМЕСТИТЬ ВТ_ВсеРемонты
+ИЗ
+	РегистрСведений.торо_АктуальныеПлановыеДатыРемонтов КАК ДатыРемонтов
+ГДЕ
+	ДатыРемонтов.ДатаНачала &gt;= &amp;ДатаНачала
+	И ДатыРемонтов.ДатаНачала &lt; &amp;ДатаОкончания
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТ_ВсеРемонты.ИД_Ремонта КАК ИД_Ремонта,
+	ВТ_ВсеРемонты.ДатаНачала КАК ДатаНачала,
+	ВТ_ВсеРемонты.ДатаОкончания КАК ДатаОкончания,
+	РемонтыЗаявки.Ссылка КАК Смета,
+	РемонтыЗаявки.ОбъектРемонта КАК ОР,
+	РемонтыЗаявки.ВидРемонтныхРабот КАК ВР,
+	РемонтыЗаявки.ОписаниеРемонта КАК ОписаниеРемонта,
+	СпрОбъектыРемонта.ТехНомер КАК ТехНомер,
+	СпрОбъектыРемонта.гкс_КатегорияРиска КАК Приоритет,
+	РемонтыЗаявки.КритичностьДефекта КАК Критичность,
+	ДокЗаявкаНаРемонт.гкс_СрочностьВоздействия КАК Срочность
+ПОМЕСТИТЬ ВТ_Заявки
+ИЗ
+	ВТ_ВсеРемонты КАК ВТ_ВсеРемонты
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.торо_ЗаявкаНаРемонт.РемонтыОборудования КАК РемонтыЗаявки
+			ВНУТРЕННЕЕ СОЕДИНЕНИЕ Справочник.торо_ОбъектыРемонта КАК СпрОбъектыРемонта
+			ПО РемонтыЗаявки.ОбъектРемонта = СпрОбъектыРемонта.Ссылка
+			ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.торо_ЗаявкаНаРемонт КАК ДокЗаявкаНаРемонт
+			ПО РемонтыЗаявки.Ссылка = ДокЗаявкаНаРемонт.Ссылка
+		ПО ВТ_ВсеРемонты.ИД_Ремонта = РемонтыЗаявки.ID
+			И (ДокЗаявкаНаРемонт.Проведен)
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	1 КАК Порядок,
+	ЗНАЧЕНИЕ(Перечисление.гкс_СрочностьВоздействия.Немедленно) КАК Срочность
+ПОМЕСТИТЬ ВТ_Порядок
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	2,
+	ЗНАЧЕНИЕ(Перечисление.гкс_СрочностьВоздействия.Сегодня)
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	3,
+	ЗНАЧЕНИЕ(Перечисление.гкс_СрочностьВоздействия.ВТечениеНедели)
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	4,
+	ЗНАЧЕНИЕ(Перечисление.гкс_СрочностьВоздействия.ВТечениеМесяца)
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	5,
+	ЗНАЧЕНИЕ(Перечисление.гкс_СрочностьВоздействия.ПриСледующейОстановке)
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	6,
+	ЗНАЧЕНИЕ(Перечисление.гкс_СрочностьВоздействия.БуфернаяРабота)
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	РегСтатусы.ИзменяемыйДокумент КАК Смета,
+	РегСтатусы.СтатусДокумента КАК СтатусДокумента
+ПОМЕСТИТЬ ВТ_СтатусыСмет
+ИЗ
+	РегистрСведений.торо_СтатусыДокументовЗаявокУстановленные.СрезПоследних(, ) КАК РегСтатусы
+ГДЕ
+	РегСтатусы.ИзменяемыйДокумент В
+			(ВЫБРАТЬ
+				ВТ_Заявки.Смета
+			ИЗ
+				ВТ_Заявки)
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТ_Заявки.ИД_Ремонта КАК ИД_Ремонта,
+	ВТ_Заявки.ДатаНачала КАК ДатаНачала,
+	ВТ_Заявки.ДатаОкончания КАК ДатаОкончания,
+	ВТ_Заявки.Смета КАК Смета,
+	ДокСмета.Номер КАК НомерСметы,
+	ВТ_Заявки.ОР КАК ОР,
+	ВТ_Заявки.ВР КАК ВР,
+	ДокСмета.Организация КАК Организация,
+	ДокСмета.СпособСогласования КАК СпособСоглСметы,
+	ДокСмета.Подразделение КАК Подразделение,
+	ДокСмета.гкс_НуженОстанов КАК НуженОстанов,
+	ВТ_Заявки.ОписаниеРемонта КАК ОписаниеРемонта,
+	ВТ_Заявки.ТехНомер КАК ТехНомер,
+	ВТ_Заявки.Приоритет КАК Приоритет,
+	ВТ_Заявки.Критичность КАК Критичность,
+	ДокСмета.Комментарий КАК Комментарий,
+	ДокСмета.Ответственный КАК Ответственный,
+	ВТ_Заявки.Срочность КАК Срочность,
+	ТекущиеСтатусы.СтатусДокумента КАК СтатусДокумента,
+	РегСтатусы.СтатусДокумента КАК СтатусСметы,
+	ДокСмета.гкс_ПлановаяСтоимостьРемонта КАК СтоимостьПлан,
+	ВТ_Порядок.Порядок КАК Порядок 
+	// Гкс+[TOIR20-525] Вялых Д.А. от 06.02.2025. Добавлено:{
+	,ЕСТЬNULL(СтатусыДокументов.СтатусДокумента, "Черновик") КАК СтатусСметыРемонта
+	// } Гкс-[TOIR20-525] Вялых Д.А. от 06.02.2025.
+ИЗ
+	ВТ_Заявки КАК ВТ_Заявки
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.торо_ТекущиеСтатусыСогласованияДокументов КАК ТекущиеСтатусы
+		ПО ВТ_Заявки.Смета = ТекущиеСтатусы.СогласуемыйДокумент
+		// Гкс+[TOIR20-525] Вялых Д.А. от 06.02.2025. Добавлено:{ 
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.торо_СтатусыДокументовЗаявокУстановленные.СрезПоследних КАК СтатусыДокументов
+		ПО ВТ_Заявки.Смета = СтатусыДокументов.ИзменяемыйДокумент
+		// } Гкс-[TOIR20-525] Вялых Д.А. от 06.02.2025.	
+		ЛЕВОЕ СОЕДИНЕНИЕ ВТ_СтатусыСмет КАК РегСтатусы
+		ПО ВТ_Заявки.Смета = РегСтатусы.Смета
+		ЛЕВОЕ СОЕДИНЕНИЕ ВТ_Порядок КАК ВТ_Порядок
+		ПО (ВТ_Порядок.Срочность = ВТ_Заявки.Срочность)
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.торо_ЗаявкаНаРемонт КАК ДокСмета
+		ПО ВТ_Заявки.Смета = ДокСмета.Ссылка</query>
+	</dataSet>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных2</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НоменклатураКод</dataPath>
+			<field>НоменклатураКод</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Код НСИ</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Номенклатура</dataPath>
+			<field>Номенклатура</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ТМЦ из сметы ремонта (заявки на ремонт)</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерСтроки</dataPath>
+			<field>НомерСтроки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИД_Ремонта</dataPath>
+			<field>ИД_Ремонта</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ИД Ремонта</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Смета</dataPath>
+			<field>Смета</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Смета</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Колво</dataPath>
+			<field>Колво</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>УпаковкаЕдиница</dataPath>
+			<field>УпаковкаЕдиница</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Единица измерения</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Давальческий</dataPath>
+			<field>Давальческий</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Давальческий</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	МатериальныеЗатраты.НомерСтроки КАК НомерСтроки,
+	МатериальныеЗатраты.РемонтыОборудования_ID КАК ИД_Ремонта,
+	МатериальныеЗатраты.Ссылка КАК Смета,
+	ВЫБОР
+		КОГДА СпрУпаковки.Ссылка ЕСТЬ NULL
+			ТОГДА СпрНоменклатура.ЕдиницаИзмерения
+		ИНАЧЕ МатериальныеЗатраты.ЕдиницаИзмерения
+	КОНЕЦ КАК УпаковкаЕдиница,
+	МатериальныеЗатраты.Номенклатура КАК Номенклатура,
+	СпрНоменклатура.Код КАК НоменклатураКод,
+	МатериальныеЗатраты.КоличествоЕдиниц КАК Колво,
+	МатериальныеЗатраты.гкс_Давальческие КАК Давальческий
+ИЗ
+	Документ.торо_ЗаявкаНаРемонт.МатериальныеЗатраты КАК МатериальныеЗатраты
+		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.Номенклатура КАК СпрНоменклатура
+		ПО МатериальныеЗатраты.Номенклатура = СпрНоменклатура.Ссылка
+		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.УпаковкиНоменклатуры КАК СпрУпаковки
+		ПО МатериальныеЗатраты.ЕдиницаИзмерения = СпрУпаковки.Ссылка
+ГДЕ
+	МатериальныеЗатраты.Ссылка В(&amp;Сметы)</query>
+	</dataSet>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных3</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Акт</dataPath>
+			<field>Акт</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>№ Акта о выполнении этапа работ</v8:content>
+				</v8:item>
+			</title>
+			<presentationExpression>Акт.Номер</presentationExpression>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтатусАкта</dataPath>
+			<field>СтатусАкта</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Статус согласования акта о выполнении этапа работ</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Смета</dataPath>
+			<field>Смета</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Смета</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИзменяемыйДокумент</dataPath>
+			<field>ИзменяемыйДокумент</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтатусАктаУстановленные</dataPath>
+			<field>СтатусАктаУстановленные</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Статус акта о выполнении этапа работ</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	АктОВыполненииЭтапаРабот.Ссылка КАК Акт,
+	ТекущиеСтатусы.СтатусДокумента КАК СтатусАкта,
+	ВЫРАЗИТЬ(АктОВыполненииЭтапаРаботОснования.ДокументОснование КАК Документ.торо_ЗаявкаНаРемонт) КАК Смета
+	// Гкс+[TOIR20-525] Вялых Д.А. от 06.02.2025. Добавлено:{
+	,ЕСТЬNULL(СтатусыДокументов.СтатусДокумента, "Черновик") КАК СтатусАктаУстановленные
+	// } Гкс-[TOIR20-525] Вялых Д.А. от 06.02.2025.
+ИЗ
+	Документ.торо_АктОВыполненииЭтапаРабот КАК АктОВыполненииЭтапаРабот
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.торо_АктОВыполненииЭтапаРабот.ДокументыОснования КАК АктОВыполненииЭтапаРаботОснования
+		ПО АктОВыполненииЭтапаРабот.Ссылка = АктОВыполненииЭтапаРаботОснования.Ссылка
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.торо_ТекущиеСтатусыСогласованияДокументов КАК ТекущиеСтатусы
+		ПО АктОВыполненииЭтапаРабот.Ссылка = ТекущиеСтатусы.СогласуемыйДокумент
+		// Гкс+[TOIR20-525] Вялых Д.А. от 06.02.2025. Добавлено:{ 
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.торо_СтатусыДокументовЗаявокУстановленные.СрезПоследних КАК СтатусыДокументов
+		ПО АктОВыполненииЭтапаРабот.Ссылка = СтатусыДокументов.Регистратор 		
+		// } Гкс-[TOIR20-525] Вялых Д.А. от 06.02.2025.
+ГДЕ
+	АктОВыполненииЭтапаРаботОснования.ДокументОснование В(&amp;Сметы)
+	И НЕ АктОВыполненииЭтапаРабот.ПометкаУдаления</query>
+	</dataSet>
+	<dataSetLink>
+		<sourceDataSet>НаборДанных1</sourceDataSet>
+		<destinationDataSet>НаборДанных2</destinationDataSet>
+		<sourceExpression>Смета</sourceExpression>
+		<destinationExpression>Смета</destinationExpression>
+		<parameter>Сметы</parameter>
+		<parameterListAllowed>true</parameterListAllowed>
+	</dataSetLink>
+	<dataSetLink>
+		<sourceDataSet>НаборДанных1</sourceDataSet>
+		<destinationDataSet>НаборДанных2</destinationDataSet>
+		<sourceExpression>ИД_Ремонта</sourceExpression>
+		<destinationExpression>ИД_Ремонта</destinationExpression>
+	</dataSetLink>
+	<dataSetLink>
+		<sourceDataSet>НаборДанных1</sourceDataSet>
+		<destinationDataSet>НаборДанных3</destinationDataSet>
+		<sourceExpression>Смета</sourceExpression>
+		<destinationExpression>Смета</destinationExpression>
+		<parameter>Сметы</parameter>
+		<parameterListAllowed>true</parameterListAllowed>
+	</dataSetLink>
+	<parameter>
+		<name>ПериодОтчета</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период отчета</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>v8:StandardPeriod</v8:Type>
+		</valueType>
+		<value xsi:type="v8:StandardPeriod">
+			<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+			<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+			<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+		</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>ДатаНачала</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата начала</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;ПериодОтчета.ДатаНачала</expression>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>ДатаОкончания</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата окончания</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;ПериодОтчета.ДатаОкончания</expression>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>Сметы</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Сметы</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:DocumentRef.торо_ЗаявкаНаРемонт</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+		<valueListAllowed>true</valueListAllowed>
+	</parameter>
+	<template>
+		<name>Макет1</name>
+		<template xmlns:dcsat="http://v8.1c.ru/8.1/data-composition-system/area-template" xsi:type="dcsat:AreaTemplate">
+			<dcsat:item xsi:type="dcsat:TableRow">
+				<dcsat:tableCell>
+					<dcsat:item xsi:type="dcsat:Field">
+						<dcsat:value xsi:type="dcscor:Parameter">НомерСметы</dcsat:value>
+					</dcsat:item>
+					<dcsat:appearance>
+						<dcscor:item>
+							<dcscor:parameter>Расшифровка</dcscor:parameter>
+							<dcscor:value xsi:type="dcscor:Parameter">НомерСметыРасшифровка</dcscor:value>
+						</dcscor:item>
+					</dcsat:appearance>
+				</dcsat:tableCell>
+			</dcsat:item>
+		</template>
+		<parameter xmlns:dcsat="http://v8.1c.ru/8.1/data-composition-system/area-template" xsi:type="dcsat:ExpressionAreaTemplateParameter">
+			<dcsat:name>НомерСметы</dcsat:name>
+			<dcsat:expression>НомерСметы</dcsat:expression>
+		</parameter>
+		<parameter xmlns:dcsat="http://v8.1c.ru/8.1/data-composition-system/area-template" xsi:type="dcsat:DetailsAreaTemplateParameter">
+			<dcsat:name>НомерСметыРасшифровка</dcsat:name>
+			<dcsat:fieldExpression>
+				<dcsat:field>Смета</dcsat:field>
+				<dcsat:expression>Смета</dcsat:expression>
+			</dcsat:fieldExpression>
+			<dcsat:mainAction>OpenValue</dcsat:mainAction>
+		</parameter>
+	</template>
+	<fieldTemplate>
+		<field>НомерСметы</field>
+		<template>Макет1</template>
+	</fieldTemplate>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Поставки ТМЦ (планирование)</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Основной</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>es</v8:lang>
+				<v8:content>Основной</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>tr</v8:lang>
+				<v8:content>Основной</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:userFields>
+				<dcsset:item xsi:type="dcsset:UserFieldExpression">
+					<dcsset:dataPath>ПользовательскиеПоля.Поле1</dcsset:dataPath>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Наличие на складе</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:detailExpression>""</dcsset:detailExpression>
+					<dcsset:detailExpressionPresentation>""</dcsset:detailExpressionPresentation>
+					<dcsset:totalExpression/>
+					<dcsset:totalExpressionPresentation/>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:UserFieldExpression">
+					<dcsset:dataPath>ПользовательскиеПоля.Поле2</dcsset:dataPath>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Склад</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:detailExpression>""</dcsset:detailExpression>
+					<dcsset:detailExpressionPresentation>""</dcsset:detailExpressionPresentation>
+					<dcsset:totalExpression/>
+					<dcsset:totalExpressionPresentation/>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:UserFieldExpression">
+					<dcsset:dataPath>ПользовательскиеПоля.Поле3</dcsset:dataPath>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>№ Заказа на перемещение</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:detailExpression>""</dcsset:detailExpression>
+					<dcsset:detailExpressionPresentation>""</dcsset:detailExpressionPresentation>
+					<dcsset:totalExpression/>
+					<dcsset:totalExpressionPresentation/>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:UserFieldExpression">
+					<dcsset:dataPath>ПользовательскиеПоля.Поле4</dcsset:dataPath>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>№ Заказа поставщику</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:detailExpression>""</dcsset:detailExpression>
+					<dcsset:detailExpressionPresentation>""</dcsset:detailExpressionPresentation>
+					<dcsset:totalExpression/>
+					<dcsset:totalExpressionPresentation/>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:UserFieldExpression">
+					<dcsset:dataPath>ПользовательскиеПоля.Поле5</dcsset:dataPath>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Кол-во в заявке</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:detailExpression>""</dcsset:detailExpression>
+					<dcsset:detailExpressionPresentation>""</dcsset:detailExpressionPresentation>
+					<dcsset:totalExpression/>
+					<dcsset:totalExpressionPresentation/>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:UserFieldExpression">
+					<dcsset:dataPath>ПользовательскиеПоля.Поле6</dcsset:dataPath>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ответсвеный Менеджер</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:detailExpression>""</dcsset:detailExpression>
+					<dcsset:detailExpressionPresentation>""</dcsset:detailExpressionPresentation>
+					<dcsset:totalExpression/>
+					<dcsset:totalExpressionPresentation/>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:UserFieldExpression">
+					<dcsset:dataPath>ПользовательскиеПоля.Поле7</dcsset:dataPath>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата заявки от заказчика</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:detailExpression>""</dcsset:detailExpression>
+					<dcsset:detailExpressionPresentation>""</dcsset:detailExpressionPresentation>
+					<dcsset:totalExpression/>
+					<dcsset:totalExpressionPresentation/>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:UserFieldExpression">
+					<dcsset:dataPath>ПользовательскиеПоля.Поле8</dcsset:dataPath>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Поставщик</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:detailExpression>""</dcsset:detailExpression>
+					<dcsset:detailExpressionPresentation>""</dcsset:detailExpressionPresentation>
+					<dcsset:totalExpression/>
+					<dcsset:totalExpressionPresentation/>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:UserFieldExpression">
+					<dcsset:dataPath>ПользовательскиеПоля.Поле9</dcsset:dataPath>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата поставки в системе 1С ERP</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:detailExpression>""</dcsset:detailExpression>
+					<dcsset:detailExpressionPresentation>""</dcsset:detailExpressionPresentation>
+					<dcsset:totalExpression/>
+					<dcsset:totalExpressionPresentation/>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:UserFieldExpression">
+					<dcsset:dataPath>ПользовательскиеПоля.Поле10</dcsset:dataPath>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Статус поставки на</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:detailExpression>""</dcsset:detailExpression>
+					<dcsset:detailExpressionPresentation>""</dcsset:detailExpressionPresentation>
+					<dcsset:totalExpression/>
+					<dcsset:totalExpressionPresentation/>
+				</dcsset:item>
+			</dcsset:userFields>
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СистемныеПоля.НомерПоПорядку</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>№</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Подразделение</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>НуженОстанов</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>НомерСметы</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СтатусСметыРемонта</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СтатусДокумента</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОР</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОписаниеРемонта</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Ответственный</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Номенклатура</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>УпаковкаЕдиница</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЕИ</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Колво</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Кол-во</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>НоменклатураКод</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Давальческий</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПользовательскиеПоля.Поле1</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПользовательскиеПоля.Поле2</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаНачала</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаОкончания</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Акт</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СтатусАктаУстановленные</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СтатусАкта</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПользовательскиеПоля.Поле3</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПользовательскиеПоля.Поле4</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПользовательскиеПоля.Поле5</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПользовательскиеПоля.Поле6</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПользовательскиеПоля.Поле7</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПользовательскиеПоля.Поле8</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПользовательскиеПоля.Поле9</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПользовательскиеПоля.Поле10</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Приоритет</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Критичность</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Срочность</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВР</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Подразделение</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>b679a399-d331-482c-817b-60e57a68933a</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">СтатусДокумента</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>360c5fd2-ab1e-4fd2-9dd9-5364dc78bb52</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ПериодОтчета</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardPeriod">
+						<v8:variant xsi:type="v8:StandardPeriodVariant">LastMonth</v8:variant>
+					</dcscor:value>
+					<dcsset:userSettingID>110f5b80-4a34-4adb-b833-baa8ecd7f258</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>Сметы</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:order>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>ДатаНачала</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>Порядок</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>НомерСтроки</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+			</dcsset:order>
+			<dcsset:conditionalAppearance>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>СистемныеПоля.НомерПоПорядку</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter/>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+							<dcscor:value xsi:type="xs:decimal">10</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+			</dcsset:conditionalAppearance>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Заголовок</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Поставки ТМЦ (планирование)</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Смета</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

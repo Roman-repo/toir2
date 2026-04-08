@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="38cd9541-4a97-49ba-a18f-e4cb1a4a24cb">
+  <name>торо_ЗаполнениеДокументовКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполнение документов клиент</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>El relleno de los documentos el cliente</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Filling out documents client</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+</mdclass:CommonModule>

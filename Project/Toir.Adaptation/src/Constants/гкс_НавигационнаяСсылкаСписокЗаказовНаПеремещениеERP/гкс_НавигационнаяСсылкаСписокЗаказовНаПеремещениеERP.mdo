@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a4870509-aa9a-4c17-8187-e22ada158678" extendedConfigurationObject="0b572792-c7b1-4d9d-a691-df8fbb574839">
+  <producedTypes>
+    <managerType typeId="b7f7d581-f77c-4967-96fd-e434a5c254e0" valueTypeId="57dbce3e-7ab2-456c-bc91-668779bcd044"/>
+    <valueManagerType typeId="f2287a06-3345-47a5-b0a3-e2f5bad24c2d" valueTypeId="dd71206d-3bc6-4b85-b0dd-18b6bee2625f"/>
+    <valueKeyType typeId="98679132-b29d-44b1-9b4c-ffeac10931ab" valueTypeId="eb40de2b-5e5d-4682-aaaa-44640255ba0e"/>
+  </producedTypes>
+  <name>гкс_НавигационнаяСсылкаСписокЗаказовНаПеремещениеERP</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>String</type>
+      </types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </typeExtension>
+  </extension>
+</mdclass:Constant>

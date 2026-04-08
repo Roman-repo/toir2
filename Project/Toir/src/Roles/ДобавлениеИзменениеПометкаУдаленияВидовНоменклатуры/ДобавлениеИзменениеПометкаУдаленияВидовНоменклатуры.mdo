@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f2151b2-dbfe-4e8e-aa27-1aa85a9ffabf">
+  <name>ДобавлениеИзменениеПометкаУдаленияВидовНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление, изменение и пометка удаления на виды номенклатуры</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>La adición, el cambio y la marca de la desaparición a los tipos de la nomenclatura</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Adding, changing, and marking deletion on item types</value>
+  </synonym>
+</mdclass:Role>

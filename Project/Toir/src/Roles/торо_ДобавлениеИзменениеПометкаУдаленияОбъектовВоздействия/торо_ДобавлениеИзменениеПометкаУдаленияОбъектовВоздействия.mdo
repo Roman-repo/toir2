@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e83e1b64-75b1-4fd4-8c78-ebe56df01807">
+  <name>торо_ДобавлениеИзменениеПометкаУдаленияОбъектовВоздействия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление, изменение, пометка удаления объектов воздействия</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>La adición, el cambio, la marca de la desaparición de los objetos de la influencia</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Adding, changing, marking the removal of impact objects</value>
+  </synonym>
+</mdclass:Role>

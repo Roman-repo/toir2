@@ -1,0 +1,4323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="145aacdb-f868-47fa-a11a-64c1ee401e0c">
+  <producedTypes>
+    <objectType typeId="eb4b83c9-dde8-4b16-a00d-01e3002e67f9" valueTypeId="72063278-646e-40e5-ad37-efd2d94b71f0"/>
+    <refType typeId="f2f270d7-36d2-458c-8db8-c1fb39821f29" valueTypeId="3150b9bb-43f7-4f83-8480-c25ee1d24cc2"/>
+    <selectionType typeId="7dc9da80-01b2-452a-b280-8f99d7cbb1d9" valueTypeId="bfe13958-aa7d-4283-ae44-70831bea87cd"/>
+    <listType typeId="95a5fcfc-7066-4875-8cdb-bbfbc3f726d1" valueTypeId="c4386351-2353-42f7-9d60-a6c4730320b0"/>
+    <managerType typeId="0a12831c-fa02-49d3-8385-af1832e462d8" valueTypeId="fade5315-6fb6-4a39-8371-5479514aecf0"/>
+  </producedTypes>
+  <name>торо_ЗаявкаНаРемонт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Смета ремонта (Заявка на ремонт)</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>El presupuesto de la reparación (la Demanda por la reparación)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Repair estimate (Request for repair)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.торо_ЗаявкаНаРемонт.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <characteristics>
+    <characteristicTypes>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения</characteristicTypes>
+    <keyField>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения.Attribute.Свойство</keyField>
+    <typesFilterField>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения.StandardAttribute.Ref</typesFilterField>
+    <typesFilterValue xsi:type="core:ReferenceValue">
+      <value>Catalog.НаборыДополнительныхРеквизитовИСведений.Документ_торо_ЗаявкаНаРемонт</value>
+    </typesFilterValue>
+    <dataPathField>-1</dataPathField>
+    <multipleValuesUseField>-1</multipleValuesUseField>
+    <characteristicValues>InformationRegister.ДополнительныеСведения</characteristicValues>
+    <objectField>InformationRegister.ДополнительныеСведения.Dimension.Объект</objectField>
+    <typeField>InformationRegister.ДополнительныеСведения.Dimension.Свойство</typeField>
+    <valueField>InformationRegister.ДополнительныеСведения.Resource.Значение</valueField>
+    <multipleValuesKeyField>-1</multipleValuesKeyField>
+    <multipleValuesOrderField>-1</multipleValuesOrderField>
+  </characteristics>
+  <characteristics>
+    <characteristicTypes>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеРеквизиты</characteristicTypes>
+    <keyField>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеРеквизиты.Attribute.Свойство</keyField>
+    <typesFilterField>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеРеквизиты.StandardAttribute.Ref</typesFilterField>
+    <typesFilterValue xsi:type="core:ReferenceValue">
+      <value>Catalog.НаборыДополнительныхРеквизитовИСведений.Документ_торо_ЗаявкаНаРемонт</value>
+    </typesFilterValue>
+    <dataPathField>-1</dataPathField>
+    <multipleValuesUseField>-1</multipleValuesUseField>
+    <characteristicValues>Document.торо_ЗаявкаНаРемонт.TabularSection.ДополнительныеРеквизиты</characteristicValues>
+    <objectField>Document.торо_ЗаявкаНаРемонт.TabularSection.ДополнительныеРеквизиты.StandardAttribute.Ref</objectField>
+    <typeField>Document.торо_ЗаявкаНаРемонт.TabularSection.ДополнительныеРеквизиты.Attribute.Свойство</typeField>
+    <valueField>Document.торо_ЗаявкаНаРемонт.TabularSection.ДополнительныеРеквизиты.Attribute.Значение</valueField>
+    <multipleValuesKeyField>-1</multipleValuesKeyField>
+    <multipleValuesOrderField>-1</multipleValuesOrderField>
+  </characteristics>
+  <basedOn>Document.торо_ВыявленныеДефекты</basedOn>
+  <basedOn>Document.торо_ПланГрафикРемонта</basedOn>
+  <basedOn>Document.торо_ВнешнееОснованиеДляРабот</basedOn>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.торо_ЗаявкаНаРемонт.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.торо_ЗаявкаНаРемонт.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Document.торо_ЗаявкаНаРемонт.Form.ФормаВыбора</defaultChoiceForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecords>AccumulationRegister.торо_ПлановыеТрудовыеЗатратыРемонтныхРабот</registerRecords>
+  <registerRecords>InformationRegister.торо_СтатусыДокументовВыявленныхДефектов</registerRecords>
+  <registerRecords>InformationRegister.торо_СтатусыДокументовВыявленныхДефектовУстановленные</registerRecords>
+  <registerRecords>InformationRegister.торо_ЗаявкиПоРемонтам</registerRecords>
+  <registerRecords>AccumulationRegister.торо_ПроцентВыполненныхРабот</registerRecords>
+  <registerRecords>AccumulationRegister.торо_ПлановыеМатериальныеЗатратыРемонтныхРабот</registerRecords>
+  <registerRecords>InformationRegister.торо_СтатусыДокументовВнешнихОснованийУстановленные</registerRecords>
+  <registerRecords>InformationRegister.торо_Ремонты</registerRecords>
+  <registerRecords>AccumulationRegister.торо_ПлановыеЗатратыЗапчастей</registerRecords>
+  <registerRecords>AccumulationRegister.торо_ЗапланированныеРемонтныеРаботы</registerRecords>
+  <registerRecords>AccumulationRegister.гкс_ТрудовыеРесурсы</registerRecords>
+  <registerRecords>InformationRegister.торо_ВнешниеОснованияДляРабот</registerRecords>
+  <registerRecords>InformationRegister.торо_СтатусыДокументовЗаявокУстановленные</registerRecords>
+  <registerRecords>InformationRegister.торо_СтатусыДокументовВнешнихОснований</registerRecords>
+  <registerRecords>InformationRegister.торо_СтатусыДокументовЗаявок</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="ffae63d3-ef40-47a7-937d-c92fdb7d2295">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La organización</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Organization</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Организация предприятия, принадлежащие которой объекты могут быть добавлены в документ.</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>La organización las empresas que pertenecen que objetos pueden ser añadidas en el documento.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Organization of the enterprise, the objects of which can be added to the document.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7ed39b61-bbcb-4d6e-853d-79611e8e5aff">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La subdivisión</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Subdivision</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтруктураПредприятия</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Подразделение, принадлежащие которому объекты могут быть добавлены в документ.</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>La subdivisión, que pertenecen a que objetos pueden ser añadidos en el documento.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>The unit that the objects belonging to can be added to the document.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="44c6059c-f7ec-4b2c-8867-273ab6af6369">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El comentario</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Comment</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Произвольный комментарий</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El comentario cualquiera</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Arbitrary comment</value>
+    </toolTip>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b969310e-1705-457c-a352-802672177899">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Responsable</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Responsible</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь, ответственный за  документ.</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El usuario responsable del documento.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Document responsible user.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="32951cd9-50e0-4f34-a838-ee23f18bc3e2">
+    <name>СтатусДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>(устарело) Статус документа</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>(Ha caducado) el Estatus del documento</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>(deprecated) Document status</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.торо_СтатусыСогласованияДокументовРемонтныхРабот</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Статус заявки</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El estatus de la demanda</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Application status</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f3099c4e-c611-4fde-8cd9-dd46a102cec7">
+    <name>СпособСогласования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ согласования</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El modo de la coordinación</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Approval method</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.торо_СпособыСогласованияДокументов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Способ согласования заявки</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>El modo de la coordinación de la demanda</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Application approval method</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0ab9d2e6-be83-4611-8716-1575672c900d">
+    <name>гкс_НуженОстанов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Необходим останов производства</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Production shutdown required</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d2a0a6e6-093f-433d-973f-a5fac41cebc0">
+    <name>гкс_НуженПодготовка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Необходима подготовка (чистка, дренирование, отключение) ОР к ремонту</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Preparation is required (cleaning, drainage, shutdown) of OR for repair</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="758a7dd7-97ad-4ec5-90e8-8e5f3d67d029">
+    <name>гкс_РаботаПовышеннойОпасности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работа повышенной опасности (необходим наряд допуск)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>High-risk work (special work order)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fd849893-62a3-4a45-b745-bb36e1fd53f5">
+    <name>гкс_НуженИспытание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Необходимо проведение испытания оборудования с оформлением акта</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>It is necessary to conduct a test of equipment with the execution of an act</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="79c5c223-2656-4019-95dd-5e0c4a7317b0">
+    <name>гкс_ПлановаяСтоимостьРемонта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плановая стоимость ремонта</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Planned repair cost</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="43ce9c0d-0e06-4965-b73e-fd1d23676766">
+    <name>гкс_Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Currency</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="224cc8df-0ed4-49f9-b82d-ab7a3443b664">
+    <name>гкс_СрочностьВоздействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срочность воздействия</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Urgency of impact</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Urgencia de impacto</value>
+    </synonym>
+    <comment>8220 Тарасов</comment>
+    <type>
+      <types>EnumRef.гкс_СрочностьВоздействия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bbd76442-32ba-4585-bff5-5df15aa1631f">
+    <name>гкс_ОбщееОписаниеРемонта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание ремонта</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Repair description</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1282d36c-6851-49cc-b206-222707e32e96">
+    <name>гкс_ПлановаяСтоимостьБезДавальческихМатериалов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плановая стоимость (без давальческих материалов)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Planned repair cost</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e022d0ca-251c-44d6-b9fe-24fbb11d6081">
+    <name>гкс_ИсполнительСтрокой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Executor</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El ejecutor</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="145b46c2-a8a2-4acd-a4f5-df352cd54beb">
+    <name>гкс_СкрытаяРабота</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скрытая работа</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3621d73a-e90a-4049-8485-46c8433ca693">
+    <name>гкс_СкрытаяСмета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Смета скрытой работы</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.торо_ЗаявкаНаРемонт</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b8e48e2c-3260-40aa-b4a2-81d951388eb9">
+    <name>гкс_ОРСтрокой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объекты ремонта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>700</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="73907823-46f3-4822-9166-5b6cf4b504fd">
+    <name>гкс_РаботыТСПожаротушения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работы, связанные с техническими средствами пожаротушения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="1a0d617a-a0dd-425c-98bf-6494e2081684">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La forma del documento</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Document form</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5ffd7a13-da8c-467e-aa6c-dc4caf19c168">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La forma de la elección</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Selection form</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d6250af4-d6ba-4e07-8664-087c9e62dfd7">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La forma de la lista</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>list form</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="132469c6-b81d-406c-80ca-9f8754dd610f">
+    <name>ФормаФильтра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор исполнителей</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La elección de los ejecutores</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>The choice of performers</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="2f6af02a-4b40-4613-8cc7-8b4a64e0e244">
+    <producedTypes>
+      <objectType typeId="e2a5c84a-efcb-4a5d-b456-05241529206c" valueTypeId="b99c954a-c8d4-4db2-b2c7-8e177e1b3c2b"/>
+      <rowType typeId="4a7bc4b8-de72-4514-98b2-cd57651f05d5" valueTypeId="d58e217b-309c-4cb2-af64-3147f81d82c4"/>
+    </producedTypes>
+    <name>РемонтыОборудования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ремонты оборудования</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Las reparaciones de la maquinaria</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Equipment repairs</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="ccc4499d-64f9-48a4-98c6-612249fc206f">
+      <name>ОбъектРемонта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Объект ремонта</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>El objeto de la reparación</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Object of repair</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.торо_ОбъектыРемонта</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Объект ремонта заявки</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El objeto de la reparación de la demanda</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Request repair facility</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="45912545-c381-435b-9239-8860ec2db3af">
+      <name>ID</name>
+      <synonym>
+        <key>ru</key>
+        <value>ID</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>ID</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>ID</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Идентификатор</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El identificador</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Identifier</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2060617f-558e-43af-864c-28789bbf612e">
+      <name>ВидРемонтныхРабот</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид ремонтных работ</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>El tipo de los trabajos de reparación</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Type of repair work</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.торо_ВидыРемонтов</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Вид ремонта</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El tipo de la reparación</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Type of repair</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3e297524-cee2-440c-a058-4118d910ac57">
+      <name>ДатаНачала</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата начала</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La fecha ha comenzado</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Start date</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Дата начала ремонта</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>La fecha del comienzo de la reparación</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Repair start date</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a0f1f99d-b466-4019-a954-1be1ec9a8f23">
+      <name>ДатаОкончания</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата окончания</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La fecha de la terminación</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>End date</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Дата окончания ремонта</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>La fecha de la terminación de la reparación</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Repair end date</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="918e5ffe-e6ad-4b69-b1f1-6d0845f60ad9">
+      <name>ОписаниеРемонта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Описание ремонта</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La descripción de la reparación</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Repair description</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Описание ремонта заявки</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>La descripción de la reparación de la demanda</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Application repair description</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b0605ced-302e-4fc0-90d9-7973718c3afb">
+      <name>ДокументИсточник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Документ источник</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>El documento la fuente</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Document source</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.торо_ВнешнееОснованиеДляРабот</types>
+        <types>DocumentRef.торо_ПланГрафикРемонта</types>
+        <types>DocumentRef.торо_ВыявленныеДефекты</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Документ-источник (Выявленные дефекты)</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El documento-fuente (los defectos Revelados)</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Source document (Defects identified)</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1b0bd41c-4d51-48f7-9abb-0ccb1b218572">
+      <name>ИДДефекта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор дефекта</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>El identificador del defecto</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Defect identifier</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Идентификатор дефекта (не отображается на форме)</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El identificador del defecto (no es representado sobre la forma)</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Defect Identifier (not displayed on the form)</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6b7b0b70-847a-4041-aeb7-c1100f3e496e">
+      <name>Приоритет</name>
+      <synonym>
+        <key>ru</key>
+        <value>Приоритет</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La prioridad</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Priority</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Приоритет ремонта</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>La prioridad de la reparación</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Priority repair</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="06b71857-bba9-4ab5-b565-abb3ea99077d">
+      <name>ЗакрываетПредписание</name>
+      <synonym>
+        <key>ru</key>
+        <value>Закрывает предписание</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>Cierra la prescripción</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Closes the prescription</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Признак закрытия предписания</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El indicio del cierre de la prescripción</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Sign of prescription closure</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3d5fc1b1-fae7-4753-86e7-856cdbc18d01">
+      <name>ГарантийныйРемонт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Гарантийный ремонт</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La reparación de garantía</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Warranty repair</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>На дату ремонта для объекта имеется действующая гарантия</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>A la fecha de la reparación para el objeto hay una garantía activa</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>There is a valid warranty on the repair date</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="60d1cba6-fc81-4034-8b58-20a006c09e1d">
+      <name>ИнвНомер</name>
+      <synonym>
+        <key>ru</key>
+        <value>(Не используется) Инв №</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>(No se usa) Inv №</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>(Not used) Inv №</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>9</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>(Инв №)</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>(Inv №)</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>(Inv №)</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="55f8d50a-ea70-4ae7-8b23-c03cb6fce98e">
+      <name>ТехНомер</name>
+      <synonym>
+        <key>ru</key>
+        <value>(Не используется) Технологический №</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>(No se usa) Tecnológico №</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>(Not used) Technological №</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>250</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>(Технологический №)</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>(Tecnológico №)</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>(Technological No.)</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b0fe2986-c370-441b-91ae-664b898da037">
+      <name>ЗаводскойНомер</name>
+      <synonym>
+        <key>ru</key>
+        <value>(Не используется) Зав №</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>(No se usa) Zav №</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>(Not used) Зав №</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>250</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>(Зав №)</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>(Zav №)</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>(Зав №)</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4e1e4a49-6a1a-4c3a-a6b4-8a83c85a7215">
+      <name>КрайняяДопустимаяДатаЗавершенияРемонта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Крайняя дата завершения</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La fecha extrema de la terminación</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Deadline</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Крайняя допустимая дата завершения ремонта</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>La fecha extrema admisible de la terminación de la reparación</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Deadline for completion of repairs</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e30bc0c0-63cf-410c-abb0-8c6a2b556afb">
+      <name>КритичностьДефекта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Критичность дефекта</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>Критичность del defecto</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Defect criticality</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.торо_КритичностьДефекта</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="52732a74-0313-437a-848f-d9bb0d54c071">
+      <name>гкс_ИмяТехКартыРемонта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя тех карты ремонта</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Name of the repair technological map</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>250</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fa03382d-f775-44cc-bb96-a8600aedc192">
+      <name>гкс_МежремонтныйПериод</name>
+      <synonym>
+        <key>ru</key>
+        <value>Межремонтный период (месяц)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>3</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="d6449dc3-4d92-4daa-bdf1-ad3992599597">
+    <producedTypes>
+      <objectType typeId="d547a8d7-1300-4b58-b72f-52928e8c94ec" valueTypeId="902fe228-6756-4b22-9866-025075231824"/>
+      <rowType typeId="49a3fb73-79da-4cc5-b5d9-44146067a274" valueTypeId="ff4fef07-ec2c-4851-8d88-89d2f549bdfb"/>
+    </producedTypes>
+    <name>РемонтныеРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ремонтные работы</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Los trabajos de reparación</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Repair work</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="82738d63-6133-4203-b3cc-e8e9df8296f8">
+      <name>ID</name>
+      <synonym>
+        <key>ru</key>
+        <value>ID</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>ID</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>ID</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Идентификатор</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El identificador</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Identifier</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="89dbad1e-b5b0-47c6-bb5a-53eb779f1f28">
+      <name>РемонтнаяРабота</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ремонтная работа</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>El trabajo de reparación</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Repair work</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.торо_ТехнологическиеОперации</types>
+        <types>CatalogRef.торо_ИдентификаторыТехКарт</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Тех. операция или тех. карта</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>De aquel. La operación o aquel. La tarjeta</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Technical operation or those. map</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="14c74554-8c1e-4b72-ac91-90da57621008">
+      <name>Родитель_ID</name>
+      <synonym>
+        <key>ru</key>
+        <value>Родитель ID</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>Los padres ID</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Parent ID</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Идентификатор родителя</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El identificador de los padres</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Parent identifier</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ac2f4241-c8c5-439e-ad2d-34bf03b826e8">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La cantidad</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Number</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество работ</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>La cantidad de los trabajos</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Number of works</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="45cc94c4-eb5c-4364-8d68-4a292f76e248">
+      <name>РемонтыОборудования_ID</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ремонты оборудования ID</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>Las reparaciones de la maquinaria ID</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>ID equipment repairs</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Идентификатор ремонта оборудования</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El identificador de la reparación de la maquinaria</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Hardware repair identifier</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1cb3207c-7af0-4685-8b7c-6b9e9f49bf80">
+      <name>Картинка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Картинка</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La estampa</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Picture</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>1</precision>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Содержит картинку</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>Contiene la estampa</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Contains picture</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3e9fd57b-0894-4fc1-a39e-398904f1714e">
+      <name>Исполнитель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Исполнитель</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>El ejecutor</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Executor</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СтруктураПредприятия</types>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="bb85baf0-a5f1-472c-9d79-07de550a33d2">
+      <name>ДоговорБригада</name>
+      <synonym>
+        <key>ru</key>
+        <value>Договор бригада</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>El contracto la brigada</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Contract team</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ДоговорыКонтрагентов</types>
+        <types>CatalogRef.торо_РемонтныеБригады</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="13bc9cbe-1220-4bf8-bbf5-b309da73a4e3">
+      <name>гкс_Примечание</name>
+      <synonym>
+        <key>ru</key>
+        <value>Примечание</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Note</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4ea6340b-cdc2-4858-807b-b811c02d490c">
+      <name>гкс_СпособВыполнения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Способ выполнения</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Execution method</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>El modo de la ejecución</value>
+      </synonym>
+      <type>
+        <types>EnumRef.СпособыСтроительства</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9abe4134-eb11-49d7-a65a-0b8a564ae0ab">
+      <name>гкс_ПовКоэф</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пов.коэф.</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.гкс_ПКоэффициентыРабот</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="b8656461-ff06-4645-8a4b-abd7eeed7b2f">
+    <producedTypes>
+      <objectType typeId="e6d6f2aa-65d2-4dd4-8853-231f849ed3fe" valueTypeId="9d4477fd-1bb6-46ff-9995-0554415cbd44"/>
+      <rowType typeId="41c43667-dff3-4c73-81f2-9436c3c8d96e" valueTypeId="122030f1-54a4-4ac2-8fc7-a7c6f2cf0a05"/>
+    </producedTypes>
+    <name>МатериальныеЗатраты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Материальные затраты</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Los gastos</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Material costs</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="127902b9-6059-4411-b0c6-76455ef46bce">
+      <name>ID</name>
+      <synonym>
+        <key>ru</key>
+        <value>ID</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>ID</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>ID</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Идентификатор</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El identificador</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Identifier</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1fa44fa2-40cb-4922-b819-924aac69591d">
+      <name>ЕдиницаИзмерения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Единица измерения</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La unidad de medida</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Unit of measurement</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.УпаковкиНоменклатуры</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Единица измерения номенклатуры</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>La unidad de medida de la nomenclatura</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Item unit of measurement</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b140ab65-2241-4148-a60b-716a9a427831">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La cantidad</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Number</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество затрат номенклатуры</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>La cantidad de los gastos de la nomenclatura</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Amount of item costs</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9eb31f19-12ee-427c-9ea4-a059d35d612d">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La nomenclatura</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Nomenclature</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Номенклатура затрат</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>La nomenclatura de los gastos</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Nomenclature of costs</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="941c8dae-cfaa-45aa-92bd-0c2a4092b71d">
+      <name>ХарактеристикаНоменклатуры</name>
+      <synonym>
+        <key>ru</key>
+        <value>Характеристика номенклатуры</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La característica de la nomenclatura</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Characteristics of nomenclature</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Если у выбранной номенклатуры используются характеристики, то необходимо выбрать характеристику номенклатуры.</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>Si cerca de la nomenclatura escogida se usan las características, es necesario escoger la característica de la nomenclatura.</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>If characteristics are used for the selected item, you must select the item characteristic.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="917ba2ee-c588-49ce-9be8-04fc6c579e00">
+      <name>Качество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Качество</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La cualidad</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Quality</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ГрадацииКачества</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Качество номенклатуры</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>La cualidad de la nomenclatura</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Nomenclature quality</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a7a2b710-6866-44ab-89fd-f4e85497f0be">
+      <name>РемонтыОборудования_ID</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ремонты оборудования ID</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>Las reparaciones de la maquinaria ID</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>ID equipment repairs</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Идентификатор ремонта оборудования</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El identificador de la reparación de la maquinaria</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Hardware repair identifier</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8838e074-fb99-4675-bb84-bad37f6f3f07">
+      <name>КоличествоЕдиниц</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество единиц</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La cantidad de las unidades</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Number of units</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество единиц номенклатуры</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>La cantidad de las unidades de la nomenclatura</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Number of items</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5507aabd-82d2-4411-8376-4a54fffeda66">
+      <name>гкс_Давальческие</name>
+      <synonym>
+        <key>ru</key>
+        <value>Давальческие</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Tolling</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="a5d8f6ed-cc38-44f6-a9d3-5b2b93ccf4dc">
+    <producedTypes>
+      <objectType typeId="a13f8bb6-30dc-4f1c-bbe9-bcffbe832a48" valueTypeId="aaf4dd02-3988-4422-9f7c-0dda263afa19"/>
+      <rowType typeId="6797697a-88fa-43c5-a651-a24db2aee6d5" valueTypeId="d3aa9050-9639-4ad8-add1-3a16bcab9e06"/>
+    </producedTypes>
+    <name>ТрудовыеЗатраты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Трудовые затраты</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Los gastos laborales</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Labor costs</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="678b0015-b33a-4cf0-a903-a24b37889835">
+      <name>ID</name>
+      <synonym>
+        <key>ru</key>
+        <value>ID</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>ID</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>ID</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Идентификатор</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El identificador</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Identifier</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2f9a6b33-1c95-44d4-a88f-74670520969f">
+      <name>ВремяРаботы</name>
+      <synonym>
+        <key>ru</key>
+        <value>Время работы</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>El tiempo del trabajo</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Working hours</value>
+      </synonym>
+      <comment>Время работы персонала данной квалификации</comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>11</precision>
+          <scale>4</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Время работы персонала данной квалификации</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El tiempo del trabajo del personal de la calificación dada</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>The working hours of personnel of this qualification</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="eb86ce39-bf6e-478c-9d1a-ac54fcb89371">
+      <name>Квалификация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Квалификация</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La calificación</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Qualification</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.торо_КвалификацииРемонтногоПерсонала</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Квалификация персонала</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>La calificación del personal</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Staff qualifications</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="24ccd104-dc37-4816-bd6c-13e2aa9ccf17">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La cantidad</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Number</value>
+      </synonym>
+      <comment>Количество работников данной квалификации необходимое для выполнения тех.операции</comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество работников данной квалификации необходимое для выполнения тех.операции</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>La cantidad de los trabajadores de la calificación dada necesario para la ejecución тех.операции</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Number of employees of this qualification required to perform technical operations</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0bd28b97-d656-4ef4-a448-a358836fa269">
+      <name>РемонтыОборудования_ID</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ремонты оборудования ID</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>Las reparaciones de la maquinaria ID</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>ID equipment repairs</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Идентификатор ремонта оборудования</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El identificador de la reparación de la maquinaria</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Hardware repair identifier</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="39d9a87c-e348-44a7-a7db-6e309f6484bf">
+    <producedTypes>
+      <objectType typeId="c964c38c-a50d-482f-b725-ac1f9cc091c8" valueTypeId="d37b1c42-fe79-43e1-8438-0d51e970bd96"/>
+      <rowType typeId="79f6a690-c740-4859-8c58-471b4f5d2426" valueTypeId="2b581174-e944-4531-95a7-440e50dc8bba"/>
+    </producedTypes>
+    <name>Инструменты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инструменты</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Los instrumentos</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Tools</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="c27448ef-9369-4d90-91c9-f6987b9cdff0">
+      <name>ID</name>
+      <synonym>
+        <key>ru</key>
+        <value>ID</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>ID</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>ID</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Идентификатор</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El identificador</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Identifier</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4bd564ad-5fe6-4af1-9e7e-5f887321ae2c">
+      <name>ЕдиницаИзмерения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Единица измерения</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La unidad de medida</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Unit of measurement</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.УпаковкиНоменклатуры</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Единица измерения инструмента</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>La unidad de medida del instrumento</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Tool unit of measurement</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4890690a-3c39-40b0-a67b-34ba09ff75be">
+      <name>Инструмент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Инструмент</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>El instrumento</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Tool</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Требуемый инструмент</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El instrumento exigido</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Tool required</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="36bcfb83-8730-4f90-9e0a-8e65af3aaddc">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La cantidad</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Number</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество инструмента</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>La cantidad del instrumento</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Tool number</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0445dc89-15b5-426c-888d-a08e8d5c2fc9">
+      <name>РемонтыОборудования_ID</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ремонты оборудования ID</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>Las reparaciones de la maquinaria ID</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>ID equipment repairs</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Идентификатор ремонта оборудования</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El identificador de la reparación de la maquinaria</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Hardware repair identifier</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="e5907176-4e51-4ae8-98f2-5089ec879f11">
+    <producedTypes>
+      <objectType typeId="c5bb1b73-06ee-4679-b51f-b5cccaf92cf7" valueTypeId="b3787bb8-f27d-4547-b1a1-65d31423ed32"/>
+      <rowType typeId="824d3ece-1133-4c6b-8cb2-f7fdfab9f628" valueTypeId="f4c8411b-0cbd-41d1-be49-87875a0815e4"/>
+    </producedTypes>
+    <name>УдалитьИсполнителиРемонтныхРабот</name>
+    <synonym>
+      <key>ru</key>
+      <value>(Не используется) Исполнители ремонтных работ</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>(No se usa) los Ejecutores de los trabajos de reparación</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>(Not used) Repair contractors</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="90498bb4-52c1-4567-b46e-01a0904f6162">
+      <name>ID</name>
+      <synonym>
+        <key>ru</key>
+        <value>ID</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>ID</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>ID</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Идентификатор</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El identificador</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Identifier</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5c078d10-11ea-4fab-bf32-a305a2339a0c">
+      <name>Исполнитель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Исполнитель</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>El ejecutor</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Executor</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Сотрудники</types>
+        <types>CatalogRef.СтруктураПредприятия</types>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Исполнитель (Сотрудник, Подразделение, Контрагент)</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El ejecutor (el Empleado, la Subdivisión, el Contratante)</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Executor (Employee, Unit, Counterparty)</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="209b9876-ab4e-4a7f-bda0-dc8e780cd1aa">
+      <name>РемонтыОборудования_ID</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ремонты оборудования ID</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>Las reparaciones de la maquinaria ID</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>ID equipment repairs</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Идентификатор ремонта оборудования</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El identificador de la reparación de la maquinaria</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Hardware repair identifier</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9c14b581-3555-45a4-a14f-3abb4625b594">
+      <name>ДоговорКонтрагента</name>
+      <synonym>
+        <key>ru</key>
+        <value>Договор/бригада</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>El contracto/brigada</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Contract / brigade</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ДоговорыКонтрагентов</types>
+        <types>CatalogRef.торо_РемонтныеБригады</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>(Договор контрагента)</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>(El contracto del contratante)</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>(Contractor agreement)</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Контрагент</name>
+        <field>Document.торо_ЗаявкаНаРемонт.TabularSection.УдалитьИсполнителиРемонтныхРабот.Attribute.Исполнитель</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="6fd71263-52b7-4238-bf6b-076f74576615">
+    <producedTypes>
+      <objectType typeId="365d2d5d-018f-4515-a8c1-bb3c5d366b69" valueTypeId="6ef4a96c-a009-4c5e-b1c2-4d7ac7ec89dc"/>
+      <rowType typeId="a666d373-55af-4a98-8e41-264f676e7618" valueTypeId="415bd614-775b-4360-bfaf-91c080f8d6ce"/>
+    </producedTypes>
+    <name>ДокументыОснования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документы основания</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Los documentos de la razón</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Foundation documents</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="1b9048d8-daa8-419e-b26a-03dea0ead506">
+      <name>ДокументОснование</name>
+      <synonym>
+        <key>ru</key>
+        <value>Документ основание</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>El documento la razón</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>A document base</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.торо_ВнешнееОснованиеДляРабот</types>
+        <types>DocumentRef.торо_ПланГрафикРемонта</types>
+        <types>DocumentRef.торо_ВыявленныеДефекты</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Документ основание (Внешнее основание для работ, План-график ППР, Выявленные дефекты)</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El documento la razón (la razón Exterior para los trabajos, el Plan-gráfico ППР, los defectos Revelados)</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Document basis (External basis for work, PPM schedule, Identified defects)</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="68d7500e-47ed-4e0e-9ea6-c3c571ae0e03">
+    <producedTypes>
+      <objectType typeId="f038f59f-58e5-40df-b486-28c8732dffa6" valueTypeId="309eac1d-75f7-411c-9c47-143674d2310d"/>
+      <rowType typeId="03237fd7-cf2d-4c4c-9ab8-0ac116f7fba5" valueTypeId="44eb819b-5f64-4f02-a1b3-1400b3487ba0"/>
+    </producedTypes>
+    <name>ЗапчастиРемонта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запчасти ремонта</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Las partes de recambio de la reparación</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Repair spair parts</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="f25c1c68-4d6d-4f80-8ca3-217a1d79289b">
+      <name>ЕдиницаИзмерения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Единица измерения</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La unidad de medida</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Unit of measurement</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.УпаковкиНоменклатуры</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Единица измерения запчасти</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>La unidad de medida las partes de recambio</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Unit of measurement for spare part</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0ffa516b-fe9c-4e5c-90df-ff62c35a5a84">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La cantidad</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Number</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество запчастей</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>La cantidad de las partes de recambio</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Number of parts</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b6d550bd-3be3-4af7-a577-0515d5c4aee9">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La nomenclatura</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Nomenclature</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Запчасть</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>Запчасть</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Spare part</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6f878cf3-c5be-43ad-a7bd-2cc081d40c17">
+      <name>ХарактеристикаНоменклатуры</name>
+      <synonym>
+        <key>ru</key>
+        <value>Характеристика номенклатуры</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La característica de la nomenclatura</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Characteristics of nomenclature</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Если у выбранной запчасти используются характеристики, то необходимо выбрать характеристику.</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>Si a escogido las partes de recambio se usan las características, es necesario escoger la característica.</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>If characteristics are used for the selected spare part, then a characteristic must be selected.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="51551dd1-1b08-4a7f-ae85-c2873360ef5a">
+      <name>Качество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Качество</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La cualidad</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Quality</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Качество запчасти</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>La cualidad las partes de recambio</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Parts quality</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a6fac608-f861-4f44-98e9-58163d70cf8f">
+      <name>РемонтыОборудования_ID</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ремонты оборудования ID</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>Las reparaciones de la maquinaria ID</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>ID equipment repairs</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Идентификатор ремонта оборудования</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El identificador de la reparación de la maquinaria</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Hardware repair identifier</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="90a83ec2-3a91-420e-96cd-d9f275099c35">
+      <name>ID</name>
+      <synonym>
+        <key>ru</key>
+        <value>ID</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>ID</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>ID</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Идентификатор</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El identificador</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Identifier</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="b526ed4f-1192-4fb7-9abf-2ec678974961">
+    <producedTypes>
+      <objectType typeId="4e150356-1a99-43ae-9c8c-09ad3e543a71" valueTypeId="efa7e16d-1114-4055-9bdf-7caa30aac55e"/>
+      <rowType typeId="b1a5525b-9f11-4eaf-8f45-d301473cc307" valueTypeId="dc91ff14-b99c-43dd-accc-5aa9fbb69485"/>
+    </producedTypes>
+    <name>МерыБезопасности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Меры безопасности</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Las medidas de la seguridad</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Security measures</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="2355ef5b-1adc-438c-a88e-06c790c483e7">
+      <name>МераБезопасности</name>
+      <synonym>
+        <key>ru</key>
+        <value>Мера безопасности</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La medida de la seguridad</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Security measure</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.торо_МерыБезопасности</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Меры безопасности ремонта</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>Las medidas de la seguridad de la reparación</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Repair safety measures</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2b35e076-7c92-418f-82d0-66b43ac8c1b7">
+      <name>РемонтыОборудования_ID</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ремонты оборудования ID</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>Las reparaciones de la maquinaria ID</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>ID equipment repairs</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Идентификатор ремонта оборудования</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El identificador de la reparación de la maquinaria</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Hardware repair identifier</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c4813133-cf36-4cc6-8ec0-1dd2facf4512">
+      <name>ID</name>
+      <synonym>
+        <key>ru</key>
+        <value>ID</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>ID</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>ID</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Идентификатор</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El identificador</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Identifier</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="6c4dccdb-e78c-405a-a568-77b04739f3c0">
+    <producedTypes>
+      <objectType typeId="f11721f0-9a06-4c20-a2e9-80e1d5531f19" valueTypeId="1ac135da-4ff5-42ae-a4fc-ca354f53577c"/>
+      <rowType typeId="f302bb13-e180-45a7-b763-c8b49fda65f8" valueTypeId="504de47c-2d12-4420-955c-366cbcd4aabd"/>
+    </producedTypes>
+    <name>ЗакрываемыеПредписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрываемые предписания</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Las prescripciones cerradas</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Lockable prescriptions</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="6fbdea6b-a783-4cbf-b8c3-5aa317134b1a">
+      <name>ID</name>
+      <synonym>
+        <key>ru</key>
+        <value>ID</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>ID</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>ID</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Идентификатор</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El identificador</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Identifier</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3e2657a8-2ad0-496b-9c60-f8e3b79445c9">
+      <name>ОбъектРемонта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Объект ремонта</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>El objeto de la reparación</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Object of repair</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.торо_ОбъектыРемонта</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Объект ремонта закрываемого предписания</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El objeto de la reparación de la prescripción cerrada</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Object to be repaired</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="802c9d8b-0230-4e21-a730-d63cc395d223">
+      <name>Описание</name>
+      <synonym>
+        <key>ru</key>
+        <value>Описание</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La descripción</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Description</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Описание ремонта</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>La descripción de la reparación</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Repair description</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="eec463df-c3d1-46a9-a517-5afb400c59c5">
+      <name>ПлановаяДатаРемонта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Плановая дата ремонта</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La fecha planificada de la reparación</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Scheduled repair date</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Плановая дата ремонта объекта</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>La fecha planificada de la reparación del objeto</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Planned date of repair of the facility</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4cd42946-ae28-40be-940e-4120e51dafac">
+      <name>РемонтыОборудования_ID</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ремонты оборудования ID</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>Las reparaciones de la maquinaria ID</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>ID equipment repairs</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Идентификатор ремонта оборудования</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El identificador de la reparación de la maquinaria</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Hardware repair identifier</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="604d6c58-65d6-47cc-9e1f-240b2a89dba7">
+      <name>ДокументВнешнегоОснования</name>
+      <synonym>
+        <key>ru</key>
+        <value>Документ внешнего основания</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>El documento de la razón exterior</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>External base document</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.торо_ВнешнееОснованиеДляРабот</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="465592e9-d669-4459-b563-c8bedbdf8f65">
+    <producedTypes>
+      <objectType typeId="3e449eb3-f058-4ac4-9e3a-e35344df3621" valueTypeId="f5561938-e4b5-4008-ab52-7421d2143c45"/>
+      <rowType typeId="a5b6522e-d1d5-4e7f-803c-5454bed3ad89" valueTypeId="c5bbca67-d88c-4210-85d7-2a375a6727dc"/>
+    </producedTypes>
+    <name>ИсторияСтатусов</name>
+    <synonym>
+      <key>ru</key>
+      <value>(устарело) История статусов</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>(Ha caducado) la Historia de los estatus</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>(deprecated) Status history</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="29caf7fd-6327-4719-9152-0d5ee9b54abc">
+      <name>Дата</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La fecha</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Date </value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Дата согласования</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>La fecha de la coordinación</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Approval date</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9351b97b-76dd-47d7-b4f8-509a4c40cf57">
+      <name>Пользователь</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пользователь</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>El usuario</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>User</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Согласовавший пользователь</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El usuario que ha arreglado</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Approved user</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="23cefabd-7979-4242-9dfb-996048da059f">
+      <name>ЗаКого</name>
+      <synonym>
+        <key>ru</key>
+        <value>За кого</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>Por quien</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>For whom</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>За кого согласовано</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>Por quien es arreglado</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>For whom agreed</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="063e0d44-1625-42b6-8b0c-6b0854046eca">
+      <name>СтатусДокумента</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статус документа</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>El estatus del documento</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Document status</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.торо_СтатусыСогласованияДокументовРемонтныхРабот</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Содержит статус документа</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>Contiene el estatus del documento</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Contains document status</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="f384dcf9-36ca-42d6-8b6c-7404d292f181">
+    <producedTypes>
+      <objectType typeId="88ce4402-2380-4b74-b3ec-3404acdba036" valueTypeId="503f8293-f561-49ac-86c3-80bc69dba7f1"/>
+      <rowType typeId="804e3910-a983-4c1c-b251-507eab66fa5e" valueTypeId="6ff37f0f-07d7-4a46-b824-71dec7a20c3a"/>
+    </producedTypes>
+    <name>Согласующие</name>
+    <synonym>
+      <key>ru</key>
+      <value>(устарело) Согласующие</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>(Ha caducado) Soglasuyuschie</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>(deprecated) Matching</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="4c6df4bc-f0f2-4d9e-aa11-cee8d1dbf5a1">
+      <name>Согласующий</name>
+      <synonym>
+        <key>ru</key>
+        <value>Согласующий</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>Согласующий</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Matching</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Согласующий пользователь</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El usuario soglasuyuschy</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Matching user</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0067bd9a-2a80-4574-a4dc-2a33c60b3ada">
+      <name>Согласовано</name>
+      <synonym>
+        <key>ru</key>
+        <value>Согласовано</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>Es arreglado</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Agreed</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Признак согласованности</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El indicio de la coordinación</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Sign of consistency</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e348d1b1-ee55-426e-978f-4dc0c366d172">
+      <name>ПроведениеДокумента</name>
+      <synonym>
+        <key>ru</key>
+        <value>Проведение документа</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La realización del documento</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Post a document</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Признак проведения документа</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El indicio de la realización del documento</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Sign of the document</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9f02f801-8ce5-4fe4-9a42-588b041ff71a">
+      <name>Порядок</name>
+      <synonym>
+        <key>ru</key>
+        <value>Порядок</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>El orden</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Order</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Содержит порядок</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>Contiene el orden</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Contains order</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a1eee8a2-7e01-4663-ac34-5dab437e99a7">
+      <name>СтатусДокумента</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статус документа</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>El estatus del documento</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Document status</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.торо_СтатусыСогласованияДокументовРемонтныхРабот</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Указание статуса документа</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>La instrucción del estatus del documento</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Document status indication</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9e53a3af-7973-4218-9a05-b59b914ed3fb">
+      <name>Замещающий</name>
+      <synonym>
+        <key>ru</key>
+        <value>Замещающий</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>Que sustituye</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Substitutional</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Замещающий пользователь</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El usuario que sustituye</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Substitute user</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="43004b6d-b058-43e1-b930-4c5b057e1d7a">
+    <producedTypes>
+      <objectType typeId="90c16281-ad9a-4414-91b9-23bbc4727daf" valueTypeId="8dfd1bb9-b44c-4bc6-9eb2-ec4c57280606"/>
+      <rowType typeId="fa016db8-60aa-400f-9254-2e830080c054" valueTypeId="cb7386d6-1660-4b82-a055-2660fe242236"/>
+    </producedTypes>
+    <name>ДополнительныеРеквизиты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные реквизиты</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Los requisitos adicionales</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Additional details</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="23967f3b-6884-4f09-a6c8-221833541021">
+      <name>Свойство</name>
+      <synonym>
+        <key>ru</key>
+        <value>Свойство</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La propiedad</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Property</value>
+      </synonym>
+      <type>
+        <types>ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Дополнительный реквизит</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El requisito adicional</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Additional property</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c383d056-e27d-423e-8ec5-eea05ac1f7dd">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>El significado</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Value</value>
+      </synonym>
+      <type>
+        <types>Characteristic.ДополнительныеРеквизитыИСведения</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Значение дополнительного реквизита</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El significado del requisito adicional</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>The value of the additional attribute</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Document.торо_ЗаявкаНаРемонт.TabularSection.ДополнительныеРеквизиты.Attribute.Свойство</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0dc908d0-2d5e-4091-851c-bbc6304e3d79">
+      <name>ТекстоваяСтрока</name>
+      <synonym>
+        <key>ru</key>
+        <value>Текстовая строка</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La línea textual</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Text string</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Полный текст строкового дополнительного реквизита</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El texto completo del requisito de renglón adicional</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Full text of string additional property</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="5c176d22-7333-4167-a1df-62305647e3ee">
+    <producedTypes>
+      <objectType typeId="6a5217d2-a19e-4155-b517-5f2220b48cf3" valueTypeId="0a76a608-a9fe-47c7-936c-75cf8cc6673e"/>
+      <rowType typeId="da7401f1-100a-4b51-b848-bc7ac582670d" valueTypeId="46e8b54f-62d1-43d6-954c-15579be9d501"/>
+    </producedTypes>
+    <name>ИсполнителиПоРемонтам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнители по ремонтам</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Los ejecutores por las reparaciones</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Repair executors</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="f325bebd-8900-46f1-abc9-229b6a8dd104">
+      <name>РемонтыОборудования_ID</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ремонты оборудования ID</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>Las reparaciones de la maquinaria ID</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>ID equipment repairs</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Идентификатор ремонта оборудования</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El identificador de la reparación de la maquinaria</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Hardware repair identifier</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="180fab9d-c83e-4e45-abc2-ab109a02fa04">
+      <name>Исполнитель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Исполнитель</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>El ejecutor</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Executor</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СтруктураПредприятия</types>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Контрагент или подразделение</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El contratante o la subdivisión</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Counterparty or unit</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="83db66ce-cd13-40e5-9b0e-79ca30893e4e">
+      <name>УточнениеИсполнителя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Договор / Бригада</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>El contracto / la Brigada</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Contract / Brigade</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ДоговорыКонтрагентов</types>
+        <types>CatalogRef.торо_РемонтныеБригады</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fccaae31-bd41-4da6-b195-c3bf4a33e5aa">
+      <name>гкс_Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Price</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>12</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="473bd1bf-5ef7-4437-9d6e-2830f613d793">
+      <name>гкс_Валюта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Валюта</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Currency</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Валюты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="bf7bdd49-fa98-4591-8ddc-4c6c774f28c0">
+    <producedTypes>
+      <objectType typeId="0989a7bc-195a-4fc6-91ce-83227282e96e" valueTypeId="946f91f0-bb08-4e1f-af9f-166b96305426"/>
+      <rowType typeId="671b3c88-7441-42ad-bd0a-737cd125c660" valueTypeId="f209c93b-0751-4963-bce5-379b9002531d"/>
+    </producedTypes>
+    <name>РезультатыПодбораИзМатрицыОценкиРисков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результаты подбора из матрицы оценки рисков</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Los resultados de la selección de la matriz de la apreciación de los riesgos</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Selection results from the risk assessment matrix</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="6d29380e-dd9a-4636-a7df-1ef749093b1e">
+      <name>РемонтыОборудования_ID</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ремонты оборудования ID</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>Las reparaciones de la maquinaria ID</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>ID equipment repairs</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a09fa7d3-ecbf-45a0-b96a-eaaeba14ac8b">
+      <name>ОбъектВоздействия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Объект воздействия</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>El objeto de la influencia</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Object of Impact</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.торо_ОбъектыВоздействия</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4b29bd8e-f012-4659-8b2a-4be08e38db2f">
+      <name>КатегорияРиска</name>
+      <synonym>
+        <key>ru</key>
+        <value>Категория риска</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La categoría del riesgo</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Risk category</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.торо_КатегорииРиска</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="968246a6-4dc3-44ce-b468-f9946a972544">
+    <producedTypes>
+      <objectType typeId="054ab9fe-2519-45d0-bcd9-981e95b4d576" valueTypeId="c8577025-bd44-4d7d-8a71-c522389c90a2"/>
+      <rowType typeId="cadf4682-3f87-422a-ba20-21a3779c32ec" valueTypeId="f66d4b19-74ff-411a-944d-11a9d04c5b66"/>
+    </producedTypes>
+    <name>гкс_СИЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>СИЗ</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>Los gastos</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Material costs</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="1678b772-d65e-4fce-b863-3168a17df494">
+      <name>ID</name>
+      <synonym>
+        <key>ru</key>
+        <value>ID</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>ID</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>ID</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Идентификатор</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El identificador</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Identifier</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1e4d9a9a-f55e-49dd-b818-217e2aa144d5">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La cantidad</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Number</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество затрат номенклатуры</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>La cantidad de los gastos de la nomenclatura</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Amount of item costs</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="65c1e93f-2ef9-4fd6-84f0-59bab0b640f9">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>La nomenclatura</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Nomenclature</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Номенклатура затрат</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>La nomenclatura de los gastos</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Nomenclature of costs</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9da6bbed-80c8-4d46-9f67-4b1ea8e638cc">
+      <name>РемонтыОборудования_ID</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ремонты оборудования ID</value>
+      </synonym>
+      <synonym>
+        <key>es</key>
+        <value>Las reparaciones de la maquinaria ID</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>ID equipment repairs</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Идентификатор ремонта оборудования</value>
+      </toolTip>
+      <toolTip>
+        <key>es</key>
+        <value>El identificador de la reparación de la maquinaria</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Hardware repair identifier</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <templates uuid="53bc2c11-6bd9-4e4c-a765-bcde928eaaab">
+    <name>ПФ_MXL_Заявка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>La demanda</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Application</value>
+    </synonym>
+  </templates>
+  <templates uuid="4f18ac23-3b51-491a-8621-e4434db05a83">
+    <name>ПФ_MXL_дс_НарядЗадание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наряд задание</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Work order</value>
+    </synonym>
+  </templates>
+  <templates uuid="ad74aca8-98d6-4af1-b2a1-a65e48f17b15">
+    <name>ПФ_MXL_дс_ЗаказНаРаботу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ на работу</value>
+    </synonym>
+  </templates>
+  <templates uuid="44d562d8-7b54-4c6d-9405-4ad0300682ff">
+    <name>ПФ_MXL_гкс_АктПередачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПФ MXL гкс акт передачи</value>
+    </synonym>
+  </templates>
+</mdclass:Document>

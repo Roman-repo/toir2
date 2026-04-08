@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="396414f2-57f5-4fe8-9693-e24a4a59b819" extendedConfigurationObject="fec9b8bb-dee7-407c-af80-1a2f6b66e1cf">
+  <producedTypes>
+    <objectType typeId="67855f6c-5b72-4e47-a0fd-faf636729367" valueTypeId="6afffd18-350c-4478-b053-e6c254dd12f3"/>
+    <managerType typeId="329d4e2c-eb16-4e27-af3a-5bdf6a728064" valueTypeId="bfe7d22a-57ae-4539-a015-aa7599eab250"/>
+  </producedTypes>
+  <name>торо_МониторKPI</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ReportExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <forms uuid="8cbe4f00-023a-40e9-8b5e-8b070f3a71b1" extendedConfigurationObject="4fec4d70-6b60-43b5-8108-e96d6205b1d6">
+    <name>ФормаОтчета</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Report>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47106a5b-e0fa-4535-b2a3-dbc29b11b292">
+  <name>торо_ОбновитьПлановыеДатыПриОтменеПроведения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновить плановые даты при отмене проведения</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Renovar las fechas planificadas a la anulación de la realización</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Update scheduled dates when canceled</value>
+  </synonym>
+  <source>
+    <types>DefinedType.торо_ДокументыПлановыхДатРемонтаОбъекты</types>
+  </source>
+  <event>UndoPosting</event>
+  <handler>CommonModule.торо_ПланированиеРемонтов.торо_ОбновитьПлановыеДатыПриОтменеПроведенияОбработчик</handler>
+</mdclass:EventSubscription>

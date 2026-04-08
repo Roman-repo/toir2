@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae5d1b80-c059-4fb5-ad6e-96b05339e0ba">
+  <producedTypes>
+    <selectionType typeId="e07558a6-ea28-42a4-98c1-ecb8238d1fe6" valueTypeId="f528e81e-84e2-44c4-a62f-47c9c82b350a"/>
+    <listType typeId="167c64f6-634a-4587-8dd2-b57c75d9a8c3" valueTypeId="f7af2860-1f8c-41e6-92c4-78f33387e5dd"/>
+    <managerType typeId="02956b94-54e0-40b5-ba3a-38b6c49aee71" valueTypeId="3cefe59a-cf31-4ed1-a95f-0b005330705c"/>
+    <recordSetType typeId="83e124d9-afa0-441b-9d8e-b0c7c74aa728" valueTypeId="ff0b979e-3076-460d-b023-56cdfd2a27e9"/>
+    <recordKeyType typeId="6abe9ad0-751a-45c5-baac-c14386cf4998" valueTypeId="571caae7-1699-4c9a-8ec0-7634b7db8dbf"/>
+    <recordType typeId="7c510dbd-2851-4e4e-b5c9-7806816ae4d9" valueTypeId="7fded06a-fc05-411f-80d3-d6af8113a927"/>
+    <recordManagerType typeId="8a510a03-074f-4310-aa1f-73a6b4f81233" valueTypeId="2fcaab2e-be3b-4f58-812e-c173c3532090"/>
+  </producedTypes>
+  <name>гкс_СоответствиеКачестваКритичности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соответствие качественной оценки  критичности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="0e28bdb7-3574-4096-a939-a8c31e2ca77b">
+    <name>КачественнаяОценка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Качественная оценка</value>
+    </synonym>
+    <type>
+      <types>EnumRef.гкс_КачественнаяОценкаКритичности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="b8cbf0eb-7798-4b13-adde-6c40512fcd92">
+    <name>ОбъектВоздействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект воздействия</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.торо_ОбъектыВоздействия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="bbd83868-e1cc-4b56-86b5-31154e56434f">
+    <name>КатегорияРиска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категория риска</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.торо_КатегорииРиска</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

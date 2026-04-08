@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="318f5a65-1afe-439c-a1c6-d0b12f68f631">
+  <producedTypes>
+    <objectType typeId="74428c0d-4f18-4352-a02d-9cfb81bf22b1" valueTypeId="bd27e71e-6112-43a4-97a6-133412d0011c"/>
+    <refType typeId="af8c83c7-b484-4832-a727-9dcf52d0b97b" valueTypeId="009c980e-6603-433b-a2b8-8417d4666527"/>
+    <selectionType typeId="221cfc00-b30f-40e9-9e63-78a9b44042c7" valueTypeId="d10a9f7a-b362-41d5-999f-8738141f6673"/>
+    <listType typeId="002fc92b-6617-40b3-beee-58dffcd67319" valueTypeId="ff34c1ae-1812-4891-a80b-22a42a82b822"/>
+    <managerType typeId="4e8f3aaa-19b6-403e-a673-53623a190d73" valueTypeId="622f59b9-7ca6-4b58-b08e-4e025973e410"/>
+  </producedTypes>
+  <name>торо_ЗаявкаНаРемонтПрисоединенныеФайлы</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="44c88584-03c1-4f2b-bd92-09b36e225b6d">
+    <name>ВладелецФайла</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.торо_ЗаявкаНаРемонт</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Catalog>

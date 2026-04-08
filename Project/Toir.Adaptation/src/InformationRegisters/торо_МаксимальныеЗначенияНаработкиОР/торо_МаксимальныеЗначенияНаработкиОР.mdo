@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="fbf77727-3310-452d-be25-707da8657ff1">
+  <producedTypes>
+    <selectionType typeId="a376171e-096a-48d1-bf52-57d29e41e051" valueTypeId="1242d8bc-5f1d-4575-b720-41b5edbf00d7"/>
+    <listType typeId="93bb6b32-d7e7-488c-a96c-15ff8372deb3" valueTypeId="26beaa45-25e3-4871-abac-7dc9e98f8e84"/>
+    <managerType typeId="e521d501-f427-4c8b-b8d4-729f011b2381" valueTypeId="47d90429-586e-4259-8567-85cb70501dc5"/>
+    <recordSetType typeId="317fb15d-b48e-4e54-9641-bbdd277e508c" valueTypeId="fe583ad6-8cb1-4791-b241-daaac911c89a"/>
+    <recordKeyType typeId="9d91ffcf-4f37-4a06-99dc-2195820e083b" valueTypeId="6e98a88f-f185-4ff5-a065-49375c76252f"/>
+    <recordType typeId="9583c78b-759e-429f-9b90-9947203535b1" valueTypeId="bfb0f112-6e5b-4592-850f-0e4640310161"/>
+    <recordManagerType typeId="a5fe6458-f114-4f7b-b1d3-d99600b7e47a" valueTypeId="1589e678-848f-47e7-8b84-0b7c103e955a"/>
+  </producedTypes>
+  <name>торо_МаксимальныеЗначенияНаработкиОР</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <resources uuid="7ea846ef-a4e9-421c-a6b5-2786b4ed05ed">
+    <name>НазначенныйРесурс</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+  </resources>
+  <resources uuid="cc7e5bc1-571b-4f0d-a27a-fa2b8794bde0">
+    <name>МаксимальноеЗначение</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+  </resources>
+  <attributes uuid="03cb0439-c9e4-4f22-aaa6-aeb50631ece7">
+    <name>Удален</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <dimensions uuid="dc454e3c-f034-4b14-8581-a8365e9a0f15">
+    <name>Показатель</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ПараметрыВыработкиОС</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+  <dimensions uuid="955f5912-bdc9-4f27-8318-221cd25ed88a">
+    <name>ОбъектРемонта</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:InformationRegister>

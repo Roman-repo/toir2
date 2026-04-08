@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="95a0d18b-d3f2-41a2-9424-e09c5d794f06">
+  <producedTypes>
+    <managerType typeId="7099d441-8223-4837-932a-1300b6907a3d" valueTypeId="1357439d-0396-4135-a0dc-b2ba860bd2b9"/>
+    <valueManagerType typeId="0dc786e0-7ac8-465f-bf67-2d64c55b5eb1" valueTypeId="b2cd402e-cb8a-4e0b-bd19-e1e7a708b372"/>
+    <valueKeyType typeId="dc379721-2d92-468e-b6f4-460ae70528bf" valueTypeId="d8fe29f3-bb10-4bd1-9b8b-c4968f1f9659"/>
+  </producedTypes>
+  <name>гкс_ОсновнаяГруппаОбъектовРемонта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основная группа объектов ремонта</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.торо_ОбъектыРемонта</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <choiceFoldersAndItems>Folders</choiceFoldersAndItems>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

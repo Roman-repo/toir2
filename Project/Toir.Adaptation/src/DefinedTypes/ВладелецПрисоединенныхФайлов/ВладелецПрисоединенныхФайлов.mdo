@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="63f33994-63d0-4821-aa58-e693959131b9">
+  <producedTypes>
+    <containerType typeId="3b1e1d50-0352-4ba2-a8bd-53bb0a915781" valueTypeId="68888408-e3e2-41e8-ae89-50e60002ffca"/>
+  </producedTypes>
+  <name>ВладелецПрисоединенныхФайлов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <typeExtension/>
+  </extension>
+</mdclass:DefinedType>

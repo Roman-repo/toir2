@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4ac1e523-72d8-458a-9d7b-5fa0f40af4bc">
+  <producedTypes>
+    <refType typeId="0bbe265f-bc54-47d1-bc09-9dc7dfac3ff7" valueTypeId="4d44eddd-5233-4206-a0ce-166681ab39aa"/>
+    <listType typeId="a1922b97-52a6-4103-aa78-1c670d7dc825" valueTypeId="865c081b-524d-4239-ae53-e8ece0c78116"/>
+    <managerType typeId="0a90cdaf-7013-41dc-b528-9788c7f31292" valueTypeId="e98be30e-176c-45dd-ba12-646eb2234ff0"/>
+  </producedTypes>
+  <name>торо_СпособыЗамещенияРемонтов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+</mdclass:Enum>

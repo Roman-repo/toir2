@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="999ef688-bee7-41b9-a116-30b8f5c249c0">
+  <producedTypes>
+    <objectType typeId="95dffe6b-d6af-40aa-b02b-9d99f766796f" valueTypeId="efc4f696-2724-4d15-9791-2caba18549b2"/>
+    <refType typeId="8b72c331-f6f9-4e11-9a10-29eb808e2f78" valueTypeId="e8578f09-0c8e-493d-a9d4-412e97d2b9b5"/>
+    <selectionType typeId="5007a6dc-47dc-49ac-97c4-4880ba0fde2f" valueTypeId="9f90bf5b-7928-4e20-83e4-cfd360d8ffc2"/>
+    <listType typeId="c82cfb50-cd60-4c1a-978f-4b2af0dbccd8" valueTypeId="86b3d844-776c-4d79-aa84-28465923d16b"/>
+    <managerType typeId="6c1a0c25-cf9d-4fe3-9e1a-b35821d16d71" valueTypeId="4c2c1377-a9b8-4ccc-b24f-3c42c7479ac3"/>
+  </producedTypes>
+  <name>ЕдиницыИзмерения</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

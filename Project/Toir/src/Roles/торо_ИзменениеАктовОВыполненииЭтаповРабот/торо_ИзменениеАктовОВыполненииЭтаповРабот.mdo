@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6817554d-8552-42fc-b2fc-8d2f784ece99">
+  <name>торо_ИзменениеАктовОВыполненииЭтаповРабот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение актов о выполнении этапов работ</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>El cambio de las actas sobre la ejecución de las etapas de los trabajos</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Change of acts on the implementation of work stages</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="556d8502-f7f7-46c7-8947-6b12052d663c">
+  <producedTypes>
+    <managerType typeId="14b663cc-9bef-4baa-b045-3ffea6e7c350" valueTypeId="a264cdef-0d1d-486e-b4cd-f7f20a526d03"/>
+    <valueManagerType typeId="ca953194-6569-4a17-8e6f-0e292d702785" valueTypeId="33fde6af-721d-4481-ae28-e28f1e03b098"/>
+    <valueKeyType typeId="ccb03a0a-10a8-4f43-bb09-bb67694496a3" valueTypeId="120b3d79-5619-4512-a3f9-c7de54c5ca4e"/>
+  </producedTypes>
+  <name>торо_ЗапретитьРемонтГарантийногоОборудованияХозспособом</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+</mdclass:Constant>

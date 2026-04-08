@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d2b99f0b-3e58-48d5-8853-f4ad4869cdd1">
+  <producedTypes>
+    <objectType typeId="086d1005-083b-4887-bc2a-5be13c94790e" valueTypeId="c38b45c5-2a1f-444e-bead-7e3a81c0e0ca"/>
+    <refType typeId="1beedc69-9601-475d-8bea-c5fb0965bc2f" valueTypeId="7e436d80-668d-4764-81f9-842d6b01dc4d"/>
+    <selectionType typeId="b629bd7d-af54-4caf-a30e-314da6dc8bb0" valueTypeId="d95b682d-8b64-4ceb-a12c-ce047aee452c"/>
+    <listType typeId="e2e92639-7125-406a-a68e-729d2a763d77" valueTypeId="cf58778d-0ca3-44ec-aad8-d53138961897"/>
+    <managerType typeId="d967c740-2a87-4370-98f3-e1710571c86f" valueTypeId="d7eb9a72-8327-4d0b-8c68-90e9d8ee5176"/>
+  </producedTypes>
+  <name>торо_ПричиныЗакрытияРемонтов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

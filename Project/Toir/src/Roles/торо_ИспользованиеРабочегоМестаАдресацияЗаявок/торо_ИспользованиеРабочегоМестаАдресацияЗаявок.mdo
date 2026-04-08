@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9f5c24b7-d1dc-4392-9f16-91ce61541479">
+  <name>торо_ИспользованиеРабочегоМестаАдресацияЗаявок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование рабочего места &quot;Адресация заявок&quot;</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>El uso del puesto de trabajo &quot;la Dirección de las demandas&quot;</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Using the workplace &quot;Addressing applications&quot;</value>
+  </synonym>
+</mdclass:Role>

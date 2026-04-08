@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="72062677-3d71-495f-8fa8-1ee3d9bea42f">
+  <name>гкс_ИзменениеКСобытиеПросрочкиСрокаСогласования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение константы событие просрочки срока согласования</value>
+  </synonym>
+</mdclass:Role>

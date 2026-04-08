@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd0c55a5-b41a-462f-801b-20c6822817eb">
+  <name>торо_МобильныеПриложения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мобильные приложения</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Las aplicaciones móviles</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Mobile applications</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Role.торо_ИспользованиеОбменаСМобильнымПриложением</content>
+  <content>ExchangePlan.mobile</content>
+  <content>ExchangePlan.mobileBrigades</content>
+  <content>EventSubscription.Обмен_mobileBrigades_ПередУдалением</content>
+  <content>FunctionalOption.торо_ИспользованиеПриложенияМобильныеБригады</content>
+  <content>Constant.торо_ИспользоватьПриложениеМобильныеБригады</content>
+  <content>Enum.торо_МобильноеПриложение</content>
+  <content>DataProcessor.торо_МобильныеПриложения</content>
+  <content>InformationRegister.торо_МобильныеПриложения</content>
+  <content>CommonModule.Обмен_mobile_События</content>
+  <content>CommonModule.Обмен_mobileBrigades_События</content>
+  <content>EventSubscription.Обмен_mobile_Регистрация</content>
+  <content>EventSubscription.Обмен_mobile_РегистрацияНабора</content>
+  <content>EventSubscription.Обмен_mobileBrigades_Регистрация</content>
+  <content>EventSubscription.Обмен_mobileBrigades_РегистрацияДокумента</content>
+  <content>EventSubscription.Обмен_mobileBrigades_РегистрацияНабора</content>
+  <content>WebService.ExchangeMobile20</content>
+  <content>WebService.ExchangeMobileBrigades</content>
+  <content>Constant.торо_МаксимальноеКоличествоПользователейБригады</content>
+  <content>Constant.торо_МаксимальноеКоличествоПользователейРегистратор</content>
+  <content>Constant.торо_ОбновляемоеРасстояниеПоУмолчанию</content>
+  <content>InformationRegister.торо_ПередвиженияМобильныхБригад</content>
+  <content>Enum.торо_ВидУстановкиМестоположения</content>
+  <content>XDTOPackage.Android</content>
+  <content>Constant.торо_ПогрешностьГеоконтроляПоУмолчанию</content>
+</mdclass:Subsystem>

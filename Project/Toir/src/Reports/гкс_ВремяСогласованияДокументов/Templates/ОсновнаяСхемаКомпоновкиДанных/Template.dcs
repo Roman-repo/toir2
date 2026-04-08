@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Вид</dataPath>
+			<field>Вид</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вид</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СпособСогласования</dataPath>
+			<field>СпособСогласования</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Организация</dataPath>
+			<field>Организация</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Подразделение</dataPath>
+			<field>Подразделение</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СледующийСтатус</dataPath>
+			<field>СледующийСтатус</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Следующий статус</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаНазначенияСледующегоСтатуса</dataPath>
+			<field>ДатаНазначенияСледующегоСтатуса</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата назначения следующего статуса</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаНазначенияПредыдущегоСтатуса</dataPath>
+			<field>ДатаНазначенияПредыдущегоСтатуса</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата назначения предыдущего статуса</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПредыдущийСтатус</dataPath>
+			<field>ПредыдущийСтатус</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Предыдущий статус</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоДней</dataPath>
+			<field>КоличествоДней</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество дней</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Согласующий</dataPath>
+			<field>Согласующий</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Согласующий</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Документ</dataPath>
+			<field>Документ</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Документ</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	НастройкиСтатусовСогласованияДокументов.СпособСогласования КАК СпособСогласования,
+	НастройкиСтатусовСогласованияДокументов.Статус КАК Статус
+ПОМЕСТИТЬ ВТСтатусыЗавершено
+ИЗ
+	РегистрСведений.торо_НастройкиСтатусовСогласованияДокументов КАК НастройкиСтатусовСогласованияДокументов
+ГДЕ
+	НастройкиСтатусовСогласованияДокументов.СогласованиеЗавершено
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	ТекущиеСтатусыСогласованияДокументов.СогласуемыйДокумент КАК СогласуемыйДокумент,
+	ТекущиеСтатусыСогласованияДокументов.СтатусДокумента КАК Статус,
+	"Заявка на ремонт" КАК Вид,
+	Документ.СпособСогласования КАК СпособСогласования,
+	Документ.Организация КАК Организация,
+	Документ.Подразделение КАК Подразделение
+ПОМЕСТИТЬ ВТВсеДокументы
+ИЗ
+	РегистрСведений.торо_ТекущиеСтатусыСогласованияДокументов КАК ТекущиеСтатусыСогласованияДокументов
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.торо_ЗаявкаНаРемонт КАК Документ
+		ПО ТекущиеСтатусыСогласованияДокументов.СогласуемыйДокумент = Документ.Ссылка
+{ГДЕ
+	(Документ.Дата &lt; &amp;ДатаОкончания
+			И Документ.Дата &gt;= &amp;ДатаНачала),
+	("Заявка на ремонт" В (&amp;ОтборВид)),
+	(Документ.Организация = &amp;Организация),
+	(Документ.Подразделение = &amp;Подразделение)}
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ТекущиеСтатусыСогласованияДокументов.СогласуемыйДокумент,
+	ТекущиеСтатусыСогласованияДокументов.СтатусДокумента,
+	"Выявленные дефекты",
+	Документ.СпособСогласования,
+	Документ.Организация,
+	Документ.Подразделение
+ИЗ
+	РегистрСведений.торо_ТекущиеСтатусыСогласованияДокументов КАК ТекущиеСтатусыСогласованияДокументов
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.торо_ВыявленныеДефекты КАК Документ
+		ПО ТекущиеСтатусыСогласованияДокументов.СогласуемыйДокумент = Документ.Ссылка
+{ГДЕ
+	(Документ.Дата &lt; &amp;ДатаОкончания
+			И Документ.Дата &gt;= &amp;ДатаНачала),
+	("Выявленные дефекты" В (&amp;ОтборВид)),
+	(Документ.Организация = &amp;Организация),
+	(Документ.Подразделение = &amp;Подразделение)}
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ТекущиеСтатусыСогласованияДокументов.СогласуемыйДокумент,
+	ТекущиеСтатусыСогласованияДокументов.СтатусДокумента,
+	"EWO-бланк",
+	Документ.СпособСогласования,
+	Документ.Организация,
+	Документ.Подразделение
+ИЗ
+	РегистрСведений.торо_ТекущиеСтатусыСогласованияДокументов КАК ТекущиеСтатусыСогласованияДокументов
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.гкс_ЕВОБланк КАК Документ
+		ПО ТекущиеСтатусыСогласованияДокументов.СогласуемыйДокумент = Документ.Ссылка
+{ГДЕ
+	(Документ.Дата &lt; &amp;ДатаОкончания
+			И Документ.Дата &gt;= &amp;ДатаНачала),
+	("EWO-бланк" В (&amp;ОтборВид)),
+	(Документ.Организация = &amp;Организация),
+	(Документ.Подразделение = &amp;Подразделение)}
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ТекущиеСтатусыСогласованияДокументов.СогласуемыйДокумент,
+	ТекущиеСтатусыСогласованияДокументов.СтатусДокумента,
+	"Акт о выполнении этапа работ",
+	Документ.СпособСогласования,
+	Документ.Организация,
+	Документ.Подразделение
+ИЗ
+	РегистрСведений.торо_ТекущиеСтатусыСогласованияДокументов КАК ТекущиеСтатусыСогласованияДокументов
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.торо_АктОВыполненииЭтапаРабот КАК Документ
+		ПО ТекущиеСтатусыСогласованияДокументов.СогласуемыйДокумент = Документ.Ссылка
+{ГДЕ
+	(Документ.Дата &lt; &amp;ДатаОкончания
+			И Документ.Дата &gt;= &amp;ДатаНачала),
+	("Акт о выполнении этапа работ" В (&amp;ОтборВид)),
+	(Документ.Организация = &amp;Организация),
+	(Документ.Подразделение = &amp;Подразделение)}
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ТекущиеСтатусыСогласованияДокументов.СогласуемыйДокумент,
+	ТекущиеСтатусыСогласованияДокументов.СтатусДокумента,
+	"Внешнее основание для работ",
+	Документ.СпособСогласования,
+	Документ.Организация,
+	Документ.Подразделение
+ИЗ
+	РегистрСведений.торо_ТекущиеСтатусыСогласованияДокументов КАК ТекущиеСтатусыСогласованияДокументов
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.торо_ВнешнееОснованиеДляРабот КАК Документ
+		ПО ТекущиеСтатусыСогласованияДокументов.СогласуемыйДокумент = Документ.Ссылка
+{ГДЕ
+	(Документ.Дата &lt; &amp;ДатаОкончания
+			И Документ.Дата &gt;= &amp;ДатаНачала),
+	("Внешнее основание для работ" В (&amp;ОтборВид)),
+	(Документ.Организация = &amp;Организация),
+	(Документ.Подразделение = &amp;Подразделение)}
+
+ИНДЕКСИРОВАТЬ ПО
+	СогласуемыйДокумент
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТВсеДокументы.СогласуемыйДокумент КАК СогласуемыйДокумент,
+	ВТВсеДокументы.Статус КАК Статус,
+	ВТВсеДокументы.Вид КАК Вид,
+	ВТВсеДокументы.СпособСогласования КАК СпособСогласования,
+	ВТВсеДокументы.Организация КАК Организация,
+	ВТВсеДокументы.Подразделение КАК Подразделение
+ПОМЕСТИТЬ ВТСогласованныеДокументы
+ИЗ
+	ВТВсеДокументы КАК ВТВсеДокументы
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ ВТСтатусыЗавершено КАК ВТСтатусыЗавершено
+		ПО ВТВсеДокументы.СпособСогласования = ВТСтатусыЗавершено.СпособСогласования
+			И ВТВсеДокументы.Статус = ВТСтатусыЗавершено.Статус
+;
+
+////////////////////////////////////////////////////////////////////////////////
+УНИЧТОЖИТЬ ВТСтатусыЗавершено
+;
+
+////////////////////////////////////////////////////////////////////////////////
+УНИЧТОЖИТЬ ВТВсеДокументы
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	ВТСогласованныеДокументы.СогласуемыйДокумент КАК СогласуемыйДокумент,
+	ВТСогласованныеДокументы.Вид КАК Вид,
+	ВТСогласованныеДокументы.СпособСогласования КАК СпособСогласования,
+	ВТСогласованныеДокументы.Организация КАК Организация,
+	ВТСогласованныеДокументы.Подразделение КАК Подразделение,
+	ИсторияСтатусовСогласованияДокументов.СтатусДокумента КАК СледующийСтатус,
+	ИсторияСтатусовСогласованияДокументов.Период КАК ДатаНазначенияСледующегоСтатуса,
+	ИсторияСтатусовСогласованияДокументов.Пользователь КАК Согласующий
+ПОМЕСТИТЬ ВТСледующиеСогласования
+ИЗ
+	ВТСогласованныеДокументы КАК ВТСогласованныеДокументы
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.торо_ИсторияСтатусовСогласованияДокументов КАК ИсторияСтатусовСогласованияДокументов
+		ПО ВТСогласованныеДокументы.СогласуемыйДокумент = ИсторияСтатусовСогласованияДокументов.СогласуемыйДокумент
+;
+
+////////////////////////////////////////////////////////////////////////////////
+УНИЧТОЖИТЬ ВТСогласованныеДокументы
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	ВТСледующиеСогласования.СогласуемыйДокумент КАК СогласуемыйДокумент,
+	ВТСледующиеСогласования.СледующийСтатус КАК СледующийСтатус,
+	ВТСледующиеСогласования.ДатаНазначенияСледующегоСтатуса КАК ДатаНазначенияСледующегоСтатуса,
+	МАКСИМУМ(ЕСТЬNULL(ИсторияСтатусовСогласованияДокументов.Период, &amp;ПустаяДата)) КАК ДатаНазначенияПредыдущегоСтатуса
+ПОМЕСТИТЬ ВТДатыПредыдущихСтатусов
+ИЗ
+	ВТСледующиеСогласования КАК ВТСледующиеСогласования
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.торо_ИсторияСтатусовСогласованияДокументов КАК ИсторияСтатусовСогласованияДокументов
+		ПО ВТСледующиеСогласования.СогласуемыйДокумент = ИсторияСтатусовСогласованияДокументов.СогласуемыйДокумент
+			И ВТСледующиеСогласования.ДатаНазначенияСледующегоСтатуса &gt; ИсторияСтатусовСогласованияДокументов.Период
+
+СГРУППИРОВАТЬ ПО
+	ВТСледующиеСогласования.СогласуемыйДокумент,
+	ВТСледующиеСогласования.СледующийСтатус,
+	ВТСледующиеСогласования.ДатаНазначенияСледующегоСтатуса
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	ВТДатыПредыдущихСтатусов.СогласуемыйДокумент КАК СогласуемыйДокумент,
+	ВТДатыПредыдущихСтатусов.ДатаНазначенияСледующегоСтатуса КАК ДатаНазначенияСледующегоСтатуса,
+	ВТДатыПредыдущихСтатусов.ДатаНазначенияПредыдущегоСтатуса КАК ДатаНазначенияПредыдущегоСтатуса,
+	ИсторияСтатусовСогласованияДокументов.СтатусДокумента КАК ПредыдущийСтатус
+ПОМЕСТИТЬ ВТПредыдущиеСогласования
+ИЗ
+	ВТДатыПредыдущихСтатусов КАК ВТДатыПредыдущихСтатусов
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.торо_ИсторияСтатусовСогласованияДокументов КАК ИсторияСтатусовСогласованияДокументов
+		ПО ВТДатыПредыдущихСтатусов.СогласуемыйДокумент = ИсторияСтатусовСогласованияДокументов.СогласуемыйДокумент
+			И ВТДатыПредыдущихСтатусов.ДатаНазначенияПредыдущегоСтатуса = ИсторияСтатусовСогласованияДокументов.Период
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТСледующиеСогласования.СогласуемыйДокумент КАК Документ,
+	ВТСледующиеСогласования.Вид КАК Вид,
+	ВТСледующиеСогласования.СпособСогласования КАК СпособСогласования,
+	ВТСледующиеСогласования.Организация КАК Организация,
+	ВТСледующиеСогласования.Подразделение КАК Подразделение,
+	ВТСледующиеСогласования.Согласующий КАК Согласующий,
+	ВТСледующиеСогласования.СледующийСтатус КАК СледующийСтатус,
+	ВТСледующиеСогласования.ДатаНазначенияСледующегоСтатуса КАК ДатаНазначенияСледующегоСтатуса,
+	ЕСТЬNULL(ВТПредыдущиеСогласования.ПредыдущийСтатус, &amp;СтатусПустаяСсылка) КАК ПредыдущийСтатус,
+	ЕСТЬNULL(ВТПредыдущиеСогласования.ДатаНазначенияПредыдущегоСтатуса, &amp;ПустаяДата) КАК ДатаНазначенияПредыдущегоСтатуса,
+	РАЗНОСТЬДАТ(ЕСТЬNULL(ВТПредыдущиеСогласования.ДатаНазначенияПредыдущегоСтатуса, ВТСледующиеСогласования.ДатаНазначенияСледующегоСтатуса), ВТСледующиеСогласования.ДатаНазначенияСледующегоСтатуса, ДЕНЬ) КАК КоличествоДней
+ИЗ
+	ВТСледующиеСогласования КАК ВТСледующиеСогласования
+		ЛЕВОЕ СОЕДИНЕНИЕ ВТПредыдущиеСогласования КАК ВТПредыдущиеСогласования
+		ПО ВТСледующиеСогласования.СогласуемыйДокумент = ВТПредыдущиеСогласования.СогласуемыйДокумент
+			И ВТСледующиеСогласования.ДатаНазначенияСледующегоСтатуса = ВТПредыдущиеСогласования.ДатаНазначенияСледующегоСтатуса</query>
+	</dataSet>
+	<totalField>
+		<dataPath>КоличествоДней</dataPath>
+		<expression>Сумма(КоличествоДней)</expression>
+		<group>Документ</group>
+	</totalField>
+	<parameter>
+		<name>ОтборДата</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата документа</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>v8:StandardPeriod</v8:Type>
+		</valueType>
+		<value xsi:type="v8:StandardPeriod">
+			<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+			<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+			<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+		</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ДатаНачала</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата начала</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;ОтборДата.ДатаНачала</expression>
+	</parameter>
+	<parameter>
+		<name>ДатаОкончания</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата окончания</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;ОтборДата.ДатаОкончания</expression>
+	</parameter>
+	<parameter>
+		<name>Организация</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Организация</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Организации</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>Подразделение</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Подразделение</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.СтруктураПредприятия</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ОтборВид</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Отбор вид</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:string</v8:Type>
+			<v8:StringQualifiers>
+				<v8:Length>28</v8:Length>
+				<v8:AllowedLength>Variable</v8:AllowedLength>
+			</v8:StringQualifiers>
+		</valueType>
+		<value xsi:type="xs:string"/>
+		<useRestriction>false</useRestriction>
+		<availableValue>
+			<value xsi:type="xs:string">Заявка на ремонт</value>
+		</availableValue>
+		<availableValue>
+			<value xsi:type="xs:string">EWO-бланк</value>
+		</availableValue>
+		<availableValue>
+			<value xsi:type="xs:string">Акт о выполнении этапа работ</value>
+		</availableValue>
+		<availableValue>
+			<value xsi:type="xs:string">Выявленные дефекты</value>
+		</availableValue>
+		<availableValue>
+			<value xsi:type="xs:string">Внешнее основание для работ</value>
+		</availableValue>
+		<valueListAllowed>true</valueListAllowed>
+	</parameter>
+	<parameter>
+		<name>ПользовательПустаяСсылка</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Пользователь пустая ссылка</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Пользователи</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>СтатусПустаяСсылка</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Статус пустая ссылка</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.торо_СтатусыСогласованияДокументовРемонтныхРабот</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>true</useRestriction>
+		<expression>ЗНАЧЕНИЕ(Справочник.торо_СтатусыСогласованияДокументовРемонтныхРабот.ПустаяСсылка)</expression>
+	</parameter>
+	<parameter>
+		<name>ПустаяДата</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Пустая дата</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>ДАТАВРЕМЯ(1, 1, 1)</expression>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>ВремяСогласованияДокументов</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Время согласования документов</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Основной</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>es</v8:lang>
+				<v8:content>Основной</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>tr</v8:lang>
+				<v8:content>Основной</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Организация</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Подразделение</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СпособСогласования</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Согласующий</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СледующийСтатус</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Статус согласования</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КоличествоДней</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Согласующий</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>0d060614-890d-4f51-a129-5945c56bd752</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ОтборДата</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardPeriod">
+						<v8:variant xsi:type="v8:StandardPeriodVariant">ThisYear</v8:variant>
+					</dcscor:value>
+					<dcsset:userSettingID>cd353ee4-72f6-4a10-8c5b-46bf0e0f687b</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>Организация</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
+					<dcsset:userSettingID>8e083a94-8db9-4174-8ee9-b5462a0683b2</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>Подразделение</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
+					<dcsset:userSettingID>95ffe4ac-8663-4f28-bad2-bb5fe2a73758</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ОтборВид</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string"/>
+					<dcsset:userSettingID>d5064069-edd1-4ad7-a7f7-ef9c7c94415b</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:order>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>Документ.Номер</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>ДатаНазначенияСледующегоСтатуса</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+			</dcsset:order>
+			<dcsset:conditionalAppearance>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>КоличествоДней</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter/>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Формат</dcscor:parameter>
+							<dcscor:value xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ЧН=0</v8:content>
+								</v8:item>
+							</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+			</dcsset:conditionalAppearance>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МакетОформления</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">Зеленый</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Вид</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>Документ</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+					</dcsset:item>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="76bf030a-3c77-41bb-b4d8-0af0c45d3c2c">
+  <producedTypes>
+    <selectionType typeId="1310e33c-7e0d-4c38-890d-79cb3b281af6" valueTypeId="15e43f8f-d038-41f8-a018-686f85f8131e"/>
+    <listType typeId="0081016a-b915-41ad-8b51-3c166a02ebdb" valueTypeId="ca9fb73b-b03d-4ba2-9ea0-9dc69e49446f"/>
+    <managerType typeId="3eb01e32-5afc-49c5-8c37-7e24773c10c8" valueTypeId="2fcf22e9-2bff-4371-aed9-1b6e3205873d"/>
+    <recordSetType typeId="501ff772-26c0-4433-ba4d-9cd83dddc566" valueTypeId="08527abe-8b3f-4ebb-b56f-c5c7d04e0f6e"/>
+    <recordKeyType typeId="3e8529f4-bd40-4adc-96bc-bc2f3c95646e" valueTypeId="4b16e1c8-8560-4135-980f-ff4835097c54"/>
+    <recordType typeId="51485733-e6c5-4049-b53a-41fcd637a845" valueTypeId="73e8d5e3-b94b-45ed-b6f2-72ffcbabd59e"/>
+    <recordManagerType typeId="a5c0f6cc-f837-44f1-adf9-dd4327aa6b3c" valueTypeId="e8024a33-b851-4d4d-9dfc-ab2d5807ada3"/>
+  </producedTypes>
+  <name>торо_АктыПоРемонтам</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dimensions uuid="7e783391-58d7-403a-a52c-cd319c6080ab">
+    <name>IDРемонта</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:InformationRegister>

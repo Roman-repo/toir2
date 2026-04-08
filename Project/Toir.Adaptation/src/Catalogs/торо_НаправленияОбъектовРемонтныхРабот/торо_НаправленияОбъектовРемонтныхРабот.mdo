@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f9ef486e-dd83-452a-963b-2dbfcb9ef11d">
+  <producedTypes>
+    <objectType typeId="ce25b696-2e79-4fb9-90b2-e3a3a36c9162" valueTypeId="d194a71c-248f-4df0-894e-0ef1d961dc7c"/>
+    <refType typeId="bd5f6a52-40d6-4c41-81f3-c2f45961e89a" valueTypeId="5eab0c65-75ab-4167-98cc-57f9bd98cf8f"/>
+    <selectionType typeId="a9f2bfa7-10cd-45fb-87b0-39b5340967e8" valueTypeId="7428ccd1-1501-419f-9721-c5b86c61b954"/>
+    <listType typeId="0bb89d8f-9f29-4bfa-b124-f1df7a7444bc" valueTypeId="a51b2eaf-022a-4ff8-bc3d-5b92eafffab4"/>
+    <managerType typeId="69398591-e8d8-4e68-a232-88a78c18176e" valueTypeId="913c5e62-d0dc-483d-bde6-47b5d59705aa"/>
+  </producedTypes>
+  <name>торо_НаправленияОбъектовРемонтныхРабот</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <objectModule>Extended</objectModule>
+  </extension>
+  <forms uuid="3e6cccb2-b634-4a18-8eaa-f103dc048276" extendedConfigurationObject="73af34fe-891a-4e02-99a7-6ebb0fbb1570">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

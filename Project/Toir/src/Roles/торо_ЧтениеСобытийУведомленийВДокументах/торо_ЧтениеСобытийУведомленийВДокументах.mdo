@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9de3574e-2e36-4c2b-8546-8cc27f0b5b85">
+  <name>торо_ЧтениеСобытийУведомленийВДокументах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение событий уведомлений в документах</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>La lectura de los acontecimientos de los avisos en los documentos</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Reading notification events in documents</value>
+  </synonym>
+</mdclass:Role>

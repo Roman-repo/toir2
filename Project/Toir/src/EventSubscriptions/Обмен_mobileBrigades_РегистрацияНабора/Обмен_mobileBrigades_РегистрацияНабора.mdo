@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7bdfbc3c-df4e-4d39-80b1-678679e3c129">
+  <name>Обмен_mobileBrigades_РегистрацияНабора</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен ТОиР 2.0 ERP 2.0 зарегистрировать изменение</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>El cambio ТОиР 2.0 ERP 2.0 registrar el cambio</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>MRO exchange 2.0 ERP 2.0 register change</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet.торо_ИерархическиеСтруктурыОР</types>
+    <types>InformationRegisterRecordSet.торо_РасположениеОРВСтруктуреИерархии</types>
+    <types>InformationRegisterRecordSet.торо_ВерсииТехКарт</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.Обмен_mobileBrigades_События.Обмен_mobileBrigades_ЗарегистрироватьИзменениеНабораЗаписейПередЗаписью</handler>
+</mdclass:EventSubscription>

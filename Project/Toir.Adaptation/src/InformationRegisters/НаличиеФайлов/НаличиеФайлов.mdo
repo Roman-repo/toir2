@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6d444ad6-24da-4ba7-ba5d-f23841244a0d">
+  <producedTypes>
+    <selectionType typeId="85513340-4109-4477-9f52-e7c53922cc97" valueTypeId="13763c32-5c75-41da-b62c-60b2efdcf920"/>
+    <listType typeId="f1e44a69-4931-4bda-b5b2-ebef17d9bb06" valueTypeId="bb8e9708-50a2-41d8-a5a9-80c464569c5e"/>
+    <managerType typeId="65c2990e-2802-45d2-a620-86478177418a" valueTypeId="a43c9453-af13-4a65-a8ea-502fdd15c228"/>
+    <recordSetType typeId="55d2025f-c60d-4fed-90b7-a5effd2c9ff0" valueTypeId="2a1b5f6c-3539-4fc0-bcca-c3fc9075f1ea"/>
+    <recordKeyType typeId="06f566e8-c0c1-4a89-a131-a82a7016231d" valueTypeId="d2e4d99c-37b8-496b-853b-22bf39951093"/>
+    <recordType typeId="3751c6bd-7773-4d4b-8a9b-d374128b02e1" valueTypeId="71fcb349-1302-44fa-8496-fa06d35e0b02"/>
+    <recordManagerType typeId="352cd6d5-2ec2-4960-8c94-d4ca9f91eeae" valueTypeId="9bea05c4-fc35-48c3-997d-5e701f616f33"/>
+  </producedTypes>
+  <name>НаличиеФайлов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <resources uuid="012c1229-675a-45d1-b64e-bf818cd89fa0">
+    <name>ЕстьФайлы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <dimensions uuid="7bb3c4d7-2bc0-45a0-aa2f-96602be2b723">
+    <name>ОбъектСФайлами</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ВладелецПрисоединенныхФайлов</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:InformationRegister>

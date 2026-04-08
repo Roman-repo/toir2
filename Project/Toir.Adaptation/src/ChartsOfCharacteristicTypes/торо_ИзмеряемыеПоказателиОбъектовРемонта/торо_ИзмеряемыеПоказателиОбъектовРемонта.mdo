@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="59f638b2-c014-4851-9e2c-cf91d88c5633">
+  <producedTypes>
+    <objectType typeId="8d6d1f36-d5e5-4eba-81aa-f41483e7f7e7" valueTypeId="83f97282-d1f7-489e-adeb-6bf9d7a24d8a"/>
+    <refType typeId="f57d4a90-7b51-4885-a7a5-00b888cdab9b" valueTypeId="1e1fe2ad-7f0c-4bf4-b879-cdc4aa67bb7b"/>
+    <selectionType typeId="6fead9cd-6cd6-4db8-ab19-c4d5a6c9c0df" valueTypeId="e10e2453-921a-46d3-9bed-46b179459f42"/>
+    <listType typeId="a74fc7fc-a03c-462c-ba73-0de97be2b3b9" valueTypeId="849cf3c3-edaf-4d71-99aa-9f1b37c01d1a"/>
+    <managerType typeId="3a606c6a-ec9e-4b62-8dc2-7b8a21a7a4f7" valueTypeId="bcd2e6ad-7057-4203-83cb-0bfe817079bf"/>
+    <containerType typeId="b06e91a0-c387-4644-aa1a-d91dcec8bb6d" valueTypeId="77d81e12-6ff2-4925-a781-28308411709b"/>
+  </producedTypes>
+  <name>торо_ИзмеряемыеПоказателиОбъектовРемонта</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ChartOfCharacteristicTypesExtension">
+    <typeExtension/>
+  </extension>
+  <attributes uuid="78531d61-4029-47e7-b923-2a7f1521adb0">
+    <name>ЕдиницаИзмерения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ЕдиницыИзмерения</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:ChartOfCharacteristicTypes>

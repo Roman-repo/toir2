@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="85aec7a5-03d1-468b-994a-3b3a5e439dde">
+  <name>гкс_ИнтеграцияXDTOАдаптерОбъекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция XDTO Адаптер (объекты)</value>
+  </synonym>
+  <comment>CPM30-1989</comment>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f0d5d359-0788-4295-ab76-fec0aa602e43">
+  <producedTypes>
+    <refType typeId="7ff68d67-444b-4d70-a0ea-e121e3d97c20" valueTypeId="b46a19e2-5c1d-4d27-a4e9-18b460bca413"/>
+    <listType typeId="7ede1a9b-ed1f-440b-b699-670b6562bb6b" valueTypeId="9bcbb28e-34a7-4fad-ae14-0a12f87cdee7"/>
+    <managerType typeId="6387035c-38c1-439d-b172-6e0caa78c184" valueTypeId="959d6d63-d31b-4b7c-9831-30b1a7804c39"/>
+  </producedTypes>
+  <name>торо_СобытияОборудованияНаФМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>События оборудования на ФМ</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Event equipment on FP</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Eventos de hardware en fm</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="663db4cc-9475-4a6d-9819-933ad4fcba89">
+    <name>Установка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Installation</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e77d6921-0966-4631-9951-3ab4da6d66b8">
+    <name>Демонтаж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Демонтаж</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Disassembling</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

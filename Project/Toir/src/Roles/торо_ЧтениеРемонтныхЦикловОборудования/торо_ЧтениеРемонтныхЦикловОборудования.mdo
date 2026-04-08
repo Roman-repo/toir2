@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d9a64770-64be-472a-b7b2-eec530734c33">
+  <name>торо_ЧтениеРемонтныхЦикловОборудования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение ремонтных циклов оборудования</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>La lectura de los ciclos de reparación de la maquinaria</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Reading equipment repair cycles</value>
+  </synonym>
+</mdclass:Role>

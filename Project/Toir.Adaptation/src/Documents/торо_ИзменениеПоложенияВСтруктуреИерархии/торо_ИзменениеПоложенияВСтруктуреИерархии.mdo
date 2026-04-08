@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="55e39b3a-afcb-46e4-8e94-631e6400ab7d">
+  <producedTypes>
+    <objectType typeId="264f134a-c093-41cf-8b6f-32dec006406e" valueTypeId="5dfd4cfd-a1ab-440e-82a6-efb285ad3b28"/>
+    <refType typeId="a7cefa10-1434-4c9d-a042-d8d8a40c37cf" valueTypeId="bc6698f3-bc03-4d70-aceb-96b689379acd"/>
+    <selectionType typeId="1de1b516-e50d-42e9-8018-0d3fded3546d" valueTypeId="1c62fb80-7f26-4108-a8b3-8590d6097332"/>
+    <listType typeId="a4f9542c-9728-44ce-9982-18c12eb9d80e" valueTypeId="d6782691-dab3-4574-af15-109d9f0bec41"/>
+    <managerType typeId="3336a8eb-b03a-4368-aa94-9131b00f59f0" valueTypeId="0e6d4979-10f6-4d6a-beed-6fe877cd2c05"/>
+  </producedTypes>
+  <name>торо_ИзменениеПоложенияВСтруктуреИерархии</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <objectModule>Extended</objectModule>
+  </extension>
+  <attributes uuid="fc16c0f6-4a28-4c23-a026-f49dcc1e3043">
+    <name>СтруктураИерархии</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.торо_СтруктурыОР</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <tabularSections uuid="537dfdcf-fdb1-4def-a13d-46251619eb1e">
+    <producedTypes>
+      <objectType typeId="132449f6-0c0b-4919-a8c3-2ccfffca644e" valueTypeId="7e09e514-5c34-4561-a28e-2a531f550941"/>
+      <rowType typeId="80f4ecc8-eba5-41aa-92e3-fc9c223df74a" valueTypeId="17204488-e030-4d9e-b99d-81609122c2a9"/>
+    </producedTypes>
+    <name>ПоложенияВСтруктуреИерархии</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </tabularSections>
+</mdclass:Document>

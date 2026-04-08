@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f8601e3f-f20e-46a8-87c5-140ac6311c6f">
+  <producedTypes>
+    <managerType typeId="600d1760-bde8-475a-8ef4-50f33d9cb5fc" valueTypeId="eee4554b-69b3-4bff-ba06-028557f35c97"/>
+    <valueManagerType typeId="2fe5ca56-7461-4a35-a26e-adacac38006a" valueTypeId="d1c8ec86-db5e-4afc-9695-943f21d9634c"/>
+    <valueKeyType typeId="74629200-6421-40b0-a799-6aae78a6c1e0" valueTypeId="b2ea535a-c360-47ce-b642-b0c172028cb9"/>
+  </producedTypes>
+  <name>гкс_СкрытьСтоимостьРемонта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Скрыть стоимость ремонта</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

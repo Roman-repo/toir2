@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8b1f91b4-7f4b-40f7-8801-5eb88c02cb72">
+  <name>торо_ДобавлениеИзменениеСтатусовСогласованияДокументовРемонтныхРабот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавление, изменение и пометка удаления на статусы согласования документов ремонтных работ</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>La adición, el cambio y la marca de la desaparición a los estatus de la coordinación de los documentos de los trabajos de reparación</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Adding, changing and marking deletion to approval statuses of repair documents</value>
+  </synonym>
+</mdclass:Role>

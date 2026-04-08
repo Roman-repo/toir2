@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b3121fef-c210-4dda-bc65-4121a38c0958">
+  <name>торо_РазделНормативноСправочнаяИнформация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Раздел нормативно-справочная информация</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>La sección la normativa-oficina de información la información</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Reference information section</value>
+  </synonym>
+</mdclass:Role>

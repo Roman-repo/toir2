@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="46884c28-d2a5-48ef-8c19-d093543b97d5">
+  <name>гкс_СоздатьОбъектыТОИРИзКлассификатора</name>
+  <synonym>
+    <key>ru</key>
+    <value>Создать объекты ТОИР из классификатора</value>
+  </synonym>
+  <methodName>CommonModule.гкс_ОбъектыТОИРИзКлассификатора.СоздатьОбъектыТОИР</methodName>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

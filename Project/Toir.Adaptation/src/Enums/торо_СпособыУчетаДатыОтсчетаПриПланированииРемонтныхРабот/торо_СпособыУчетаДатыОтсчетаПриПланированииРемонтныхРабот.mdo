@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0c5f4dba-94f4-4ed4-b791-b2f2a9a8aa5c">
+  <producedTypes>
+    <refType typeId="f70143b3-47e7-4771-94ff-59c063641321" valueTypeId="76d310b4-b754-4d61-95fe-d2d2c4be39e5"/>
+    <listType typeId="45c1823d-a929-44cb-bb9d-44e80a537215" valueTypeId="be1a933b-74a7-4b3e-8b9b-e73ae16dbee7"/>
+    <managerType typeId="7c6a87f1-62d1-4c20-be69-d4838ff0dae5" valueTypeId="d0d01c0f-c5bd-4d89-b288-52b06be8022c"/>
+  </producedTypes>
+  <name>торо_СпособыУчетаДатыОтсчетаПриПланированииРемонтныхРабот</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+</mdclass:Enum>

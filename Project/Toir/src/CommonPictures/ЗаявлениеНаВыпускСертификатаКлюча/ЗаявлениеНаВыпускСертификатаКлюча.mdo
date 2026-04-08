@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="64e03321-33a4-424d-a101-90f1e0da4c2e">
+  <name>ЗаявлениеНаВыпускСертификатаКлюча</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заявление на выпуск сертификата ключа</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>La declaración a la salida del certificado de la llave</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Key certificate production application</value>
+  </synonym>
+</mdclass:CommonPicture>

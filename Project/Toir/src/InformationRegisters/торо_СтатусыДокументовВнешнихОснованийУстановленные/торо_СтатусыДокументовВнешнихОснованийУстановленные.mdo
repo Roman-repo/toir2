@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="453b9b7c-f864-407d-aa46-5a9f14de7f04">
+  <producedTypes>
+    <selectionType typeId="8f895994-d795-42d5-bb23-a410cb16ef19" valueTypeId="dd10253c-6f8b-49e3-a4c3-8858004053a3"/>
+    <listType typeId="fddb8854-7fea-48e6-adb4-870614474ca8" valueTypeId="aa9a1a40-c0c0-480b-8bf8-69d60ae67a78"/>
+    <managerType typeId="20318d08-ac6c-4c0f-bf10-134e48832fd3" valueTypeId="7927df7a-43c2-4a23-a784-cc62f57500ad"/>
+    <recordSetType typeId="6be3bf18-fcbc-4151-b12f-4f94c25a015d" valueTypeId="779c2235-31a8-46a4-be29-9892afd62295"/>
+    <recordKeyType typeId="c7dc234c-5369-4906-a23c-ec246b2654e3" valueTypeId="df1efc13-4a86-4443-9b49-3ea02263ffa3"/>
+    <recordType typeId="3ee14461-5193-4f21-9f38-b0e476b788ca" valueTypeId="cc0199ef-cc9d-4d76-95c2-344fe57b5105"/>
+    <recordManagerType typeId="ae5f3263-c56d-4602-8de2-ba1aaf454ac5" valueTypeId="ed18187f-bb2c-4328-a8da-360acce105fa"/>
+  </producedTypes>
+  <name>торо_СтатусыДокументовВнешнихОснованийУстановленные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы документов внешних оснований (установленные)</value>
+  </synonym>
+  <synonym>
+    <key>es</key>
+    <value>Los estatus de los documentos de las razones exteriores (establecido)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Statuses of documents of external bases (established)</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <toolTip>
+      <key>ru</key>
+      <value>(Период)</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>(El período)</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>(Period)</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSliceLast>true</enableTotalsSliceLast>
+  <resources uuid="4076d009-a123-40d0-b55b-bc016454e361">
+    <name>СтатусДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус документа</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El estatus del documento</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Document status</value>
+    </synonym>
+    <type>
+      <types>EnumRef.торо_СтатусыДокументов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>(Статус документа)</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>(El estatus del documento)</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>(Document Status)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="6211e45e-304a-43ac-8901-ae925fb39c16">
+    <name>ИзменяемыйДокумент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменяемый документ</value>
+    </synonym>
+    <synonym>
+      <key>es</key>
+      <value>El documento cambiado</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Editable document</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.торо_ВнешнееОснованиеДляРабот</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>(Документ)</value>
+    </toolTip>
+    <toolTip>
+      <key>es</key>
+      <value>(El documento)</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>(Document)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="00da5851-61c6-453a-83dd-2c5c94262ac7">
+  <producedTypes>
+    <objectType typeId="982ebf46-054f-4429-ab47-22202d541856" valueTypeId="09fc4dc2-440b-4cf4-9bf5-1eb0dda5634a"/>
+    <managerType typeId="6ada85d5-a723-420f-93e2-f5267b9a0d64" valueTypeId="f40133b2-32b8-4c0b-a4cb-a19ad224aa35"/>
+  </producedTypes>
+  <name>НастройкаНаследованияСтрокТабличныхЧастей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка наследования строк табличных частей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.НастройкаНаследованияСтрокТабличныхЧастей.Form.Форма</defaultForm>
+  <attributes uuid="c4c24bd0-af2f-4425-8f36-2f88adf9d920">
+    <name>Класс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Класс</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Классы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="dac9f55c-d76d-41e1-81ff-6880167334ef">
+    <name>ТабличнаяЧасть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табличная часть</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.АтрибутыКласса</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a87737dc-0aca-4c0d-89f9-70b651e8797e">
+    <name>СтрокаТабЧасти</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строка таб части</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Классы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="dae262df-987b-47d9-b459-35f0d6cbf96d">
+    <name>ИсточникЗначений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник значений</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Классы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="06ed049f-0a9b-433d-8e18-9d6cc7962749">
+    <producedTypes>
+      <objectType typeId="b22db8b1-0837-4ac3-80af-f5b2eec8738e" valueTypeId="1ef988ba-4a11-49f7-a016-fad2ceb0f0d1"/>
+      <rowType typeId="f59fea03-7377-4bd8-b2a1-181cfd2fef4e" valueTypeId="f38888c1-9bc7-49ed-b4a0-40983cac141e"/>
+    </producedTypes>
+    <name>СтрокиДляНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строки для настройки</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="1f54a9fc-be0c-424c-a982-04d86c22798a">
+      <name>Выбрано</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выбрано</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="3132bc94-37bc-4467-9d6d-c618ebddcf86">
+      <name>Класс</name>
+      <synonym>
+        <key>ru</key>
+        <value>Класс</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Классы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="c3e81357-92d0-4837-b939-14eecbf3d6ca">
+      <name>Строка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Строка</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Классы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="a1817d15-ea9b-4958-8046-d417815b6a7c">
+      <name>СтатусНаследования</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статус наследования</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="2524d97f-4d65-4660-a336-d2b95c6acafb">
+      <name>ИсточникЗначений</name>
+      <synonym>
+        <key>ru</key>
+        <value>Источник значений</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Классы</types>
+        <types>CatalogRef.НоменклатураКласса</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="d67e963e-13e0-4a1d-9f56-4e20433b5855">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="537496d8-5ba3-45c4-b812-b4cc962705f5">
+    <name>ФормаВыбораТабЧасти</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора таб. части</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

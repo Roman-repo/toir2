@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="72c7b58c-2134-4ea4-a093-6a7b6bde4dde">
+  <producedTypes>
+    <selectionType typeId="b0efec6b-50c7-4d58-a3fa-9ee76c319a61" valueTypeId="146be9a9-1633-44dd-962e-d80250f5f55b"/>
+    <listType typeId="8aba1b50-bfaa-4754-972d-4e9f02d6de9a" valueTypeId="f5b9bd31-caf6-4a24-a90f-6e26a4ec2d40"/>
+    <managerType typeId="5a5525e7-924d-4e04-968b-7ac07cd65aa6" valueTypeId="6257cc80-3ec7-4b7f-b498-7e549a3d7e96"/>
+    <recordSetType typeId="c89d0b5f-2efa-43cc-8248-6da588b583b3" valueTypeId="20344368-86ea-48d5-8dd2-a777bb2f1210"/>
+    <recordKeyType typeId="1d77104f-96eb-4b32-9d36-03c4bff08f85" valueTypeId="32b4e16e-6a7f-4036-8414-dfa12e08983e"/>
+    <recordType typeId="874d1da0-5768-4ce4-8f2c-5addd43d0b49" valueTypeId="b05dbc72-fa98-4aaf-b228-82da88c49912"/>
+    <recordManagerType typeId="44f897f0-2ff8-45e6-aa9b-bbed7041cdd2" valueTypeId="e6b4f7fb-a8d1-41c1-ac72-c52a25d0e40c"/>
+  </producedTypes>
+  <name>гкс_СоответствияДолжностейИКвалификаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соответствия должностей и квалификаций</value>
+  </synonym>
+  <comment>TOIR20-181</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="6245ad7c-d63f-4ba1-b08b-cfea682f5233">
+    <name>Квалификация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Квалификация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.торо_КвалификацииРемонтногоПерсонала</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="05b9fd1c-2f5a-4c5b-aacc-99a73f0ea883">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4bcbb889-225d-4201-a516-de6ba512a5f7">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтруктураПредприятия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="61c5c699-fd38-4321-ab3d-405fc46cd6b9">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Должности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

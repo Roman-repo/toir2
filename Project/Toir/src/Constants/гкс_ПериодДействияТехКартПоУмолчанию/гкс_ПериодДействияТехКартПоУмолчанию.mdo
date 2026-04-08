@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="54024bc2-06f9-454e-9262-00aed14f4034">
+  <producedTypes>
+    <managerType typeId="8e4ea340-d72f-490a-9d15-5d1081b964c5" valueTypeId="289c5e30-7578-4a09-8935-c2a38879ea07"/>
+    <valueManagerType typeId="5279021a-c254-4726-903a-a4e6e2931d46" valueTypeId="2cb6a2ff-dc0b-4569-8bf5-20b3f1e7bd48"/>
+    <valueKeyType typeId="bd37a90c-a175-42f4-b9a0-83910bfd083b" valueTypeId="720e9741-d34c-4116-87e8-9787ff75a423"/>
+  </producedTypes>
+  <name>гкс_ПериодДействияТехКартПоУмолчанию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Период действия тех карт по умолчанию</value>
+  </synonym>
+  <comment>TOIR20-194</comment>
+  <type>
+    <types>EnumRef.Периодичность</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

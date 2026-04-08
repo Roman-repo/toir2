@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="45f44e81-9f72-4642-9e3f-26c15131f71d">
+  <producedTypes>
+    <objectType typeId="71c79b2e-059a-4b35-add4-593b8e86c355" valueTypeId="3a5d7431-1186-439a-96ee-fe85a6e3256a"/>
+    <managerType typeId="3fdecfe6-858b-4363-b3dd-2c9856abda0a" valueTypeId="00173045-aecd-4b99-9ca3-2c0c8b8727d5"/>
+  </producedTypes>
+  <name>гкс_ОтчетОбАктуальностиТехКарт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет об актуальности тех карт</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.гкс_ОтчетОбАктуальностиТехКарт.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="57c90158-870b-41e6-b589-3b5d2cf979fe">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

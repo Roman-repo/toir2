@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9eb3f42f-ea47-4bbf-a560-e96da65b0dc3">
+  <producedTypes>
+    <selectionType typeId="bf1a53a4-5931-45fd-a2d2-23309221da72" valueTypeId="57d78fa9-5358-4683-aa49-0dd81807e0cd"/>
+    <listType typeId="ff278db6-e2df-4da5-8ac2-89e9fa269e31" valueTypeId="bd82cb39-2781-403f-841c-c19349d1bd94"/>
+    <managerType typeId="9ffacf87-677b-43f2-8d8a-5ee02a8858f4" valueTypeId="9ff675ec-91f0-4114-882e-40bf40265045"/>
+    <recordSetType typeId="ee5dd787-0317-45d4-b36b-856f098e2b68" valueTypeId="d25b4ca6-d113-423f-ac91-4c69d7e0699e"/>
+    <recordKeyType typeId="9399a5c8-9093-410f-990f-ef2068dc5315" valueTypeId="cc643e23-0bfb-4991-9ac0-69dfd9d77611"/>
+    <recordType typeId="1ff49351-66d5-4e31-9516-30df2236607c" valueTypeId="a5bffab0-4bb9-4d19-b034-a75a6809d7b1"/>
+    <recordManagerType typeId="b963a98e-c8d8-4aae-908e-cf45e10322e9" valueTypeId="60d04183-ff07-41e7-86b5-e21f542ca6ba"/>
+  </producedTypes>
+  <name>торо_ПараметрыОповещенияОСостоянииОборудования</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <resources uuid="b5a51e06-c430-4ef2-862c-6ad227a48452">
+    <name>СобытиеВозникновенияОповещения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.торо_СобытияУведомленийВДокументах</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <resources uuid="46819171-22e4-4f20-94ba-f3d6635783bb">
+    <name>ВариантЗначения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.торо_ВариантыЗначенийКонтролируемыхПоказателей</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <resources uuid="34351305-ab48-4242-bb6f-b3bbd65a59ae">
+    <name>Значение1</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+  </resources>
+  <resources uuid="0cad1529-1be6-467a-9f6c-22f6e9a8b50b">
+    <name>ВидСравнения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.торо_ВидыСравнения</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <resources uuid="eb73780b-7293-4a83-bbf5-b58a2a2f5909">
+    <name>Значение</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+  </resources>
+  <resources uuid="18479a1a-d374-4aaa-8668-c05868e4d725">
+    <name>ВариантЗначения1</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.торо_ВариантыЗначенийКонтролируемыхПоказателей</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <resources uuid="e0397403-4a20-4786-8ae7-39ad8664d5cd">
+    <name>ПараметрыВводаДефекта</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.торо_ПараметрыАвтоматическойФиксацииДефектов</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <dimensions uuid="5e48e006-09cb-43fc-a364-986bdaa0030d">
+    <name>ТиповойОР</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.торо_ТиповыеОР</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+  <dimensions uuid="b04a1f36-c37a-4cff-80e4-338704d2dd54">
+    <name>Показатель</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>ChartOfCharacteristicTypesRef.торо_ИзмеряемыеПоказателиОбъектовРемонта</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+  <dimensions uuid="560c3609-342c-457d-8ff8-20bba8bb517e">
+    <name>ID</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>36</length>
+          <fixed>true</fixed>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </dimensions>
+  <dimensions uuid="f8123c68-19e0-43a2-a5f2-3f8dc152e55a">
+    <name>ОбъектРемонта</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.торо_ОбъектыРемонта</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:InformationRegister>
