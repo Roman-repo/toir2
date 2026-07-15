@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e9ecdd8d-4b81-452f-8d25-e6a7eede2c4e">
+  <producedTypes>
+    <objectType typeId="e7d3f348-953d-4414-a315-c98efc723d1f" valueTypeId="62f85a2e-2d1c-407f-aa63-8ff586502cb5"/>
+    <managerType typeId="0f8d3854-a439-4380-907d-d6a0a3b3ac79" valueTypeId="d8e06544-1471-43b6-b68a-55f76ee1146a"/>
+  </producedTypes>
+  <name>торо_ЗагрузкаНоменклатурыИзExcel</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка номенклатуры из Excel</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Nomenclature loading from Excel</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.торо_ЗагрузкаНоменклатурыИзExcel.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <attributes uuid="9df18978-d385-407e-a1eb-16c992292fbd">
+    <name>ИмяФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="0274151d-6def-43a3-acae-005c8f053b86">
+    <name>ПерваяСтрокаЗаголовок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Первая строка — заголовок</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+  </attributes>
+  <forms uuid="9a719d07-515e-409f-b6a4-a5abfd5fd404">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Form</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

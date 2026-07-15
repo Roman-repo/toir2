@@ -3254,6 +3254,7 @@
   <dataProcessors>DataProcessor.ПолучательСобытий</dataProcessors>
   <dataProcessors>DataProcessor.АктивныеПользователи</dataProcessors>
   <dataProcessors>DataProcessor.гкс_ВыгрузкаСтатистикиСообщенийRMQ</dataProcessors>
+  <dataProcessors>DataProcessor.торо_ЗагрузкаНоменклатурыИзExcel</dataProcessors>
   <informationRegisters>InformationRegister.АдресныеОбъекты</informationRegisters>
   <informationRegisters>InformationRegister.АмортизационныеГруппыОКОФ</informationRegisters>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>
