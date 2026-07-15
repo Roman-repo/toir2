@@ -142,3 +142,80 @@
 - [ ] Серверный API валидирует входные данные (№678)
 - [ ] Нет `Выполнить`/`Вычислить` с пользовательским вводом (№770)
 - [ ] Пароли/секреты — через защищённое хранилище (№740)
+
+---
+
+## Справочное приложение: каталог прав по типам объектов
+
+> Полный список прав, которые можно задать в роли для каждого типа объекта. Нужен при
+> проектировании ролей и при проверке, что новый объект включён в роль с осмысленным набором прав.
+>
+> Источник: `1c-role-spec.md` из [cc-1c-skills](https://github.com/Nikolay-Shirokov/cc-1c-skills).
+
+### Catalog (справочник)
+
+Базовый набор прав, на который опираются большинство объектных типов:
+
+| Право | Описание |
+|---|---|
+| `Read` / `Insert` / `Update` / `Delete` | Чтение / Добавление / Изменение / Удаление |
+| `View` / `Edit` | Просмотр / Редактирование (интерактивные) |
+| `InputByString` | Ввод по строке |
+| `InteractiveInsert` / `InteractiveSetDeletionMark` / `InteractiveClearDeletionMark` | Интерактивные операции с элементами |
+| `InteractiveDelete` / `InteractiveDeleteMarked` | Интерактивное удаление / удаление помеченных |
+| `InteractiveDelete*PredefinedData` (4 шт.) | Операции с предопределёнными данными |
+| `ReadDataHistory` / `ViewDataHistory` / `UpdateDataHistory*` (7 шт.) | История данных |
+
+### Document (документ)
+
+Все права Catalog (кроме предопределённых) плюс:
+
+| Право | Описание |
+|---|---|
+| `Posting` / `UndoPosting` | Проведение / Отмена проведения (программные) |
+| `InteractivePosting` / `InteractiveUndoPosting` | Интерактивное проведение / отмена |
+| `InteractivePostingRegular` | Интерактивное неоперативное проведение |
+| `InteractiveChangeOfPosted` | Интерактивное изменение проведённых |
+
+### Регистры (InformationRegister / AccumulationRegister / AccountingRegister / CalculationRegister)
+
+| Право | Описание |
+|---|---|
+| `Read` / `Update` | Чтение / Изменение |
+| `View` / `Edit` | Просмотр / Редактирование |
+| `TotalsControl` | Управление итогами (для периодических) |
+| `ReadDataHistory` / `UpdateDataHistory*` | История данных |
+
+> 💡 У регистров **нет** прав `Insert`/`Delete` — запись идёт через наборы записей под
+> регистратором (кроме независимых регистров сведений). Права на регистр обычно только `Read`.
+
+### Configuration (глобальные права)
+
+Задаются для объекта `Configuration.Имя`. Ключевые:
+
+| Право | Описание |
+|---|---|
+| `Administration` / `DataAdministration` | Администрирование / администрирование данных |
+| `UpdateDataBaseConfiguration` | Обновление конфигурации БД |
+| `ConfigurationExtensionsAdministration` | Администрирование расширений |
+| `ActiveUsers` / `EventLog` | Активные пользователи / журнал регистрации |
+| `ExclusiveMode` | Монопольный режим |
+| `ThinClient` / `ThickClient` / `WebClient` / `MobileClient` | Типы клиентов |
+| `ExternalConnection` / `Automation` | Внешнее соединение / COM |
+| `Output` | Вывод (печать, сохранение, копирование) |
+| `SaveUserData` | Сохранение данных пользователя |
+| `TechnicalSpecialistMode` | Режим технического специалиста |
+| `InteractiveOpenExtDataProcessors` / `InteractiveOpenExtReports` | Открытие внешних обработок/отчётов |
+| `MainWindowMode*` (5 шт.) | Режимы главного окна (Normal/Workplace/Embedded/Fullscreen/Kiosk) |
+
+### Чек-лист для новой роли
+
+- [ ] Для каждого объекта задан осмысленный набор прав (не «всё Истина»)
+- [ ] У документов — `Posting`/`UndoPosting` согласованы с бизнес-логикой
+- [ ] У регистров — обычно только `Read` (запись через регистратор)
+- [ ] `InputByString` — только где реально нужен быстрый ввод
+- [ ] Права истории данных — только если функция включена в конфигурации
+- [ ] Глобальные права (`Administration`, `ExclusiveMode`) — минимум ролей
+
+📖 [Полный текст спецификации](https://github.com/Nikolay-Shirokov/cc-1c-skills/blob/main/docs/1c-role-spec.md)
+
