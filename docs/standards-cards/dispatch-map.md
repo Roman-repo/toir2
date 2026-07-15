@@ -45,7 +45,7 @@
 | **Запрос, СКД, динамический список** | [queries.md](./queries.md) | — |
 | **Отчёт на СКД (создание/ревью)** | [reports.md](./reports.md) | [dcs-design.md](./practice/dcs-design.md) |
 | **Динамический список (тормозит)** | [performance.md](./performance.md) №489, №732 · [queries.md](./queries.md) №655, №733 | — |
-| **Форма (создание новой)** | [forms.md](./forms.md) №629, №630 | [typical-forms-new.md](./practice/typical-forms-new.md) · [module-templates.md](./practice/module-templates.md) |
+| **Форма (создание новой)** | [forms.md](./forms.md) №629, №630 | [typical-forms-new.md](./practice/typical-forms-new.md) · [form-archetypes.md](./practice/form-archetypes.md) · [module-templates.md](./practice/module-templates.md) |
 | **Форма (доработка типовой БСП)** | [forms.md](./forms.md) | [typical-forms-mod.md](./practice/typical-forms-mod.md) |
 | **Форма (правка XML `.form`)** | — | [metadata-xml.md](./practice/metadata-xml.md) |
 | **Общий модуль (создание)** | [metadata.md](./metadata.md) №469, №486 · [language.md](./language.md) №455 | [module-templates.md](./practice/module-templates.md) |

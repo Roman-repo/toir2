@@ -312,3 +312,67 @@
 - [ ] Сообщения об ошибках — с привязкой к полю (№400)
 - [ ] Серверные вызовы минимальны и сгруппированы (№487)
 - [ ] Тяжёлые операции — асинхронно (№642/№755)
+
+---
+
+## Справочное приложение: события и свойства по типам форм
+
+> Справочные таблицы, извлечённые из спецификации `1c-form-spec.md` репозитория
+> [cc-1c-skills](https://github.com/Nikolay-Shirokov/cc-1c-skills). Помогают выбрать правильные
+> обработчики и свойства при создании формы. Форматонезависимо — это про платформу 1С,
+> применимо к EDT и Конфигуратору.
+
+### События формы — полный список
+
+| Имя события | Контекст | Описание |
+|---|---|---|
+| `OnCreateAtServer` | Сервер | Создание формы на сервере (инициализация) |
+| `OnOpen` | Клиент | Открытие формы на клиенте |
+| `BeforeClose` | Клиент | Перед закрытием формы |
+| `OnClose` | Клиент | При закрытии формы |
+| `BeforeWrite` | Клиент | Перед записью объекта |
+| `BeforeWriteAtServer` | Сервер | Перед записью на сервере |
+| `OnWriteAtServer` | Сервер | При записи на сервере |
+| `AfterWriteAtServer` | Сервер | После записи на сервере |
+| `AfterWrite` | Клиент | После записи объекта |
+| `OnReadAtServer` | Сервер | При чтении объекта |
+| `NotificationProcessing` | Клиент | Обработка межформенных оповещений |
+| `ChoiceProcessing` | Клиент | Обработка результата выбора |
+| `NewWriteProcessing` | Сервер | Создание нового объекта |
+| `FillCheckProcessingAtServer` | Сервер | Проверка заполнения |
+| `OnLoadDataFromSettingsAtServer` | Сервер | Загрузка настроек (списки) |
+| `OnLoadUserSettingsAtServer` | Сервер | Загрузка пользовательских настроек (отчёты) |
+| `OnSaveUserSettingsAtServer` | Сервер | Сохранение пользовательских настроек (отчёты) |
+| `URLProcessing` | Клиент | Обработка навигационных ссылок |
+
+### Типичные комбинации событий по типам форм
+
+| Тип формы | События |
+|---|---|
+| **Диалог** | `OnCreateAtServer` + `OnOpen` |
+| **Документ** | `OnCreateAtServer` + `OnOpen` + `BeforeWriteAtServer` + `OnWriteAtServer` + `AfterWrite` |
+| **Справочник** | `OnCreateAtServer` + `OnOpen` + `OnReadAtServer` + `BeforeWriteAtServer` + `AfterWrite` + `NotificationProcessing` |
+| **Отчёт** | `OnCreateAtServer` + `OnOpen` + `BeforeClose` + `OnClose` + `OnLoadUserSettingsAtServer` + `OnSaveUserSettingsAtServer` + `NotificationProcessing` + `ChoiceProcessing` + `URLProcessing` |
+| **Обработка** | `OnCreateAtServer` + `OnOpen` + `NotificationProcessing` |
+| **Список** | `OnCreateAtServer` + `OnOpen` + `NotificationProcessing` + `OnLoadDataFromSettingsAtServer` |
+
+> 💡 В EDT имена событий — русские (`ПриСозданииНаСервере`, `ПриОткрытии`...). В таблице даны
+> английские имена из спецификации — это канон, который платформа использует внутри.
+
+### Матрица свойств по типам форм
+
+| Свойство | CommonForm | Document | Catalog | Report | DataProcessor | InfoRegister |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|
+| Title | + | + | + | + | + | + |
+| Width | — | — | + | — | + | — |
+| WindowOpeningMode | + | + | + | — | + | — |
+| AutoTitle | + | + | + | + | + | + |
+| CommandBarLocation | + | + | + | + | + | + |
+| AutoTime | — | + | — | — | — | — |
+| UsePostingMode | — | + | — | — | — | — |
+| UseForFoldersAndItems | — | — | + | — | — | — |
+| ReportResult | — | — | — | + | — | — |
+| SaveDataInSettings | — | — | — | — | + | — |
+
+📖 Визуальная компоновка элементов по архетипам — в [practice/form-archetypes.md](./practice/form-archetypes.md)
+
