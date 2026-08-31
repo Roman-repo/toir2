@@ -1,0 +1,26 @@
+[
+  {
+    "key": "MagicNumber",
+    "file": "/Users/lgovskijroman/Projects/toir2/Project/Toir/src/Documents/торо_ЗаявкаНаРемонт/ObjectModule.bsl",
+    "line": 197,
+    "reason": "Умножение на 100 — перевод доли в проценты, осмысленная операция, не магическое число",
+    "author": "Roman",
+    "date": "2026-08-31"
+  },
+  {
+    "key": "MagicNumber",
+    "file": "/Users/lgovskijroman/Projects/toir2/Project/Toir/src/Documents/торо_ЗаявкаНаРемонт/ObjectModule.bsl",
+    "line": 217,
+    "reason": "Умножение на 100 — перевод доли в проценты, осмысленная операция, не магическое число",
+    "author": "Roman",
+    "date": "2026-08-31"
+  },
+  {
+    "key": "MagicNumber",
+    "file": "/Users/lgovskijroman/Projects/toir2/Project/Toir/src/Documents/торо_ЗаявкаНаРемонт/ObjectModule.bsl",
+    "line": 542,
+    "reason": "КвалификаторыЧисла(5,2) — спецификация точности типа, допустимая по практике",
+    "author": "Roman",
+    "date": "2026-08-31"
+  }
+]
